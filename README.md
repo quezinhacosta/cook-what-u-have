@@ -1,13 +1,6 @@
 #  Cook What U Have (MealMatch)
 ### Motor Funcional de Indicação de Pratos e Redução do Desperdício Alimentar
 
-> **Disciplina:** Programação Funcional em Python — Avaliação do 2º Grau de Qualificação (GQ)  
-> **Etapa 1:** Especificação Detalhada da Situação-Problema e Proposta de Solução  
-> **Prazo da Etapa 1:** 27/10/2026 às 23:55  
-> **Prazo da Etapa 2 (Implementação):** 16/11/2026 às 23:55  
-
----
-
 ##  Sumário Executivo
 
 O **Cook What U Have** (também referenciado como **MealMatch**) é um sistema computacional concebido estritamente sob as premissas do **Paradigma de Programação Funcional (PF)** em Python. O seu objetivo central é solucionar a dissonância diária enfrentada por milhares de famílias: a coexistência entre o **desperdício de alimentos domésticos** e a **dificuldade de planeamento de refeições seguras** perante alergias e intolerâncias alimentares severas.
