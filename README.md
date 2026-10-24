@@ -1,16 +1,9 @@
-# 🍳 Cook What U Have (MealMatch)
+# Cook What U Have 
 ### Motor Funcional de Indicação de Pratos e Redução do Desperdício Alimentar
 
-> **Disciplina:** Programação Funcional em Python — Avaliação do 2º Grau de Qualificação (GQ)  
-> **Etapa 1:** Especificação Detalhada da Situação-Problema e Proposta de Solução  
-> **Prazo da Etapa 1:** 27/10/2026 às 23:55  
-> **Prazo da Etapa 2 (Implementação):** 16/11/2026 às 23:55  
+##  Sumário Executivo
 
----
-
-## 📌 Sumário Executivo
-
-O **Cook What U Have** (também referenciado como **MealMatch**) é um sistema computacional concebido estritamente sob as premissas do **Paradigma de Programação Funcional (PF)** em Python. O seu objetivo central é solucionar a dissonância diária enfrentada por milhares de famílias: a coexistência entre o **desperdício de alimentos domésticos** e a **dificuldade de planeamento de refeições seguras** perante alergias e intolerâncias alimentares severas.
+O **Cook What U Have**  é um sistema computacional concebido estritamente sob as premissas do **Paradigma de Programação Funcional (PF)** em Python. O seu objetivo central é solucionar a dissonância diária enfrentada por milhares de famílias: a coexistência entre o **desperdício de alimentos domésticos** e a **dificuldade de planeamento de refeições seguras** perante alergias e intolerâncias alimentares severas.
 
 Diferente de plataformas convencionais que operam em fluxo imperativo de busca ("escolha um prato e compre os ingredientes faltantes"), o *Cook What U Have* **inverte radicalmente o fluxo**: processa a coleção de ingredientes disponíveis na despensa, aplica restrições alérgicas absolutas e projeta as opções de pratos viáveis por meio de teoria dos conjuntos, ordenadas pela maior taxa de cobertura e menor necessidade de compras adicionais.
 
@@ -281,33 +274,6 @@ cook-what-u-have/
 └── README.md                       # Documento de proposta e especificação completa
 ```
 
----
-
-## 8. Planejamento de Desenvolvimento e Cronograma de Entregas
-
-Conforme as diretrizes estipuladas no documento acadêmico da disciplina, o projeto é subdividido em quatro etapas formais:
-
-```mermaid
-timeline
-    title Cronograma de Desenvolvimento (2º GQ)
-    2026-10-24 : Concepção e Elaboração da Proposta
-    2026-10-27 : ETAPA 1 - Entrega do Documento de Proposta e Especificação (23:55)
-    2026-10-28 a 2026-11-15 : Desenvolvimento do Código Funcional e Testes Unitários
-    2026-11-16 : ETAPA 2 - Entrega do Código Fonte Funcional em Python (23:55)
-    2026-11-17 a 2026-12-01 : ETAPA 3 e 4 - Apresentações ao Vivo e Avaliação pelos Pares
-```
-
-| Etapa | Data Limite | Descrição e Entregáveis | Penalidade / Observações |
-| :---: | :---: | :--- | :--- |
-| **Etapa 1** | **27/10/2026 (ter)**<br>até às 23:55 | **Entrega do Documento de Especificação Detalhada:** Especificação aprofundada da situação-problema, formalização matemática da solução funcional, escopo e modelagem. | Atrasos implicam na penalização de **1,0 ponto** na nota final. |
-| **Etapa 2** | **16/11/2026 (ter)**<br>até às 23:55 | **Entrega do Código Fonte Completo:** Implementação em Python sob preceitos rigorosos do paradigma funcional, testes unitários automatizados cobrindo imutabilidade e pureza. | Atrasos implicam na penalização de **2,0 pontos** na nota final. |
-| **Etapa 3** | **17/11, 24/11, 27/11 e 01/12/2026** | **Apresentação da Solução:** Demonstração ao vivo do programa em execução para a professora e para a turma, com explicação técnica do código desenvolvido e justificativa dos conceitos funcionais. | Cronograma das apresentações a ser disponibilizado no Teams. |
-| **Etapa 4** | Durante as sessões de apresentação | **Avaliação pelos Pares:** Preenchimento de formulário impresso avaliando os trabalhos dos colegas com notas de 0 a 10 segundo critérios pré-estabelecidos. | Notas muito discrepantes das notas da professora serão penalizadas. |
-
-### Composição da Nota Final do 2º GQ:
-$$\text{Nota Final} = (0.7 \times \text{Trabalho}) + (0.1 \times \text{Lista de Exercícios}) + (0.1 \times \overline{\text{Notas dos Colegas}}) + (0.1 \times \text{Nota por Avaliar})$$
-
----
 
 ## 9. Critérios de Qualidade e Conformidade com o Paradigma Funcional
 
@@ -341,3 +307,4 @@ pytest tests/ -v
 ```bash
 python3 -m src.main
 ```
+
