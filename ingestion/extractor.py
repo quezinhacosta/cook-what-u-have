@@ -1,17 +1,19 @@
-#Responsavel por receber chamada de uma URL e extrai apenas o titulo, receitas e ingredientes
+# Responsável por receber chamada de uma URL e extrair apenas o título, receita e ingredientes
 
 from typing import Optional, NamedTuple
-from recipe_scrapers import scrape_me
+from recipe_scrapers import scrape_me, scrape_html
 from urllib.parse import urlparse
 
+
 class RawRecipe(NamedTuple):
-    "entidade imutavel que vai guardar os unicos resultados das extrações das paginas"
+    """Entidade imutável que vai guardar os resultados da extração das páginas."""
     titulo: str
     receita: str
-    ingredientes: tuple[str, ...] #vários ingredientes
+    ingredientes: tuple[str, ...]  # Vários ingredientes
+
 
 def tudogostoso(url: str) -> bool:
-    #verifica se o dominio é valido
+    """Verifica se o domínio e rota pertencem validamente ao TudoGostoso."""
     try:
         parsed = urlparse(url.lower())
         e_dominio_valido = "tudogostoso.com.br" in parsed.netloc
@@ -22,19 +24,20 @@ def tudogostoso(url: str) -> bool:
 
 
 def extrair_receita(url: str) -> Optional[RawRecipe]:
-    #acessa a url e retira os campos necessarios
-
-    if not tudogostoso(url): 
+    """Acessa a URL e retira os campos necessários (título, categoria e ingredientes)."""
+    if not tudogostoso(url):
         return None
 
     try:
         scraper = scrape_me(url)
+        titulo = scraper.title()
         ingredientes = scraper.ingredients()
         obter_categoria = getattr(scraper, "category", lambda: "Geral")
         receita_categoria = obter_categoria() or "Geral"
 
         if not titulo or not ingredientes:
             return None
+
         return RawRecipe(
             titulo=titulo.strip(),
             receita=receita_categoria.strip(),
@@ -44,25 +47,37 @@ def extrair_receita(url: str) -> Optional[RawRecipe]:
         # Falhas de rede ou páginas inexistentes retornam None de forma segura
         return None
 
-def extrair(html_content: str, url:str) -> Optional[RawRecipe]:
+
+def extrair_de_html(html_content: str, url: str) -> Optional[RawRecipe]:
+    """Extrai a receita a partir de conteúdo HTML bruto já carregado."""
     if not tudogostoso(url):
         return None
+
     try:
         scraper = scrape_html(html=html_content, org_url=url)
+        titulo = scraper.title()
+        ingredientes = scraper.ingredients()
+        obter_categoria = getattr(scraper, "category", lambda: "Geral")
+        receita_categoria = obter_categoria() or "Geral"
+
+        if not titulo or not ingredientes:
+            return None
+
         return RawRecipe(
-            titulo=scraper.title().strip(),
-            receita=(getattr(scraper, "category", lambda: "Geral")() or "Geral").strip(),
-            ingredientes=tuple(scraper.ingredients())
+            titulo=titulo.strip(),
+            receita=receita_categoria.strip(),
+            ingredientes=tuple(ingredientes)
         )
     except Exception:
         return None
 
+
 def extrair_all(urls: tuple[str, ...]) -> tuple[RawRecipe, ...]:
+    """Processa múltiplas URLs de forma funcional (filter e map), descartando falhas."""
+    urls_tudogostoso = filter(tudogostoso, urls)
 
-    urls_tudogostoso = filter(is_tudogostoso_url, urls)
+    receitas_extraidas = map(extrair_receita, urls_tudogostoso)
 
-    receitas_extraidas = map(extrair_receita_tudogostoso, urls_tudogostoso)
-  
     receitas_validas = filter(lambda r: r is not None, receitas_extraidas)
-    
+
     return tuple(receitas_validas)
