@@ -1,7 +1,8 @@
 """
 Pipeline de Ingestão de Dados (ingestion/pipeline.py)
 Responsabilidade: Coordenar a extração das URLs do TudoGostoso
-e salvar o arquivo JSON limpo em ingestion/data/pratos.json.
+e salvar o arquivo JSON com os 4 campos limpos:
+(titulo, tipo, receita, ingredientes) em ingestion/data/pratos.json.
 """
 
 import json
@@ -27,17 +28,24 @@ URLS_TUDOGOSTOSO: tuple[str, ...] = (
 
 
 def recipe_to_dict(recipe: RawRecipe) -> dict:
-    """Função pura: converte a tupla imutável em dicionário simples para o JSON."""
+    """
+    Função pura: converte a tupla imutável RawRecipe em dicionário para o JSON.
+    Mantém os 4 campos essenciais:
+    - titulo: Nome do prato
+    - tipo: Categoria da comida
+    - receita: O modo de preparo/instruções passo a passo
+    - ingredientes: A lista de ingredientes
+    """
     return {
         "titulo": recipe.titulo,
+        "tipo": recipe.tipo,
         "receita": recipe.receita,
         "ingredientes": list(recipe.ingredientes)
     }
 
 
 def salvar_pratos_json(receitas: tuple[RawRecipe, ...], destino: Path) -> int:
-    """Função que projeta as receitas para lista de dicts e salva no arquivo JSON."""
-    # Garante que a pasta data/ exista
+    """Função funcional que mapeia as receitas para dicionários e salva o JSON."""
     destino.parent.mkdir(parents=True, exist_ok=True)
 
     dados_serializaveis = list(map(recipe_to_dict, receitas))
@@ -50,18 +58,16 @@ def salvar_pratos_json(receitas: tuple[RawRecipe, ...], destino: Path) -> int:
 
 def executar_ingestao(urls: tuple[str, ...] = URLS_TUDOGOSTOSO, destino: Path = OUTPUT_FILE) -> int:
     """
-    Executa o fluxo completo:
-    1. Extrai via extractor (filtrando apenas TudoGostoso e páginas válidas)
-    2. Salva em ingestion/data/pratos.json
+    Executa o fluxo funcional completo:
+    URLs -> extrair_all() -> map(recipe_to_dict) -> json.dump()
     """
-    print(f"🚀 Iniciando extração de {len(urls)} receitas do TudoGostoso...")
+    print(f"Iniciando extração de {len(urls)} receitas do TudoGostoso com 4 campos...")
     receitas_extraidas = extrair_all(urls)
 
     total_salvo = salvar_pratos_json(receitas_extraidas, destino)
-    print(f"✅ Sucesso! {total_salvo} receitas salvas em: {destino}")
+    print(f"Sucesso! {total_salvo} receitas completas salvas em: {destino}")
     return total_salvo
 
 
 if __name__ == "__main__":
     executar_ingestao()
-

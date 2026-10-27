@@ -1,7 +1,8 @@
 [
   {
     "titulo": "Bolo de cenoura",
-    "receita": "Bolos e tortas doces",
+    "tipo": "Bolos e tortas doces",
+    "receita": "Massa\nEm um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.\nAcrescente o açúcar e bata novamente por 5 minutos.\nEm uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.\nAcrescente o fermento e misture lentamente com uma colher.\nAsse em um forno preaquecido a 180° C por aproximadamente 40 minutos.\nCobertura\nDespeje em uma tigela a manteiga, o chocolate em pó, o açúcar e o leite, depois misture.\nLeve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.",
     "ingredientes": [
       "1/2 xícara (chá) de óleo",
       "3 cenouras médias raladas",
@@ -17,7 +18,8 @@
   },
   {
     "titulo": "Batata recheada",
-    "receita": "Saladas, molhos e acompanhamentos",
+    "tipo": "Saladas, molhos e acompanhamentos",
+    "receita": "Cozinhe as batatas sem casca.\nCorte em fatias grossas e coloque na assadeira untada com óleo.\nAdicione o requeijão, o catupiry, o bacon cortado fino e a salsinha.\nLeve ao forno coberto com papel alumínio, até aquecer bem.",
     "ingredientes": [
       "20 batatas médias",
       "2 e 1/2 copos de requeijão",
@@ -28,7 +30,8 @@
   },
   {
     "titulo": "Pudim de leite em pó",
-    "receita": "Doces e sobremesas",
+    "tipo": "Doces e sobremesas",
+    "receita": "Bata tudo no liquididificador e cozinhe em banho-maria até dar o ponto.",
     "ingredientes": [
       "12 colheres (sopa) de leite em pó",
       "12 colheres (sopa) de açúcar",
@@ -39,7 +42,8 @@
   },
   {
     "titulo": "Mousse rápida de morango",
-    "receita": "Doces e sobremesas",
+    "tipo": "Doces e sobremesas",
+    "receita": "Prepare a gelatina, conforme as instruções da embalagem.\nBata tudo no liquidificador. Coloque em taças individuais.\nLeve à geladeira para endurecer.\nNa hora de servir, enfeite com pedaços de morango.",
     "ingredientes": [
       "1 xícara de chá de morangos",
       "2 envelopes de gelatina diet sabor morango",
@@ -48,7 +52,8 @@
   },
   {
     "titulo": "Biscoitos com goiaba Breno Teixeira",
-    "receita": "Lanches",
+    "tipo": "Lanches",
+    "receita": "Mistura a farinha de trigo a maisena e açúcar, começa a acrescentar a manteiga até formar uma massa consistente, lisa e homogênea. fazer as bolinhas e amassar uma por uma com o garfo para modelar e colocar os pedacinhos finos de goiabada. levar ao forno já aquecido uns 15 min.\nMas sempre olhar pois o ponto deles e quando estiver dourado.\na manteiga deve ser o suficiente para unir todos os ingredientes pois se 200 gramas não der, acrescentar mas um pouco.\nas bolas de massa devem ser colocadas primeiro na formae depois achatadas com o garfo, longe uma da outra senão os biscoitos grudarão. espere esfriar para tirar da forma pois ainda estarão moles.",
     "ingredientes": [
       "1 xícara de farinha de trigo",
       "1 xícara de maisena",
@@ -59,7 +64,8 @@
   },
   {
     "titulo": "Macarrão com molho rápido",
-    "receita": "Massas",
+    "tipo": "Massas",
+    "receita": "Coloque água para cozinhar com sal a gosto e um fio de óleo (para quem gosta de usar óleo no cozimento do macarrão). Quando a água estiver fervendo, coloque todo o pacote de macarrão e deixe cozinhar até chegar ao ponto de \"ao dente\". Escorra e reserve em uma travessa.\nMolho:\nRefogue o alho com um pouco de azeite (o suficiente para untar o fundo da panela, não usando muito por que a calabresa solta gordura). Coloque a cebola e mexa até dourar.\nColoque a calabresa, refogue bem e só depois coloque o molho pronto.\nQuando o molho estiver bem apurado, adicione o creme de leite aos poucos até ficar em um tom rosado. Espere ferver um pouco para apurar bem o gosto.\nRetire do fogo e arrume sobre o macarrão.\nDecore com azeitas e queijo ralado.",
     "ingredientes": [
       "1 pacote de macarrão tipo espaguete",
       "1/2 cebola picada",
@@ -73,7 +79,8 @@
   },
   {
     "titulo": "Bolo de fubá com queijo",
-    "receita": "Bolos e tortas doces",
+    "tipo": "Bolos e tortas doces",
+    "receita": "Bater todos os ingredientes no liquidificador.\nUntar a forma e levar ao forno por cerca de 40 minutos forno médio.",
     "ingredientes": [
       "2 copos de fubá",
       "1 copo de açúcar",
@@ -85,7 +92,8 @@
   },
   {
     "titulo": "Bolinho cremoso de chocolate",
-    "receita": "Bolos e tortas doces",
+    "tipo": "Bolos e tortas doces",
+    "receita": "Derreta o chocolate com a margarina em banho-maria.\nEm uma tigela, bata os ovos, as gemas e o açúcar até obter uma espuma clara. Junte o chocolate derretido com a margarina, a farinha e misture. Despeje em forminhas de empada untadas e enfarinhadas.\nLeve ao forno-médio, pré-aquecido, por 5 minutos. Deve ficar mole no centro. Desenforme ainda quente e decore como preferir.\nSe desejar sirva com sorvete.",
     "ingredientes": [
       "2 colheres (sopa) de margarina",
       "200 g de chocolate meio amargo",
@@ -99,7 +107,8 @@
   },
   {
     "titulo": "Tapioca de leite condensado",
-    "receita": "Doces e sobremesas",
+    "tipo": "Doces e sobremesas",
+    "receita": "Misture a farinha, o coco ralado e o leite de coco em uma tigela. Aqueça uma frigideira antiaderente, utilizando uma peneira coloque uma camada fina ( como panqueca) da mistura na frigideira e deixe aquecer por aproximadamente 2 minutos. Com a massinha ainda na frigideira coloque o queijo até ficar molinho e cubra com leite condensado, enrole e sirva.",
     "ingredientes": [
       "1 xícara (chá) farinha pra tapioca",
       "1 colher (sopa) bem cheia de coco ralado",
@@ -110,7 +119,8 @@
   },
   {
     "titulo": "Torta de maracujá deliciosa",
-    "receita": "Bolos e tortas doces",
+    "tipo": "Bolos e tortas doces",
+    "receita": "Massa\nMisture todos os ingredientes e abra em uma forma untada cobrindo também as laterias.\nCreme\nMisture todos os ingredientes em uma vasilha (esse creme não vai ao fogo).\nCubra a massa com esse recheio.\nCobertura\nMisture todos os ingredientes adoçando a gosto e leve ao fogo brando ate engrossar. Despeje em cima da cobertura. Enfeite com as sementes de maracujá. Espere esfriar e leve à geladeira",
     "ingredientes": [
       "2 copos (geleia) de farinha de trigo",
       "1 copo (geleia) de açúcar",
