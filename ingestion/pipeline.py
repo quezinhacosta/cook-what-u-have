@@ -1,51 +1,47 @@
 """
-Pipeline de Ingestão de Dados (ingestion/pipeline.py)
-Responsabilidade: Coordenar a extração das URLs do TudoGostoso
-e salvar o arquivo JSON com os 4 campos limpos:
-(titulo, tipo, receita, ingredientes) em ingestion/data/pratos.json.
+Pipeline de Ingestão de Dados por Categoria (ingestion/pipeline.py)
+Responsabilidade: Mapear até 15 receitas recomendadas do TudoGostoso
+para cada categoria presente na pasta data/, salvando cada pratos.json
+em sua respectiva subpasta (ex: data/massas/pratos.json).
 """
 
+import sys
 import json
 from pathlib import Path
-from ingestion.extractor import extrair_all, RawRecipe
+from ingestion.extractor import (
+    RawRecipe,
+    obter_urls_recomendadas_categoria,
+    extrair_all,
+)
 
-# Caminho de saída: ingestion/data/pratos.json
-OUTPUT_FILE = Path(__file__).parent / "data" / "pratos.json"
+# Diretório base dos dados: ingestion/data/
+DATA_DIR = Path(__file__).parent / "data"
 
-# Exemplos de URLs reais e variadas do TudoGostoso
-URLS_TUDOGOSTOSO: tuple[str, ...] = (
-    "https://www.tudogostoso.com.br/receita/23-bolo-de-cenoura.html",
-    "https://www.tudogostoso.com.br/receita/1023-strogonoff-de-frango.html",
-    "https://www.tudogostoso.com.br/receita/1176-panqueca-de-carne-moida.html",
-    "https://www.tudogostoso.com.br/receita/1229-mousse-de-maracuja.html",
-    "https://www.tudogostoso.com.br/receita/2012-arroz-de-forno-super-rapido.html",
-    "https://www.tudogostoso.com.br/receita/1545-pudim-de-leite-condensado.html",
-    "https://www.tudogostoso.com.br/receita/241-guacamole.html",
-    "https://www.tudogostoso.com.br/receita/1090-omelete-rapido.html",
-    "https://www.tudogostoso.com.br/receita/144-moqueca-de-peixe.html",
-    "https://www.tudogostoso.com.br/receita/956-salada-de-maionese-tradicional.html",
+# Mapeamento declarativo imutável: (Nome da Pasta, URL da Categoria no TudoGostoso)
+CATEGORIAS_TUDOGOSTOSO: tuple[tuple[str, str], ...] = (
+    ("aves", "https://www.tudogostoso.com.br/categorias/1009-aves"),
+    ("bolos e tortas", "https://www.tudogostoso.com.br/categorias/1000-bolos-e-tortas-doces"),
+    ("carnes", "https://www.tudogostoso.com.br/categorias/1004-carnes"),
+    ("doces e sobremesas", "https://www.tudogostoso.com.br/categorias/1037-doces-e-sobremesas"),
+    ("massas", "https://www.tudogostoso.com.br/categorias/1028-massas"),
+    ("peixes e frutos do mar", "https://www.tudogostoso.com.br/categorias/1014-peixes-e-frutos-do-mar"),
+    ("saladas e molhos", "https://www.tudogostoso.com.br/categorias/1023-saladas-molhos-e-acompanhamentos"),
+    ("sopas", "https://www.tudogostoso.com.br/categorias/1027-sopas"),
 )
 
 
 def recipe_to_dict(recipe: RawRecipe) -> dict:
-    """
-    Função pura: converte a tupla imutável RawRecipe em dicionário para o JSON.
-    Mantém os 4 campos essenciais:
-    - titulo: Nome do prato
-    - tipo: Categoria da comida
-    - receita: O modo de preparo/instruções passo a passo
-    - ingredientes: A lista de ingredientes
-    """
+    """Função pura: converte a tupla imutável RawRecipe em dicionário para o JSON."""
     return {
         "titulo": recipe.titulo,
         "tipo": recipe.tipo,
         "receita": recipe.receita,
-        "ingredientes": list(recipe.ingredientes)
+        "ingredientes": list(recipe.ingredientes),
     }
 
 
-def salvar_pratos_json(receitas: tuple[RawRecipe, ...], destino: Path) -> int:
-    """Função funcional que mapeia as receitas para dicionários e salva o JSON."""
+def salvar_pratos_categoria(receitas: tuple[RawRecipe, ...], destino: Path) -> int:
+    """Função que projeta as receitas para dicionários e salva no pratos.json de destino."""
     destino.parent.mkdir(parents=True, exist_ok=True)
 
     dados_serializaveis = list(map(recipe_to_dict, receitas))
@@ -56,18 +52,83 @@ def salvar_pratos_json(receitas: tuple[RawRecipe, ...], destino: Path) -> int:
     return len(dados_serializaveis)
 
 
-def executar_ingestao(urls: tuple[str, ...] = URLS_TUDOGOSTOSO, destino: Path = OUTPUT_FILE) -> int:
+def processar_categoria(categoria_nome: str, categoria_url: str, limite: int = 15) -> tuple[str, int]:
     """
-    Executa o fluxo funcional completo:
-    URLs -> extrair_all() -> map(recipe_to_dict) -> json.dump()
+    Processa uma única categoria:
+    1. Obtém as primeiras `limite` URLs recomendadas da categoria.
+    2. Extrai os dados completos via extractor.
+    3. Salva em data/<categoria_nome>/pratos.json.
     """
-    print(f"Iniciando extração de {len(urls)} receitas do TudoGostoso com 4 campos...")
+    destino = DATA_DIR / categoria_nome / "pratos.json"
+
+    print(f"\n [{categoria_nome.upper()}] Buscando até {limite} receitas recomendadas...")
+    urls = obter_urls_recomendadas_categoria(categoria_url, limite=limite)
+
+    if not urls:
+        print(f" Nenhuma URL encontrada para a categoria '{categoria_nome}'.")
+        return (categoria_nome, 0)
+
+    print(f"   ↳ {len(urls)} URLs recomendadas identificadas. Extraindo dados...")
     receitas_extraidas = extrair_all(urls)
 
-    total_salvo = salvar_pratos_json(receitas_extraidas, destino)
-    print(f"Sucesso! {total_salvo} receitas completas salvas em: {destino}")
-    return total_salvo
+    total_salvo = salvar_pratos_categoria(receitas_extraidas, destino)
+    print(f" {total_salvo} receitas salvas em: {destino.relative_to(Path.cwd())}")
+
+    return (categoria_nome, total_salvo)
+
+
+def executar_ingestao_categorias(
+    categorias: tuple[tuple[str, str], ...] = CATEGORIAS_TUDOGOSTOSO,
+    limite_por_categoria: int = 15,
+) -> dict[str, int]:
+    """
+    Orquestra funcionalmente o processamento de todas as categorias mapeadas:
+    Utiliza map() para transformar cada categoria em seu resultado salvo, sem loops imperativos.
+    """
+    print(f" Iniciando mapeamento de receitas recomendadas (limite: {limite_por_categoria}/categoria)...")
+    print(f"Categorias a processar: {[cat[0] for cat in categorias]}")
+
+    # Encadeamento puro com map
+    resultados = tuple(
+        map(
+            lambda cat: processar_categoria(cat[0], cat[1], limite=limite_por_categoria),
+            categorias,
+        )
+    )
+
+    resumo = dict(resultados)
+    total_geral = sum(resumo.values())
+
+    print("\n" + "=" * 60)
+    print(f"Processamento concluído!")
+    print(f"Total de receitas salvas: {total_geral}")
+    for cat_nome, qtd in resumo.items():
+        print(f"  • {cat_nome}: {qtd} receitas")
+    print("=" * 60)
+
+    return resumo
+
+
+def main() -> None:
+    """
+    Ponto de entrada:
+    - Sem argumentos: Processa todas as 8 categorias da pasta data/.
+    - Com argumento: Processa apenas a categoria informada (ex: 'python -m ingestion.pipeline massas').
+    """
+    filtro_categoria = sys.argv[1].lower().strip() if len(sys.argv) > 1 else None
+
+    if filtro_categoria:
+        categorias_selecionadas = tuple(
+            filter(lambda cat: filtro_categoria in cat[0].lower(), CATEGORIAS_TUDOGOSTOSO)
+        )
+        if not categorias_selecionadas:
+            print(f" Categoria '{filtro_categoria}' não encontrada.")
+            print(f"Opções disponíveis: {[cat[0] for cat in CATEGORIAS_TUDOGOSTOSO]}")
+            return
+        executar_ingestao_categorias(categorias_selecionadas, limite_por_categoria=15)
+    else:
+        executar_ingestao_categorias(CATEGORIAS_TUDOGOSTOSO, limite_por_categoria=15)
 
 
 if __name__ == "__main__":
-    executar_ingestao()
+    main()
