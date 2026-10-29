@@ -84,7 +84,7 @@ def is_safe_dish(dish: Dish, allergens: frozenset[str]) -> bool:
     """
     return dish.ingredients.isdisjoint(allergens)
 
-def calculate_match(dish: Dish, pantry: frozenset[str]) -> MatchResult:
+def calculate_match(dish: Dish, pantry: frozenset[str]) -> MatchResult: 
     """
     Função pura de projeção: Calcula os insumos presentes, faltantes e o percentual de cobertura.
     """
