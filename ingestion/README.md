@@ -1,4 +1,4 @@
-# 📥 Módulo de Ingestão de Dados (`ingestion/`)
+#  Módulo de Ingestão de Dados (`ingestion/`)
 ### Extração de Receitas do TudoGostoso por Categorias e Geração da Base Imutável
 
 > **Componente do Projeto:** *Cook What U Have (MealMatch)*  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 1. Objetivo e Papel na Arquitetura
+## 1. Objetivo e Papel na Arquitetura
 
 O módulo de **Ingestão de Dados** atua como uma etapa prévia e desacoplada do motor central de recomendação:
 
@@ -16,7 +16,7 @@ O módulo de **Ingestão de Dados** atua como uma etapa prévia e desacoplada do
 
 ---
 
-## 🛠️ 2. Tecnologias Utilizadas
+## 2. Tecnologias Utilizadas
 
 * **[`recipe-scrapers`](https://github.com/hhursev/recipe-scrapers):** Parser especializado com suporte oficial às páginas de receitas do TudoGostoso (`tudogostoso.com.br`).
 * **`beautifulsoup4` e `requests`:** Utilizados de forma declarativa e pura em `extractor.py` para descobrir os links das receitas recomendadas no topo de cada página de categoria.
@@ -24,7 +24,7 @@ O módulo de **Ingestão de Dados** atua como uma etapa prévia e desacoplada do
 
 ---
 
-## 📂 3. Estrutura de Pastas e Mapeamento de Categorias
+##  3. Estrutura de Pastas e Mapeamento de Categorias
 
 A pasta `ingestion/data/` está estruturada com as seguintes 8 categorias:
 
@@ -41,7 +41,6 @@ ingestion/
 │   └── sopas/                    # pratos.json (até 15 receitas)
 │
 ├── extractor.py                  # Extração da página de categoria e de cada receita
-├── normalizer.py                 # Funções puras de sanitização textual
 ├── pipeline.py                   # Orquestrador funcional por categorias
 └── README.md                     # Documentação técnica do módulo
 ```
@@ -60,7 +59,7 @@ ingestion/
 
 ---
 
-## 📄 4. Esquema dos 4 Campos em cada `pratos.json`
+##  4. Esquema dos 4 Campos em cada `pratos.json`
 
 Cada arquivo `pratos.json` gerado em sua respectiva subpasta possui a seguinte estrutura:
 
@@ -84,7 +83,7 @@ Cada arquivo `pratos.json` gerado em sua respectiva subpasta possui a seguinte e
 
 ---
 
-## 🚀 5. Como Executar a Ingestão
+##  5. Como Executar a Ingestão
 
 Para disparar o processo de scraping e gerar os arquivos `pratos.json` de cada categoria:
 
