@@ -1,0 +1,203 @@
+[
+  {
+    "titulo": "Hambúrguer caseiro",
+    "tipo": "Carnes",
+    "receita": "Misture todos os ingredientes, amasse bem e forme bolinhas, depois achate para ter a forma de hambúrguer.\nFrite numa frigideira antiaderente, coloque uma colher de óleo pois a carne não tem gordura.",
+    "ingredientes": [
+      "1 kg de carne moída (de preferência patinho)",
+      "1 sachê de creme de cebola",
+      "1 cebola media picada",
+      "4 dentes de alho picado",
+      "cebolinha a gosto",
+      "sal a gosto",
+      "orégano a gosto",
+      "pimenta a gosto"
+    ]
+  },
+  {
+    "titulo": "Hambúrguer assado",
+    "tipo": "Carnes",
+    "receita": "Bata no liquidificador os ingredientes do pão.\nVire em uma bacia e coloque farinha de trigo, aos poucos, até soltar das mãos, não deixe a massa dura, sove bem a massa.\nDeixe descansar por 15 minutos tampada com um pano.\nAbra a massa com um rolo, recheie com 1 rodela de tomate, 1 hamburger, requeijão cremoso e outra rodela de tomate.\nColoque em uma assadeira untada e enfarinhada, pincele com gema e deixe crescer até dobrar de volume em média 1 hora.\nLeve para assar em forno alto nos primeiros 15 minutos, abaixe o fogo e deixe até corar e assar.",
+    "ingredientes": [
+      "50 g de fermento para pão",
+      "1 xícara (chá) de leite morno",
+      "1/2 xícara (chá) de óleo",
+      "1/2 colher (sobremesa) de açúcar",
+      "1 colher (café) de sal",
+      "3 ovos",
+      "1 kg de farinha de trigo (aproximadamente)",
+      "12 hambúrgueres bovino ou de frango",
+      "Rodelas de tomate",
+      "Requeijão cremoso",
+      "Gema para pincelar"
+    ]
+  },
+  {
+    "titulo": "Hambúrguer caseiro simples",
+    "tipo": "Carnes",
+    "receita": "Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.\nFaça porções de 90 g a 100 g.\nForre um plástico molhado em uma bancada e modele os hambúrgueres utilizando um aro como base.\nFaça um de cada vez e retire o aro logo em seguida.\nForre uma assadeira de metal com plástico, coloque os hambúrgueres e intercale camadas de carne e plásticos (sem apertar).\nFaça no máximo 4 camadas por forma e leve para congelar.\nRetire do congelador, frite ou asse e está pronto.",
+    "ingredientes": [
+      "3 kg de carne moída (escolha uma carne magra e macia)",
+      "300 g de bacon moído",
+      "1 ovo",
+      "3 colheres (sopa) de farinha de trigo",
+      "30 ml de água gelada",
+      "3 colheres (sopa) de tempero caseiro feito com alho, sal, cebola, pimenta e cheiro-verde processados no liquidificador"
+    ]
+  },
+  {
+    "titulo": "Hamburguer caseiro",
+    "tipo": "Carnes",
+    "receita": "Misture todos os ingredientes até formar uma massa homogênea.\nse tiver a máquina de fazer hamburger faça os bifes e congele, ou pode cortar uma garrafa pet 2 litros, encher com a massa, congelar, tirar do freezer e cortar em bifes.\nO rendimento depende do tamanho do bife a ser cortado.\nDaí é só fritar.\nBom apetite!.",
+    "ingredientes": [
+      "1 kg de carne moída (de sua preferência)",
+      "1 ovo inteiro",
+      "1 pacote de creme de cebola (daqueles instantâneos)",
+      "Sal a gosto"
+    ]
+  },
+  {
+    "titulo": "Hambúrguer caseiro para churrasco",
+    "tipo": "Carnes",
+    "receita": "Coloque a carne moída na bacia e adicione sal a gosto.\nEm seguida, vá adicionando os outros ingredientes até ficar homogêneo.\nApós misturar todos os ingredientes, monte os hambúrgueres e coloque para assar na churrasqueira, antes de colocar pode passar um pouco de azeite.",
+    "ingredientes": [
+      "1 kg de carne moída (pode ser de 1ª ou de 2ª)",
+      "creme de cebola para dar liga",
+      "azeite a gosto",
+      "sal a gosto",
+      "azeitona picada a gosto",
+      "cebola picada a gosto",
+      "salsinha a gosto"
+    ]
+  },
+  {
+    "titulo": "Hambúrguer de costela bovina",
+    "tipo": "Carnes",
+    "receita": "Corte todos os ingredientes bem fininhos ou passe no processador.\nMisture com a costela moída e acrescente o creme de cebola pra dar liga.\nPor último, adicione sal e pimenta a gosto.\nSugiro temperar um dia antes de assar, fica mais saboroso.\nAsse na grelha ou grill.",
+    "ingredientes": [
+      "1 kg de costela bovina moída (se o açougue não moer, passe no processador, mas cuide para não triturar demais)",
+      "1 pacote creme de cebola",
+      "1 cebola de cabeça",
+      "sal",
+      "cheiro verde (cebolinha, salsinha, orégano, manjericão, folhas de alho)",
+      "pimenta de sua preferência"
+    ]
+  },
+  {
+    "titulo": "Hambúrguer bovino caseiro (glúten free) sem sopa de cebola",
+    "tipo": "Carnes",
+    "receita": "Passe tudo no processador e modele no formato de hambúrguer.\nFrite na frigideira não muito quente ou asse em forno até dourar.\nPara quem não pode ou não gosta de sopa de cebola, essa é a melhor opção.",
+    "ingredientes": [
+      "75 g de carne moída ou em cubinhos moída no processador",
+      "1/2 dente de alho",
+      "sal",
+      "1 colher (sobremesa) de farinha de arroz",
+      "1 colher (sopa) de ovo batido",
+      "cebolinha picadinha"
+    ]
+  },
+  {
+    "titulo": "Bife de hambúrguer gourmet",
+    "tipo": "Carnes",
+    "receita": "Misture todos os ingredientes e modele os bifes.\nApós modelados podem ser embalados com sacola plástica ou plástico filme e congelados, ou já serem grelhados em seguida.",
+    "ingredientes": [
+      "500 g de patinho moído",
+      "sal a gosto",
+      "1 ovo",
+      "3 colheres (sopa) de aveia em flocos",
+      "temperos a gosto"
+    ]
+  },
+  {
+    "titulo": "Picanha ao Forno com Sal Grosso",
+    "tipo": "Carnes",
+    "receita": "Cubra o fundo de uma assadeira com 1 kg do sal grosso.\nColoque a picanha com a parte da gordura virada para cima. Dica: a picanha pode ser colocada para assar congelada.\nCubra a carne com o restante do sal, não deixando nenhuma parte da carne exposta.\nLeve a assadeira para o forno a 200 graus.\nRetire a camada do sal e corte em fatias.\nAqueça a manteiga junto com o azeite em uma frigideira, frite a cebola por alguns instantes e derrame sobre a picanha preparada.",
+    "ingredientes": [
+      "1 peça de Picanha com aproximadamente 1 Kg",
+      "3 kg de sal grosso",
+      "4 colheres de sopa de manteiga",
+      "4 colheres de sopa de azeite",
+      "1 cebola (picada)"
+    ]
+  },
+  {
+    "titulo": "Carne de panela com batata",
+    "tipo": "Carnes",
+    "receita": "Em uma panela de pressão coloque o óleo e a cebola, deixe até que ela fique bem moreninha.\nJunte a carne cortada em cubos médios, deixe dourar por 15 minutos.\nJunte os 2 cubos de caldo natural e o colorau a gosto.\nColoque a água até que cubra a carne, mas não ultrapasse a carne.\nColoque na pressão por 25 minutos.\nRetire do fogo, tire a pressão e junte as batatas e o cheiro-verde.\nColoque na pressão novamente, conte 5 minutos após a panela de pressão começar a apitar e desligue o fogo.",
+    "ingredientes": [
+      "1 kg de carne de acém cortada em cubos grandes",
+      "2 colheres (sopa) de óleo de milho",
+      "2 colheres (sopa) de cebola granulada",
+      "2 cubos de caldo natural",
+      "colorau a gosto",
+      "cheiro-verde desidratado a gosto",
+      "água (até cobrir a carne)",
+      "5 batatas médias descascadas e cortadas ao meio"
+    ]
+  },
+  {
+    "titulo": "Fraldinha de panela",
+    "tipo": "Carnes",
+    "receita": "Compre uma peça de fraldinha de, aproximadamente, 1,3 kg e limpe muito bem.\nTempere com sal fino e reserve.\nEm uma panela de pressão, coloque 1 fio de azeite, a peça de fraldinha com a gordura virada para baixo e cubra a carne com as rodelas de cebola.\nSalpique pimenta calabresa, pimenta-do-reino moída na hora, alho espremido, sal fino e regue com o azeite restante.\nNão coloque nada de água.\nDepois é só tampar a panela, levar ao fogo alto e contar 35 minutos após a panela pegar pressão.\nEspere a pressão sair completamente, retire as rodelas de cebola com cuidado, fatie a carne e coloque em uma travessa.\nCubra a carne com as rodelas de cebola cozidas e com o caldo que sobrou na panela.\nSirva com arroz branco e uma bela salada de folhas.",
+    "ingredientes": [
+      "1 peça de fraldinha ou picanha",
+      "3 cebolas grandes em rodelas",
+      "1 colher (sobremesa) de sal fino",
+      "Pimenta-do-reino a gosto",
+      "Pimenta calabresa a gosto",
+      "3 colheres (sopa) de azeite",
+      "3 dentes de alho amassados"
+    ]
+  },
+  {
+    "titulo": "Picanha Suína",
+    "tipo": "Carnes",
+    "receita": "Pegue a peça de picanha suína (que já vem temperada) coloque sobre um papel alumínio (dentro de uma assadeira forrada).\nFaça uma pastinha com o alho e o suco de limão e espalhe por cima da carne.\nFeche o papel alumínio e leve para assar em forno pré-aquecido alto por uns 40 minutos.\nRetire o papel alumínio, volte a picanha na assadeira, espalhe a mandioca cozida ao lado, regue os pedaços de mandioca com margarina e polvilhe orégano.\nDeixe no forno até a carne ficar douradinha e crocante (por causa do alho).\nFatie e sirva com arroz branco, salada verde e limão.",
+    "ingredientes": [
+      "1 peça de picanha suína temperada (aproximadamente 1,2 kg)",
+      "Suco de 1 limão",
+      "6 dentes de alho grandes amassados",
+      "500 g de mandioca cozida com água e sal e cortada em palitos",
+      "1/2 xícara (chá) de margarina derretida",
+      "Orégano a gosto"
+    ]
+  },
+  {
+    "titulo": "Ponta de peito na panela de pressão",
+    "tipo": "Carnes",
+    "receita": "Na panela de pressão, coloque metade das cebolas cortadas em rodelas.\nColoque a ponta de peito em cima das cebolas.\nAdicione os caldos de carne, e complete com o restante das cebolas.\nTampe a panela de pressão, deixe no fogo por mais o menos 1 hora.\nDepois, tire a pressão, coloque em uma travessa e sirva.",
+    "ingredientes": [
+      "1 kg de ponta de peito",
+      "6 cebolas grandes cortadas em rodelas",
+      "3 caldos de carne ou picanha"
+    ]
+  },
+  {
+    "titulo": "Quibe assado (o melhor)",
+    "tipo": "Carnes",
+    "receita": "Despeje o triguilho em uma vasilha grande.\nColoque a água para ferver.\nApós levantar fervura acrescente os 5 cubos de caldo de picanha e o tempero completo (se desejar usar).\nApós ferver, retire do fogo e despeje no triguilho.\nMexa bem com uma colher e aguarde esfriar por completo.\nApós o esfriamento, acrescente o patinho moído e misture bem a massa com as mãos.\nFaça movimentos como se estivesse amassando.\nAcrescente a cebola ralada, a hortelã, a cebolinha e a salsa. Misture bem.\nColoque sal a gosto.\nForre o fundo e as laterais de uma marinex grande, mas não deixe a massa ficar muito grossa nem com buracos.\nAcrescente seu recheio favorito (pode ser de carne moída, ou frango, carne-seca).\nSe desejar, cubra o recheio com catupiry.\nFaça a camada de cima, fazendo disquinhos da massa amassando bem e coloque por cima, novamente sem deixar buracos nem a massa muito grossa.\nFaça buracos com uma faca de cozinha (não muito grandes) por todo o quibe e regue com azeite a gosto.\nPré-aqueça o forno em temperatura média por 15 minutos.\nCubra o recipiente com papel alumínio e leve ao forno por 20 minutos.\nApós esse tempo, retire o papel-alumínio e deixe o quibe assar por mais 15 minutos.\nRetire do fogo e decore-o com azeitonas à gosto ou da forma como preferir.",
+    "ingredientes": [
+      "500g de patinho moído 2 vezes",
+      "500g de triguilho (trigo para quibe)",
+      "5 cubos de caldo de picanha (caldo knorr)",
+      "1 maço de hortelã bem picado",
+      "1 maço de cebolinha verde picado",
+      "1 maço de salsa picado",
+      "1/2 cebola ralada (ralar e deixar escorrer a água)",
+      "Sal a gosto",
+      "4 copos de água (medida do copo de requeijão)",
+      "Azeite a gosto",
+      "Opcional: 2 colheres de tempero completo (tempero misto)"
+    ]
+  },
+  {
+    "titulo": "Picanha na cebola em panela de pressão",
+    "tipo": "Carnes",
+    "receita": "Fatie as cebolas em rodelas.\nColoque a metade das cebolas no fundo da panela de pressão.\nPosicione a picanha na panela com a gordura para cima.\nCubra com o restante das cebolas.\nPor cima, coloque os 2 tabletes de caldo.\nDeixe na pressão por aproximadamente 30 minutos.\nRetire do fogo para verificar o cozimento.\nÉ aconselhável neste momento virar a picanha para a gordura dourar por mais 15 minutos.",
+    "ingredientes": [
+      "1 peça de picanha",
+      "4 cebolas",
+      "2 tabletes de caldo de carne ou galinha"
+    ]
+  }
+]

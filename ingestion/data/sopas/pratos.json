@@ -1,0 +1,262 @@
+[
+  {
+    "titulo": "Caldo verde",
+    "tipo": "Sopas",
+    "receita": "Na panela de pressão, coloque a batata, o caldo de galinha, o óleo, a água e sal.\nCozinhe por cerca de 10 minutos (começar a contar o tempo depois que a panela começar a chiar) até a batata desmanchar.\nEm seguida, bata tudo no liquidificador.\nAcrescente as rodelas de calabresa e ferva.\nDesligue o fogo e adicione a couve-manteiga.\nNa hora de servir, coloque um fio de azeite ou croutons",
+    "ingredientes": [
+      "4 batatas médias",
+      "1 tablete de caldo de galinha",
+      "1 colher (sopa) de óleo",
+      "1 colher (sopa) rasa de sal ou a gosto",
+      "5 xícaras (chá) de água",
+      "1 xícara (chá) de couve manteiga cortada em tiras",
+      "1 lingüiça calabresa defumada cortada em rodelas"
+    ]
+  },
+  {
+    "titulo": "Frango com Catupiri e batata palha da tia Gracia",
+    "tipo": "Aves",
+    "receita": "Refogue a cebola, acrescente o frango e refogue mais um pouco.\nColoque o molho de tomate, o sal, misture bem e deixe apurar.\nColoque o refogado em uma travessa que possa ir ao forno, espalhe por cima o catupiri, salpique o parmesão e cubra com a batata.\nLeve ao forno preaquecido para gratinar por cerca de 20 minutos.",
+    "ingredientes": [
+      "1 kg de sobrecoxa ou peito de frango cozido com 1 cubo de caldo de frango e desfiado",
+      "1 cebola picada",
+      "1 lata de molho de tomate refogado",
+      "sal a gosto",
+      "160 g de batata palha",
+      "250 g de catupiri",
+      "100 g de parmesão ralado"
+    ]
+  },
+  {
+    "titulo": "Torta cremosa de frango",
+    "tipo": "Sopas",
+    "receita": "Coloque os ingredientes da massa em um recipiente e vá trabalhando com as mãos até obter uma massa homogênea. Unte a forma e forre com a massa.\nFaça um refogado com a cebola picada, o molho de tomates, cheiro-verde e acrescente o frango desfiado. Coloque em cima da massa crua, logo após, o queijo cortado em cubinhos. Bata as claras e depois as gemas. Acrescente o creme de leite e tempere com o sal. Coloque uma pitada de fermento.\nCubra o frango e o queijo com essa mistura e leve ao forno médio para assar por cerca de 40 minutos.",
+    "ingredientes": [
+      "2 xícaras de trigo",
+      "1 ovo",
+      "100 g de margarina",
+      "1 colher (chá) de fermento em pó",
+      "1/2 (chá) de sal",
+      "250 g de peito de frango cozido e desfiado.",
+      "1 cebola",
+      "1/2 xícara de molho de tomate (pomarola)",
+      "1/2 xícara de cheiro-verde",
+      "sal",
+      "5 ovos",
+      "1 caixinha de creme de leite",
+      "100 g de queijo prato",
+      "pimenta-do-reino",
+      "1 pitada de fermento em pó"
+    ]
+  },
+  {
+    "titulo": "Canja de galinha rápida",
+    "tipo": "Sopas",
+    "receita": "Tempere cada pedaço de frango com sal a gosto.\nEm uma panela de pressão, coloque o óleo, o frango, a cebola, o alho e o caldo de galinha.\nDeixe fritar por alguns minutos e acrescente a água fervente.\nAcrescente o arroz e a cenoura, corrija o sal e tampe a panela.\nAbaixe o fogo assim que a panela atingir a pressão e deixe cozinhar por 20 minutos.\nFinalize salpicando salsinha e sirva.",
+    "ingredientes": [
+      "1/2 kg de coxinha da asa",
+      "1 cebola",
+      "4 dentes de alho",
+      "1 cenoura grande",
+      "1 tablete de caldo de galinha",
+      "1/2 xícara de arroz",
+      "salsinha a gosto",
+      "1 colher (sopa) de óleo",
+      "1 e 1/2 litro de água fervente"
+    ]
+  },
+  {
+    "titulo": "Macarrão com requeijão",
+    "tipo": "Sopas",
+    "receita": "Em uma panela aqueça o azeite e doure o alho.\nJunte o molho de tomate, o requeijão e o creme de leite.\nTempere com sal e pimenta.\nDeixe no fogo brando até o requeijão derreter.\nDesligue o fogo e misture a mussarela e o presunto picados.\nEm um refratário coloque o macarrão, despeje o molho e polvilhe o queijo ralado.\nDeixe por 20 minutos em forno pré-aquecido.\nSirva em seguida.",
+    "ingredientes": [
+      "500 g de penne cozido al dente",
+      "2 colheres (sopa) de azeite",
+      "2 dentes de alho picados",
+      "1 lata de molho de tomate",
+      "200 g de requeijão de sua preferência",
+      "1 lata de creme de leite",
+      "300 g de presunto picado",
+      "300 g de mussarela picada",
+      "Queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ]
+  },
+  {
+    "titulo": "Sopa de feijão",
+    "tipo": "Saladas, molhos e acompanhamentos",
+    "receita": "Bater o feijão, a água e o tomate no liquidificador. Colocar o feijão batido e a batata em uma panela e cozinhar, até amaciar a batata. Se ficar muito grosso, acrescentar mais água. Provar e acertar o sal, se necessário. Salpicar com pimenta do reino a gosto, e servir.",
+    "ingredientes": [
+      "3 xícaras de feijão cozido e temperado (pode ser sobra de feijão)",
+      "1 batata média cortada em cubinhos",
+      "3 xícaras de água",
+      "2 tomates picados (com pele e semente)",
+      "Sal e pimenta do reino a gosto"
+    ]
+  },
+  {
+    "titulo": "Macarrão ao forno com bacon e mussarela",
+    "tipo": "Sopas",
+    "receita": "Coloque o bacon em uma panela e misture até dourar.\nAcrescente o azeite, o alho, a cebola e os tomates.\nEm um refratário, coloque o macarrão, a maionese, a salsinha, a mussarela e os ingredientes refogados.\nMisture bem e polvilhe queijo ralado.\nLeve ao forno médio para gratinar o queijo e está pronto para servir.",
+    "ingredientes": [
+      "500 g de macarrão caracolinho cozido e escorrido",
+      "300 g de bacon cortado em cubinhos",
+      "3 tomates cortados e sem semente",
+      "1 cebola grande picada",
+      "salsinha a gosto",
+      "3 colheres (sopa) de maionese",
+      "2 dentes de alho picados",
+      "2 colheres (sopa) de azeite",
+      "350 g de mussarela ralada ou picada",
+      "50 g de queijo ralado"
+    ]
+  },
+  {
+    "titulo": "Caldo verde",
+    "tipo": "Sopas",
+    "receita": "Descasque as batatas e leve para cozinhar.\nCorte em cubinhos a calabresa e o bacon.\nPique todos os temperos (separadamente).\nFrite a calabresa (reserve).\nFrite o bacon (reserve).\nQuando as batatas estiverem cozidas, bata com água no liquidificador até formar um caldo grosso (reserve).\nAqueça o óleo, frite a cebola, acrescente o alho, logo após os cubinhos de bacon e a pimenta cominho.\nDespeje o caldo batido (batata) na panela do recheio e acrescente a calabresa e o bacon (fritos).\nMexa o caldo para não grudar na panela.\nQuando ferver acrescente o sal (a gosto), o coentro e o couve.\nSirva com vinagrete, torradas e patê.",
+    "ingredientes": [
+      "1 kg de batata",
+      "1/2 kg de calabresa defumada",
+      "250 g de bacon",
+      "3 colheres de sopa de óleo",
+      "2 cubos de caldo de bacon",
+      "1 cebola pequena",
+      "4 dentes de alho",
+      "1 molho de coentro",
+      "1 porção de couve (cortado bem fininho)",
+      "1 colher (chá) de pimenta-do-reino",
+      "sal a gosto"
+    ]
+  },
+  {
+    "titulo": "Sopa de Cebola",
+    "tipo": "Sopas",
+    "receita": "Refogar na manteiga o alho, a cebola e as batatas.\nDissolver em 2 colheres de água fria o caldo de carne, sal, pimenta e farinha de trigo.\nJuntar tudo mais a água fervente e cozinhar por 20 minutos.\nDesligue o fogo e acrescente o creme de leite.\nBata tudo no liquidificador e leve ao fogo.\nAntes de servir, polvilhe com salsa e queijo. Bom apetite.",
+    "ingredientes": [
+      "1 dente de alho",
+      "1 tablete de caldo de carne",
+      "1 colher de farinha de trigo",
+      "1/2 lata de creme de leite sem soro",
+      "2 batatas pré-cozidas picadas",
+      "2 colheres de manteiga",
+      "4 xícaras de água fervente",
+      "400 g de cebola fatiada",
+      "Sal",
+      "Pimenta do reino a gosto"
+    ]
+  },
+  {
+    "titulo": "Caldinho de mandioca",
+    "tipo": "Sopas",
+    "receita": "Cozinhe a mandioca.\nAcrescente no cozimento 2 tabletes de caldo de costela.\nDê uma pré-fritada na calabresa junto com o bacon com um pouco de óleo.\nAcrescente junto a ela a cebola e termine de fritar.\nAcrescente o alho e mais 1 caldo de costela.\nBata no liquidificador a mandioca junto com a água que cozinhou.\nJunte a mistura com a fritura no fogo baixo sempre mexendo para que não grude no fundo da panela.\nAcrescente o tomate e a cebolinha (a gosto).\nAcrescente aos poucos os temperos, sempre experimentando para ver se está bom de sal.",
+    "ingredientes": [
+      "2 kg de mandioca amarela",
+      "2 calabresas grandes picadas em quadradinhos",
+      "2 pedaços grandes de bacon picados em quadradinhos",
+      "3 dentes de alho grandes triturados ou bem picados",
+      "1 cebola grande triturada ou bem picada",
+      "3 tomates sem semente picados",
+      "Cebolinha (a gosto)",
+      "1 pacote de tempero pronto",
+      "3 caldos de costela"
+    ]
+  },
+  {
+    "titulo": "Torta salgada de frango",
+    "tipo": "Sopas",
+    "receita": "Junte o leite, farinha de trigo, ovos, queijo ralado, óleo e o caldo no liquidificador, bata por 3 minutos.\nDepois de bater coloque o fermento em pó e bata mais um pouquinho.\nRecheio:\nColoque na panela o alho amassado, a cebola e a margarina.\nRefogue e em seguida coloque o frango desfiado.\nDesligue o fogo e coloque os ingredientes.\nPolvilhe a forma com margarina e farinha, e em seguida coloque metade da massa, o recheio, por cima o queijo mussarela e coloque o resto dos ingredientes.\nLeve ao forno médio por 25 a 30 minutos.",
+    "ingredientes": [
+      "1 xícara de farinha de trigo sem fermento",
+      "1 xícara de leite",
+      "1/2 xícara de óleo ou azeite",
+      "2 ovos inteiros",
+      "2 colheres de sopa de queijo ralado",
+      "1/2 tablete de caldo de carne ou de frango",
+      "1 colher (sopa) de fermento em pó",
+      "1/2 kg de peito de frango cozido e desfiado",
+      "1/2 lata de milho verde",
+      "1/2 lata de ervilha",
+      "1/2 lata de azeitonas",
+      "1/2 cebola picadinha",
+      "1/2 tomate grande",
+      "300 g de queijo mussarela (opcional)",
+      "2 dentes de alho",
+      "coentro opcional",
+      "margarina",
+      "1 creme de leite (opcional)"
+    ]
+  },
+  {
+    "titulo": "Feijão tropeiro",
+    "tipo": "Saladas, molhos e acompanhamentos",
+    "receita": "Coloque o óleo em uma panela e doure a cebola, acrescente o bacon e frite bem.\nAdicione o alho, sal e os ovos, misturando com cuidado para que não se despedacem muito.\nRefogue o feijão, baixe o fogo, misture a farinha aos poucos e o cheiro verde.",
+    "ingredientes": [
+      "500g de feijão carioquinha cozido",
+      "200g de toucinho",
+      "1 concha de óleo",
+      "1 cebola média picada",
+      "4 dentes de alho",
+      "5 ovos",
+      "1 colher de sopa de sal com alho",
+      "Cheiro verde a gosto",
+      "200g de farinha de mandioca"
+    ]
+  },
+  {
+    "titulo": "Sopa de legumes com macarrão",
+    "tipo": "Carnes",
+    "receita": "Coloque um fio de óleo na panela de pressão.\nAcrescente a cebola e deixe dourar.\nAcrescente a carne bovina e deixe dourar.\nAcrescente o tomate picado.\nColoque o caldo de carne e o envelope de tempero tipo sazon.\nJunte as batatas, as cenouras, as mandioquinhas e as vagens e deixe refogar por 3 minutinhos (sempre mexendo para não grudar no fundo da panela).\nAdicione a salsinha e a cebolinha, a pimenta, o sal e, por último, a água.\nObs: A água deve ser adicionada até que ultrapasse um pouco mais da metade da panela de pressão.\nTampe a panela de pressão e deixe cozinhar por 40 minutos.\nApós os 40 minutos, destampe a panela e acrescente o macarrão.\nAssim que o macarrão estiver cozido, desligue a panela e pode servir.\nDica: Não deixe o macarrão muito mole.",
+    "ingredientes": [
+      "1 cebola média picada",
+      "250 g de carne bovina (de preferência músculo ou costela)",
+      "1 tomate médio picado",
+      "2 batatas médias cortadas em cubos",
+      "2 cenouras médias cortadas em cubos",
+      "2 mandioquinhas médias cortadas em cubos",
+      "12 vagens picadas",
+      "2 xícaras de macarrão (tipo argolinha ou conchinha ou ave maria ou cabelo de anjo)",
+      "1 tablete de caldo de carne",
+      "1 envelope de tempero sazon",
+      "1 pitada de pimenta do reino ou pimenta calabresa",
+      "1 xícara de salsinha e cebolinha bem picadinhas",
+      "Sal a gosto",
+      "Água até um pouco mais de a metade da panela de pressão"
+    ]
+  },
+  {
+    "titulo": "Torta de frango com creme de leite e mussarela",
+    "tipo": "Sopas",
+    "receita": "Em uma panela refogue a cebola o alho, coloque o peito de frango desfiado, refogue o frango com a água do milho, refogue ele a seu gosto.\nAcrescente o milho, depois de tudo refogado, desligue o fogo e coloque o creme de leite.\nFaça a massa batendo os 7 primeiros ingredientes no liquidificador, unte uma asadeira, coloque uma parte da massa, o frango refogado, a mussarela, depois a outra parte da massa.\nColoque em forno médio em por cerca de 30 minutos.",
+    "ingredientes": [
+      "3 xícaras de farinha de trigo",
+      "3 ovos",
+      "3 xícaras de leite",
+      "1 xícara de óleo",
+      "1 colher de fermento em pó químico",
+      "1 caldo caldo de galinha",
+      "1 colher de chá de sal",
+      "1 peito de frango cozido e desfiado",
+      "2 tomates",
+      "1 cebola",
+      "Alho a gosto",
+      "1 lata de milho verde",
+      "1 lata de creme de leite",
+      "tempero a gosto",
+      "300 g de mussarela"
+    ]
+  },
+  {
+    "titulo": "Pudim de Abacaxi",
+    "tipo": "Sopas",
+    "receita": "Prepare a gelatina de acordo com as instruções da embalagem e deixe esfriar.\nPique o abacaxi e cozinhe com 1 xícara de açúcar por 15 minutos.\nBata no liquidificador o leite condensado, o creme de leite, o leite de coco e metade do abacaxi cozido.\nJunte a gelatina e torne a bater.\nA outra metade do abacaxi cozido, coloque no fundo da forma para decorar.\nColoque em forma para pudim e leve à geladeira para ficar firme.",
+    "ingredientes": [
+      "2 pacotes de gelatina de abacaxi",
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 vidro de leite de coco",
+      "1 abacaxi médio cozido",
+      "1 xícara de açúcar"
+    ]
+  }
+]
