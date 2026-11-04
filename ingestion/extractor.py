@@ -1,10 +1,15 @@
-# Responsável por receber chamada de uma URL e extrair apenas título, tipo, receita e ingredientes
+"""
+Módulo de Extração de Receitas (ingestion/extractor.py)
+Responsabilidade: Mapear URLs/HTML para a estrutura de dados imutável RawRecipe.
+Separa rigorosamente o parsing puro de dados do I/O de rede.
+"""
 
+import functools
 from typing import Optional, NamedTuple
 from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
-from recipe_scrapers import scrape_me, scrape_html
+from recipe_scrapers import scrape_html
 
 
 class RawRecipe(NamedTuple):
@@ -21,81 +26,38 @@ class RawRecipe(NamedTuple):
     ingredientes: tuple[str, ...]
 
 
+# ==============================================================================
+# NÚCLEO FUNCIONAL (FUNÇÕES 100% PURAS)
+# ==============================================================================
+
 def tudogostoso(url: str) -> bool:
-    """Verifica se o domínio e rota pertencem validamente ao TudoGostoso."""
+    """Função pura: verifica se o domínio e rota pertencem validamente ao TudoGostoso."""
     try:
         parsed = urlparse(url.lower())
-        e_dominio_valido = "tudogostoso.com.br" in parsed.netloc
-        e_rota_de_receita = parsed.path.startswith("/receita/")
-        return e_dominio_valido and e_rota_de_receita
+        return "tudogostoso.com.br" in parsed.netloc and parsed.path.startswith("/receita/")
     except Exception:
         return False
 
 
-def obter_urls_recomendadas_categoria(url_categoria: str, limite: int = 15) -> tuple[str, ...]:
-    """
-    Função pura na extração de links:
-    Acessa a página de categoria do TudoGostoso e extrai as URLs das
-    primeiras receitas recomendadas/populares exibidas no topo da página.
-    Retorna uma tupla imutável com até `limite` URLs únicas preservando a ordem.
-    """
-    try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        resposta = requests.get(url_categoria, headers=headers, timeout=15)
-        if resposta.status_code != 200:
-            return ()
+def deduplicar_preservando_ordem(sequencia: tuple[str, ...]) -> tuple[str, ...]:
+    """Função pura: deduplica uma tupla imutável de strings preservando a ordem original."""
+    def acumular_unico(acc: tuple[str, ...], item: str) -> tuple[str, ...]:
+        return acc if item in acc else acc + (item,)
 
-        soup = BeautifulSoup(resposta.text, "html.parser")
-
-        # Coleta os links que apontam para receitas (/receita/... .html)
-        links_iter = (
-            a.get("href") for a in soup.find_all("a", href=True)
-            if "/receita/" in a.get("href", "") and a.get("href", "").endswith(".html")
-        )
-
-        # Converte para URLs absolutas completas
-        links_completos = (
-            link if link.startswith("http") else f"https://www.tudogostoso.com.br{link}"
-            for link in links_iter
-        )
-
-        # Deduplica funcionalmente preservando a ordem de recomendação original
-        urls_unicas = tuple(dict.fromkeys(links_completos))
-
-        return urls_unicas[:limite]
-    except Exception:
-        return ()
+    return functools.reduce(acumular_unico, sequencia, ())
 
 
-def extrair_receita(url: str) -> Optional[RawRecipe]:
-    """Acessa a URL e extrai título, tipo, receita (instruções) e ingredientes."""
-    if not tudogostoso(url):
-        return None
-
-    try:
-        scraper = scrape_me(url)
-        titulo = scraper.title()
-        ingredientes = scraper.ingredients()
-        tipo = (getattr(scraper, "category", lambda: "Geral")() or "Geral").strip()
-        receita_instrucoes = (getattr(scraper, "instructions", lambda: "")() or "").strip()
-
-        if not titulo or not ingredientes:
-            return None
-
-        return RawRecipe(
-            titulo=titulo.strip(),
-            tipo=tipo,
-            receita=receita_instrucoes,
-            ingredientes=tuple(ingredientes)  # Coleção imutável
-        )
-    except Exception:
-        # Falhas de rede ou páginas inexistentes retornam None de forma segura
-        return None
+def normalizar_url_relativa(link: str) -> str:
+    """Função pura: transforma links relativos em URLs absolutas completas."""
+    return link if link.startswith("http") else f"https://www.tudogostoso.com.br{link}"
 
 
 def extrair_de_html(html_content: str, url: str) -> Optional[RawRecipe]:
-    """Extrai a receita a partir de conteúdo HTML bruto já carregado."""
-    if not tudogostoso(url):
+    """
+    Função pura: extrai a receita a partir de conteúdo HTML já carregado.
+    Dada a mesma string HTML e URL, sempre retornará exatamente a mesma RawRecipe.
+    """
+    if not html_content or not tudogostoso(url):
         return None
 
     try:
@@ -112,18 +74,66 @@ def extrair_de_html(html_content: str, url: str) -> Optional[RawRecipe]:
             titulo=titulo.strip(),
             tipo=tipo,
             receita=receita_instrucoes,
-            ingredientes=tuple(ingredientes)
+            ingredientes=tuple(ingredientes)  # Coleção imutável
         )
     except Exception:
         return None
 
 
+def processar_links_categoria_html(html_content: str, limite: int) -> tuple[str, ...]:
+    """Função pura: extrai e filtra URLs de receitas a partir do HTML da categoria."""
+    if not html_content:
+        return ()
+
+    soup = BeautifulSoup(html_content, "html.parser")
+    
+    # Gerador declarativo para capturar links de receitas
+    raw_links = (
+        a.get("href") for a in soup.find_all("a", href=True)
+        if "/receita/" in a.get("href", "") and a.get("href", "").endswith(".html")
+    )
+    
+    urls_absolutas = tuple(map(normalizar_url_relativa, raw_links))
+    urls_unicas = deduplicar_preservando_ordem(urls_absolutas)
+    
+    return urls_unicas[:limite]
+
+
+# ==============================================================================
+# CASCA DE EFEITOS COLATERAIS (I/O ISOLADO DE REDE)
+# ==============================================================================
+
+def baixar_html_pagina(url: str, timeout: int = 15) -> str:
+    """Efeito colateral isolado: realiza requisição HTTP e retorna o HTML da página."""
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        resposta = requests.get(url, headers=headers, timeout=timeout)
+        return resposta.text if resposta.status_code == 200 else ""
+    except Exception:
+        return ""
+
+
+def obter_urls_recomendadas_categoria(url_categoria: str, limite: int = 15) -> tuple[str, ...]:
+    """Efeito colateral de borda: baixa o HTML da categoria e chama a extração pura."""
+    html = baixar_html_pagina(url_categoria)
+    return processar_links_categoria_html(html, limite)
+
+
+def extrair_receita(url: str) -> Optional[RawRecipe]:
+    """Efeito colateral de borda: baixa o HTML de uma receita e executa a transformação pura."""
+    if not tudogostoso(url):
+        return None
+    html = baixar_html_pagina(url)
+    return extrair_de_html(html, url)
+
+
 def extrair_all(urls: tuple[str, ...]) -> tuple[RawRecipe, ...]:
-    """Processa múltiplas URLs de forma funcional (filter e map), descartando falhas."""
-    urls_tudogostoso = filter(tudogostoso, urls)
-
-    receitas_extraidas = map(extrair_receita, urls_tudogostoso)
-
+    """
+    Orquestra o mapeamento de múltiplas URLs de forma funcional:
+    Filtra URLs válidas -> Mapeia extração -> Filtra resultados não nulos.
+    """
+    urls_validas = filter(tudogostoso, urls)
+    receitas_extraidas = map(extrair_receita, urls_validas)
     receitas_validas = filter(lambda r: r is not None, receitas_extraidas)
 
     return tuple(receitas_validas)
