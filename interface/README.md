@@ -1,107 +1,62 @@
-#  Módulo de Interface do Usuário e Adaptadores de I/O (`interface/`)
-### Camada de Interação, Fronteiras de Efeitos Colaterais e Formatação Declarativa
+# 🖥️ Módulo de Interface do Usuário e Adaptadores de E/S (`interface/`)
+### Camada de Interação, Bordas de Efeitos Colaterais e Formatação Declarativa
 
 > **Componente do Projeto:** *Cook What U Have (MealMatch)*  
-> **Responsabilidade:** Gerenciar a interação com o usuário (CLI), carregar a base de dados imutável a partir do disco e formatar relatórios visuais claros, isolando os efeitos colaterais (*I/O Boundaries*) do núcleo funcional do sistema.
+> **Responsabilidade:** Gerenciar a interação com o usuário via terminal (CLI), carregar a base de dados dos pratos a partir do disco e formatar relatórios visuais claros, isolando os efeitos colaterais (*I/O Boundaries*) do núcleo puro do sistema.
 
 ---
 
-##  1. Objetivo e O Princípio Funcional de Bordas de I/O (*I/O Boundaries*)
+## 🎯 1. Arquitetura e Princípio de Bordas de E/S (*I/O Boundaries*)
 
-Na arquitetura de sistemas funcionais, o código do domínio algorítmico deve ser mantido estritamente puro. No entanto, o mundo exterior é inerentemente impuro: o usuário digita entradas no teclado, arquivos no disco precisam ser lidos e caracteres coloridos precisam ser impressos no monitor.
+Na arquitetura de sistemas funcionais, o domínio algorítmico (`implementation/`) permanece 100% puro e sem contato com o mundo externo. O módulo `interface/` desempenha o papel de **casca protetora (*Functional Core, Imperative Shell*)**:
 
-O módulo `interface/` desempenha o papel de **casca protetora (*Functional Core, Imperative Shell*)**:
-1. **Coleta e Conversão Impura:** Capta strings do usuário e converte-as imediatamente para coleções imutáveis `frozenset`.
-2. **Carregamento Controlado:** Lê o arquivo estático `data/pratos.json` e o converte para uma tupla imutável `tuple[Dish, ...]`.
-3. **Invocação do Core Puro:** Delega os dados para a função pura `run_meal_recommendation()` do módulo `implementation/`.
-4. **Formatação Declarativa e Apresentação:** Recebe a tupla imutável de resultados (`MatchResult`), formata relatórios de forma determinística e imprime na saída padrão.
-
-```mermaid
-flowchart LR
-    subgraph IMPURE_OUTSIDE ["Bordas Impuras (interface/)"]
-        IN1["Terminal / Teclado\n(Inputs do Usuário)"]
-        IN2["Disco Rígido\n(data/pratos.json)"]
-        OUT["Terminal / Console\n(Impressão Visual)"]
-    end
-
-    subgraph PURE_CORE ["Núcleo Funcional Puro (implementation/)"]
-        CORE["run_meal_recommendation()\n(100% Livre de I/O)"]
-    end
-
-    IN1 -->|Converte para frozenset| CORE
-    IN2 -->|Carrega como tuple imutável| CORE
-    CORE -->|Retorna tuple de MatchResult| OUT
+```
+[ BORDAS DE EFEITOS COLATERAIS ]                   [ NÚCLEO FUNCIONAL PURO ]
+           cli.py / io_adapter.py                         implementation/
+  (Teclado / Disco / Terminal)   ── frozenset / Dish ──►  (Grafo Bipartido)
+                                                                 │
+                                                                 ▼
+           formatter.py                                   MatchResult
+  (Formatação visual declarativa) ◄──────────────────────────────┘
 ```
 
----
-
-## 2. Funcionalidades da Interface
-
-### 2.1. Modos de Operação
-* **Modo Interativo (Prompt Amigável):** Solicita ao usuário os ingredientes disponíveis na despensa, os alérgenos ou restrições a excluir e o limiar de tolerância de compras faltantes.
-* **Modo Argumentos de Linha de Comando (CLI com Flags):**
-  ```bash
-  python3 -m src.main --pantry "ovo, queijo, tomate" --allergens "gluten, camarao" --max-missing 1
-  ```
-
-### 2.2. Separação Estrita de Formatação
-Para garantir que a formatação visual também seja testável e pura, o módulo decompõe a apresentação em:
-* `formatter.py`: Funções **puras** que recebem um `MatchResult` e retornam uma `str` devidamente tabulada e colorida.
-* `cli.py`: Único local que efetivamente executa o efeito colateral `print()`.
+1. **Sem Instruções Imperativas `def`:** Toda a lógica de carga, conversão e formatação foi concebida através de **funções lambda de primeira ordem** e encadeamento funcional puro.
+2. **Coleta e Conversão Segura:** Converte entradas do teclado diretamente para conjuntos imutáveis `frozenset`.
+3. **Carga em Lote Controlada:** Lê os arquivos `pratos.json` das 8 categorias em `ingestion/data/` e instancia as entidades congeladas `Dish`.
+4. **Formatação Declarativa:** Projeta os nós recomendados em cards visuais no terminal, destacando itens em posse do usuário, a lista de compras automática e os pratos bloqueados por segurança alimentar.
 
 ---
 
-## 3. Estrutura de Arquivos da Pasta
+## 📂 2. Estrutura Modular da Pasta
 
 ```
 interface/
-│
-├── __init__.py
-├── cli.py               # Entrada principal da CLI, parsing de argumentos e exibição
-├── formatter.py         # Funções puras de transformação: MatchResult -> String formatada
-├── io_adapter.py        # Leitura controlada do arquivo data/pratos.json -> tuple[Dish, ...]
-└── README.md            # Documentação técnica da camada de interface
+├── __init__.py           # Exportação dos componentes da interface
+├── io_adapter.py         # Leitura pura dos JSONs do disco -> tuple[Dish, ...]
+├── formatter.py          # Projeção pura: MatchResult -> texto formatado
+├── cli.py                # Ponto de entrada interativo no console
+└── README.md             # Documentação técnica da camada de interface
 ```
 
 ---
 
-## 4. Exemplo Visual da Saída Gerada pela Interface
+## 🚀 3. Como Executar a Interface Interativa
 
-Ao ser executada, a interface gera um relatório visualmente intuitivo, destacando ingredientes em posse do usuário, a lista de compras automatizada e os pratos barrados por segurança:
+A partir da raiz do repositório (`cook-what-u-have/`):
 
+```bash
+.venv/bin/python -m interface.cli
+```
+
+### Exemplo de Uso Interativo no Console:
 ```text
 ================================================================================
-        COOK WHAT U HAVE — SUGESTÕES DE REFEIÇÃO DISPONÍVEIS
+🍳 COOK WHAT U HAVE — SISTEMA FUNCIONAL DE RECOMENDAÇÃO DE REFEIÇÕES
 ================================================================================
-Configurações da Sessão:
-  • Ingredientes na Despensa (5): [abobrinha, azeite, cebola, ovo, sal]
-  • Restrições Severas Banidas (2): [camarao, gluten]
-  • Tolerância Máxima de Faltantes: Até 2 itens adicionais
---------------------------------------------------------------------------------
+Base de dados: 120 pratos carregados em memória.
 
-[1] OMELETE DE ABOBRINHA E CEBOLA (Categoria: Prato Principal)
-    Correspondência: 100.0% [4/4 ingredientes]
-     Todos os ingredientes disponíveis em casa! Pronto para cozinhar.
-
-[2] RISOTO SIMPLES DE ABOBRINHA (Categoria: Massas e Risotos)
-    Correspondência: 66.7% [4/6 ingredientes]
-     Disponíveis em casa: [abobrinha, azeite, cebola, sal]
-     Lista de compras (faltam 2 itens):
-       • arroz arboreo
-       • caldo de legumes
-
---------------------------------------------------------------------------------
- Pratos Bloqueados por Segurança Alimentar:
-   - Macarronada ao Alho e Óleo (Bloqueado por conter: 'gluten')
-   - Bobó de Camarão (Bloqueado por conter: 'camarao')
-================================================================================
+1. Ingredientes na sua despensa (separados por vírgula): ovo, cebola, bacon, queijo
+2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): camarao
+3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): 2
+4. Categoria culinária (ou Enter para buscar em todas as 8): massas
 ```
-
----
-
-##  5. Testabilidade da Camada de Interface
-
-A arquitetura com adaptadores desacoplados viabiliza testes unitários sem a necessidade de simular arquivos em disco:
-* **Testes de Parsing (`io_adapter.py`):** Validação de que JSONs válidos geram instâncias congeladas de `Dish`, e JSONs com formato inválido lançam exceções tratadas de forma controlada.
-* **Testes de Renderização (`formatter.py`):** Como as funções de formatação são puras, elas podem ser asseridas diretamente (`assert format_match(m) == expected_string`) sem necessidade de capturar saídas do stdout com `capsys`.
-
