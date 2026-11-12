@@ -1,81 +1,93 @@
-#  Módulo de Ingestão de Dados (`ingestion/`)
-### Extração de Receitas do TudoGostoso por Categorias e Geração da Base Imutável
+# 📥 Módulo de Ingestão de Dados Funcional (`ingestion/`)
+### Extração de Receitas do TudoGostoso, Normalização Pura e Base Imutável para o Grafo
 
 > **Componente do Projeto:** *Cook What U Have (MealMatch)*  
-> **Responsabilidade:** Extrair as 15 primeiras receitas recomendadas de cada categoria do TudoGostoso, estruturando os 4 campos essenciais (`titulo`, `tipo`, `receita`, `ingredientes`) e gravando o catálogo `pratos.json` dentro de cada respectiva subpasta de `data/`.
+> **Responsabilidade:** Extrair as 15 receitas recomendadas de cada categoria do TudoGostoso, separar rigorosamente as transformações puras de dados do I/O impuro, sanitizar termos culinários para extração dos `ingredientes_centrais` e gerar a base imutável `pratos.json` para alimentação do Grafo Bipartido.
 
 ---
 
-## 1. Objetivo e Papel na Arquitetura
+## 🎯 1. Arquitetura e Princípios Funcionais
 
-O módulo de **Ingestão de Dados** atua como uma etapa prévia e desacoplada do motor central de recomendação:
+O módulo de **Ingestão** foi reconstruído sob o padrão arquitetural **Functional Core, Imperative Shell** (Núcleo Funcional, Casca Imperativa):
 
-1. **O Motor de Decisão permanece 100% Offline e Determinístico:** Não há chamadas de rede HTTP em tempo real durante a execução do motor de recomendação.
-2. **Separação de Preocupações (*Separation of Concerns*):** O motor da pasta `implementation/` consome os dados consolidados no disco, processando-os como um Grafo Bipartido puramente em memória.
-3. **Mapeamento Modular por Categorias:** Cada categoria gastronômica possui sua própria subpasta dentro de `ingestion/data/`, facilitando consultas filtradas ou carregamento sob demanda.
+```
+       [ EFEITOS COLATERAIS / I/O ]                  [ TRANSFORMAÇÕES PURAS ]
+               io_gateway.py                                parser.py
+    (Requisição HTTP GET / Rede)   ── HTML bruto ──►  (Extração pura de dados)
+                                                             │
+                                                             ▼
+               io_gateway.py                              normalizer.py
+    (Persistência JSON / Disco)   ◄── ProcessedRecipe ─ (Limpeza pura e ingredientes canônicos)
+```
+
+1. **Separação Rígida de Responsabilidades:**
+   - **`models.py`:** Entidades de dados 100% imutáveis (`NamedTuple`) usando `tuple` e `frozenset`.
+   - **`normalizer.py`:** Pipeline puramente matemático de transformações encadeadas via `functools.reduce` para sanitização de strings, remoção de unidades/medidas e extração de termos canônicos (`extrair_ingrediente_central`).
+   - **`parser.py`:** Análise sintática pura de strings HTML sem tocar na rede.
+   - **`io_gateway.py`:** Única camada com efeitos colaterais de rede (`requests.get`) e disco (`json.dump`).
+   - **`pipeline.py`:** Orquestrador declarativo que conecta as camadas usando funções de alta ordem (`map`, `filter`).
+
+2. **Imutabilidade Total:**
+   - Proibição categórica de métodos mutadores de coleção (`.append()`, `.extend()`, `.update()`).
+   - Todos os dados fluem como tuplas e dicionários imutáveis por concepção.
 
 ---
 
-## 2. Tecnologias Utilizadas
-
-* **[`recipe-scrapers`](https://github.com/hhursev/recipe-scrapers):** Parser especializado com suporte oficial às páginas de receitas do TudoGostoso (`tudogostoso.com.br`).
-* **`beautifulsoup4` e `requests`:** Utilizados de forma declarativa e pura em `extractor.py` para descobrir os links das receitas recomendadas no topo de cada página de categoria.
-* **Paradigma Funcional:** Uso estrito de imutabilidade (`NamedTuple`), predicados puros (`filter`) e mapeamentos declarativos (`map`), sem loops imperativos `for`/`while` com acumuladores mutáveis.
-
----
-
-##  3. Estrutura de Pastas e Mapeamento de Categorias
-
-A pasta `ingestion/data/` está estruturada com as seguintes 8 categorias:
+## 📂 2. Estrutura Modular de Arquivos
 
 ```
 ingestion/
-├── data/
-│   ├── aves/                     # pratos.json (até 15 receitas)
-│   ├── bolos e tortas/           # pratos.json (até 15 receitas)
-│   ├── carnes/                   # pratos.json (até 15 receitas)
-│   ├── doces e sobremesas/       # pratos.json (até 15 receitas)
-│   ├── massas/                   # pratos.json (até 15 receitas)
-│   ├── peixes e frutos do mar/   # pratos.json (até 15 receitas)
-│   ├── saladas e molhos/         # pratos.json (até 15 receitas)
-│   └── sopas/                    # pratos.json (até 15 receitas)
-│
-├── extractor.py                  # Extração da página de categoria e de cada receita
-├── pipeline.py                   # Orquestrador funcional por categorias
-└── README.md                     # Documentação técnica do módulo
+├── __init__.py           # Identificador do pacote Python
+├── models.py             # Entidades imutáveis: RawRecipe, ProcessedRecipe, CategoryTarget, CategoryResult
+├── normalizer.py         # Pipeline funcional puro de normalização e extração de ingredientes centrais
+├── parser.py             # Parser funcional puro de HTML e extração de links
+├── io_gateway.py         # Casca isolada de E/S (chamadas de rede HTTP e persistência em disco)
+├── pipeline.py           # Orquestrador funcional do pipeline de ponta a ponta
+├── README.md             # Documentação do módulo de ingestão
+└── data/                 # Diretório com as 8 categorias oficiais do TudoGostoso
+    ├── aves/             # pratos.json (15 receitas)
+    ├── bolos e tortas/   # pratos.json (15 receitas)
+    ├── carnes/           # pratos.json (15 receitas)
+    ├── doces e sobremesas/# pratos.json (15 receitas)
+    ├── massas/           # pratos.json (15 receitas)
+    ├── peixes e frutos do mar/ # pratos.json (15 receitas)
+    ├── saladas e molhos/ # pratos.json (15 receitas)
+    └── sopas/            # pratos.json (15 receitas)
 ```
-
-### URLs Oficiais Mapeadas no TudoGostoso:
-| Categoria na pasta `data/` | URL da Categoria no TudoGostoso |
-| :--- | :--- |
-| `aves` | `https://www.tudogostoso.com.br/categorias/1009-aves` |
-| `bolos e tortas` | `https://www.tudogostoso.com.br/categorias/1000-bolos-e-tortas-doces` |
-| `carnes` | `https://www.tudogostoso.com.br/categorias/1004-carnes` |
-| `doces e sobremesas` | `https://www.tudogostoso.com.br/categorias/1037-doces-e-sobremesas` |
-| `massas` | `https://www.tudogostoso.com.br/categorias/1028-massas` |
-| `peixes e frutos do mar` | `https://www.tudogostoso.com.br/categorias/1014-peixes-e-frutos-do-mar` |
-| `saladas e molhos` | `https://www.tudogostoso.com.br/categorias/1023-saladas-molhos-e-acompanhamentos` |
-| `sopas` | `https://www.tudogostoso.com.br/categorias/1027-sopas` |
 
 ---
 
-##  4. Esquema dos 4 Campos em cada `pratos.json`
+## 📄 3. Estrutura Canônica de cada Receita no `pratos.json`
 
-Cada arquivo `pratos.json` gerado em sua respectiva subpasta possui a seguinte estrutura:
+Cada receita gerada preserva as informações originais intactas para visualização e já projeta os ingredientes limpos para a álgebra de conjuntos do motor de grafos:
 
 ```json
 [
   {
+    "id": "massas_macarrao-a-carbonara_7b12d93e",
     "titulo": "Macarrão à carbonara",
-    "tipo": "Massas",
-    "receita": "Em uma panela, coloque a água e o sal para ferver...\nFrite o bacon até ficar crocante...",
-    "ingredientes": [
+    "tipo": "massas",
+    "receita": [
+      "Em uma panela, coloque a água e o sal para ferver...",
+      "Frite o bacon até ficar crocante...",
+      "Misture os ovos com o queijo ralado e a pimenta-do-reino...",
+      "Junte a massa ainda quente e misture imediatamente."
+    ],
+    "ingredientes_originais": [
       "500 g de macarrão",
       "250 g de bacon em cubos",
       "1 caixa de creme de leite",
       "3 ovos",
       "Queijo ralado a gosto",
       "Pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "bacon",
+      "creme de leite",
+      "macarrao",
+      "ovo",
+      "pimenta do reino",
+      "queijo"
     ]
   }
 ]
@@ -83,17 +95,16 @@ Cada arquivo `pratos.json` gerado em sua respectiva subpasta possui a seguinte e
 
 ---
 
-##  5. Como Executar a Ingestão
+## 🚀 4. Como Executar a Geração da Base
 
-Para disparar o processo de scraping e gerar os arquivos `pratos.json` de cada categoria:
+A partir do diretório raiz do repositório (`cook-what-u-have/`):
 
-### Processar Todas as 8 Categorias:
+### Gerar todas as 8 categorias (120 receitas):
 ```bash
-cd /home/quezia/cook-what-u-have/cook-what-u-have
 .venv/bin/python -m ingestion.pipeline
 ```
 
-### Processar Apenas uma Categoria Específica (ex: Massas):
+### Gerar apenas uma categoria específica para testes rápidos (ex: Massas):
 ```bash
 .venv/bin/python -m ingestion.pipeline massas
 ```
