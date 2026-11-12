@@ -1,0 +1,559 @@
+[
+  {
+    "id": "aves_strogonoff-de-frango_562734ad",
+    "titulo": "Strogonoff de frango",
+    "tipo": "aves",
+    "receita": [
+      "Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta.",
+      "Em uma frigideira grande, derreta a manteiga e doure a cebola.",
+      "Junte o frango temperado até que esteja dourado.",
+      "Adicione os cogumelos, o ketchup e a mostarda.",
+      "Incorpore o creme de leite e retire do fogo antes de ferver.",
+      "Sirva com arroz branco e batata palha."
+    ],
+    "ingredientes_originais": [
+      "3 peitos de frango cortados em cubos",
+      "1 dente de alho picado",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "1 cebola picada",
+      "2 colheres (sopa) de maionese",
+      "1 colher de manteiga",
+      "1/2 copo de ketchup",
+      "1/3 copo de mostarda",
+      "1 copo de cogumelos",
+      "1 copo de creme de leite",
+      "batata palha a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "batata palha",
+      "cebola",
+      "cogumelos",
+      "creme de leite",
+      "ketchup",
+      "maionese",
+      "manteiga",
+      "mostarda",
+      "peitos de frango cortados",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-xadrez_f5434ed2",
+    "titulo": "Frango xadrez",
+    "tipo": "aves",
+    "receita": [
+      "Em uma frigideira ou panela grande, misture a metade do azeite de oliva, a cebola, o alho e deixe fritar.",
+      "Retire e coloque em um prato.",
+      "Na mesma panela, coloque o sal, o restante do azeite e frite os pimentões e os cogumelos por 5 minutos.",
+      "Retire e despeje em outro prato.",
+      "Ainda na mesma panela, coloque o frango e frite até dourar.",
+      "Coloque todos os ingredientes novamente na frigideira, misture bem com uma colher de pau e refogue por mais 2 minutos.",
+      "Em uma xícara, misture o molho shoyu, a maisena e a água.",
+      "Mexa bem e junte a mistura de frango.",
+      "Cozinhe, mexendo constantemente, até formar um molho espesso.",
+      "Coloque em uma travessa, polvilhe com amendoim e sirva quente."
+    ],
+    "ingredientes_originais": [
+      "2 colheres (sopa) de azeite de oliva",
+      "2 cebolas médias cortadas em cubos",
+      "2 dentes de alho esmagados",
+      "500 g de filé de frango sem pele e cortado em cubos",
+      "sal a gosto",
+      "1 pimentão verde cortado em cubos",
+      "1 pimentão vermelho cortado em cubos",
+      "1 pimentão amarelo cortado em cubos",
+      "1 xícara (chá) de cogumelos em conserva cortados ao meio",
+      "1/4 xícara de molho shoyu",
+      "1 colher (sopa) de maisena",
+      "1/2 xícara (chá) de água",
+      "2 colheres (sopa) de amendoim torrado"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "amendoim torrado",
+      "azeite de oliva",
+      "cebola cortadas",
+      "cogumelos em conserva cortados ao meio",
+      "file de frango e cortado",
+      "maisena",
+      "molho shoyu",
+      "pimentao amarelo cortado",
+      "pimentao verde cortado",
+      "pimentao vermelho cortado",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-desfiado-na-panela-de-pressao_2683607e",
+    "titulo": "Frango desfiado na panela de pressão",
+    "tipo": "aves",
+    "receita": [
+      "Faça um refogado com óleo/azeite e alho.",
+      "Adicione o frango e deixe selar.",
+      "Adicione o louro e cubra com água.",
+      "Por último acrescente o caldo de frango.",
+      "Marque 20 minutos depois que pegar pressão.",
+      "Apague o fogo, deixe a pressão sair, abra a panela e retire toda água.",
+      "Tampe novamente e não acenda mais o fogo.",
+      "Feche a panela e balance-a (sacudir com força) até sentir que o frango soltou (demora menos de 5 minutos).",
+      "Abra e veja se está desfiado da forma que mais lhe agrade.",
+      "Caso não esteja, feche e balance novamente.",
+      "Serve como base para outros pratos, portanto pode refogar novamente adicionando o que quiser (cebola, tomate, pimentão e etc)."
+    ],
+    "ingredientes_originais": [
+      "1 kg de filé de frango(sassami) não usar frango com osso",
+      "4 dentes de alho",
+      "4 colheres de sopa de óleo ou azeite",
+      "1 cubo de caldo de frango",
+      "1 folha de louro",
+      "água para cobrir"
+    ],
+    "ingredientes_centrais": [
+      "agua para cobrir",
+      "alho",
+      "cubo de caldo de frango",
+      "file de frango nao usar frango com osso",
+      "louro",
+      "oleo ou azeite"
+    ]
+  },
+  {
+    "id": "aves_file-de-frango-empanado_041e6e28",
+    "titulo": "Filé de frango empanado",
+    "tipo": "aves",
+    "receita": [
+      "Pegue o peito de frango, limpe e corte em forma de filé.",
+      "Fure os filés com a faca para entrar o tempero.",
+      "Tempere com pimenta, alho e vinagre a gosto.",
+      "Deixe no tempero por 2 minutos para ficar mais saboroso.",
+      "Despeje os ovos em um prato e a farinha de rosca em outro.",
+      "Passe os filés primeiro no ovo de depois na farinha de rosca.",
+      "Depois de passar todos é só fritar."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango",
+      "2 ovos",
+      "1 pacote de farinha de rosca",
+      "Pimenta-do-reino a gosto",
+      "alho com sal a gosto",
+      "vinagre"
+    ],
+    "ingredientes_centrais": [
+      "alho com sal",
+      "farinha de rosca",
+      "ovo",
+      "peito de frango",
+      "pimenta do reino",
+      "vinagre"
+    ]
+  },
+  {
+    "id": "aves_frango-ao-creme-de-milho_a384286d",
+    "titulo": "Frango ao creme de milho",
+    "tipo": "aves",
+    "receita": [
+      "Frango:",
+      "Em uma panela refogue no azeite, a cebola e o alho.",
+      "Adicione o frango e tempere a gosto.",
+      "Incorpore o requeijão.",
+      "Creme:",
+      "Bata o milho, o leite, o amido de milho e o caldo de galinha no liquidificador.",
+      "Em uma panela refogue a cebola e o alho no azeite.",
+      "Incorpore a mistura do liquidificador, mexendo até borbulhar.",
+      "Montagem:",
+      "Disponha o frango no refratário, por cima o creme de milho.",
+      "Cubra com queijo ralado e leve ao forno alto por cerca de 30 minutos, ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "azeite a gosto",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "sal",
+      "1/2 pote de requeijão",
+      "pimenta-do-reino a gosto",
+      "1 lata de milho verde escorrida",
+      "1 lata de leite",
+      "1 colher de sopa de amido de milho",
+      "1 tablete de caldo de galinha",
+      "2 dentes de alho amassados",
+      "1/2 cebola picada",
+      "azeite quanto baste",
+      "queijo ralado para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "amido de milho",
+      "azeite",
+      "azeite quanto baste",
+      "caldo de galinha",
+      "cebola",
+      "leite",
+      "milho verde escorrida",
+      "peito de frango",
+      "pimenta do reino",
+      "queijo para polvilhar",
+      "requeijao",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_risoto-de-frango-simples_5e777fb7",
+    "titulo": "Risoto de frango simples",
+    "tipo": "aves",
+    "receita": [
+      "Cozinhe o peito de frango com sal e o caldo de galinha.",
+      "Reserve a água do caldo e desfie o frango.",
+      "Em uma panela refogue o alho e a cebola.",
+      "Acrescente o sachê de molho de tomate, 300 ml do caldo do peito, o frango desfiado, as azeitonas e o milho.",
+      "Mexa até misturar bem.",
+      "Acrescente o arroz cozido, mais ou menos 4 xícaras.",
+      "Mexa novamente, misturando bem.",
+      "Coloque em uma travessa."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "1 sachê de molho de tomate tradicional",
+      "1 lata de milho verde",
+      "1 tablete de caldo de frango",
+      "8 azeitonas médias sem caroço",
+      "arroz cozido",
+      "coentro",
+      "alho",
+      "cebola",
+      "sal"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz",
+      "azeitonas sem caroco",
+      "caldo de frango",
+      "cebola",
+      "coentro",
+      "milho verde",
+      "peito de frango",
+      "sache de molho de tomate tradicional",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_galinhada_d3d59610",
+    "titulo": "Galinhada",
+    "tipo": "aves",
+    "receita": [
+      "Lave os pedaços de frango, tempere-os com os tabletes de caldo de galinha e o suco de limão e deixe tomar gosto.",
+      "Em uma panela grande, aqueça o azeite e doure os pedaços de frango.",
+      "Adicione a cebola e deixe refogar ligeiramente.",
+      "Junte o arroz, o extrato de tomate, o pimentão e 4 xícaras e 1/2 (chá) de água, mexendo bem.",
+      "Tampe a panela e, assim que iniar fervura, baixe o fogo e cozinhe por cerca de 15 minutos, até que o arroz fique cremoso e úmido. Se necessário, pingue mais água.",
+      "Retire do fogo e passe para uma travessa. Polvilhe a salsa e sirva a seguir."
+    ],
+    "ingredientes_originais": [
+      "1 frango cortado em pedaços",
+      "2 tabletes de caldo de galinha",
+      "Suco de meio limão",
+      "2 colheres (sopa) de azeite",
+      "1 cebola média ralada",
+      "2 xícaras (chá) de arroz lavado e escorrido",
+      "2 colheres (sopa) de extrato de tomate",
+      "1 pimentão verde cortado em cubinhos",
+      "1 colher (sopa) de salsa picada"
+    ],
+    "ingredientes_centrais": [
+      "arroz e escorrido",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "extrato de tomate",
+      "frango cortado",
+      "pimentao verde cortado em cubinhos",
+      "salsa",
+      "suco de meio limao"
+    ]
+  },
+  {
+    "id": "aves_coxa-e-sobrecoxa-de-frango-assado-no-forno_3384b5a1",
+    "titulo": "Coxa e sobrecoxa de frango assado no forno",
+    "tipo": "aves",
+    "receita": [
+      "Misture todos os ingredientes com as coxas, menos os tomates e as batatas. Deixe descansando na geladeira por 2 horas.",
+      "Corte o tomate e a batata, reserve.",
+      "Arrume as coxas numa assadeira e por cima espalhe as batatas e os tomates.",
+      "Cubra com papel-alumínio.",
+      "Leve ao forno por 1 hora e após isso retirar o papel-alumínio.",
+      "Deixar por mais meia hora ou até dourar as coxas."
+    ],
+    "ingredientes_originais": [
+      "2 kg de coxas e sobrecoxas",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "1 pitada de açafrão",
+      "3 folhas de louro picadas",
+      "3 tomates cortados em 4 partes cada um",
+      "5 batatinhas médias cortadas em tiras",
+      "orégano a gosto",
+      "1 pote de maionese",
+      "5 colheres de azeite"
+    ],
+    "ingredientes_centrais": [
+      "acafrao",
+      "azeite",
+      "batatinhas cortadas",
+      "coxas e sobrecoxas",
+      "louro",
+      "maionese",
+      "oregano",
+      "pimenta do reino",
+      "sal",
+      "tomate cortados em partes cada um"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango_0e15c24a",
+    "titulo": "Fricassê de frango",
+    "tipo": "aves",
+    "receita": [
+      "Bata no liquidificador o milho, o requeijão, o creme de leite e a água.",
+      "Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.",
+      "Coloque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.",
+      "Leve ao forno até borbulhar.",
+      "Sirva com arroz branco."
+    ],
+    "ingredientes_originais": [
+      "1 lata de creme de leite",
+      "1 lata de milho verde",
+      "1 copo de requeijão cremoso",
+      "100 g de azeitona sem caroço",
+      "2 peitos de frango desfiados",
+      "200 g de mussarela fatiada",
+      "100 g de batata palha",
+      "1 xícara de água",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "azeitona sem caroco",
+      "batata palha",
+      "creme de leite",
+      "milho verde",
+      "mussarela",
+      "peitos de frango",
+      "requeijao cremoso",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango_0e15c24a",
+    "titulo": "Fricassê de frango",
+    "tipo": "aves",
+    "receita": [
+      "Cozinhe os peitos de frango, desfie e reserve.",
+      "No liquidificador, bata o milho, o requeijão, o creme de leite e a água até obter uma consistência cremosa.",
+      "Leve ao fogo o frango desfiado e o creme batido no liquidificador.",
+      "Refogue e acrescente as azeitonas e o sal até obter uma textura firme.",
+      "Despeje em uma assadeira, cubra com mussarela e leve ao forno até borbulhar.",
+      "Finalize com a batata palha e está pronto para servir."
+    ],
+    "ingredientes_originais": [
+      "1 lata de creme de leite",
+      "1 lata de milho verde",
+      "1 copo de requeijão cremoso",
+      "100 g de azeitonas sem caroços",
+      "2 peitos de frango cozidos e desfiados",
+      "200 g de mussarela fatiada",
+      "100 g de batata palha",
+      "1 xícara de água",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "azeitonas sem carocos",
+      "batata palha",
+      "creme de leite",
+      "milho verde",
+      "mussarela",
+      "peitos de frango",
+      "requeijao cremoso",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango-facil_97b4dc88",
+    "titulo": "Fricassê de frango fácil",
+    "tipo": "aves",
+    "receita": [
+      "Bata no liquidificador o milho, o requeijão, o creme de leite e a água.",
+      "Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.",
+      "Coloque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.",
+      "Leve ao forno até borbulhar.",
+      "Sirva com arroz branco."
+    ],
+    "ingredientes_originais": [
+      "1 lata de creme de leite",
+      "1 lata de milho verde",
+      "1 copo de requeijão cremoso",
+      "100 g de azeitona sem caroço",
+      "2 peitos de frango desfiados",
+      "200 g de mussarela fatiada",
+      "100 g de batata palha",
+      "1 xícara de água",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "azeitona sem caroco",
+      "batata palha",
+      "creme de leite",
+      "milho verde",
+      "mussarela",
+      "peitos de frango",
+      "requeijao cremoso",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango-sem-milho_88303d80",
+    "titulo": "Fricassê de frango sem milho",
+    "tipo": "aves",
+    "receita": [
+      "Em uma panela doure a cebola, acrescente o frango já desfiado, refogue um pouquinho.",
+      "Acrescente o caldo, o requeijão, acerte o sal, e por último o creme de leite.",
+      "Se desejar acrescente as azeitonas ou o palmito.",
+      "Despeje tudo em um refratário e cubra com o queijo, leve ao forno até derreter por igual o queijo.",
+      "Na hora de servir acrescente a batata palha por cima."
+    ],
+    "ingredientes_originais": [
+      "1 fio de óleo",
+      "1 cebola picada",
+      "1 kg de peito de frango, de preferência com osso, desfiado",
+      "1 xícara do caldo em que o frango foi cozido",
+      "2 copos de requeijão",
+      "1 lata de creme de leite",
+      "1 pitada de sal",
+      "Azeitonas ou palmitos a gosto",
+      "200 g de queijo mussarela ralado",
+      "1 pacote de batata palha"
+    ],
+    "ingredientes_centrais": [
+      "azeitonas ou palmitos",
+      "batata palha",
+      "caldo em que o frango foi",
+      "cebola",
+      "creme de leite",
+      "fio de oleo",
+      "peito de frango de preferencia com osso",
+      "queijo mussarela",
+      "requeijao",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango-rapido_ae5a3bff",
+    "titulo": "Fricassê de frango rápido",
+    "tipo": "aves",
+    "receita": [
+      "Bata a batata com o creme de leite no liquidificador e reserve.",
+      "Refogue a cebola e o alho num pouco de azeite ou óleo, acrescente o frango, o milho e o palmito, deixe fritar um pouco acrescente os tomates e vá colocando a água reservada aos poucos até derreter o tomate.",
+      "Num refratário coloque o frango coloque colheradas de requeijão e por cima coloque o creme de batatas, leve ao forno só para esquentar bem.",
+      "Sirva com batata-palha, arroz branco e salada de folhas.",
+      "Fica muito bom."
+    ],
+    "ingredientes_originais": [
+      "5 batatas médias cozidas e descascadas",
+      "1 caixinha de creme de leite",
+      "1 peito de frango cozido e desfiado (reserve a àgua do cozimento)",
+      "1 lata de milho verde",
+      "1/2 lata de palmito picado",
+      "2 tomates cortados sem pele e sementes",
+      "Cebola ralada a gosto",
+      "2 dentes de alho espremidos",
+      "Requeijão cremoso a gosto",
+      "Temperos a gosto (pimenta, sal, etc)"
+    ],
+    "ingredientes_centrais": [
+      "alho espremidos",
+      "batata e descascadas",
+      "caixinha de creme de leite",
+      "cebola",
+      "milho verde",
+      "palmito",
+      "peito de frango",
+      "requeijao cremoso",
+      "temperos",
+      "tomate cortados e sementes"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-carne-moida-com-requeijao_9c8e14f3",
+    "titulo": "Fricassê de carne moída com requeijão",
+    "tipo": "aves",
+    "receita": [
+      "Tempere a seu gosto e cozinhe a carne moída, após cozida separe a carne do caldo (é necessário durante a separação que a carne fique bem seca) e deixe esfriar.",
+      "Bata no liquidificador o caldo, o requeijão, a cebola, o creme de leite e a azeitona (caso você não goste de azeitona pode trocar a mesma quantidade por milho verde).",
+      "Em uma travessa misture a carne com a batata palha despeje por cima o creme e cubra com mussarela.",
+      "Leve ao forno por cerca de 15 minutos.",
+      "Sirva com arroz branco"
+    ],
+    "ingredientes_originais": [
+      "400 g de carne moída",
+      "100 g de azeitonas em conserva sem caroço",
+      "1/2 caixa de creme de leite",
+      "1 copo de requeijão",
+      "1/2 cebola picada",
+      "200 g de batata palha",
+      "200 g de mussarela fatiada",
+      "tempero a gosto"
+    ],
+    "ingredientes_centrais": [
+      "azeitonas em conserva sem caroco",
+      "batata palha",
+      "carne",
+      "cebola",
+      "creme de leite",
+      "mussarela",
+      "requeijao",
+      "tempero"
+    ]
+  },
+  {
+    "id": "aves_fricasse-simples_08cc674f",
+    "titulo": "Fricassê simples",
+    "tipo": "aves",
+    "receita": [
+      "Doure a cebola com a margarina, o caldo de galinha e o extrato de tomate.",
+      "Em seguida, junte o frango desfiado e espere ele dar uma douradinha.",
+      "Junte o creme de leite e o requeijão, espere levantar fervura.",
+      "Acrescente o milho verde, deixe mais 5 minutos e desligue (o molho não pode ficar muito aguado tem que estar cremoso).",
+      "Num refratário coloque o molho e cubra com toda a batata palha.",
+      "Leve ao forno por 10 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "1 copo de requeijão",
+      "1 lata de creme de leite sem soro",
+      "1 lata de milho verde",
+      "3 colheres de extrato de tomate",
+      "1 cebola ralada",
+      "3 colheres de margarina",
+      "1 cubo de caldo de galinha",
+      "1 pacote de batata palha com sal",
+      "tempero a gosto"
+    ],
+    "ingredientes_centrais": [
+      "batata palha com sal",
+      "cebola",
+      "creme de leite sem soro",
+      "cubo de caldo de galinha",
+      "extrato de tomate",
+      "margarina",
+      "milho verde",
+      "peito de frango",
+      "requeijao",
+      "tempero"
+    ]
+  }
+]

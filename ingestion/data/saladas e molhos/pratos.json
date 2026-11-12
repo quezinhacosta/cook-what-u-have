@@ -1,0 +1,539 @@
+[
+  {
+    "id": "saladas-e-molhos_salpicao-de-frango-simples_4e2cfe74",
+    "titulo": "Salpicão de frango simples",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Misture todos os ingredientes, menos a batata palha.",
+      "Depois de tudo misturado, forre com a batata palha.",
+      "Depois, e só servir."
+    ],
+    "ingredientes_originais": [
+      "500 g de peito de frango cozido e desfiado",
+      "2 cenouras grandes raladas",
+      "1 lata de ervilha",
+      "1 lata de milho verde",
+      "200 g de uva passa",
+      "1 maçã",
+      "maionese a gosto",
+      "cheiro-verde a gosto",
+      "batata palha a gosto"
+    ],
+    "ingredientes_centrais": [
+      "batata palha",
+      "cenoura",
+      "cheiro verde",
+      "ervilha",
+      "maca",
+      "maionese",
+      "milho verde",
+      "peito de frango",
+      "uva passa"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_sunomono-salada-de-pepino-japonesa_42a70eff",
+    "titulo": "Sunomono (salada de pepino japonesa)",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Lave bem e seque o pepino.",
+      "Use um cortador ou faca para fatiar os pepinos bem fininhos.",
+      "Coloque os pepinos em um prato fundo e coloque o sal.",
+      "Misture bem.",
+      "Os pepinos vão desidratar, liberando muita água.",
+      "Transfira os pepinos para um escorredor com um prato embaixo.",
+      "Deixe por 15 minutos.",
+      "Caso queira, toste o gergelim na frigideira para que esfrie até servir a salada.",
+      "Em uma panela, coloque o açúcar, o vinagre e ligue em fogo baixo.",
+      "Deixe aquecer até que o açúcar derreta e se misture ao vinagre, mas não deixe ferver.",
+      "Reserve e deixe esfriar.",
+      "Enxágue os pepinos em água corrente para tirar o excesso de sal.",
+      "Esprema bem com as mãos para tirar o excesso de água.",
+      "Seque com um papel toalha antes de colocar os temperos.",
+      "Coloque os pepinos em uma saladeira funda e adicione o molho de vinagre.",
+      "Se desejar, coloque algumas gotas de óleo de gergelim e pimenta-do-reino.",
+      "Finalize a salada com o gergelim tostado."
+    ],
+    "ingredientes_originais": [
+      "1 pepino japonês",
+      "1 colher (sopa) de sal marinho ou himalaia",
+      "3 colheres (sopa) de vinagre de arroz",
+      "2 colheres (sopa) de açúcar (não use refinado)",
+      "2 colheres (sopa) de gergelim branco e/ou preto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "gergelim branco e ou preto",
+      "pepino japones",
+      "sal marinho ou himalaia",
+      "vinagre de arroz"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_macarrao-salada_bbabd0cd",
+    "titulo": "Macarrão Salada",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Cozinhe o macarrão normal, coloque em um refrátario, depois misture o restante dos ingredientes ao macarrão deixando por último a maionese e o creme de leite.",
+      "Leve à geladeira por aproximadamente 1 hora.",
+      "Sirva com alguma carne assada!"
+    ],
+    "ingredientes_originais": [
+      "500 g de macarrão parafuso",
+      "200 g de presunto picado",
+      "200 g de muçarela picado",
+      "100 g de azeitona verde fatiada",
+      "1 vidro de palmito",
+      "1 lata de milho verde",
+      "1 lata de ervilha",
+      "1 pote de maionese",
+      "1 lata de creme de leite",
+      "2 tomates picados",
+      "salsinha e cebolinha a gosto",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "azeitona verde",
+      "creme de leite",
+      "ervilha",
+      "macarrao parafuso",
+      "maionese",
+      "milho verde",
+      "mucarela",
+      "palmito",
+      "presunto",
+      "sal",
+      "salsinha e cebolinha",
+      "tomate"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_salada-de-milho-douradinho-e-crocante-com-molho-caseiro-receita-saudavel-coringa-para-variar-na-semana_3024e257",
+    "titulo": "Salada de milho douradinho e crocante com molho caseiro: receita saudável coringa para variar na semana",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Com a ajuda de uma faca, retire os grãos das espigas de milho cozidas e transfira para uma frigideira aquecida com azeite ou manteiga.",
+      "Tempere o milho com sal e pimenta-do-reino a gosto e deixe fritar até que ele fique bem douradinho, mexendo de vez em quando para que ele frite por igual.",
+      "Acrescente o pimentão, a cebola rosa e o tomate e deixe refogar para dar uma leve murchada, mas sem perder a crocância.",
+      "Transfira tudo para uma tigela e reserve.",
+      "Molho caseiro",
+      "Em outro recipiente, coloque o iogurte desnatado, a maionese light, o limão espremido, a páprica defumada, o sal e a pimenta-do-reino e mexa até ficar homogêneo.",
+      "Despeje o molho por cima da salada de milho douradinho e misture para para espalhá-lo por todos os ingredientes.",
+      "Finalize com o cheiro-verde e sirva em seguida ou deixe na geladeira até o momento de servir."
+    ],
+    "ingredientes_originais": [
+      "3 espigas de milho cozidas",
+      "1 colher (sopa) de azeite ou manteiga",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "1/2 pimentão picado",
+      "1/2 cebola roxa picada",
+      "1 tomate picado sem sementes",
+      "1/2 xícara (chá) de iogurte desnatado",
+      "4 colheres (sopa) de maionese light",
+      "1 limão espremido",
+      "1/2 colher (sopa) de páprica defumada",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "cheiro-verde picado a gosto"
+    ],
+    "ingredientes_centrais": [
+      "azeite ou manteiga",
+      "cebola roxa",
+      "cheiro verde",
+      "espigas de milho",
+      "iogurte desnatado",
+      "limao espremido",
+      "maionese light",
+      "paprica defumada",
+      "pimenta do reino",
+      "pimentao",
+      "sal",
+      "tomate"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_salpicao-de-frango_4ce8f226",
+    "titulo": "Salpicão de frango",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Coloque em uma panela o tablete de caldo de galinha, uma pitada de sal e água suficiente para cozinhar o frango.",
+      "Enquanto o frango cozinha, misture em um recipiente o milho, a ervilha, a cenoura e as uvas- passas. Tempere com sal, salsinha, cebolinha e a cebola.",
+      "Quando o frango estiver cozido, desfie e coloque-o no recipiente com o restante dos ingredientes.",
+      "Acrescente o creme de leite e a batata palha.",
+      "Coloque em um recipiente e leve para assar por aproximadamente 7 minutos.",
+      "Sirva ainda quente."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango (grande)",
+      "1 lata de milho",
+      "1 lata de ervilha",
+      "1 cenoura ralada",
+      "1 lata ou 1 caixa de creme de leite",
+      "uva-passa a gosto",
+      "batata palha",
+      "sal a gosto",
+      "1 tablete de caldo de galinha",
+      "salsinha",
+      "cebolinha",
+      "cebola"
+    ],
+    "ingredientes_centrais": [
+      "batata palha",
+      "caldo de galinha",
+      "cebola",
+      "cebolinha",
+      "cenoura",
+      "ervilha",
+      "milho",
+      "ou de creme de leite",
+      "peito de frango",
+      "sal",
+      "salsinha",
+      "uva passa"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_maionese-tradicional_0bfddc04",
+    "titulo": "Maionese tradicional",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Leve as batatas, cenouras e vagem para cozinhar, pique em cubinhos.",
+      "Em uma tigela grande, misture os legumes cozidos, a cebola, milho e ervilha, o cheiro verde, salsão.",
+      "Misture bem.",
+      "Tempere com limão, azeite, sal, pimenta e orégano, misture bem e prove o sal. Junte a maionese e mexa até ficar uniforme."
+    ],
+    "ingredientes_originais": [
+      "6 batatas grandes",
+      "5 cenouras",
+      "200 g de vagem",
+      "1 lata de milho",
+      "1 lata de ervilha",
+      "1 cebola picada",
+      "Salsinha a gosto",
+      "cebolinha a gosto",
+      "manjericão a gosto",
+      "1 talo de salsão picadinho",
+      "Sal a gosto",
+      "Pimenta a gosto",
+      "Orégano a gosto",
+      "Suco de 2 limões",
+      "Azeite a gosto",
+      "1 pote (250g) de maionese"
+    ],
+    "ingredientes_centrais": [
+      "azeite",
+      "batata",
+      "cebola",
+      "cebolinha",
+      "cenoura",
+      "ervilha",
+      "maionese",
+      "manjericao",
+      "milho",
+      "oregano",
+      "pimenta",
+      "sal",
+      "salsao picadinho",
+      "salsinha",
+      "suco de limao",
+      "vagem"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_salada-caesar_77c736cf",
+    "titulo": "Salada Caesar",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Molho:",
+      "Coloque todos os ingredientes no liquidificador e bata bem pouco, somente para unir os ingredientes. Se bater demais irá virar uma maionese.",
+      "Arrume a alface em uma saladeira funda, coloque o frango em tiras (opcional), regue com o molho e polvilhe o parmesão.",
+      "Cubra com os croutons somente na hora de servir para não amolecer.",
+      "Acompanhado de um bom bife à milanesa, não há quem resista.",
+      "Obs: O molho é feito com a gema crua, mas para os mais impressionados poderá ser utilizada a gema do ovo cozido e frio."
+    ],
+    "ingredientes_originais": [
+      "1 alface americana lavada, higienizada e picada grosseiramente",
+      "1 peito de frango sem osso, temperado, grelhado e picado em tiras (opcional)",
+      "1 xícara (chá) de parmesão ralado grosseiramente",
+      "2 xícaras (chá) de croutons bem crocantes (feitos com pão de forma sem casca)",
+      "1/2 xícara (chá) de óleo (milho, canola ou girasol)",
+      "1/2 xícara (chá) de azeite de boa qualidade",
+      "1 gema",
+      "2 dentes de alho amassados",
+      "5 filés de anchovas",
+      "2 colheres (sopa) de maionese caseira",
+      "1 colher (sopa) de mostarda",
+      "1 colher (sopa) de suco de limão"
+    ],
+    "ingredientes_centrais": [
+      "alface americana higienizada e grosseiramente",
+      "alho",
+      "azeite de boa qualidade",
+      "croutons bem crocantes",
+      "files de anchovas",
+      "gema",
+      "maionese caseira",
+      "mostarda",
+      "oleo",
+      "parmesao grosseiramente",
+      "peito de frango sem osso grelhado",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_salada-tropical_75122ac2",
+    "titulo": "Salada tropical",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Lave bem as folhagens e cubra o fundo de uma travessa.",
+      "Corte o palmito e o peito de peru em rodelas.",
+      "Adicione os ingredientes sobre as folhas, deixando o repolho e a cenoura para o final.",
+      "Sirva com molho de iogurte batido com ervas finas e azeite a gosto."
+    ],
+    "ingredientes_originais": [
+      "alface crespa",
+      "alface lisa",
+      "rúcula",
+      "agrião",
+      "endívia",
+      "100 g azeitonas verdes",
+      "100 g repolho roxo em tiras",
+      "1 cenoura ralada em tiras",
+      "1 pepino fatiado",
+      "100 g queijo parmesão em lascas",
+      "100 g tomate seco",
+      "12 ovos de codorna",
+      "1 vidro palmito",
+      "150 g peito de peru fatiado",
+      "1 manga fatiada"
+    ],
+    "ingredientes_centrais": [
+      "agriao",
+      "alface crespa",
+      "alface lisa",
+      "azeitonas verdes",
+      "cenoura",
+      "endivia",
+      "manga",
+      "ovo de codorna",
+      "palmito",
+      "peito de peru",
+      "pepino",
+      "queijo parmesao em lascas",
+      "repolho roxo",
+      "rucula",
+      "tomate"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_pure-de-batata-simples-e-facil_24039a25",
+    "titulo": "Purê de batata simples e fácil",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Cozinhe as batatas até ficarem bem moles.",
+      "Descasque-as ainda quentes e esprema as batatas no espremedor.",
+      "Despeje as batatas em um recipiente e acrescente a margarina, o sal e o alho, e mexa até que a margarina derreta por completo.",
+      "Acrescente o leite aos poucos e continue mexendo."
+    ],
+    "ingredientes_originais": [
+      "1 kg de batata",
+      "1/2 xícara de leite",
+      "2 colheres (sopa) de margarina",
+      "sal a gosto",
+      "1 dente de alho espremido"
+    ],
+    "ingredientes_centrais": [
+      "alho espremido",
+      "batata",
+      "leite",
+      "margarina",
+      "sal"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_batata-gratinada-facil_0cfa7962",
+    "titulo": "Batata gratinada fácil",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Cozinhe as rodelas de batatas apenas para amolecer um pouco.",
+      "Misture todos os ingredientes do creme e leve, por cerca de 40 segundos, no micro-ondas apenas para derreter a margarina.",
+      "Em um refratário fundo, untado com margarina ou azeite, monte camadas de rodelas de batata intercaladas com o creme.",
+      "Por último, cubra com a mussarela e polvilhe com queijo parmesão ralado.",
+      "Leve ao forno por, aproximadamente, 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de batatas descascadas, cortadas em rodelas",
+      "1 creme de leite de caixinha",
+      "1/2 copo de requeijão cremoso",
+      "1/2 xícara de leite",
+      "50 g de bacon picado",
+      "1 colher (café) de sal",
+      "1 colher (chá) de orégano",
+      "3 colheres (sopa) de margarina",
+      "1/2 xícara (chá) de salsinha ou cebolinha picada",
+      "100 g de mussarela",
+      "queijo ralado para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "bacon",
+      "batata descascadas cortadas",
+      "creme de leite de caixinha",
+      "leite",
+      "margarina",
+      "mussarela",
+      "oregano",
+      "queijo para polvilhar",
+      "requeijao cremoso",
+      "sal",
+      "salsinha ou cebolinha"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_batata-rustica-na-airfryer_8b45faef",
+    "titulo": "Batata rústica na airfryer",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Lave bem as batatas, escovando a casca para tirar todas as impurezas, e seque-as por completo (se estiverem molhadas, não ficarão tão crocantes).",
+      "Corte as batatas em formato de canoa sem tirar a casca.",
+      "Regue as batatas com o azeite e tempere com sal, pimenta-do-reino, salsinha e outros que quiser. Misture com as mãos para o azeite e os temperos cobrirem todos os pedaços.",
+      "Coloque a batata rústica na Air Fryer preaquecida a 200ºC por 30 minutos. Evite deixá-las muito amontoadas para permitir o ar circular bem.",
+      "Após a metade do tempo, abra o cesto e sacuda para as batatas debaixo subirem e acrescente os ramos de alecrim e tomilho. Cubra tudo, incluindo as ervas, com mais um pouco de azeite para que tudo fique dourado por igual sem queimar.",
+      "Quando acabar o tempo e/ou as batatas estiverem douradas, tire do aparelho e sirva ainda quente como petisco ou acompanhamento. Não esqueça do molho para deixar ainda melhor!"
+    ],
+    "ingredientes_originais": [
+      "4 batatas",
+      "4 ramos de alecrim",
+      "4 ramos de tomilho",
+      "1/2 maço de salsinha picado",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "azeite a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alecrim",
+      "azeite",
+      "batata",
+      "maco de salsinha",
+      "pimenta do reino",
+      "sal",
+      "tomilho"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_batata-frita-na-airfryer_3d7de92a",
+    "titulo": "Batata frita na airfryer",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Higienize as batatas corretamente para tirar toda a sujeira.",
+      "Corte em palitos bem finos. Quanto mais finas, mais crocantes ficam. Você pode deixar a casca ou tirá-la, vai ao seu gosto.",
+      "Deixe as batatas de molho em uma tigela com água por 30 minutos. Esse passo é essencial para ela ficar mais crocante. Dica: você pode acrescentar uma colher de bicarbonato de sódio para potencializar esse efeito ainda mais.",
+      "Após deixar de molho, remova a água e seque bem com um pano limpo.",
+      "Tempere as batatas regando com o azeite e salpicando os temperos por cima. Além de sal e pimenta, pode usar outros como páprica e alho em pó que ficam uma delícia.",
+      "Misture bem até que todas as batatas estejam cobertas com azeite e tempero, é isso que deixa a batata frita na Air Fryer crocante e douradinha.",
+      "Em seguida, bote a batata frita na Air Fryer preaquecida a 200ºC por 15 a 20 minutos. Ao longo desse tempo, abra a cada 5 ou 10 minutos e mexa no cesto para virá-las e as que estão no fundo irem para cima."
+    ],
+    "ingredientes_originais": [
+      "4 batatas inglesas",
+      "2 colheres (sopa) de azeite",
+      "pimenta-do-reino a gosto",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "azeite",
+      "batata inglesas",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_batata-recheada_172b4538",
+    "titulo": "Batata recheada",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Retire a polpa das duas batatas cozidas, deixando uma cavidade em cada uma, reserve.",
+      "Em um recipiente, misture as polpas da batata com sal, pimenta, ovo, queijo mussarela, bacon frito e creme de leite, misture bem.",
+      "Em um tabuleiro, coloque as duas batatas e distribua em cada cavidade um pouco de queijo mussarela, a mistura das polpas, bacon frito, mais um pouco de queijo mussarela por cima, bacon e finalize com cebolinha picada a gosto.",
+      "Leve ao forno (230° C), por cerca de 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 batatas médias cozidas",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "1 ovo",
+      "180 g de queijo mussarela",
+      "bacon frito a gosto",
+      "1/2 lata de creme de leite",
+      "cebolinha a gosto"
+    ],
+    "ingredientes_centrais": [
+      "bacon frito",
+      "batata",
+      "cebolinha",
+      "creme de leite",
+      "ovo",
+      "pimenta do reino",
+      "queijo mussarela",
+      "sal"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_arroz-biro-biro_4bf14ac1",
+    "titulo": "Arroz biro biro",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Lave o arroz, escorra e reserve.",
+      "Em uma panela coloque o óleo frite a cebola o alho e coloque o arroz.",
+      "Refogue bem o arroz coloque a água quente e o sal.",
+      "Deixe cozinhar ficando soltinho e reserve.",
+      "Em outra panela coloque óleo frite o bacon já picadinho bem fritinho.",
+      "Retire e reserve.",
+      "Neste mesmo óleo frite o 3 ovos.",
+      "Depois misture tudo ao arroz junto com a batata palha e é só servir.",
+      "Acompanha bem com churrasco e uma boa salada."
+    ],
+    "ingredientes_originais": [
+      "3 xícaras de chá de arroz",
+      "Alho a gosto",
+      "Cebola a gosto",
+      "Óleo a gosto",
+      "Sal a gosto",
+      "Água quente o suficiente para cobrir o arroz",
+      "3 ovos",
+      "300 g de bacon",
+      "1 pacote de batata palha"
+    ],
+    "ingredientes_centrais": [
+      "agua o suficiente para cobrir o arroz",
+      "alho",
+      "arroz",
+      "bacon",
+      "batata palha",
+      "cebola",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "saladas-e-molhos_batata-frita-sequinha_5d405e06",
+    "titulo": "Batata frita sequinha",
+    "tipo": "saladas e molhos",
+    "receita": [
+      "Corte as batas em palito e seque-as com papel toalha.",
+      "Coloque o óleo para esquentar, quando estiver bem quente, retire 1/2 xícara desse óleo e misture a 1/2 colher de amido de milho.",
+      "Após misturado, volte esse óleo para frigideira, frite as batatas em fogo médio até dourarem.",
+      "É uma dica que vale muito a pena, pois as batas ficam bem sequinhas."
+    ],
+    "ingredientes_originais": [
+      "Batatas (quantidade a gosto) cortadas em palitos",
+      "1 frigideira com óleo o suficiente para cobrir as batatas",
+      "1/2 colher (sopa) de amido de milho"
+    ],
+    "ingredientes_centrais": [
+      "amido de milho",
+      "batata cortadas em palitos",
+      "frigideira com oleo o suficiente para cobrir as batata"
+    ]
+  }
+]
