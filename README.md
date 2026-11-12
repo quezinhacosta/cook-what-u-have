@@ -3,7 +3,7 @@
 
 ##  Sumário Executivo
 
-O **Cook What U Have** (também referenciado como **MealMatch**) é um sistema computacional concebido estritamente sob as premissas do **Paradigma de Programação Funcional (PF)** em Python. O seu objetivo central é solucionar a dissonância diária enfrentada por milhares de famílias: a coexistência entre o **desperdício de alimentos domésticos** e a **dificuldade de planeamento de refeições seguras** perante alergias e intolerâncias alimentares severas.
+O **Cook What U Have** é um sistema computacional concebido estritamente sob as premissas do **Paradigma de Programação Funcional (PF)** em Python. O seu objetivo central é solucionar a dissonância diária enfrentada por milhares de famílias: a coexistência entre o **desperdício de alimentos domésticos** e a **dificuldade de planeamento de refeições seguras** perante alergias e intolerâncias alimentares severas.
 
 Diferente de plataformas convencionais que operam em fluxo imperativo de busca ("escolha um prato e compre os ingredientes faltantes"), o *Cook What U Have* **inverte radicalmente o fluxo**: processa a coleção de ingredientes disponíveis na despensa, aplica restrições alérgicas absolutas e projeta as opções de pratos viáveis por meio de teoria dos conjuntos, ordenadas pela maior taxa de cobertura e menor necessidade de compras adicionais.
 
