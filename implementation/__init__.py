@@ -11,6 +11,7 @@ from implementation.engine import (
     is_within_tolerance,
     matches_category,
     encontrar_ids_contaminados,
+    encontrar_chaves_alergenas,
 )
 from implementation.pipeline import run_recommendation, obter_pratos_bloqueados
 from implementation.loader import dict_to_dish, load_dishes_from_records
@@ -26,6 +27,7 @@ __all__ = (
     "is_within_tolerance",
     "matches_category",
     "encontrar_ids_contaminados",
+    "encontrar_chaves_alergenas",
     "run_recommendation",
     "obter_pratos_bloqueados",
     "dict_to_dish",

@@ -7,9 +7,20 @@ Implementado integralmente com funções lambda e expressões de ordem superior.
 
 from implementation.models import Dish, MatchResult, RecipeGraph
 
+# Localiza todas as chaves de ingredientes no grafo que contêm o termo alérgeno
+encontrar_chaves_alergenas = lambda graph, allergens: tuple(
+    filter(
+        lambda ing_key: any(a in ing_key for a in allergens),
+        graph.ingredient_to_recipes.keys(),
+    )
+)
+
 # Localiza todos os IDs de pratos contaminados a partir das arestas invertidas dos alérgenos
 encontrar_ids_contaminados = lambda graph, allergens: (
-    frozenset().union(*(graph.ingredient_to_recipes.get(a, frozenset()) for a in allergens))
+    frozenset().union(*(
+        graph.ingredient_to_recipes.get(chave, frozenset())
+        for chave in encontrar_chaves_alergenas(graph, allergens)
+    ))
     if allergens else frozenset()
 )
 
