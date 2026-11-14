@@ -64,7 +64,7 @@ O programa atuará como um **motor determinístico de decisão, filtragem e reco
 | **Segurança Alimentar** | Exclusão determinística rígida com base em lista de termos interditos. | Diagnóstico médico de alergias ou análise química de traços microscópicos. |
 | **Base de Dados** | Extração de fontes confiáveis via `recipe-scrapers` e persistência estática em `pratos.json`. | Banco de dados relacional (SQL) com transações mutáveis ou escrita concorrente em disco. |
 | **Instruções Culinárias** | Metadados essenciais (identificador, nome, categoria e conjunto de ingredientes padronizados). | Textos descritivos de modo de preparo, tempo de forno, temperatura ou vídeos tutoriais. |
-| **Interface** | CLI interativa e declarativa com suporte a relatórios visuais estruturados. | Frontend web complexo ou aplicativo mobile baseado em frameworks de estado reativo mutável. |
+| **Interface** | CLI interativa e declarativa e GUI Desktop simulando smartphone (410x800px, Neo-Brutalism). | Frontend web complexo com microsserviços ou frameworks de backend mutável pesado. |
 
 ---
 
@@ -310,11 +310,28 @@ Para garantir nota máxima e atender a todos os requisitos de avaliação docent
 pip install -r requirements.txt
 ```
 
-### Execução da Aplicação (Recomendado)
+### Execução da Aplicação
+
+#### 1. Interface Gráfica Desktop Neo-Brutalista (Estilo Smartphone 410x800px):
 ```bash
-python3 main.py
+# Inicia a GUI desktop com viewport mobile centrada:
+python3 main.py --gui
+
+# Ou diretamente pelo módulo:
+python3 -m interface.gui
+
+# Em ambientes sem display gráfico X11 (ou para abrir no navegador):
+python3 main.py --gui --web
 ```
-*(Ou alternativamente via módulo: `python3 -m interface.cli`)*
+
+#### 2. Interface de Linha de Comando (CLI Padrão):
+```bash
+# Execução da CLI interativa declarativa:
+python3 main.py
+
+# Ou alternativamente via módulo:
+python3 -m interface.cli
+```
 
 ### Execução da Ingestão de Dados (Crawler com Paginação)
 Para atualizar ou expandir a base de dados (suporta paginação para coletar até 50 receitas por categoria):
