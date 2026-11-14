@@ -5,6 +5,30 @@ Desenvolvido estritamente com lambdas e interpolação funcional de strings.
 """
 
 
+# Mapeamento canônico imutável das 8 categorias suportadas
+CATEGORIAS_DISPONIVEIS: tuple[str, ...] = (
+    "aves",
+    "bolos e tortas",
+    "carnes",
+    "doces e sobremesas",
+    "massas",
+    "peixes e frutos do mar",
+    "saladas e molhos",
+    "sopas",
+)
+
+# Formata o menu numerado de categorias culinárias para escolha intuitiva do usuário
+formatar_menu_categorias = lambda categorias=CATEGORIAS_DISPONIVEIS: (
+    "Categorias Culinarias Disponiveis:\n"
+    + "\n".join(
+        map(
+            lambda pair: f"   [{pair[0] + 1}] {pair[1].title()}",
+            enumerate(categorias),
+        )
+    )
+    + "\n   [0] Todas as categorias (busca global)"
+)
+
 # Formata qualquer coleção congelada de termos em texto ordenado separado por vírgulas
 formatar_conjunto = lambda s: ", ".join(sorted(s)) if s else "nenhum"
 
@@ -12,11 +36,11 @@ formatar_conjunto = lambda s: ", ".join(sorted(s)) if s else "nenhum"
 formatar_card_prato = lambda idx, m: (
     f"[{idx}] {m.dish.name.upper()} (Categoria: {m.dish.category.title()})\n"
     f"    Correspondência: {m.match_percentage}% [{len(m.available_ingredients)}/{len(m.dish.clean_ingredients)} ingredientes]\n"
-    f"    ✅ Disponíveis em casa: [{formatar_conjunto(m.available_ingredients)}]\n"
+    f"    Disponíveis em casa: [{formatar_conjunto(m.available_ingredients)}]\n"
     + (
-        "    🎉 Todos os ingredientes disponíveis em casa! Pronto para cozinhar.\n"
+        "    Todos os ingredientes disponíveis em casa! Pronto para cozinhar.\n"
         if not m.missing_ingredients else
-        f"    🛒 Lista de compras (faltam {len(m.missing_ingredients)}): [{formatar_conjunto(m.missing_ingredients)}]\n"
+        f"    Lista de compras (faltam {len(m.missing_ingredients)}): [{formatar_conjunto(m.missing_ingredients)}]\n"
     )
 )
 
@@ -24,10 +48,10 @@ formatar_card_prato = lambda idx, m: (
 formatar_secao_bloqueados = lambda bloqueados, alergenos: (
     (
         "\n--------------------------------------------------------------------------------\n"
-        "🛡️  Pratos Bloqueados por Segurança Alimentar:\n"
+        "Pratos Bloqueados por Seguranca Alimentar:\n"
         + "\n".join(
             map(
-                lambda d: f"   ⛔ {d.name} (Contém: [{formatar_conjunto(frozenset(filter(lambda ing: any(a in ing for a in alergenos), d.clean_ingredients)))}])",
+                lambda d: f"   [BLOQUEADO] {d.name} (Contém: [{formatar_conjunto(frozenset(filter(lambda ing: any(a in ing for a in alergenos), d.clean_ingredients)))}])",
                 bloqueados,
             )
         )
@@ -38,7 +62,7 @@ formatar_secao_bloqueados = lambda bloqueados, alergenos: (
 # Constrói o relatório visual completo para exibição no console
 formatar_relatorio_completo = lambda resultados, bloqueados, prefs: (
     "================================================================================\n"
-    "        🍳 COOK WHAT U HAVE — SUGESTÕES DE REFEIÇÃO DISPONÍVEIS\n"
+    "        COOK WHAT U HAVE — SUGESTOES DE REFEICAO DISPONIVEIS\n"
     "================================================================================\n"
     "Configurações da Sessão:\n"
     f"  • Despensa ({len(prefs.pantry)} itens): [{formatar_conjunto(prefs.pantry)}]\n"
@@ -49,9 +73,47 @@ formatar_relatorio_completo = lambda resultados, bloqueados, prefs: (
     + (
         "\n".join(map(lambda pair: formatar_card_prato(pair[0] + 1, pair[1]), enumerate(resultados)))
         if resultados else
-        "⚠️ Nenhum prato encontrado que atenda simultaneamente à despensa e à tolerância informadas.\n"
+        "Nenhum prato encontrado que atenda simultaneamente à despensa e à tolerância informadas.\n"
         "   Dica: Aumente o limiar de tolerância de compras faltantes para ver mais opções!\n"
     )
     + formatar_secao_bloqueados(bloqueados, prefs.allergens)
     + "\n================================================================================\n"
+)
+
+# Formata a exibição detalhada de uma receita selecionada pelo usuário
+formatar_detalhes_receita = lambda m: (
+    "\n" + "=" * 80 + "\n"
+    + f"DETALHES DA RECEITA: {m.dish.name.upper()}\n"
+    + f"Categoria: {m.dish.category.title()} | Cobertura da Despensa: {m.match_percentage}%\n"
+    + "=" * 80 + "\n\n"
+    + "Ingredientes Originais Necessarios:\n"
+    + (
+        "\n".join(
+            map(
+                lambda ing: f"   • {ing}",
+                m.dish.raw_ingredients,
+            )
+        )
+        if m.dish.raw_ingredients else "   (Lista de ingredientes não informada)"
+    )
+    + "\n\n"
+    + "Modo de Preparo (Passo a Passo):\n"
+    + (
+        "\n".join(
+            map(
+                lambda pair: f"   [{pair[0] + 1}] {pair[1]}",
+                enumerate(m.dish.recipe),
+            )
+        )
+        if m.dish.recipe else "   (Passo a passo não disponível para este prato)"
+    )
+    + "\n\n"
+    + "-" * 80 + "\n"
+    + "Resumo de Compras:\n"
+    + (
+        "   Voce tem todos os ingredientes necessarios em casa!\n"
+        if not m.missing_ingredients else
+        f"   Falta comprar ({len(m.missing_ingredients)} itens): [{formatar_conjunto(m.missing_ingredients)}]\n"
+    )
+    + "=" * 80 + "\n"
 )

@@ -33,11 +33,13 @@ class UserPreferences(NamedTuple):
     - allergens: conjunto congelado de ingredientes banidos por alergia
     - max_missing: tolerância máxima de ingredientes faltantes
     - category_filter: filtro opcional de categoria
+    - min_matched: quantidade mínima de ingredientes em comum exigida (padrão 2)
     """
     pantry: frozenset[str]
     allergens: frozenset[str]
     max_missing: int = 0
     category_filter: str | None = None
+    min_matched: int = 2
 
 
 class MatchResult(NamedTuple):

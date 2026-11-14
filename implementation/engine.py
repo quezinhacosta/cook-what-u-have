@@ -66,6 +66,12 @@ is_within_tolerance = lambda match, max_missing: (
     len(match.missing_ingredients) <= max_missing
 )
 
+# Predicado que verifica se o prato possui a quantidade mínima exigida de ingredientes em comum
+has_minimum_matches = lambda match, min_matched=2: (
+    len(match.available_ingredients) >= min(min_matched, len(match.dish.clean_ingredients))
+    and len(match.available_ingredients) > 0
+)
+
 # Predicado que verifica a pertinência da receita ao filtro opcional de categoria
 matches_category = lambda dish, category_filter: (
     True if not category_filter else category_filter.strip().lower() in dish.category.lower()

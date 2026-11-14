@@ -127,10 +127,25 @@ def test_run_recommendation_filtro_tolerancia() -> None:
     prefs_tol_0 = UserPreferences(pantry=frozenset({"alho"}), allergens=frozenset(), max_missing=0)
     assert len(run_recommendation(grafo, prefs_tol_0)) == 0
 
-    prefs_tol_1 = UserPreferences(pantry=frozenset({"alho"}), allergens=frozenset(), max_missing=1)
+    prefs_tol_1 = UserPreferences(pantry=frozenset({"alho"}), allergens=frozenset(), max_missing=1, min_matched=1)
     res_1 = run_recommendation(grafo, prefs_tol_1)
     assert len(res_1) == 1
     assert res_1[0].dish.name == "Batata com Alho"
+
+
+def test_run_recommendation_descarta_pratos_sem_ingredientes_em_comum() -> None:
+    """Garante que pratos com 0 ingredientes em comum nunca são sugeridos, mesmo com alta tolerância."""
+    grafo = criar_cenario_pipeline()
+    # Despensa possui apenas cenoura e pimentao (nenhum prato do grafo usa ambos)
+    prefs = UserPreferences(
+        pantry=frozenset({"cenoura", "pimentao"}),
+        allergens=frozenset(),
+        max_missing=10,  # Alta tolerância
+        min_matched=2,
+    )
+    resultados = run_recommendation(grafo, prefs)
+    # Nenhum prato deve ser sugerido pois nenhum possui pelo menos 2 ingredientes da despensa
+    assert len(resultados) == 0
 
 
 def test_obter_pratos_bloqueados_respeita_categoria() -> None:

@@ -45,6 +45,11 @@ def deduplicar_preservando_ordem(sequencia: tuple[str, ...]) -> tuple[str, ...]:
 # FUNÇÕES PURAS DE PARSING DE HTML
 # ==============================================================================
 
+def gerar_url_pagina(base_url: str, pagina: int) -> str:
+    """Função pura: compõe a URL da categoria considerando o parâmetro de paginação do TudoGostoso."""
+    return base_url if pagina <= 1 else f"{base_url}?page={pagina}"
+
+
 def formatar_passos_receita(instructions: str) -> tuple[str, ...]:
     """
     Função pura: divide a string de instruções em passos individuais limpos,
@@ -58,7 +63,7 @@ def formatar_passos_receita(instructions: str) -> tuple[str, ...]:
     return tuple(passos_validos)
 
 
-def extrair_links_categoria_html(html_content: str, limite: int = 15) -> tuple[str, ...]:
+def extrair_links_categoria_html(html_content: str, limite: int = 50) -> tuple[str, ...]:
     """
     Função pura: analisa o HTML da página de uma categoria e extrai as URLs
     das primeiras receitas recomendadas/populares.

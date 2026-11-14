@@ -150,56 +150,6 @@
     ]
   },
   {
-    "id": "massas_macarrao-ao-molho-branco-com-camarao_31862aec",
-    "titulo": "Macarrão ao molho branco com camarão",
-    "tipo": "massas",
-    "receita": [
-      "Prepare o macarrão e reserve.",
-      "Coloque o azeite numa panela e leve ao fogo, junte a cebola e o alho.",
-      "Deixe por um bom tempo (uns 5 minutos), depois junte o copo de leite, o cubo de caldo de camarão e o cheiro verde e deixe ferver.",
-      "Salgue a gosto.",
-      "Passe bem no liquidificador.",
-      "Coloque novamente na panela e leve ao fogo, junte o camarão, e deixe uns 4 minutos, até o camarão cozinhar.",
-      "Depois junte o queijo deixe que ele derreta e desligue o fogo, junte o creme de leite e misture.",
-      "Coloque o macarrão num refratário, coloque o molho por cima e jogue a salsinha.",
-      "Obs: Você também pode variar colocando leite de coco, extrato de tomate e rodelas de pimentões coloridos, também fica divino."
-    ],
-    "ingredientes_originais": [
-      "1 pacote de macarrão",
-      "Água para cozinhar o macarrão",
-      "Sal para cozinhar o macarrão",
-      "Um fio de óleo pra cozinhar o macarrão",
-      "500 g de camarão (qualquer tipo, de preferência médio)",
-      "1 cubo de caldo de camarão",
-      "5 colheres de azeite",
-      "1 cebola grande cortada em rodelas",
-      "2 dentes de alho",
-      "1 copo americano de leite",
-      "1 pouco de cheiro verde (coentro e cebolinha)",
-      "1 caixinha de creme de leite",
-      "4 fatias de queijo provolone picadas (mas pode usar queijo prato ou muçarela)",
-      "Sal a gosto",
-      "1 pouquinho de salsa (pode ser dessas desidratadas que vem num pacotinho, é mais prática)"
-    ],
-    "ingredientes_centrais": [
-      "agua para cozinhar o macarrao",
-      "alho",
-      "americano de leite",
-      "azeite",
-      "caixinha de creme de leite",
-      "camarao",
-      "cebola cortada",
-      "cubo de caldo de camarao",
-      "macarrao",
-      "pouco de cheiro verde",
-      "pouquinho de salsa",
-      "queijo provolone",
-      "sal",
-      "sal para cozinhar o macarrao",
-      "um fio de oleo pra cozinhar o macarrao"
-    ]
-  },
-  {
     "id": "massas_macarrao-de-forno_0a0e47a8",
     "titulo": "Macarrão de forno",
     "tipo": "massas",
@@ -261,37 +211,84 @@
     ]
   },
   {
-    "id": "massas_macarrao-bolonhesa_35c93d11",
-    "titulo": "Macarrão Bolonhesa",
+    "id": "massas_macarrao-ao-molho-branco-com-camarao_31862aec",
+    "titulo": "Macarrão ao molho branco com camarão",
     "tipo": "massas",
     "receita": [
-      "Pique a cebola, refogue por alguns minutos em uma panela com óleo quente até dourar a cebola, mexendo para não queimar.",
-      "Misture a carne moída, deixe cozinhar por alguns minutos.",
-      "Adicione o caldo, o molho, os tomates picados, a cenoura cortada ao meio e mexa bem, deixe cozinhar por aproximadamente 40minutos em fogo baixo com a panela semi tampada. Descarte a cenoura depois que o molho estiver pronto.",
-      "Prepare o macarrão, misture o molho ao macarrão e sirva.",
-      "Acompanhamento Sugerido: Queijo Ralado"
+      "Prepare o macarrão e reserve.",
+      "Coloque o azeite numa panela e leve ao fogo, junte a cebola e o alho.",
+      "Deixe por um bom tempo (uns 5 minutos), depois junte o copo de leite, o cubo de caldo de camarão e o cheiro verde e deixe ferver.",
+      "Salgue a gosto.",
+      "Passe bem no liquidificador.",
+      "Coloque novamente na panela e leve ao fogo, junte o camarão, e deixe uns 4 minutos, até o camarão cozinhar.",
+      "Depois junte o queijo deixe que ele derreta e desligue o fogo, junte o creme de leite e misture.",
+      "Coloque o macarrão num refratário, coloque o molho por cima e jogue a salsinha.",
+      "Obs: Você também pode variar colocando leite de coco, extrato de tomate e rodelas de pimentões coloridos, também fica divino."
     ],
     "ingredientes_originais": [
-      "1 Cebola",
-      "1 colher de sopa de azeite de oliva",
-      "5 azeitonas verdes picadas",
-      "2 latas de molho de tomate pronto",
-      "2 Cubos de Caldo de carne ou legumes dissolvidos em 100ml de água",
-      "1 cenoura",
-      "2 tomates picados",
-      "500g de Macarrão",
-      "500g de Carne Moída"
+      "1 pacote de macarrão",
+      "Água para cozinhar o macarrão",
+      "Sal para cozinhar o macarrão",
+      "Um fio de óleo pra cozinhar o macarrão",
+      "500 g de camarão (qualquer tipo, de preferência médio)",
+      "1 cubo de caldo de camarão",
+      "5 colheres de azeite",
+      "1 cebola grande cortada em rodelas",
+      "2 dentes de alho",
+      "1 copo americano de leite",
+      "1 pouco de cheiro verde (coentro e cebolinha)",
+      "1 caixinha de creme de leite",
+      "4 fatias de queijo provolone picadas (mas pode usar queijo prato ou muçarela)",
+      "Sal a gosto",
+      "1 pouquinho de salsa (pode ser dessas desidratadas que vem num pacotinho, é mais prática)"
     ],
     "ingredientes_centrais": [
-      "azeite de oliva",
-      "azeitonas verdes",
-      "cebola",
-      "cenoura",
-      "cubos de caldo de carne ou legumes dissolvidos em ml de agua",
-      "g de carne",
-      "g de macarrao",
-      "molho de tomate pronto",
-      "tomate"
+      "agua para cozinhar o macarrao",
+      "alho",
+      "americano de leite",
+      "azeite",
+      "caixinha de creme de leite",
+      "camarao",
+      "cebola cortada",
+      "cubo de caldo de camarao",
+      "macarrao",
+      "pouco de cheiro verde",
+      "pouquinho de salsa",
+      "queijo provolone",
+      "sal",
+      "sal para cozinhar o macarrao",
+      "um fio de oleo pra cozinhar o macarrao"
+    ]
+  },
+  {
+    "id": "massas_mac-cheese_bb66f415",
+    "titulo": "Mac cheese",
+    "tipo": "massas",
+    "receita": [
+      "Derreta a margarina e coloque a farinha sem parar de mexer.",
+      "Coloque o leite e em seguida o queijo mexendo sempre.",
+      "Quando engrossar coloque por cima do macarrão cozido.",
+      "Salpique parmesão e leve ao forno até gratinar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de macarrão tipo caracol cozido 'al dente'",
+      "3 colheres de sopa de manteiga",
+      "1 colher e 1/2 de sopa de farinha de trigo",
+      "2 xícaras de leite integral",
+      "10 fatias de queijo cheddar tipo sanduíche cortadas em tiras",
+      "queijo parmesão",
+      "pimenta-do-reino",
+      "sal"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "leite integral",
+      "macarrao tipo caracol al",
+      "manteiga",
+      "pimenta do reino",
+      "queijo cheddar tipo sanduiche cortadas",
+      "queijo parmesao",
+      "sal"
     ]
   },
   {
@@ -536,6 +533,8 @@
     ],
     "ingredientes_centrais": [
       "acucar refinado",
+      "agua",
+      "carne",
       "cebola",
       "cebolinha",
       "creme de leite",
@@ -543,12 +542,10 @@
       "fermento biologico",
       "fermento em po",
       "fuba para polvilhar",
-      "g de carne",
-      "g de queijo branco",
       "hortela",
-      "ml de agua",
       "oleo de soja",
       "pimenta",
+      "queijo branco",
       "sal",
       "sal refinado",
       "salsinha",
@@ -585,6 +582,1246 @@
       "paes franceses",
       "parmesao",
       "pimenta",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pao-caseiro-na-maquina-de-pao_21fa017f",
+    "titulo": "Pão caseiro na máquina de pão",
+    "tipo": "massas",
+    "receita": [
+      "É importante que coloque os ingredientes na máquina de pão, na ordem acima!",
+      "Selecione o ciclo \"pão doce\", 900g, cor clara ou média."
+    ],
+    "ingredientes_originais": [
+      "4 colheres de sopa de óleo de soja",
+      "1 ovo",
+      "1 xícara de leite bem morno",
+      "1 pitada de sal",
+      "5 colheres de sopa de açúcar",
+      "3 xícaras de farinha de trigo",
+      "1/2 colher de sopa de fermento biológico seco"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento biologico",
+      "leite bem",
+      "oleo de soja",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pizza-de-liquidificador-facil_b222ac2b",
+    "titulo": "Pizza de liquidificador fácil",
+    "tipo": "massas",
+    "receita": [
+      "No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.",
+      "Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.",
+      "Retire do forno e despeje o molho de tomate.",
+      "Cubra a massa com mussarela ralada, tomate e orégano a gosto.",
+      "Leve novamente ao forno até derreter a mussarela."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de leite",
+      "1 ovo",
+      "1 colher (chá) de sal",
+      "1 colher (chá) de açúcar",
+      "1 colher (sopa) de margarina",
+      "1 e 1/2 xícara (chá) de farinha de trigo",
+      "1 colher (sobremesa) de fermento em pó",
+      "1/2 lata de molho de tomate",
+      "250 g de mussarela ralada grossa",
+      "2 tomates fatiados",
+      "azeitona picada",
+      "orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "azeitona",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "margarina",
+      "molho de tomate",
+      "mussarela",
+      "oregano",
+      "ovo",
+      "sal",
+      "tomate"
+    ]
+  },
+  {
+    "id": "massas_massa-de-pizza_3d29e139",
+    "titulo": "Massa de pizza",
+    "tipo": "massas",
+    "receita": [
+      "Misture o fermento, o sal e o açúcar em um pouco de água morna, até que o fermento esteja completamente dissolvido.",
+      "Em seguida, adicione metade da medida de farinha de trigo, o óleo e mexa até criar uma consistência pastosa.",
+      "Acrescente o restante da farinha de trigo, a pinga, a água morna e misture bem.",
+      "Assim que a massa desgrudar das mãos, deixe crescer por 30 minutos.",
+      "Abra os discos, fure a massa com um garfo e pincele o molho.",
+      "Leve ao forno médio (180° C), preaquecido, por 15 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de farinha de trigo",
+      "30 g de fermento biológico",
+      "3 xícaras de água morna",
+      "3/4 xícaras de óleo",
+      "1 colher (chá) de sal",
+      "1 colher (chá) de açúcar",
+      "1 colher (sopa) de pinga"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "farinha de trigo",
+      "fermento biologico",
+      "oleo",
+      "pinga",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_empanada-de-sardinha-em-lata_aa549fbe",
+    "titulo": "Empanada de sardinha em lata",
+    "tipo": "massas",
+    "receita": [
+      "Recheio",
+      "Coloque a sardinha na panela, amasse com o garfo.",
+      "Depois coloque o tomate picado, a cebola, pimentão, o cheiro-verde, o milho, a ervilha e o caldo em cubo.",
+      "Deixe ferver um pouco, quando ferver desligue e vai para a massa.",
+      "Bata tudo no liquidificador, os ovos, o leite, a farinha de trigo, o óleo e o queijo ralado, até a massa ficar leve.",
+      "Unte a assadeira com óleo e a farinha de trigo.",
+      "Despeje metade da massa, adicione o recheio por cima e cubra com a outra metade da massa.",
+      "Leve para o forno preaquecido a 180°C por 35 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 copo (americano) de óleo",
+      "1 e 1/2 copo de leite líquido",
+      "3 copos (americano) de farinha de trigo",
+      "2 sardinhas em lata",
+      "1 lata de milho",
+      "1 lata de ervilha",
+      "100 g de queijo ralado",
+      "Sal a gosto",
+      "Tomate",
+      "Cebola",
+      "Pimentão",
+      "Cheiro-verde",
+      "1 tablete de caldo em cubo"
+    ],
+    "ingredientes_centrais": [
+      "caldo em cubo",
+      "cebola",
+      "cheiro verde",
+      "ervilha",
+      "farinha de trigo",
+      "leite liquido",
+      "milho",
+      "oleo",
+      "ovo",
+      "pimentao",
+      "queijo",
+      "sal",
+      "sardinhas",
+      "tomate"
+    ]
+  },
+  {
+    "id": "massas_pizza-na-frigideira_3bf7b28b",
+    "titulo": "Pizza na frigideira",
+    "tipo": "massas",
+    "receita": [
+      "Misture tudo em uma travessa com as mãos.",
+      "Caso não encontre o ponto certo, adicione mais farinha até desgrudar a massa das mãos.",
+      "Separar 4 bolinhas de massa. Abra-as separadamente na frigideira.",
+      "Asse somente um lado até o ponto desejado.Vire a massa.",
+      "Desligue o fogo.",
+      "Coloque molho de tomate.",
+      "Cubra o molho com mussarela, rodelas de tomate e orégano.",
+      "Asse agora o outro lado.",
+      "Tampe para que o queijo derreta."
+    ],
+    "ingredientes_originais": [
+      "2 e 1/2 xícaras de farinha de trigo",
+      "1 colher de manteiga",
+      "1 colher pequena de sal",
+      "1 copo de leite morno"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "leite",
+      "manteiga",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pizza-caseira_ab0286a3",
+    "titulo": "Pizza caseira",
+    "tipo": "massas",
+    "receita": [
+      "Coloque a farinha de trigo em uma tigela e acrescente o óleo, a água morna e os dois tabletes de pão dissolvidos no açúcar e no sal.",
+      "Mexa com uma colher de pau e depois sove bem a massa com as mãos até que ela desgrude das mãos.",
+      "Deixe descansar por aproximadamente 30 minutos.",
+      "Untar a forma com manteiga e depois espalhar a massa sobre ela.",
+      "Deixe dourar em forno pré-aquecido de 25 a 35 minutos."
+    ],
+    "ingredientes_originais": [
+      "4 copos de farinha de trigo",
+      "2 colheres (sopa) de óleo",
+      "1 colher (café) de sal",
+      "1 colher (café) de açúcar",
+      "Água morna",
+      "2 tabletes de fermento de pão"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "farinha de trigo",
+      "fermento de pao",
+      "oleo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pizza-de-sardinha_cd982bc0",
+    "titulo": "Pizza de Sardinha",
+    "tipo": "massas",
+    "receita": [
+      "Para a massa:",
+      "Misture todos os ingredientes em uma vasilha grande e vá sovando a massa, acrescentando o leite até ficar em ponto de massa de bolo. Ela vai grudar nas mãos, ficar bem homogênea.",
+      "Deixe descansar por meia hora.",
+      "Unte um tabuleiro com óleo, espalhe a massa e recheie.",
+      "Leve ao forno por uns 40 minutos.",
+      "Para o Recheio:",
+      "Espalhe o recheio (todos os ingredientes crus) sobre a massa.",
+      "Você pode acrescentar qualquer ingrediente que desejar."
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de farinha de trigo",
+      "1 colher bem cheia de fermento em pó",
+      "1 colher bem cheia de margarina",
+      "2 colheres (sopa) de óleo ou azeite",
+      "1 ovo",
+      "Sal a gosto",
+      "Leite suficiente para sovar a massa",
+      "2 latas de sardinha (tire as espinhas)",
+      "Tomates bem picadinhos",
+      "Pimentão bem picadinho",
+      "Massa de tomate"
+    ],
+    "ingredientes_centrais": [
+      "bem cheia de fermento em po",
+      "bem cheia de margarina",
+      "farinha de trigo",
+      "leite suficiente para sovar a massa",
+      "massa de tomate",
+      "oleo ou azeite",
+      "ovo",
+      "pimentao bem picadinho",
+      "sal",
+      "sardinha",
+      "tomate bem picadinhos"
+    ]
+  },
+  {
+    "id": "massas_pizza-de-sardinha_cd982bc0",
+    "titulo": "Pizza de sardinha",
+    "tipo": "massas",
+    "receita": [
+      "Massa:",
+      "Bata todos os ingredientes.",
+      "Coloque em uma forma untada com óleo.",
+      "Molho:",
+      "Retire a espinha da sardinha.",
+      "Doure a cebola com o tomate, acrescente o shoyu ou sal.",
+      "Depois, junte a sardinha ou o atum, espalhe por cima da pizza.",
+      "Forno pré - aquecido por cerca de 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 xícara de leite",
+      "2 xícaras de farinha com fermento",
+      "2 colheres de sopa de óleo",
+      "1 ovo",
+      "1 pitada de sal ou 2 colheres de sopa de queijo parmesão",
+      "1 lata de sardinha ou atum",
+      "1 cebola",
+      "1 tomate",
+      "Orégano a gosto",
+      "2 colheres de shoyu ou sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "cebola",
+      "farinha com fermento",
+      "leite",
+      "oleo",
+      "oregano",
+      "ovo",
+      "sal ou de de queijo parmesao",
+      "sardinha ou atum",
+      "shoyu ou sal",
+      "tomate"
+    ]
+  },
+  {
+    "id": "massas_pizza-rapida-de-liquidificador_1c9e1327",
+    "titulo": "Pizza rápida de liquidificador",
+    "tipo": "massas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Unte a forma com manteiga e farinha e coloque metade da massa.",
+      "Acrescente o recheio.",
+      "Coloque o restante da massa por cima.",
+      "Espalhe bem, a camada de massa por ser mole, fica fina, mas a massa cresce.",
+      "Polvilhe queijo parmesão e orégano.",
+      "Coloque para assar em forno preaquecido por 30 minutos ou até que doure."
+    ],
+    "ingredientes_originais": [
+      "2 copos (americano) de farinha de trigo",
+      "1 e 1/2 copo de leite",
+      "1/2 copo de óleo",
+      "1 colher (sopa) de fermento em pó",
+      "2 ovos inteiros",
+      "sal a gosto",
+      "oréganos e queijo parmesão ralado o quanto baste para polvilhar por cima da torta",
+      "queijo, presunto e tomate picadinho com orégano",
+      "atum ou sardinha com cebola picadinha",
+      "frango desfiado e temperado a gosto",
+      "palmito"
+    ],
+    "ingredientes_centrais": [
+      "atum ou sardinha com cebola picadinha",
+      "farinha de trigo",
+      "fermento em po",
+      "frango",
+      "leite",
+      "oleo",
+      "oreganos e queijo parmesao o quanto baste para polvilhar por cima da torta",
+      "ovo inteiros",
+      "palmito",
+      "queijo presunto e tomate picadinho com oregano",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_panqueca-de-carne-moida_f150378e",
+    "titulo": "Panqueca de carne moída",
+    "tipo": "massas",
+    "receita": [
+      "Massa",
+      "Bata no liquidificador os ovos, o leite, o óleo, e acrescente a farinha de trigo aos poucos.",
+      "Após acrescentar toda a farinha de trigo, adicione sal a gosto.",
+      "Misture a massa até obter uma consistência cremosa.",
+      "Com um papel-toalha, espalhe óleo por toda a frigideira e despeje uma concha de massa.",
+      "Faça movimentos circulares para que a massa se espalhe por toda a frigideira.",
+      "Espere até a massa soltar do fundo e vire a massa para fritar do outro lado.",
+      "Recheio",
+      "Em uma panela, doure a cebola com o óleo e acrescente a carne.",
+      "Deixe cozinhar até que saia água da carne, diminua o fogo e tampe.",
+      "Acrescente o tomate picado e tampe novamente.",
+      "Deixe cozinhar por mais 3 minutos e misture.",
+      "Acrescente o extrato de tomate e temperos a gosto.",
+      "Deixe cozinhar por mais 10 minutos.",
+      "Quando o molho engrossar, desligue o fogo.",
+      "Deixe esfriar o molho, acrescente o creme de leite e misture bem.",
+      "Quando estiver bem homogêneo, leve novamente ao fogo e deixe cozinhar em fogo baixo por mais 5 minutos.",
+      "Montagem",
+      "Recheie a panqueca com uma fatia de mussarela, uma porção de carne e enrole.",
+      "Faça esse processo com todas as panquecas.",
+      "Despeje um pouco de caldo no fundo de um refratário, para untar.",
+      "Disponha as panquecas já prontas no refratário e despeje sobre elas o restante do molho.",
+      "Polvilhe queijo ralado sobre as panquecas.",
+      "Leve ao forno para gratinar, em fogo médio, por 20 minutos ou até que o queijo esteja derretido."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 xícara (chá) de farinha de trigo",
+      "1 xícara (chá) de leite",
+      "2 ovos",
+      "4 colheres (sopa) de óleo",
+      "sal a gosto",
+      "300 g de carne moída",
+      "2 colheres (sopa) de cebola picada ou ralada",
+      "1/2 tomate cortado em cubos",
+      "1/2 lata de extrato de tomate",
+      "1 caixa de creme de leite",
+      "sal a gosto",
+      "400 g de muçarela fatiado",
+      "queijo ralado a gosto"
+    ],
+    "ingredientes_centrais": [
+      "carne",
+      "cebola ou",
+      "creme de leite",
+      "extrato de tomate",
+      "farinha de trigo",
+      "leite",
+      "mucarela",
+      "oleo",
+      "ovo",
+      "queijo",
+      "sal",
+      "tomate cortado"
+    ]
+  },
+  {
+    "id": "massas_pao-caseiro_8103d4f3",
+    "titulo": "Pão caseiro",
+    "tipo": "massas",
+    "receita": [
+      "Misture o fermento e a água morna, reserve.",
+      "No liquidificador, bata o açúcar, o óleo, o sal, o ovo e a água com o fermento por alguns minutos.",
+      "Despeje a massa e acrescente a farinha de trigo aos poucos, misturando com as mãos.",
+      "Acrescente a farinha de trigo até que a massa desgrude das mãos e deixe crescer por 1 hora.",
+      "Divida a massa em partes e modele os pães.",
+      "Deixe crescer, novamente, por 40 minutos.",
+      "Leve para assar por 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 e 1/2 copos de água morna",
+      "2 colheres (sopa) de açúcar",
+      "1 colher de sal",
+      "1 ovo",
+      "1 copo de óleo",
+      "1 kg de farinha de trigo",
+      "50 g de fermento de padaria"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "farinha de trigo",
+      "fermento de padaria",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_panquecas-receita-da-vovo_77fbfdda",
+    "titulo": "Panquecas (receita da vovó)",
+    "tipo": "massas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador até obter uma consistência cremosa.",
+      "Unte uma frigideira com manteiga, espere esquentar e despeje uma concha de massa.",
+      "Faça movimentos circulares para que a massa se espalhe por toda a frigideira.",
+      "Deixe assar até que a borda obtenha uma cor dourada.",
+      "Espere até a massa se soltar do fundo, vire e deixe fritar do outro lado.",
+      "Recheie a gosto, enrole e sirva."
+    ],
+    "ingredientes_originais": [
+      "1 copo de leite",
+      "1 ovo",
+      "1 copo de farinha de trigo",
+      "1 colher (sopa) de óleo",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "leite",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pao-caseiro-rapido-e-fofo_fb6f5afa",
+    "titulo": "Pão caseiro rápido e fofo",
+    "tipo": "massas",
+    "receita": [
+      "Bata no liquidificador o leite, o óleo, os ovos e os tabletes de fermento, reserve.",
+      "Em uma vasilha, misture a farinha, o sal e o açúcar e despeje sobre mistura do liquidificador.",
+      "Bata até borbulhar e deixe crescer por 20 minutos.",
+      "Despeje a massa em uma forma untada e polvilhada e leve para assar em forno médio-alto (220° C), preaquecido, por 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/4 xícara de leite morno",
+      "1/2 xícara de óleo",
+      "2 ovos",
+      "2 tabletes de fermento para pão",
+      "3 xícaras de farinha de trigo",
+      "1 colher (chá) de sal",
+      "1/4 xícara de açúcar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento para pao",
+      "leite",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_panqueca-americana_63b0d016",
+    "titulo": "Panqueca americana",
+    "tipo": "massas",
+    "receita": [
+      "Misture em um recipiente: a farinha, o açúcar, o fermento e o sal.",
+      "Em outro recipiente, misture os ovos, o leite e a manteiga.",
+      "Acrescente os líquidos aos secos, sem misturar em excesso.",
+      "O ponto da massa não deve ser muito líquido, deve escorrer lentamente.",
+      "Aqueça e unte a frigideira com óleo, coloque a massa no centro, cerca de 1/4 xícara por panqueca.",
+      "Vire a massa para assar do outro lado e está pronto!"
+    ],
+    "ingredientes_originais": [
+      "1 e 1/4 xícara (chá) de farinha de trigo",
+      "1 colher (sopa) de açúcar",
+      "3 colheres (chá) de fermento em pó",
+      "2 ovos levemente batidos",
+      "1 xícara (chá) de leite",
+      "2 colheres (sopa) de manteiga derretida",
+      "pitada de sal",
+      "óleo"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "manteiga",
+      "oleo",
+      "ovo levemente batidos",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_lasanha-de-carne-moida_48efbcd4",
+    "titulo": "Lasanha de carne moída",
+    "tipo": "massas",
+    "receita": [
+      "Lasanha",
+      "Cozinhe a massa segundo as orientações do fabricante, despeje em um refratário com água gelada para não grudar e reserve.",
+      "Molho à bolonhesa",
+      "Refogue o alho, a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.",
+      "Molho branco",
+      "Derreta a margarina, coloque as 3 colheres de farinha de trigo e mexa.",
+      "Despeje o leite aos poucos e continue mexendo.",
+      "Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.",
+      "Montagem",
+      "Despeje uma parte do molho à bolonhesa em um refratário, a metade da massa, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa.",
+      "Repita as camadas até a borda do recipiente.",
+      "Finalize com o queijo ralado e leve ao forno alto (220° C), preaquecido, por cerca de 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "500 g de massa de lasanha",
+      "500 g de carne moída",
+      "2 caixas de creme de leite",
+      "3 colheres de manteiga",
+      "3 colheres de farinha de trigo",
+      "500 g de presunto",
+      "500 g de mussarela",
+      "sal a gosto",
+      "2 copos de leite",
+      "1 cebola ralada",
+      "3 colheres de óleo",
+      "1 caixa de molho de tomate",
+      "3 dentes de alho amassados",
+      "1 pacote de queijo ralado"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "carne",
+      "cebola",
+      "creme de leite",
+      "farinha de trigo",
+      "leite",
+      "manteiga",
+      "massa de lasanha",
+      "molho de tomate",
+      "mussarela",
+      "oleo",
+      "presunto",
+      "queijo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pao-segura-marido_a20dfe40",
+    "titulo": "Pão segura marido",
+    "tipo": "massas",
+    "receita": [
+      "Em um recipiente, misture o leite, o óleo, o fermento, o sal e um pouco de farinha.",
+      "Acrescente mais farinha aos poucos, misturando sempre até que a massa solte das mãos.",
+      "Deixe a massa descansar por 15 minutos.",
+      "Divida a massa e abra uma das partes em uma superfície limpa e seca.",
+      "Despeje uma camada de molho de tomate, cubra com presunto, mussarela, requeijão e orégano.",
+      "Dobre as beiradas da massa e enrole como um rocambole.",
+      "Faça o mesmo com a outra parte da massa.",
+      "Leve ao forno médio (180° C), preaquecido, por cerca de 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de farinha de trigo",
+      "2 copos de leite morno",
+      "1 copo de óleo",
+      "1 colher (sopa) de fermento",
+      "sal a gosto",
+      "250 g de presunto",
+      "250 g de mussarela",
+      "molho de tomate",
+      "requeijão",
+      "orégano"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "fermento",
+      "leite",
+      "molho de tomate",
+      "mussarela",
+      "oleo",
+      "oregano",
+      "presunto",
+      "requeijao",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_massa-de-panqueca-simples_b1ea4602",
+    "titulo": "Massa de panqueca simples",
+    "tipo": "massas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador até obter uma consistência cremosa.",
+      "Unte uma frigideira com óleo e despeje uma concha de massa.",
+      "Faça movimentos circulares para que a massa se espalhe por toda a frigideira.",
+      "Espere até a massa se soltar do fundo, vire e deixe fritar do outro lado.",
+      "Acrescente o recheio de sua preferência, enrole e está pronta para servir."
+    ],
+    "ingredientes_originais": [
+      "1 ovo",
+      "1 xícara de farinha de trigo",
+      "1 xícara de leite",
+      "1 pitada de sal",
+      "1 colher (sopa) de óleo"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "leite",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_massa-de-panqueca_b6a1f01e",
+    "titulo": "Massa de panqueca",
+    "tipo": "massas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador por 2 minutos.",
+      "Em seguida desligue e, com uma colher, misture a farinha que grudou no copo do liquidificador.",
+      "Bata novamente só para misturar e reserve.",
+      "Unte a frigideira com um fio de óleo e leve ao fogo até aquecer.",
+      "Com o auxílio de uma concha, pegue uma porção de massa e coloque na frigideira, gire a frigideira para espalhar bem a massa.",
+      "Abaixe o fogo e deixe dourar por baixo, em seguida vire do outro lado e deixe dourar, repita o processo com toda a massa."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras (chá) de farinha de trigo",
+      "2 xícaras (chá) de leite",
+      "3 ovos",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "leite",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pao-de-queijo-3-ingredientes_5c114318",
+    "titulo": "Pão de queijo 3 ingredientes",
+    "tipo": "massas",
+    "receita": [
+      "Amasse até soltar das mãos (caso precise um pouquinho a mais de polvilho, coloque aos poucos até que chegue ao ponto de enrolar).",
+      "Faça bolinhas, coloque em forma untada e asse em forno preaquecido bem quente.",
+      "Se achar necessário, acrescente sal.",
+      "Asse até ficarem douradinhos levemente."
+    ],
+    "ingredientes_originais": [
+      "1 caixinha de creme de leite (200 ml)",
+      "1 copo (requeijão) de queijo ralado",
+      "1 copo (requeijão) de polvilho"
+    ],
+    "ingredientes_centrais": [
+      "caixinha de creme de leite",
+      "polvilho",
+      "queijo"
+    ]
+  },
+  {
+    "id": "massas_nhoque-facil_8ea5c19a",
+    "titulo": "Nhoque fácil",
+    "tipo": "massas",
+    "receita": [
+      "Dissolva os 2 caldos no leite e leve ao fogo com a maionese, a salsinha e o sal.",
+      "Quando levantar fervura e a maionese derreter, retire do fogo e coloque a farinha de trigo de uma só vez. Misture bem rápido para não empelotar.",
+      "Volte a massa no fogo baixo, mexendo por 1 ou 2 min. Desligue o fogo e deixe a massa amornar.",
+      "Sobre a mesa enfarinhada, coloque a massa e faça rolinhos. Corte no formato de nhoque. Numa outra panela com água e sal, cozinhe os nhoques.",
+      "A dica é que o nhoque seja retirado da água assim que ele subir, estará no ponto. Escorra e sirva com seu molho preferido."
+    ],
+    "ingredientes_originais": [
+      "2 caldos de galinha",
+      "3 xícaras de leite",
+      "6 colheres (sopa) de maionese",
+      "2 colheres de salsinha picada",
+      "sal a gosto",
+      "3 xícaras de farinha de trigo"
+    ],
+    "ingredientes_centrais": [
+      "caldos de galinha",
+      "farinha de trigo",
+      "leite",
+      "maionese",
+      "sal",
+      "salsinha"
+    ]
+  },
+  {
+    "id": "massas_pao-de-queijo_fef302ef",
+    "titulo": "Pão de queijo",
+    "tipo": "massas",
+    "receita": [
+      "Em uma panela, ferva a água e acrescente o leite, o óleo e o sal.",
+      "Adicione o polvilho aos poucos até dar liga. Pode ser que você não precise usar os 800g, então coloque devagar e sove a massa até soltar da mão: esse é o ponto.",
+      "Quando a massa estiver morna, acrescente o queijo parmesão, os ovos e misture bem.",
+      "Unte as mãos e enrole bolinhas de 2 cm de diâmetro.",
+      "Disponha as bolinhas em uma assadeira untada com óleo, deixando um espaço entre elas.",
+      "Asse em forno médio (180º C), preaquecido, por cerca de 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "800 g de polvilho azedo",
+      "1 xícara de água",
+      "1 xícara de leite",
+      "1/2 xícara de óleo",
+      "2 ovos",
+      "100 g de queijo parmesão ralado",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "leite",
+      "oleo",
+      "ovo",
+      "polvilho azedo",
+      "queijo parmesao",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_panqueca_6fdcfb02",
+    "titulo": "Panqueca",
+    "tipo": "massas",
+    "receita": [
+      "Bata no liquidificador todos os ingredientes até obter uma mistura homogênea.",
+      "Depois, leve para fritar em uma frigideira em fogo médio.",
+      "Recheie a gosto."
+    ],
+    "ingredientes_originais": [
+      "1 ovo",
+      "1 copo de leite",
+      "1 copo de farinha de trigo",
+      "1 pitada de sal",
+      "1 pitada de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_nhoque-de-batata_42fd3fa1",
+    "titulo": "Nhoque de batata",
+    "tipo": "massas",
+    "receita": [
+      "Cozinhe as batatas, em água, até que estejam macias.",
+      "Descasque-as e passe pelo espremedor ainda quentes.",
+      "Vá acrescentando a farinha aos poucos e o sal, amasse bem.",
+      "Coloque a massa sobre uma mesa enfarinhada e faça rolinhos.",
+      "Corte cada rolinho em pedaços de mais ou menos 2 cm.",
+      "Leve ao fogo, em uma panela com bastante água temperada com sal.",
+      "Quando a água levantar fervura, vá colocando os nhoques, até eles começarem a subir.",
+      "Coloque água fria em uma bacia com um escorredor dentro, retire os nhoques já cozidos e coloque-os no escorredor para dar choque térmico.",
+      "Repita o processo até toda massa estar cozida.",
+      "Escorra bem e coloque o nhoque em um refratário, reserve.",
+      "Molho",
+      "Pique a cebola, bem miudinha e, em uma panela, frite com azeite.",
+      "Acrescente a carne e os tabletes de caldo de carne.",
+      "Mexa bem, quando a carne já estiver cozida, acrescente o molho e deixe cozinhar por mais 4 min.",
+      "Despeje-o sobre o nhoque, salpique queijo em cima e leve ao forno para gratinar, sirva quente e bom apetite!"
+    ],
+    "ingredientes_originais": [
+      "6 batatas médias",
+      "1 xícara de farinha de trigo",
+      "sal a gosto",
+      "1 lata de molho de tomate",
+      "1/2 cebola",
+      "1 colher (sopa) de azeite",
+      "2 tabletes de caldo de carne",
+      "1/2 kg de carne moída",
+      "1 pacote de queijo ralado"
+    ],
+    "ingredientes_centrais": [
+      "azeite",
+      "batata",
+      "caldo de carne",
+      "carne",
+      "cebola",
+      "farinha de trigo",
+      "molho de tomate",
+      "queijo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pao-caseiro-facil_ce06b390",
+    "titulo": "Pão caseiro fácil",
+    "tipo": "massas",
+    "receita": [
+      "Em um liquidificador, coloque todos os ingredientes, menos o sal e a farinha (o sal mata o fermento).",
+      "Bata até obter uma consistência líquida, cremosa e espumosa (cuidado com a temperatura do leite, pois ele deve estar morno e não quente; se estiver quente, ele matará o seu fermento).",
+      "Despeje esse líquido em uma bacia e adicione metade da farinha e misture com uma colher de pau.",
+      "A massa ficará mole e grudenta.",
+      "Reserve 1 xícara de farinha e adicione o resto dela à massa junto com o sal.",
+      "A massa ficará macia e um pouco pegajosa.",
+      "Nesse momento, ligue seu forno em fogo baixo por 5 minutos e desligue-o.",
+      "Os pães serão colocados nele para que o calor os faça crescer, enquanto descansam.",
+      "Enfarinhe uma superfície e sove a massa com carinho até que ela desgrude das mãos.",
+      "Só em último caso, adicione o restante da farinha: isso deixará o pão mais leve e fofo.",
+      "Experimente e corrija o sabor da massa conforme seu paladar.",
+      "Divida a massa em duas partes iguais e abra cada uma com um rolo, enfarinhando a superfície novamente: neste momento a massa ficará macia e lisa.",
+      "Unte com um pouquinho de óleo ou margarina a uma forma de bolo média de 30 x 24 ou duas formas próprias para pão de 27 x 11 (prefiro forma para pães, pois o pão cresce bonito e para para cima)",
+      "Enrole os pães no tamanho da forma escolhida e faça pequenos cortes em “X” em cima da massa para decorar.",
+      "Leve os pães ao forno que você aqueceu por 5 minutos e desligou.",
+      "Deixe-os descansar, para que cresçam, estimulados pelo calor morno.",
+      "Cuidado: se o forno estiver muito quente, seus pães vão assar antes de crescer e a massa ficará embatumada.",
+      "Aguarde uns 20 a 30 minutos e, se tudo correr bem, ela crescerá lisa e arredondada, podendo até ultrapassar as bordas da forma.",
+      "Se ela não crescer, não se preocupe.",
+      "Mesmo que a massa não tenha crescido após esse tempo, ligue o forno em temperatura média (180º C) e deixe ela assar por uns 30, 40 ou 45 minutos (depende do seu forno).",
+      "O fermento \"preguiçoso\" poderá \"despertar\" à força nesse momento.",
+      "Quando sentir o cheirinho de pão assado, aumente um pouco chama do fogo para que a casca escureça.",
+      "Se deixar por muito tempo, ela ficará amarga.",
+      "Deixe esfriar dentro ou fora do forno.",
+      "O pão deverá estar leve, fofo, cheio de furinhos (aerado), delicado, cheiroso e quase desmanchando quando cortado."
+    ],
+    "ingredientes_originais": [
+      "1 kg de farinha de trigo sem fermento (reserve 1 xícara ou 120 g, só use-a se for necessário)",
+      "400 ml de leite morno",
+      "2 ovos (remova a película ou pele da gema)",
+      "45 g de fermento biológico fresco",
+      "100 ml de óleo",
+      "1 xícara de açúcar (200 g)",
+      "1/2 colher (sopa) de sal"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo sem fermento",
+      "fermento biologico",
+      "leite",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_b2b570a5",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "massas",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "massas_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_df5fe191",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "massas",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "massas_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_16f06449",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "massas",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_80b7a4fe",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "massas",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_f113f475",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "massas",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "massas_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_65e6bc0c",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "massas",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "massas_pao-de-queijo-mineiro_28c266a1",
+    "titulo": "Pão de queijo mineiro",
+    "tipo": "massas",
+    "receita": [
+      "Coloque o polvilho em uma tigela grande.",
+      "À parte, aqueça o sal, o leite e o óleo.",
+      "Quando ferver, escalde o polvilho com essa mistura, mexa muito bem para desfazer pelotinhas.",
+      "Deixe esfriar.",
+      "Acrescente os ovos, um a um, alternando com o queijo e sovando bem após cada adição.",
+      "Unte as mãos com óleo, se necessário.",
+      "Enrole bolinhos de 2 cm de diâmetro e coloque-os em uma assadeira untada.",
+      "Leve ao forno médio (180º C), preaquecido.",
+      "Asse até ficarem douradinhos."
+    ],
+    "ingredientes_originais": [
+      "4 copos (americanos) de polvilho doce (500 g)",
+      "1 colher (sopa) de sal a gosto",
+      "2 copos (americano) de leite (300 ml)",
+      "1 copo (americano) de óleo (150 ml)",
+      "2 ovos grandes",
+      "4 copos (americano) de queijo meia cura ralado",
+      "óleo para untar"
+    ],
+    "ingredientes_centrais": [
+      "leite",
+      "oleo",
+      "oleo para untar",
+      "ovo",
+      "polvilho doce",
+      "queijo meia cura",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_lasanha-de-frango-com-queijo_dbf81646",
+    "titulo": "Lasanha de frango com queijo",
+    "tipo": "massas",
+    "receita": [
+      "Molho",
+      "Em uma panela, faça um creme homogêneo com as 2 colheres de farinha e 2 colheres de manteiga (reserve 1 colher de manteiga).",
+      "Acrescente o leite, 1 caldo de galinha e mexa constantemente.",
+      "Retire do fogo e acrescente o creme de leite, reserve.",
+      "Frango",
+      "Cozinhe o peito de frango em água (sem óleo), após cozido, desfie-o.",
+      "Pique a cebola em pedaços pequenos, coloque em uma panela e doure com a manteiga.",
+      "Acrescente o frango e o caldo de galinha, mexa sempre até o frango ficar totalmente dourado.",
+      "Montagem",
+      "Em um refratário, coloque 2 conchas de molho.",
+      "Faça a base com massa de lasanha, cubra com 1 camada de presunto, 1 de queijo e 1 de frango (nessa ordem).",
+      "Sobre o frango, coloque 1 camada de requeijão e 2 conchas de molho.",
+      "Cubra o requeijão com 1 camada de presunto, 1 camada de queijo e 1 camada de massa, coloque molho.",
+      "Repita esse processo até faltar cerca de 2,5 cm para chegar na borda do refratário.",
+      "Para finalizar, cubra a lasanha com muito queijo, requeijão e molho.",
+      "Asse por, aproximadamente, 20 minutos em fogo baixo."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango",
+      "500 g de queijo muçarela fatiado",
+      "400 g de presunto fatiado",
+      "1 pacote médio de massa para lasanha (direto ao forno, sem cozimento prévio)",
+      "1 pote de requeijão cremoso",
+      "2 caldos de galinha (ou tempero completo sabor galinha)",
+      "2 copos de leite",
+      "1 caixa de creme de leite",
+      "2 colheres de farinha",
+      "3 colheres de manteiga",
+      "1 cebola média"
+    ],
+    "ingredientes_centrais": [
+      "caldos de galinha",
+      "cebola",
+      "creme de leite",
+      "farinha",
+      "leite",
+      "manteiga",
+      "massa para lasanha",
+      "peito de frango",
+      "presunto",
+      "queijo mucarela",
+      "requeijao cremoso"
+    ]
+  },
+  {
+    "id": "massas_pao-facil_d96ab7da",
+    "titulo": "Pão fácil",
+    "tipo": "massas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador, exceto a farinha de trigo.",
+      "Despeje numa vasilha grande e coloque a farinha aos poucos, mexendo bem até ficar em ponto de uma massa mole.",
+      "Coloque numa assadeira bem grande untada com margarina para crescer.",
+      "Tempo para crescer a massa: 1 hora.",
+      "Asse até dourar, em forno médio, por aproximadamente 50 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 copo de água",
+      "1 kg de farinha de trigo",
+      "1 copo de leite",
+      "1 xícara de açúcar",
+      "1 xícara de óleo",
+      "3 ovos",
+      "1 pitada de sal",
+      "2 colheres (sopa) de fermento para pão (50 g)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "farinha de trigo",
+      "fermento para pao",
+      "leite",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_massa-de-pizza_3d29e139",
+    "titulo": "Massa de Pizza",
+    "tipo": "massas",
+    "receita": [
+      "Esquente a água, dissolva o fermento nela e junte o óleo, o sal e o açúcar.",
+      "Faça um montinho com a farinha numa vasilha bem grande ou em um tampo de granito bem limpo (com álcool) e abra um buraco no meio. Vá adicionando a mistura de água e óleo e misture com as mãos por uns 15 minutos até a massa começar a desgrudar da mão. Se for necessário, acrescente mais farinha para chegar ao ponto ideal da massa. Divida a massa em umas 5 bolas e cubra com um pano úmido por pelo menos 40 minutos, quanto mais tempo a massa descansar, mais fofa ficará. Depois disso, estique as massas com as mãos ou com um rolo e coloque em formas untadas, adicione o recheio e asse em forno alto por cerca de 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de farinha",
+      "1 copo americano de água morna",
+      "30 g de fermento fresco",
+      "1/2 xícara de óleo",
+      "1 colheres de chá de sal",
+      "1 colher de café de açúcar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "americano de agua",
+      "farinha",
+      "fermento",
+      "oleo",
+      "sal"
+    ]
+  },
+  {
+    "id": "massas_massa-para-coxinha_64687979",
+    "titulo": "Massa para coxinha",
+    "tipo": "massas",
+    "receita": [
+      "Coloque em uma panela",
+      "a água, o óleo, o caldo de galinha e o sal.",
+      "deixe ferver.",
+      "retire do fogo e logo em seguida coloque a farinha de trigo mexendo sem parar,",
+      "depois volte ao fogo mexendo até soltar do fundo da panela."
+    ],
+    "ingredientes_originais": [
+      "2 litros de água",
+      "1 kg de farinha de trigo",
+      "4 cubos de caldo de galinha de 45 g",
+      "2 conchas de óleo",
+      "Sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "conchas de oleo",
+      "cubos de caldo de galinha",
+      "farinha de trigo",
       "sal"
     ]
   }

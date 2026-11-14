@@ -431,11 +431,11 @@
       "cebola",
       "cheiro verde",
       "concha de oleo",
-      "g de farinha de mandioca",
-      "g de feijao carioquinha",
-      "g de toucinho",
+      "farinha de mandioca",
+      "feijao carioquinha",
       "ovo",
-      "sal com alho"
+      "sal com alho",
+      "toucinho"
     ]
   },
   {
@@ -561,6 +561,1348 @@
       "gelatina de abacaxi",
       "leite condensado",
       "leite de coco"
+    ]
+  },
+  {
+    "id": "sopas_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_c81c6566",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "sopas_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_7953e2ce",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "sopas",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "sopas_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_87e46cf7",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "sopas",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_1bd4ec67",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_e90a8267",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "sopas",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "sopas_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_089f40e5",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "sopas",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "sopas_panqueca-de-frango_2785c5a7",
+    "titulo": "Panqueca de frango",
+    "tipo": "sopas",
+    "receita": [
+      "Massa:",
+      "Bata todos os ingredientes no liquidificador por 2 minutos e reserve.",
+      "Unte uma frigideira com um fio de óleo e leve ao fogo até aquecer.",
+      "Com o auxílio de uma concha, despeje uma porção de massa e gire a frigideira para espalhar bem a massa.",
+      "Abaixe o fogo, deixe dourar por baixo, vire do outro lado e deixe dourar.",
+      "Repita o processo com toda a massa.",
+      "Recheio:",
+      "Em uma panela média, adicione o óleo e leve ao fogo até aquecer.",
+      "Adicione a cebola e o alho e deixe refogar.",
+      "Em seguida acrescente o frango cozido e desfiado e misture.",
+      "Acrescente sal e pimenta a gosto, adicione o extrato de tomate e misture bem.",
+      "Adicione o amido de milho dissolvido no caldo de frango, o milho, misture e deixe cozinhar por mais 3 minutos.",
+      "Deixe esfriar e reserve.",
+      "Montagem:",
+      "Adicione 1 colher do recheio sobre a massa da panqueca, 1 fatia de mussarela picada por cima e enrole bem.",
+      "Repita o processo com todas as massas e coloque as panquecas em uma travessa uma ao lado da outra.",
+      "Por cima, adicione o molho pronto de tomate, salpique o queijo ralado e leve para gratinar por 20 minutos ou até derreter o queijo."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras (chá) de leite",
+      "2 xícaras (chá) de farinha de trigo",
+      "2 ovos",
+      "1 cubo de caldo de galinha",
+      "1 kg de peito de frango cozido com temperos a gosto e desfiado",
+      "1 cebola média picadinha",
+      "1 dente de alho amassado",
+      "sal e pimenta-do-reino a gosto",
+      "3 colheres (sopa) de óleo",
+      "2 colheres (sopa) cheia de extrato de tomate",
+      "1 xícara (chá) do caldo do cozimento do peito de frango",
+      "1 colher (sopa) de amido de milho",
+      "1 lata de milho em conserva sem a água",
+      "400 g de mussarela em fatias picadas",
+      "2 latas de molho pronto de tomate",
+      "300 g de queijo ralado"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "amido de milho",
+      "caldo do cozimento do peito de frango",
+      "cebola picadinha",
+      "cheia de extrato de tomate",
+      "cubo de caldo de galinha",
+      "farinha de trigo",
+      "leite",
+      "milho em conserva sem a agua",
+      "molho pronto de tomate",
+      "mussarela",
+      "oleo",
+      "ovo",
+      "peito de frango com temperos",
+      "queijo",
+      "sal e pimenta do reino"
+    ]
+  },
+  {
+    "id": "sopas_panqueca-de-frango_2785c5a7",
+    "titulo": "Panqueca de frango",
+    "tipo": "sopas",
+    "receita": [
+      "Massa:",
+      "Mistura todos os ingredientes no liquitificador.",
+      "Numa frigideira untada coloque uma concha de massa, gire para cobrir todo o fundo e deixa dourar.",
+      "Vire para dourar o outro lado e reserve.",
+      "Recheio:",
+      "Aqueça o óleo e refogue a cebola picada, misture o peito de frango e a massa de tomate coloque o sal cozinhe por 15 minutos.",
+      "Reserve um pouco do molho.",
+      "Montagem:",
+      "Coloque um pouco de recheio em cada panqueca fechando-as em forma de rolinho, coloque em uma travessa, jogue sobre as panquecas o molho reservado.",
+      "Coloque no micro-ondas por 15 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 1/2 xícara (chá) de leite",
+      "1 1/2 xícara (chá) de farinha de trigo",
+      "1 colher de óleo",
+      "2 cubinhos de caldo de frango",
+      "queijo ralado a gosto",
+      "1 peito de frango cozido e desfiado",
+      "3 colheres de massa de tomate",
+      "3 colheres de cebola picadinho",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "cebola picadinho",
+      "cubinhos de caldo de frango",
+      "farinha de trigo",
+      "leite",
+      "massa de tomate",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "queijo",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_torta-de-frango-com-catupiry-da-lilian_7617fea4",
+    "titulo": "Torta de frango com catupiry da Lilian",
+    "tipo": "sopas",
+    "receita": [
+      "Recheio:",
+      "Dourar o frango já desfiado no alho e na cebola, misturar todos os outros ingredientes (menos o catupiry) e mexer em fogo baixo até que fique como um creme e reservar.",
+      "Massa:",
+      "Bater todos os ingredientes da massa no liquidificador.",
+      "Untar a forma ou marinex com manteiga e polvilhar com farinha de rosca.",
+      "Colocar metade da massa, rechear com o creme de frango, cobrir o creme de frango com o catupiry.",
+      "Colocar a outra metade da massa e levar ao forno médio/baixo até que quando furada com o garfo esteja assada."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "1 copo de requeijão",
+      "1 xícara de azeitonas pretas picada",
+      "150 g de queijo mussarela cortado em tiras",
+      "150 g de presunto cortado em tiras",
+      "1 lata de seleta de legumes ou milho verde",
+      "1 bisnaga de catupiry",
+      "3 ovos",
+      "2 xícaras de chá de farinha de trigo",
+      "2 xícaras de chá de leite",
+      "1 xícara de chá de óleo",
+      "3 colheres de chá de sal",
+      "2 colheres de sopa de maisena",
+      "1 colher de sopa de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "azeitonas pretas",
+      "bisnaga de catupiry",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "maisena",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "presunto cortado",
+      "queijo mussarela cortado",
+      "requeijao",
+      "sal",
+      "seleta de legumes ou milho verde"
+    ]
+  },
+  {
+    "id": "sopas_frango-gratinado-com-creme-de-milho_0bb98e8d",
+    "titulo": "Frango gratinado com creme de milho",
+    "tipo": "sopas",
+    "receita": [
+      "Cozinhe o peito de frango com poucos temperos, após cozido e desfiado refogue no azeite e na cebola, reserve.",
+      "Bata no liquidificador as 2 latas de milho verde com as 2 latas de creme de leite.",
+      "Em uma frigideira frite e bacon com um fio de azeite, quando estiver bem dourado junte a mistura do liquidificador e deixe apurar.",
+      "Montagem:",
+      "Em um refratário coloque o frango desfiado e refogado, por cima as fatias de queijo mussarela, em seguida despeje todo o creme de milho, e para finalizar coloque queijo parmesão e leve ao forno para dar uma gratinada.",
+      "Sirva com arroz branco e batata palha."
+    ],
+    "ingredientes_originais": [
+      "2 kg de peito de frango cozido e desfiado em pedaços grandes",
+      "1 cebola picada",
+      "200 g de bacon picado",
+      "200 g de mussarela fatiada",
+      "2 latas de milho verde",
+      "2 latas de creme de leite",
+      "queijo parmesão para gratinar"
+    ],
+    "ingredientes_centrais": [
+      "bacon",
+      "cebola",
+      "creme de leite",
+      "milho verde",
+      "mussarela",
+      "peito de frango",
+      "queijo parmesao para gratinar"
+    ]
+  },
+  {
+    "id": "sopas_o-melhor-feijao-receita-caseira-pratico-e-tempero-no-ponto_5ed26533",
+    "titulo": "O melhor feijão - receita caseira - prático e tempero no ponto",
+    "tipo": "sopas",
+    "receita": [
+      "Se o feijão carioquinha for de cor escura, escolher e deixar de molho em água morna por meia hora.",
+      "Depois escorrer a água e lavá-lo mais uma vez até sair a água escura.",
+      "Corte a celola e o alho bem miúdos (você pode usar aquele alho de pote triturado, o sabor é o mesmo e mais prático, nesse caso use 3 colheres de café cheias de alho), corte a salsinha e o coentro, reserve.",
+      "Se for usar a linguiça calabresa tire a pele e corte em rodelas não muito finas e se for usar a toscana lave-as e deixe inteiras, nenhuma das linguiças precisa de cozimento prévio.",
+      "Colocar o feijão depois do molho na panela de pressão com água 2 dedos acima do nível do feijão, acrescentar a cebola, o alho, a salsinha, o coentro, as folhas de louro, o caldo de bacon e a linguiça de sua preferência crua.",
+      "Tampar a panela e cozinhar por 15 minutos após começar a pressão, depois desse tempo desligar o fogo e colocar debaixo de um fio d'agua até finalizar a pressão, abrir a tampa e deixar cozinhar por mais 5 minutos mexendo de vêz em quando para não grudar no fundo e encorpar o caldo.",
+      "Todo cozimento é em fogo alto.",
+      "Para engrossar o caldo finalize os 5 minutos de cozimento com a panela destampada.",
+      "Não precisa colocar sal, pois o caldo de bacon já dá o ponto do sal.",
+      "Esse feijão gasta menos gás pra fazer, mesmo quando esquecemos de deixar de molho de um dia para o outro, meia hora de molho na água morna é um segredinho!"
+    ],
+    "ingredientes_originais": [
+      "500 g de feijão carioca (pode ser até os mais escuros)",
+      "3/4 de uma cebola bem grande",
+      "3 dentes de alho grandes",
+      "3 caldos de bacon",
+      "3 folhas pequenas de louro seco",
+      "3 colheres (sopa) de salsinha fresca",
+      "3 colheres (sopa) de coentro fresco",
+      "6 gomos de linguiça toscana ou 1 de linguiça calabresa"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "caldos de bacon",
+      "coentro",
+      "feijao carioca",
+      "gomos de linguica toscana ou de linguica calabresa",
+      "louro",
+      "salsinha",
+      "uma cebola bem"
+    ]
+  },
+  {
+    "id": "sopas_bolinho-de-arroz-sequinho_f744c5fd",
+    "titulo": "Bolinho de arroz sequinho",
+    "tipo": "sopas",
+    "receita": [
+      "Em um tigela misture todos os ingredientes.",
+      "Com a ajuda de 2 colheres, modele os bolinhos e coloque para fritar em óleo quente."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de arroz cozido",
+      "2 ovos",
+      "Sal e cheiro verde a gosto",
+      "50 g queijo ralado",
+      "Farinha de trigo para dar liga",
+      "Óleo para fritar"
+    ],
+    "ingredientes_centrais": [
+      "arroz",
+      "farinha de trigo para dar liga",
+      "oleo para fritar",
+      "ovo",
+      "queijo",
+      "sal e cheiro verde"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-feijao-com-macarrao_2e81b2e2",
+    "titulo": "Sopa de feijão com macarrão",
+    "tipo": "sopas",
+    "receita": [
+      "Bata no liquidificador as 3 xícaras de feijão cozido.",
+      "Peneire e leve ao fogo em panela tampada com 1 litro de água.",
+      "Quando ferver, acrescente 2 tabletes de caldo e deixe em fogo baixo por cerca de 15 minutos.",
+      "Despeje o macarrão com as cenouras.",
+      "Cozinhe por cerca de 20 minutos, mexendo de vez em quando até que cozinhem.",
+      "Sirva a seguir, polvilhando com 1 colher de sopa de cebolinha verde picadinha."
+    ],
+    "ingredientes_originais": [
+      "3 xícaras (chá) de feijão",
+      "1 litro de água fria",
+      "2 tabletes de caldos de sua preferência",
+      "1 xícara (chá) de macarrão de sua preferência",
+      "1 cenoura em cubinhos"
+    ],
+    "ingredientes_centrais": [
+      "agua fria",
+      "caldos de sua preferencia",
+      "cenoura em cubinhos",
+      "feijao",
+      "macarrao de sua preferencia"
+    ]
+  },
+  {
+    "id": "sopas_polenta-com-carne-moida_edc38487",
+    "titulo": "Polenta com carne moida",
+    "tipo": "sopas",
+    "receita": [
+      "Para a polenta:",
+      "Levar os ingredientes ao fogo e deixar cozinhar por 10 minutos, mexendo sempre.",
+      "Para o molho:",
+      "Refogar no óleo ou azeite a cebola, o alho e a carne moída até ficar bem soltinha.",
+      "Colocar os tomates, o molho, a água e o caldo de carne.",
+      "Deixar apurar bem, mais ou menos, por 15 minutos.",
+      "Colocar os temperos e desligar.",
+      "Montagem:",
+      "Colocar a polenta em uma travessa, as fatias de mussarela e o molho.",
+      "Polvilhar com o queijo parmesão ralado e levar ao forno já aquecido por 10 a 15 minutos."
+    ],
+    "ingredientes_originais": [
+      "5 xícaras (chá) de água fria",
+      "1 xícara (chá) de fubá pré-cozido",
+      "1 colher (sopa) de azeite ou margarina",
+      "1 tablete de caldo de carne",
+      "300 g de carne moida",
+      "3 colheres (sopa) de óleo ou azeite",
+      "1 cebola picadinha",
+      "2 dentes de alho picadinhos",
+      "2 tomates maduros picados",
+      "1 caixinha de molho de tomate pronto",
+      "1 xícara de água",
+      "1 tablete de caldo de carne",
+      "orégano a gosto",
+      "salsinha a gosto",
+      "pimenta a gosto",
+      "sal a gosto se necessário",
+      "Mussarela em fatias a gosto",
+      "Queijo parmesão ralado para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "agua fria",
+      "alho picadinhos",
+      "azeite ou margarina",
+      "caixinha de molho de tomate pronto",
+      "caldo de carne",
+      "carne",
+      "cebola picadinha",
+      "fuba pre",
+      "mussarela",
+      "oleo ou azeite",
+      "oregano",
+      "pimenta",
+      "queijo parmesao para polvilhar",
+      "sal se necessario",
+      "salsinha",
+      "tomate maduros"
+    ]
+  },
+  {
+    "id": "sopas_caldo-de-mocoto_f8ef51a9",
+    "titulo": "Caldo de mocotó",
+    "tipo": "sopas",
+    "receita": [
+      "Cozinhar na panela de pressão o mocotó com a água e todos os temperos.",
+      "Deixe apurar o caldo até que os ossos se soltem.",
+      "Retire as rodelas de ossos, tirando bem o restante de carne.",
+      "No caldo já apurado, junte o azeite.",
+      "Sirva com farinha e molho de pimenta."
+    ],
+    "ingredientes_originais": [
+      "1 mocotó cortado em rodelas e bem lavado",
+      "Água o suficiente para cozinhar o mocotó",
+      "1 cebola grande picada",
+      "2 dentes de alho amassados",
+      "1/2 xícara (chá) de coentro",
+      "3 colheres (sopa) de salsinha",
+      "2 colheres (sopa) de hortelã picada",
+      "1 colher (sopa) de extrato de tomate",
+      "Pimenta malagueta ou pimenta vermelha a gosto",
+      "5 colheres (sopa) de azeite"
+    ],
+    "ingredientes_centrais": [
+      "agua o suficiente para cozinhar o mocoto",
+      "alho",
+      "azeite",
+      "cebola",
+      "coentro",
+      "extrato de tomate",
+      "hortela",
+      "mocoto cortado e bem",
+      "pimenta malagueta ou pimenta vermelha",
+      "salsinha"
+    ]
+  },
+  {
+    "id": "sopas_frango-cremoso-rapidinho_0d8e0318",
+    "titulo": "Frango cremoso rapidinho",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma panela refogue o peito de frango (cozido e desfiado) com a lata de molho de tomate e coloque em um refratário de vidro.",
+      "No liquidificador bata o creme de leite, o milho, o requeijão e coloque por cima do peito de frango.",
+      "Salpique a mussarela por cima e leve ao forno pra gratinar."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido em 1/2 litro de água com caldo de galinha e temperos a gosto",
+      "1 lata de creme de leite",
+      "1 lata de milho verde escorrido",
+      "1 copo de requeijão cremoso",
+      "1 lata de molho de tomate",
+      "100 g de mussarela (pode ser ralada ou em fatias)"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite",
+      "milho verde escorrido",
+      "molho de tomate",
+      "mussarela",
+      "peito de frango em de agua com caldo de galinha e temperos",
+      "requeijao cremoso"
+    ]
+  },
+  {
+    "id": "sopas_torta-de-frango_e8559566",
+    "titulo": "Torta de frango",
+    "tipo": "sopas",
+    "receita": [
+      "Leve todos os ingredientes da massa ao liquidificador.",
+      "Bata até ficar uma massa homogênea.",
+      "Despeje em forma untada e reserve.",
+      "Em uma panela, faça um molho com todos os ingredientes.",
+      "Deixe o molho engrossar.",
+      "Despeje sobre a massa com cuidado.",
+      "Leve ao forno a 180º pré - aquecido por mais ou menos 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de trigo",
+      "1 xícara de óleo",
+      "1 xícara de leite",
+      "3 ovos",
+      "1 colher de fermento em pó",
+      "Sal e tempero a gosto",
+      "1 peito de frango cozido e desfiado",
+      "1 lata de milho verde",
+      "2 colher de extrato de tomate",
+      "Sal, cebola, orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "extrato de tomate",
+      "fermento em po",
+      "leite",
+      "milho verde",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "sal cebola oregano",
+      "sal e tempero",
+      "trigo"
+    ]
+  },
+  {
+    "id": "sopas_caldo-de-mandioquinha_b8d36715",
+    "titulo": "Caldo de mandioquinha",
+    "tipo": "sopas",
+    "receita": [
+      "Descasque a mandioquinha, pique, junte a água e os caldos de carne, cozinhe na panela de pressão por 15 minutos após fervura.",
+      "Após sair a pressão, abra a panela e bata a mandioquinha com um pouco de água no liquidificador. Reserve o restante da água.",
+      "Em uma panela, coloque o azeite, frite a calabresa, junte a cebola, o alho, frite bem.",
+      "Junte os tomates, deixe amolecer, coloque o caldo da mandioquinha que foi batido no liquidificador. Coloque sal e pimenta a gosto.",
+      "Acrescente mais água do cozimento que foi reservada se necessário.",
+      "Deixe ferver.",
+      "Junte a salsinha e cebolinha.",
+      "Sirva a seguir."
+    ],
+    "ingredientes_originais": [
+      "1 kg de mandioquinha",
+      "2 litros de água",
+      "1 cebola média picada",
+      "4 dentes de alho amassados",
+      "2 tomates maduros picados",
+      "1 xícara de salsinha e cebolinha picados",
+      "2 cubos de caldo de carne ou costela",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "1 gomo de linguiça calabresa picada",
+      "4 colheres de azeite"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "azeite",
+      "cebola",
+      "cubos de caldo de carne ou costela",
+      "gomo de linguica calabresa",
+      "mandioquinha",
+      "pimenta do reino",
+      "sal",
+      "salsinha e cebolinha",
+      "tomate maduros"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-mandioca_de564f00",
+    "titulo": "Sopa de mandioca",
+    "tipo": "sopas",
+    "receita": [
+      "Descasque a mandioca e corte em pedaços.",
+      "Coloque 1 colher(sopa) de manteiga numa panela e leve ao fogo médio.",
+      "Adicione a cebola, o tomate e a cebolinha verde e cozinhe durante 10 minutos.",
+      "Acrescente a água e os cubinhos de caldo de galinha, tampe e cozinhe em fogo baixo até que a mandioca fique macia.",
+      "Bata tudo no liquidificador.",
+      "Tempere com sal e pimenta do reino à gosto.",
+      "Cozinhe em fogo baixo, sem tampa, até que engrosse.",
+      "Adicione a colher(sopa) de manteiga restante, a salsinha e sirva a seguir."
+    ],
+    "ingredientes_originais": [
+      "½ kg de mandioca",
+      "2 colheres(sopa) de manteiga ou margarina",
+      "2 colheres(sopa) de cebola picadinha",
+      "2 tomates grandes, sem pele, picados",
+      "8 xícaras de água",
+      "4 cubinhos de caldo de galinha",
+      "Sal à gosto",
+      "1 colher(sopa) de salsinha e cebolinha verde picada",
+      "Pimenta a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "cebola picadinha",
+      "cubinhos de caldo de galinha",
+      "mandioca",
+      "manteiga ou margarina",
+      "pimenta",
+      "sal",
+      "salsinha e cebolinha verde",
+      "tomate"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-ervilha_f5b6fe56",
+    "titulo": "Sopa de ervilha",
+    "tipo": "sopas",
+    "receita": [
+      "Na panela de pressão coloque o óleo, refogue a cebola e frite o bacon.",
+      "Deixe fritar bem o bacon até sair toda a gordura.",
+      "Após o bacon bem frito, acrescente a costelinha defumada e refogue um pouco.",
+      "Depois coloque a ervilha e encha a panela de água abaixo da marca do cabo da panela.",
+      "Cozinhe de 25 a 30 minutos.",
+      "Após cozida, mexa para dissolver os pedaços de ervilha que restaram.",
+      "É melhor servi-la com pão murcho do que com torrada."
+    ],
+    "ingredientes_originais": [
+      "500 g de ervilha desidratada (de pacote)",
+      "300 g de bacon",
+      "300 g de costelinha defumada",
+      "1 cebola bem picada",
+      "3 colheres de óleo"
+    ],
+    "ingredientes_centrais": [
+      "bacon",
+      "cebola bem",
+      "costelinha defumada",
+      "ervilha desidratada",
+      "oleo"
+    ]
+  },
+  {
+    "id": "sopas_fricasse-simples_1abb63ce",
+    "titulo": "Fricassê simples",
+    "tipo": "sopas",
+    "receita": [
+      "Doure a cebola com a margarina, o caldo de galinha e o extrato de tomate.",
+      "Em seguida, junte o frango desfiado e espere ele dar uma douradinha.",
+      "Junte o creme de leite e o requeijão, espere levantar fervura.",
+      "Acrescente o milho verde, deixe mais 5 minutos e desligue (o molho não pode ficar muito aguado tem que estar cremoso).",
+      "Num refratário coloque o molho e cubra com toda a batata palha.",
+      "Leve ao forno por 10 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "1 copo de requeijão",
+      "1 lata de creme de leite sem soro",
+      "1 lata de milho verde",
+      "3 colheres de extrato de tomate",
+      "1 cebola ralada",
+      "3 colheres de margarina",
+      "1 cubo de caldo de galinha",
+      "1 pacote de batata palha com sal",
+      "tempero a gosto"
+    ],
+    "ingredientes_centrais": [
+      "batata palha com sal",
+      "cebola",
+      "creme de leite sem soro",
+      "cubo de caldo de galinha",
+      "extrato de tomate",
+      "margarina",
+      "milho verde",
+      "peito de frango",
+      "requeijao",
+      "tempero"
+    ]
+  },
+  {
+    "id": "sopas_pate-de-frango_04cdd6a1",
+    "titulo": "Patê de frango",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma tigela, misture todos os ingredientes e leve à geladeira por 30 minutos.",
+      "Está pronto para servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de peito de frango cozido e desfiado",
+      "1 cenoura média ralada",
+      "1 xícara (chá) de maionese",
+      "1/2 xícara (chá) de milho-verde em conserva",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "cenoura",
+      "maionese",
+      "milho verde em conserva",
+      "peito de frango",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-macarrao-com-batata-e-cenoura_7fddc6c2",
+    "titulo": "Sopa de macarrão com batata e cenoura",
+    "tipo": "sopas",
+    "receita": [
+      "Frite o azeite com o alho e a cebola em uma panela de pressão.",
+      "Adicione a água e deixe ferver.",
+      "Depois adicione o macarrão, a cenoura, a batata, a cebolinha verde e o tablete de tempero sabor bacon.",
+      "Mexa e deixe ferver até perceber que a batata e a cenoura estão cozidas. Se desejar, tampe a panela e deixe cozinhar por 10 minutos.",
+      "Você também pode adicionar carne moída pronta a gosto.",
+      "Sirva."
+    ],
+    "ingredientes_originais": [
+      "Macarrão a gosto",
+      "1/2 cebola picada",
+      "1 colher de azeite",
+      "3 dentes de alho ou use o alho comprado pronto",
+      "10 ramos de cebolinha verde picada",
+      "2 cenouras picadas a gosto",
+      "2 batatas picadas a gosto",
+      "1 tablete de tempero sabor bacon",
+      "1 litro de água"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho ou use o alho comprado pronto",
+      "azeite",
+      "batata",
+      "cebola",
+      "cebolinha verde",
+      "cenoura",
+      "macarrao",
+      "tempero sabor bacon"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-lentilha_b46a2d1e",
+    "titulo": "Sopa de lentilha",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma panela de pressão aquecer o óleo ou azeite e refogar o alho e a cebola.Acrescentar a lentilha, o sal e 3 xícaras de água quente.",
+      "Deixar no fogo até amolecer a lentilha (não deixei de molho),aproximadamente 20 minutos.",
+      "Juntar:batata,cenoura,calabresa,manjericão,pimenta e mais 2 xícaras de água quente.Deixar por 10 minutos após pegar pressão.Desligar o fogo e colocar a salsinha e cebolinha.Servir em seguida."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 xícaras de lentilha",
+      "3 batatas descascadas e cortadas em cubos",
+      "1 cenoura grande em cubos",
+      "1 gomo de linguiça calabresa em cubos",
+      "1 pimenta dedo-de-moça sem sementes picadinha (opcional)",
+      "1 cebola picada",
+      "2 dentes de alho espremidos",
+      "2 colheres (sopa) de óleo ou azeite",
+      "sal a gosto",
+      "manjericão a gosto",
+      "salsinha a gosto",
+      "cebolinha a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho espremidos",
+      "batata descascadas e cortadas",
+      "cebola",
+      "cebolinha",
+      "cenoura",
+      "gomo de linguica calabresa",
+      "lentilha",
+      "manjericao",
+      "oleo ou azeite",
+      "pimenta dedo de moca picadinha",
+      "sal",
+      "salsinha"
+    ]
+  },
+  {
+    "id": "sopas_escondidinho_42cf0049",
+    "titulo": "Escondidinho",
+    "tipo": "sopas",
+    "receita": [
+      "Passar pelo espremedor de batatas, tem que ficar bem macio a batata, aipim, a manteiga.",
+      "Misturar a cebola, o caldo de carne ou galinha, o creme de leite e se necessário colocar leite até ficar cremoso (grosso).",
+      "Verificar o sal e só depois colocar ou não mais sal.",
+      "Fritar o bacon, o alho, a cebola, depois colocar a carne seca desfiada e fritar mais um pouco, colocar a salsa e cebolinha.",
+      "Verificar o sal.",
+      "Montagem:",
+      "Colocar em uma forma refratária untada com manteiga no fundo e nas laterais também.",
+      "Colocar a carne seca, colocar as fatias de mussarela, por cima o purê.",
+      "Cortar uma pontinha do saco de catupiry e espalhar por cima do purê e colocar dentro do purê (como se estivesse escondendo o catupiry dentro do purê).",
+      "Pode ser colocado queijo parmesão por cima também.",
+      "Levar ao forno por mais ou menos 20 minutos ou até dourar o purê.",
+      "Cuidado para não pegar no fundo da forma."
+    ],
+    "ingredientes_originais": [
+      "700 g de aipim (mandioca) cozido em água e sal",
+      "300 g de batata inglesa cozida em água e sal",
+      "1 colher de sopa de manteiga",
+      "1 caixinha de creme de leite",
+      "1 cebola pequena picada ou ralada (depende do gosto da pessoa)",
+      "1 tablete de caldo de carne ou de galinha",
+      "Leite aos poucos",
+      "Sal a gosto",
+      "½ kg de carne seca (cozida e desfiada)",
+      "2 colheres de manteiga ou de azeite",
+      "2 dentes de alho amassado",
+      "1 cebola média em rodelas",
+      "1 colher de sopa de salsa picada",
+      "1 colher de sopa de cebolinha picada",
+      "Pimenta calabresa a gosta ou pimenta-do-reino (usei a calabresa)",
+      "Bacon a gosto",
+      "Catupiry a gosto",
+      "Mussarela a gosto"
+    ],
+    "ingredientes_centrais": [
+      "aipim em agua e sal",
+      "alho",
+      "bacon",
+      "batata inglesa em agua e sal",
+      "caixinha de creme de leite",
+      "caldo de carne ou de galinha",
+      "carne",
+      "catupiry",
+      "cebola",
+      "cebola ou",
+      "cebolinha",
+      "leite aos poucos",
+      "manteiga",
+      "manteiga ou de azeite",
+      "mussarela",
+      "pimenta calabresa a gosta ou pimenta do reino",
+      "sal",
+      "salsa"
+    ]
+  },
+  {
+    "id": "sopas_torta-de-frango-cremosa-da-aline_035b57d8",
+    "titulo": "Torta de frango cremosa da Aline",
+    "tipo": "sopas",
+    "receita": [
+      "Massa:",
+      "No liquidificador, bata o leite, a farinha, o óleo, o queijo, o fermento, os ovos e o creme de leite.",
+      "Recheio:",
+      "Em uma tigela, misture o frango, a salsa, o catupiry, o sal e o milho.",
+      "Em uma forma untada com margarina, coloque metade da massa, o recheio e cubra com o restante da massa.",
+      "Asse no forno preaquecido a 200º C durante 40 minutos, ou até que a superfície fique dourada e crocante."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras (chá) de leite",
+      "3 xícaras (chá) de farinha de trigo",
+      "1 xícara (chá) e óleo",
+      "100 g de queijo parmesão ralado",
+      "1 colher (sopa) de fermento em pó",
+      "2 ovos",
+      "1 caixinha de creme de leite",
+      "1 peito de frango temperado, cozido e desfiado",
+      "salsa picada a gosto",
+      "100 g de catupiry",
+      "1 lata de milho escorrido",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "caixinha de creme de leite",
+      "catupiry",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "milho escorrido",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "queijo parmesao",
+      "sal",
+      "salsa"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-legumes-para-emagrecer_3a8d438f",
+    "titulo": "Sopa de legumes para emagrecer",
+    "tipo": "sopas",
+    "receita": [
+      "Refogue o alho no azeite ou óleo até dourar.",
+      "Coloque os cubinhos de frango, o caldo de galinha e refogue bem.",
+      "Acrescente a água e os demais ingredientes picados em pequenos pedacinhos, adicione sal e temperos a gosto, cozinhe na pressão por 5 minutos.",
+      "Se preferir bata a sopa no liquidificador depois de pronto e sirva como creme de legumes.",
+      "Para quem não estiver de dieta, comer com pão francês ou queijo ralado é tudo de bom."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango",
+      "4 dentes de alho",
+      "2 chuchu",
+      "1/2 abobrinha",
+      "2 cenoura",
+      "1/2 repolho",
+      "1 maço de agrião",
+      "1 maço de couve",
+      "2 tomates",
+      "Cheiro verde",
+      "1 litro de água",
+      "1 caldo de galinha"
+    ],
+    "ingredientes_centrais": [
+      "abobrinha",
+      "agua",
+      "alho",
+      "caldo de galinha",
+      "cenoura",
+      "cheiro verde",
+      "chuchu",
+      "maco de agriao",
+      "maco de couve",
+      "peito de frango",
+      "repolho",
+      "tomate"
+    ]
+  },
+  {
+    "id": "sopas_creme-de-milho_5909e6b0",
+    "titulo": "Creme de milho",
+    "tipo": "sopas",
+    "receita": [
+      "Bata bem o milho no liquidificador.",
+      "Dissolva o amido de milho no leite e acrescente ao milho, batendo um pouco mais.",
+      "Peneire a mistura para retirar as casquinhas do milho.",
+      "Doure o alho e acrescente a mistura, deixando engrossar um pouco.",
+      "Acrescente o creme de leite por último, mexa mais uns 2 minutos e desligue o fogo."
+    ],
+    "ingredientes_originais": [
+      "1 lata de milho",
+      "1 caixinha de creme de leite",
+      "1 medida (da caixinha de creme de leite) de leite de vaca",
+      "1 colher de sopa de amido de milho",
+      "Alho e sal a gosto",
+      "1 fio de óleo para dourar o alho"
+    ],
+    "ingredientes_centrais": [
+      "alho e sal",
+      "amido de milho",
+      "caixinha de creme de leite",
+      "fio de oleo para dourar o alho",
+      "medida de leite de vaca",
+      "milho"
+    ]
+  },
+  {
+    "id": "sopas_arroz-de-forno-da-valeria_5750dabb",
+    "titulo": "Arroz de forno da Valéria",
+    "tipo": "sopas",
+    "receita": [
+      "Em uma panela refogue a calabresa, o alho e a cebola, até ficarem douradinhos.",
+      "Com o fogo mais baixo acrescente , o milho verde, as azeitonas e o molho de tomate pelato.",
+      "Junte o arroz e misture até ficar todo por igual. Desligue o fogo e acrescente os ovos picados.",
+      "Coloque o arroz em um refratário, salpique queijo ralado e cubra com a mussarela fatiada.",
+      "Leve ao forno até que o queijo esteja gratinado."
+    ],
+    "ingredientes_originais": [
+      "3 1/2 xícaras de arroz cozido",
+      "2 linguiças calabresa cortadas em cubinhos",
+      "1 cebola picadinha",
+      "5 dentes de alho picadinhos",
+      "1 lata de milho verde",
+      "1 lata de tomate pelato",
+      "Azeitonas verdes picadas a gosto",
+      "150 g de mussarela fatiada",
+      "3 ovos cozidos picadinhos e temperados com sal e azeite de oliva",
+      "Queijo ralado a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho picadinhos",
+      "arroz",
+      "azeitonas verdes",
+      "cebola picadinha",
+      "linguicas calabresa cortadas em cubinhos",
+      "milho verde",
+      "mussarela",
+      "ovo picadinhos e com sal e azeite de oliva",
+      "queijo",
+      "tomate pelato"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-mandioca-e-carne_30111cd6",
+    "titulo": "Sopa de mandioca e carne",
+    "tipo": "sopas",
+    "receita": [
+      "Pique a mandioca e a carne em cubos médios.",
+      "Corte o bacon em cubinhos e leve ao fogo, em uma panela de pressão, para fritar.",
+      "Acrescente o alho e a cebola e deixe dourar.",
+      "Adicione a carne e deixe refogar, até secar a água.",
+      "Coloque a mandioca e acrescente água suficiente para cobrir os ingredientes.",
+      "Acrescente o caldo de carne, sal e pimenta.",
+      "Tampe a panela de pressão e deixe cozinhar por 25 minutos, depois que começar a chiar.",
+      "Retire a pressão e adicione o cheiro verde.",
+      "Dependendo do tipo de mandioca, pode ser necessário um tempo maior de cozimento. Então retorne ao fogo com a panela tampada por mais uns 5 minutos, verificando antes o nível de água para não queimar.",
+      "O ponto correto é quando a carne e mandioca estão bem molinhas e formam um caldo grosso."
+    ],
+    "ingredientes_originais": [
+      "500 g de mandioca (de preferência amarela)",
+      "300 g de paleta ou costela de boi",
+      "1 cubo de caldo de carne",
+      "1 dente de alho",
+      "1 cebola picadinha",
+      "Cheiro-verde a gosto",
+      "Sal a gosto",
+      "Óleo para refogar",
+      "Pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "cebola picadinha",
+      "cheiro verde",
+      "cubo de caldo de carne",
+      "mandioca",
+      "oleo para refogar",
+      "paleta ou costela de boi",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_torta-fria-de-salpicao-diferente_d371a187",
+    "titulo": "Torta fria de salpicão diferente",
+    "tipo": "sopas",
+    "receita": [
+      "Corte uma das cebolas em rodelas e o alho, coloque bastante água e cozinhe o peito de frango, não deixe cozinhar muito para facilitar depois na hora de desfiar.",
+      "Enquanto isso, rale a cenoura, corte o pepino e reserve.",
+      "Pique o tomate, o pimentão e a outra cebola, em uma panela coloque um pouquinho de óleo ou azeite, o tomate e uma meia xícara de água, deixe cozinhar até desmanchar o tomate (pode ajudar a esmagar os tomates com um garfo).",
+      "Tire os tomates da penela, coloque em uma xícara, coloque mais óleo ou azeite na panela e frite a cebola, despeje o tomate refogado o pimentão o extrato de tomate e deixe refogar, acrescente um pouco de água, os caldos de galinha e o arisco, depois de cozinhar por uns 10 minutos coloque o frango desfiado, deixe secar bem o refogado.",
+      "Em um pote misture o refogado de frango, o pepino, cenoura, salsa, cebolinha verde, misture bem e acrescente a maionese aos poucos, mexendo para não ficar com muita maionese, reserve um pouco da maionese paa decorar.",
+      "Vai ficar tipo um salpicão, quem gosta pode colocar milho, ervilha, azeitona, uva passa, palmito etc, o que a criatividade permitir.",
+      "Em um refratário, forma ou até mesmo em potes específicos para torta fria, coloque uma camada de pão e outra de salpicão e assim sucessivamente, acabe a camada com o pão, va apertando pra acomodar bem o salpicão no pão.",
+      "Passe maionese e decore com batata palha.",
+      "O ideal é comer no dia seguinte.",
+      "Parece difícil mas é bem rápido e fácil de fazer e o resultado vale à pena."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango (cozido e desfiado)",
+      "1 cenora (ralada em ralo fino, tipo tirinhas)",
+      "1/2 pimentão verde (bem picadinho)",
+      "2 pepinos em conserva (bem picadinho)",
+      "2 tomates (picadinho, sem pele)",
+      "2 cebolas pequena (uma cortada bem fininha para o molho e a outa em rodelas para cozinhar o peito)",
+      "1 pacote batata palha (para decorar)",
+      "1 sachê grande de maionese",
+      "4 dentes de alho (para cozinhar o peito)",
+      "Salsa (a gosto)",
+      "Cebolinha verde (a gosto)",
+      "3 colheres de extrato de tomate",
+      "2 caldos de galinha",
+      "1/2 colher de chá de arisco",
+      "1 pão de forma ou pão de torta fria (tire as casquinhas)"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arisco",
+      "batata palha",
+      "caldos de galinha",
+      "cebola",
+      "cebolinha verde",
+      "cenora",
+      "extrato de tomate",
+      "pao de forma ou pao de torta fria",
+      "peito de frango",
+      "pepinos em conserva",
+      "pimentao verde",
+      "sache de maionese",
+      "salsa",
+      "tomate"
+    ]
+  },
+  {
+    "id": "sopas_chilli-receita-mexicana-com-feijao_cf68faba",
+    "titulo": "Chilli (receita mexicana com feijão)",
+    "tipo": "sopas",
+    "receita": [
+      "Aqueça o azeite em uma panela e refogue a cebola, o alho, o orégano, o louro e a carne moída.",
+      "Junte o purê de tomate, o cominho e deixe ferver até engrossar um pouco.",
+      "Acrescente o feijão e a salsa picada.",
+      "Deixe ferver por mais 10 minutos.",
+      "Adicione o molho de pimenta e desligue o fogo.",
+      "Passe para um refratário e polvilhe o queijo prato ralado."
+    ],
+    "ingredientes_originais": [
+      "1 colher de sopa de azeite",
+      "2 colheres (sopa) de cebola desidratada",
+      "4 dentes de alho amassados",
+      "1 colher de chá de orégano",
+      "1 folha de louro",
+      "300 g de carne moída",
+      "2 xícaras de chá de purê de tomate",
+      "1 colher de café de cominho",
+      "2 xícaras de chá de feijão cozido (escorrer o caldo)",
+      "1 colher de sopa de salsa picada",
+      "Molho de pimenta",
+      "4 colheres de sopa de queijo prato ralado grosso"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite",
+      "carne",
+      "cebola desidratada",
+      "cominho",
+      "feijao",
+      "louro",
+      "molho de pimenta",
+      "oregano",
+      "pure de tomate",
+      "queijo",
+      "salsa"
+    ]
+  },
+  {
+    "id": "sopas_sopa-de-fuba-com-couve_9da6959e",
+    "titulo": "Sopa de fubá com couve",
+    "tipo": "sopas",
+    "receita": [
+      "Coloque numa panela o azeite, a cebola e o alho.",
+      "Deixe refogar até começar a dourar.",
+      "Acrescente 4 xícaras de água e o caldo de carne e deixe ferver.",
+      "Começando a ferver coloque a couve (que deverá ser rasgada em pedaços médios) e tampe a panela pra cozinhar por um minuto.",
+      "Após este período ela murchará, então acrescente aos poucos, mexendo sempre, o fubá que deverá ser dissolvido nas duas xícaras restantes de água.",
+      "Mexa tudo muito bem e tampe a panela para cozinhar por 10 minutos, sendo que deverá ser aberta a cada cinco minutos pra mexer o fundo, pra não grudar.",
+      "Após este cozimento desligue o fogo e mantenha a panela fechada.",
+      "Sirva quente.",
+      "Obs: Pode ser que necessite de mais água, pois depende do tipo de fubá então fique atenta.",
+      "Ela deve ficar mole."
+    ],
+    "ingredientes_originais": [
+      "1 maço de couve",
+      "1/2 cebola média",
+      "1 tablete de caldo de carne",
+      "1 colher de chá de sal",
+      "1 colher de chá de alho amassado",
+      "1 xícara de fubá",
+      "6 xícaras de água",
+      "1 colher sopa de azeite",
+      "Pimenta a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "azeite",
+      "caldo de carne",
+      "cebola",
+      "fuba",
+      "maco de couve",
+      "pimenta",
+      "sal"
+    ]
+  },
+  {
+    "id": "sopas_torta-de-bacalhau-com-palmito-capixaba_b9e18cab",
+    "titulo": "Torta de bacalhau com palmito (capixaba)",
+    "tipo": "sopas",
+    "receita": [
+      "Numa panela cozinhe o bacalhau e depois de cozido desfie-o.",
+      "Escorra bem palmito. Reserve.",
+      "Refogue o bacalhau e o palmito em azeite por 20 minutos juntamente com tomate, alho, colorau, cebolas, tempero verde e parte da azeitona sem caroço.",
+      "Despeje 6 ovos e misture por 5 minutos.",
+      "Unte as assadeiras com azeite e despeje o mexido.",
+      "Bata os ovos que restaram e despeje uniformemente por cima.",
+      "Enfeite com cebolas e azeitonas.",
+      "Deixe assar por 40 minutos em temperatura média."
+    ],
+    "ingredientes_originais": [
+      "1 kg de bacalhau",
+      "2 kg de palmito natural previamente ralado e cozido",
+      "12 ovos",
+      "350 ml de azeite de oliva",
+      "200 g de azeitona",
+      "Tomate",
+      "Alho bem picado",
+      "Colorau",
+      "Cebolas em rodelas",
+      "Tempero verde a gosto",
+      "Sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho bem",
+      "azeite de oliva",
+      "azeitona",
+      "bacalhau",
+      "cebola",
+      "colorau",
+      "ovo",
+      "palmito natural previamente",
+      "sal",
+      "tempero verde",
+      "tomate"
+    ]
+  },
+  {
+    "id": "sopas_feijao-cremoso-e-gostoso_a1065352",
+    "titulo": "Feijão cremoso e gostoso",
+    "tipo": "sopas",
+    "receita": [
+      "Separe e lave o feijão. Deixe-o de molho em uma bacia com água de um dia para o outro. Se estiver com pressa pode ferver 1 litro de água e deixar o feijão de molho nessa água por cerca de 2 horas.",
+      "Despeje o feijão amolecido em uma panela de pressão e complete com água até a metade da panela.",
+      "Tampe a panela e deixe em fogo alto. Quando pegar pressãor conte 20 minutos.",
+      "Passados os 20 minutos, deixe a panela de pressão esfriar por uns 10 minutos e depois abra a tampa.",
+      "Corte a calabresa e o bacon em cubinhos. Coloque ambos em uma panela e deixe fritar por alguns minutos, acrescente o alho picado e a cebola. Depois junte o feijão.",
+      "Adicione o sal, se você colocou a calabreza e o bacon, diminua no sal, pois eles já são salgados.",
+      "Deixe o feijão no fogo alto até abrir fervura e vá mexendo aos poucos, até o caldo engrossar."
+    ],
+    "ingredientes_originais": [
+      "2 copos de feijão (cerca de 500 g)",
+      "Água a gosto",
+      "1 dente de alho picado",
+      "1 xícara de cebola bem picadinha",
+      "Calabresa a gosto",
+      "Bacon a gosto",
+      "Sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "bacon",
+      "calabresa",
+      "cebola bem picadinha",
+      "feijao",
+      "sal"
     ]
   }
 ]

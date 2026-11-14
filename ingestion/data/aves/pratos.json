@@ -202,6 +202,41 @@
     ]
   },
   {
+    "id": "aves_galinhada_d3d59610",
+    "titulo": "Galinhada",
+    "tipo": "aves",
+    "receita": [
+      "Lave os pedaços de frango, tempere-os com os tabletes de caldo de galinha e o suco de limão e deixe tomar gosto.",
+      "Em uma panela grande, aqueça o azeite e doure os pedaços de frango.",
+      "Adicione a cebola e deixe refogar ligeiramente.",
+      "Junte o arroz, o extrato de tomate, o pimentão e 4 xícaras e 1/2 (chá) de água, mexendo bem.",
+      "Tampe a panela e, assim que iniar fervura, baixe o fogo e cozinhe por cerca de 15 minutos, até que o arroz fique cremoso e úmido. Se necessário, pingue mais água.",
+      "Retire do fogo e passe para uma travessa. Polvilhe a salsa e sirva a seguir."
+    ],
+    "ingredientes_originais": [
+      "1 frango cortado em pedaços",
+      "2 tabletes de caldo de galinha",
+      "Suco de meio limão",
+      "2 colheres (sopa) de azeite",
+      "1 cebola média ralada",
+      "2 xícaras (chá) de arroz lavado e escorrido",
+      "2 colheres (sopa) de extrato de tomate",
+      "1 pimentão verde cortado em cubinhos",
+      "1 colher (sopa) de salsa picada"
+    ],
+    "ingredientes_centrais": [
+      "arroz e escorrido",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "extrato de tomate",
+      "frango cortado",
+      "pimentao verde cortado em cubinhos",
+      "salsa",
+      "suco de meio limao"
+    ]
+  },
+  {
     "id": "aves_risoto-de-frango-simples_5e777fb7",
     "titulo": "Risoto de frango simples",
     "tipo": "aves",
@@ -238,41 +273,6 @@
       "peito de frango",
       "sache de molho de tomate tradicional",
       "sal"
-    ]
-  },
-  {
-    "id": "aves_galinhada_d3d59610",
-    "titulo": "Galinhada",
-    "tipo": "aves",
-    "receita": [
-      "Lave os pedaços de frango, tempere-os com os tabletes de caldo de galinha e o suco de limão e deixe tomar gosto.",
-      "Em uma panela grande, aqueça o azeite e doure os pedaços de frango.",
-      "Adicione a cebola e deixe refogar ligeiramente.",
-      "Junte o arroz, o extrato de tomate, o pimentão e 4 xícaras e 1/2 (chá) de água, mexendo bem.",
-      "Tampe a panela e, assim que iniar fervura, baixe o fogo e cozinhe por cerca de 15 minutos, até que o arroz fique cremoso e úmido. Se necessário, pingue mais água.",
-      "Retire do fogo e passe para uma travessa. Polvilhe a salsa e sirva a seguir."
-    ],
-    "ingredientes_originais": [
-      "1 frango cortado em pedaços",
-      "2 tabletes de caldo de galinha",
-      "Suco de meio limão",
-      "2 colheres (sopa) de azeite",
-      "1 cebola média ralada",
-      "2 xícaras (chá) de arroz lavado e escorrido",
-      "2 colheres (sopa) de extrato de tomate",
-      "1 pimentão verde cortado em cubinhos",
-      "1 colher (sopa) de salsa picada"
-    ],
-    "ingredientes_centrais": [
-      "arroz e escorrido",
-      "azeite",
-      "caldo de galinha",
-      "cebola",
-      "extrato de tomate",
-      "frango cortado",
-      "pimentao verde cortado em cubinhos",
-      "salsa",
-      "suco de meio limao"
     ]
   },
   {
@@ -554,6 +554,1240 @@
       "peito de frango",
       "requeijao",
       "tempero"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango_0e15c24a",
+    "titulo": "Fricasse de frango",
+    "tipo": "aves",
+    "receita": [
+      "Coloque o frango e o tablete de caldo de frango em uma panela de pressão",
+      "Cubra de água até ficar 3 dedos acima do frango",
+      "Feche a panela e deixe cozinhar por aproximadamente 20 minutos (abra a panela e verifique se o frango está cozido, se necessário volte ao fogo)",
+      "No liquidificador bata o milho, o leite, o requeijão e o sal e reserve",
+      "Após o frango cozinhar retire a água da panela e feche novamente",
+      "Chacoalhe a panela para que o frango desfie de maneira fácil e rápida",
+      "Se ficar alguns pedaços maiores finalize na mão",
+      "Em uma panela adicione um pouco de óleo e refogue o frango com a cebola, o alho picado, o sal e a pimenta a gosto",
+      "Na mesma panela adicione o creme de milho e depois transfira para uma assadeira",
+      "Cubra o frango com queijo e leve ao forno alto até o queijo derreter",
+      "Após retirar do forno, adicione a batata palha e sirva"
+    ],
+    "ingredientes_originais": [
+      "2 peitos de frango",
+      "1 tablete de caldo de frango",
+      "1 copo (requeijão) de leite",
+      "1 copo de requeijão",
+      "1 pacote de milho verde",
+      "100 g de queijo mussarela",
+      "2 pacotes de batata palha",
+      "2 dentes de alho",
+      "1 cebola",
+      "sal e pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "batata palha",
+      "caldo de frango",
+      "cebola",
+      "leite",
+      "milho verde",
+      "peitos de frango",
+      "queijo mussarela",
+      "requeijao",
+      "sal e pimenta do reino"
+    ]
+  },
+  {
+    "id": "aves_gratinado-de-frango-simples_14ee977d",
+    "titulo": "Gratinado de frango simples",
+    "tipo": "aves",
+    "receita": [
+      "Coloque a água em uma panela e derreta os cubinhos de caldo de galinha.",
+      "Acrescente o molho de tomate e o frango, mexa até começar a ferver.",
+      "Coloque a farinha de trigo e mexa até engrossar.",
+      "Acrescente o creme de leite, misture bem.",
+      "Despeje tudo em uma travessa e espalhe por cima a manteiga e o queijo ralado.",
+      "Leve ao forno para gratinar por mais ou menos 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de peito de frango desfiado",
+      "1 lata de molho de tomate",
+      "2 cubinhos de caldo de galinha",
+      "1 xícara (chá) de água",
+      "1 colher (sopa) de farinha de trigo",
+      "1 lata de creme de leite",
+      "queijo ralado a gosto",
+      "100 g de manteiga derretida"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "creme de leite",
+      "cubinhos de caldo de galinha",
+      "farinha de trigo",
+      "manteiga",
+      "molho de tomate",
+      "peito de frango",
+      "queijo"
+    ]
+  },
+  {
+    "id": "aves_frango-cremoso_3c27fddb",
+    "titulo": "Frango cremoso",
+    "tipo": "aves",
+    "receita": [
+      "Arrume os pedaços de frango em um refratário de vidro que possa ir ao forno.",
+      "Bata no liquidificador todos os outros ingredientes menos a batata.",
+      "Jogue esse creme por cima do frango e leve ao forno pré aquecido por uns 30 minutos.",
+      "Coloque um pouco de batata palha por cima, volte ao forno por mais uns 5 minutos e sirva com arroz branco."
+    ],
+    "ingredientes_originais": [
+      "500 g de peito de frango (filé de peito) limpos e sem pele",
+      "1 lata de creme de leite com soro",
+      "1 pacote (sopa) de cebola",
+      "1 copo de requeijão",
+      "1 lata de milho com água",
+      "batata palha para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "batata palha para polvilhar",
+      "cebola",
+      "creme de leite com soro",
+      "milho com agua",
+      "peito de frango limpos",
+      "requeijao"
+    ]
+  },
+  {
+    "id": "aves_frango-com-catupiri-e-batata-palha-da-tia-gracia_a0b1b075",
+    "titulo": "Frango com Catupiri e batata palha da tia Gracia",
+    "tipo": "aves",
+    "receita": [
+      "Refogue a cebola, acrescente o frango e refogue mais um pouco.",
+      "Coloque o molho de tomate, o sal, misture bem e deixe apurar.",
+      "Coloque o refogado em uma travessa que possa ir ao forno, espalhe por cima o catupiri, salpique o parmesão e cubra com a batata.",
+      "Leve ao forno preaquecido para gratinar por cerca de 20 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de sobrecoxa ou peito de frango cozido com 1 cubo de caldo de frango e desfiado",
+      "1 cebola picada",
+      "1 lata de molho de tomate refogado",
+      "sal a gosto",
+      "160 g de batata palha",
+      "250 g de catupiri",
+      "100 g de parmesão ralado"
+    ],
+    "ingredientes_centrais": [
+      "batata palha",
+      "catupiri",
+      "cebola",
+      "molho de tomate refogado",
+      "parmesao",
+      "sal",
+      "sobrecoxa ou peito de frango com cubo de caldo de frango"
+    ]
+  },
+  {
+    "id": "aves_salpicao_b0828bd0",
+    "titulo": "Salpicão",
+    "tipo": "aves",
+    "receita": [
+      "Em um refratário, misture todos os ingredientes."
+    ],
+    "ingredientes_originais": [
+      "2 cenouras cozidas e picadas",
+      "1/2 xícara de uvas passas",
+      "1 lata de milho verde",
+      "200 g de presunto picado",
+      "1 xícara de frango desfiado, se for assado antes fica mais gostoso",
+      "1 maçã verde picada",
+      "1/2 pote grande de maionese"
+    ],
+    "ingredientes_centrais": [
+      "cenoura",
+      "frango se for assado antes fica mais gostoso",
+      "maca verde",
+      "maionese",
+      "milho verde",
+      "presunto",
+      "uvas passas"
+    ]
+  },
+  {
+    "id": "aves_file-de-frango-a-parmegiana_a581cab2",
+    "titulo": "Filé de frango à parmegiana",
+    "tipo": "aves",
+    "receita": [
+      "Coloque os filés entre 2 filmes plásticos.",
+      "Bata suavemente com o martelo de carne para ficarem com a mesma espessura.",
+      "Tempere-os com o alho, o sal e a pimenta.",
+      "Passe-os pela maionese e pela farinha de rosca.",
+      "Coloque em uma assadeira untado com o óleo.",
+      "Leve ao forno médio por uns 30 minutos.",
+      "Retire do forno e cubra com a mussarela, o molho e o óregano.",
+      "Leve ao forno novamente só para gratinar.",
+      "Sirva em seguida acompanhado de arroz branco e batata palha."
+    ],
+    "ingredientes_originais": [
+      "6 filés de peito de frango",
+      "2 dentes de alho",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "4 colheres de (sopa) de maionese",
+      "2 xícaras de (chá) de farinha de rosca",
+      "1 lata de molho de tomate",
+      "200 g de mussarela",
+      "óleo o suficiente para untar",
+      "orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "farinha de rosca",
+      "files de peito de frango",
+      "maionese",
+      "molho de tomate",
+      "mussarela",
+      "oleo o suficiente para untar",
+      "oregano",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_estrogonofe-da-casa_b578d509",
+    "titulo": "Estrogonofe da casa",
+    "tipo": "aves",
+    "receita": [
+      "Frite a cebola no óleo até quase começar a dourar.",
+      "Coloque o frango e deixe fritar.",
+      "Acrescente o champignon, o caldo de galinha picadinho, o ketchup, a mostarda e cozinhe por 3 minutos.",
+      "Coloque o amido dissolvido no leite e mexa até engrossar o molho.",
+      "Baixe o fogo e coloque o creme de leite, mexa bem e sirva a seguir.",
+      "Para acompanhar a batata palha é o ideal."
+    ],
+    "ingredientes_originais": [
+      "1 kg de peito de frango cortado em tirinhas",
+      "2 cubinhos de caldo de galinha",
+      "1 cebola picadinha",
+      "1 colher (sopa) de amido de milho dissolvido no leite",
+      "1/2 xícara de leite",
+      "1/2 colher (sopa) de mostarda amarela",
+      "2 colheres (sopa) de ketchup",
+      "1 lata de creme de leite sem soro ou light",
+      "1 colher (sopa) de óleo",
+      "100 g de champignon"
+    ],
+    "ingredientes_centrais": [
+      "amido de milho dissolvido no leite",
+      "cebola picadinha",
+      "champignon",
+      "creme de leite sem soro ou light",
+      "cubinhos de caldo de galinha",
+      "ketchup",
+      "leite",
+      "mostarda amarela",
+      "oleo",
+      "peito de frango cortado em tirinhas"
+    ]
+  },
+  {
+    "id": "aves_estrogonofe-de-frango-simples_c8f51066",
+    "titulo": "Estrogonofe de frango simples",
+    "tipo": "aves",
+    "receita": [
+      "Fritar a cebola na manteiga até dourar.",
+      "Acrescentar o frango e deixar fritar com molho shoyu, ketchup, mostarda e orégano.",
+      "Esperar dourar.",
+      "Por último acrescentar o creme de leite, mas não deixar ferver."
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de peito de frango em tiras",
+      "1 lata de creme de leite",
+      "molho shoyu a gosto",
+      "1 colher de catchup",
+      "mostarda a gosto",
+      "1/2 cebola ralada",
+      "1 colher de manteiga",
+      "orégano a gosto",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "catchup",
+      "cebola",
+      "creme de leite",
+      "manteiga",
+      "molho shoyu",
+      "mostarda",
+      "oregano",
+      "peito de frango",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-assado-inteiro-e-descomplicado_70ac854c",
+    "titulo": "Frango assado inteiro e descomplicado",
+    "tipo": "aves",
+    "receita": [
+      "Pegue o frango, retire os miúdos.",
+      "Lave-o por dentro e por fora com água e limão, escorra.",
+      "Secar com um guardanapo de pano dentro e fora, em seguida passar sal por dentro e por fora, fazer o mesmo com a margarina ou manteiga.",
+      "Colocar em uma assadeira, adicionar a cebola inteira e os galhos de alecrim e manjericão no interior do frango Seara com um cubinho de margarina.",
+      "Levar para assar em forno médio até começar a dourar mais ou menos 40 minutos, aumentar o forno para o máximo para dourar e ficar crocante."
+    ],
+    "ingredientes_originais": [
+      "1 frango inteiro",
+      "margarina ou manteiga com sal",
+      "sal",
+      "1 cebola grande descascada inteira",
+      "alecrim e manjericão ou ervas finas desidratadas",
+      "Limão"
+    ],
+    "ingredientes_centrais": [
+      "alecrim e manjericao ou ervas desidratadas",
+      "cebola descascada inteira",
+      "frango inteiro",
+      "limao",
+      "margarina ou manteiga com sal",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_estrogonofe-de-frango-basico_cd8e085e",
+    "titulo": "Estrogonofe de frango básico",
+    "tipo": "aves",
+    "receita": [
+      "Primeiro corte o frango em cubinhos.",
+      "Em uma panela média, coloque o óleo, o tablete de caldo de galinha e o sal a gosto, aqueça até o ponto de fritura e coloque o frango.",
+      "Mexa bem e tampe meia panela para que crie água, espere sumir a água e começar a fritura.",
+      "Coloque o orégano e mexa o frango até dourar.",
+      "Depois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água e coloque junto, mexa mais uma vez até misturar e deixe levantar fervura.",
+      "Pronto, o estrogonofe está pronto para ser servido."
+    ],
+    "ingredientes_originais": [
+      "1 kg de peito de frango sem osso",
+      "1 lata de creme de leite sem soro",
+      "1 tablete de caldo de galinha",
+      "orégano",
+      "3 colheres (sopa) de óleo",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "caldo de galinha",
+      "creme de leite sem soro",
+      "oleo",
+      "oregano",
+      "peito de frango sem osso",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_file-de-frango-a-milanesa_ce008834",
+    "titulo": "Filé de frango à milanesa",
+    "tipo": "aves",
+    "receita": [
+      "Tempere os filés de frango com o suco e as raspas do limão, o alho, caldo de galinha o sal e a pimenta.",
+      "Deixe tomar gosto por no mínimo 1 hora.",
+      "Passe os mesmos na maisena, depois nos ovos batidos e por último na farinha de rosca.",
+      "Frite em bastante óleo de boa qualidade, ficam sequinhos e crocantes."
+    ],
+    "ingredientes_originais": [
+      "1 kg de filé de frango cortado em bifes",
+      "4 dentes de alho amassados",
+      "1 cubo de caldo de galinha esfarelado",
+      "raspas de 1 limão mais o suco deste",
+      "sal a gosto",
+      "Pimenta a gosto",
+      "maisena",
+      "ovos",
+      "farinha de rosca"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "cubo de caldo de galinha esfarelado",
+      "farinha de rosca",
+      "file de frango cortado em bifes",
+      "maisena",
+      "ovo",
+      "pimenta",
+      "raspas de limao mais o suco deste",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-com-quiabo-mineiro_dd0aacf5",
+    "titulo": "Frango com quiabo mineiro",
+    "tipo": "aves",
+    "receita": [
+      "Tempere o frango com o alho amassados, sal, pimenta e colorau.",
+      "Se desejar, acrescente uma colher (sopa) de vinagre.",
+      "Deixe marinar na geladeira por aproximadamente, 30 minutos.",
+      "Preparando o quiabo:",
+      "lave o quiabo e seque com um pano, deixando-o bem sequinho.",
+      "Pique em rodelinhas finas.",
+      "Em uma panela, aqueça uma xícara de óleo.",
+      "Acrescente o quiabo picado e deixe refogar até que não tenha mais nenhuma baba. tenha paciência, porque a baba sai! este processo leva cerca de 20 minutos.",
+      "Mexa de vez em quando, com cuidado para o quiabo não desmanchar.",
+      "Quando estiver sem baba, desligue o fogo, espere amornar e coe, para retirar o óleo.",
+      "Reserve somente o quiabo.",
+      "Preparando o frango:",
+      "Em uma panela, aqueça duas colheres (sopa) de óleo e doure muito bem a cebola, como se estivesse queimando (isso fará com que solte um corante natural no frango).",
+      "Junte o frango e deixe -o fritar muito bem.",
+      "Quando estiver bastante dourado, junte três xícaras de água fervente, ou um tanto que quase cubra o frango.",
+      "Corrija o sal, se necessário, e deixe cozinhar em fogo médio, com a panela semi-tampada por mais ou menos 20 minutos, ou até que o frango esteja bem macio.",
+      "Junte o quiabo reservado e deixe apurar até que fique encorpado.",
+      "Se estiver com muito caldo, aumente o fogo e deixe secar um pouco mais.",
+      "Verifique se está bom de sal.",
+      "Por último, junte o cheiro-verde.",
+      "Sirva com arroz e feijão fresquinhos e angu (ou polenta sem molho)."
+    ],
+    "ingredientes_originais": [
+      "1 quilo de quiabo",
+      "1 frango inteiro, cortado em pedaços",
+      "5 dentes de alho amassados",
+      "1 cebola grande bem pitadinha",
+      "1 xícara (chá) de óleo",
+      "1 colher (sobremesa) de colorau",
+      "pimenta a gosto",
+      "sal a gosto",
+      "cheiro verde a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "cebola bem pitadinha",
+      "cheiro verde",
+      "colorau",
+      "frango inteiro cortado",
+      "oleo",
+      "pimenta",
+      "quiabo",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-a-passarinho-super-crocante_52fb26d2",
+    "titulo": "Frango à passarinho super crocante",
+    "tipo": "aves",
+    "receita": [
+      "Misture em tigela, com os pedaços de frango, o alho amassado, a cebola, o cheiro verde, o limão e tempero baiano.",
+      "Deixe descansar por 10 minutos.",
+      "Em uma tigela à parte, misture a farinha de trigo, o orégano e o fermento.",
+      "Coloque a segunda mistura em cima da primeira e tape, agitando bem, para que a farinha e os ingredientes se misturem bem aos pedaços de frango.",
+      "Frite em panela alta, com óleo bem quente, deixando dourar (aproximadamente 15 minutos).",
+      "Retire, coloque em papel toalha para escorrer e disponha numa travessa, enfeitando com salsa picada.",
+      "Ficam bem crocantes, tais os que são feitos em lanchonetes especializadas, a grande diferença é o sabor bem mais agradável e caseiro."
+    ],
+    "ingredientes_originais": [
+      "12 pedaços de frango cortados na junta (passarinho)",
+      "5 dentes de alho amassados com sal a gosto",
+      "1 cebola bem picada",
+      "4 colheres (sopa) de cheiro-verde bem picado",
+      "5 colheres (sopa) de suco de limão",
+      "1 colher (café) de tempero baiano",
+      "1 xícara de farinha de trigo",
+      "1 colher (sopa) de orégano",
+      "1 colher (chá) de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "alho com sal",
+      "cebola bem",
+      "cheiro verde bem",
+      "farinha de trigo",
+      "fermento em po",
+      "frango cortados na junta",
+      "oregano",
+      "suco de limao",
+      "tempero baiano"
+    ]
+  },
+  {
+    "id": "aves_frango-assado-com-creme-de-cebola-e-maionese_bd8215bf",
+    "titulo": "Frango assado com creme de cebola e maionese",
+    "tipo": "aves",
+    "receita": [
+      "Lave bem e separe as coxas das sobrecoxas de frango.",
+      "Passes os pedaços do frango no creme de cebola um a um de forma que o pedaço de frango fique bem coberto com o creme de cebola.",
+      "Coloque os pedaços em uma assadeira média ajeitando de forma que fiquem pertinhos um do outro.",
+      "Cubra os pedaços com maionese.",
+      "Leve para assar em forno médio 180º C por aproximadamente 2 horas, ou até ficar bem douradinho."
+    ],
+    "ingredientes_originais": [
+      "1 kg de coxa e sobrecoxa",
+      "2 pacotinhos de creme de cebola",
+      "300 g maionese"
+    ],
+    "ingredientes_centrais": [
+      "coxa e sobrecoxa",
+      "maionese",
+      "pacotinhos de creme de cebola"
+    ]
+  },
+  {
+    "id": "aves_fricasse-de-frango_0e15c24a",
+    "titulo": "Fricassê de frango",
+    "tipo": "aves",
+    "receita": [
+      "Coloque o peito de frango para cozinhar com água e o caldo de galinha na panela de pressão.",
+      "Depois de cozido desfie o frango.",
+      "Bata no liquidificador, o creme de leite, o requeijão, o milho, as azeitonas, a pimenta e um pouco de sal.",
+      "Em uma panela, acrescente a cebola, o alho e o frango.",
+      "Logo depois, acrescente o creme do liquidificador no frango, não deixe muito tempo.",
+      "Coloque em uma travessa, coloque o queijo e as batatas palhas em cima.",
+      "Deixe no forno até o queijo derreter!"
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango",
+      "1 lata de milho verde",
+      "1 lata de azeitonas",
+      "1 copo de requeijão cremoso",
+      "1 lata de creme de leite",
+      "1 cebola",
+      "1 caldo de galinha",
+      "1 alho",
+      "batata palha",
+      "queijo, pimenta e sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeitonas",
+      "batata palha",
+      "caldo de galinha",
+      "cebola",
+      "creme de leite",
+      "milho verde",
+      "peito de frango",
+      "queijo pimenta e sal",
+      "requeijao cremoso"
+    ]
+  },
+  {
+    "id": "aves_frango-frito-americano_8ec0bd68",
+    "titulo": "Frango frito americano",
+    "tipo": "aves",
+    "receita": [
+      "Limpe bem os pedaços do frango.",
+      "Tempere a carne com o alho, o suco de limão, 1 pitada de sal e 1 pitada de pimenta, deixe a carne marinando por 30 minutos.",
+      "Misture o leite, a água e o ovo em uma bacia.",
+      "É essa mistura que vai garantir o crocante da casca e a carne sequinha e tenra.",
+      "Coloque o frango na bacia para \"nadar\" na mistura.",
+      "Depois de passar a carne pela mistura, vamos empanar.",
+      "Para empanar o frango, coloque a farinha em um saco plástico, com mais uma pitada de sal e pimenta.",
+      "Pode experimentar para sentir se está bom.",
+      "Depois coloque os pedaços de frango no saco plástico e mexa bem, para que a farinha \"agarre\" no frango.",
+      "Coloque bastante óleo em uma panela.",
+      "Pode ser óleo de soja, girassol, banha ou canola.",
+      "Com óleo de soja fica muito bom.",
+      "Quando o óleo estiver bem quente, mergulhe algumas partes do frango.",
+      "A carne precisa ficar bioando na gordura, por isso precisa bastante óleo na panela.",
+      "Deixe o frango fritar por uns 5 minutos, mexa e vire.",
+      "Quando o frango estiver bom, ele bóia.",
+      "Escorrer e servir. Fica uma delícia."
+    ],
+    "ingredientes_originais": [
+      "6 coxas e 6 sobrecoxas de frango (pode ser 1 kg de frango cortado à passarinho, ou pedaços de peito, como preferir)",
+      "3 dentes de alho",
+      "Suco de 2 limões",
+      "Sal a gosto",
+      "Pimenta a gosto",
+      "Azeite de oliva",
+      "1 ovo",
+      "1 xícara de leite",
+      "1 xícara de água",
+      "Farinha de trigo"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "azeite de oliva",
+      "coxas e sobrecoxas de frango",
+      "farinha de trigo",
+      "leite",
+      "ovo",
+      "pimenta",
+      "sal",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "aves_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_3e0a2d19",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "aves",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "aves_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_d57584a3",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "aves",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "aves_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_ec554e44",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "aves",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_66437bf7",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "aves",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_e52db960",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "aves",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "aves_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_2c31ff3f",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "aves",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "aves_torta-de-frango-com-catupiry-da-lilian_a94826b3",
+    "titulo": "Torta de frango com catupiry da Lilian",
+    "tipo": "aves",
+    "receita": [
+      "Recheio:",
+      "Dourar o frango já desfiado no alho e na cebola, misturar todos os outros ingredientes (menos o catupiry) e mexer em fogo baixo até que fique como um creme e reservar.",
+      "Massa:",
+      "Bater todos os ingredientes da massa no liquidificador.",
+      "Untar a forma ou marinex com manteiga e polvilhar com farinha de rosca.",
+      "Colocar metade da massa, rechear com o creme de frango, cobrir o creme de frango com o catupiry.",
+      "Colocar a outra metade da massa e levar ao forno médio/baixo até que quando furada com o garfo esteja assada."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido e desfiado",
+      "1 copo de requeijão",
+      "1 xícara de azeitonas pretas picada",
+      "150 g de queijo mussarela cortado em tiras",
+      "150 g de presunto cortado em tiras",
+      "1 lata de seleta de legumes ou milho verde",
+      "1 bisnaga de catupiry",
+      "3 ovos",
+      "2 xícaras de chá de farinha de trigo",
+      "2 xícaras de chá de leite",
+      "1 xícara de chá de óleo",
+      "3 colheres de chá de sal",
+      "2 colheres de sopa de maisena",
+      "1 colher de sopa de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "azeitonas pretas",
+      "bisnaga de catupiry",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "maisena",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "presunto cortado",
+      "queijo mussarela cortado",
+      "requeijao",
+      "sal",
+      "seleta de legumes ou milho verde"
+    ]
+  },
+  {
+    "id": "aves_peito-de-frango-rapido-e-economico_c7b2568c",
+    "titulo": "Peito de frango rápido e econômico",
+    "tipo": "aves",
+    "receita": [
+      "Coloque em uma panela o óleo ou azeite, a cebola, o pimentão e o peito de frango.",
+      "Deixe cozinhando por uns 15 minutos, sempre mexendo.",
+      "Se necessário, acrescente um pouco de água.",
+      "Acrescente o caldo de galinha e um pouco de água para dissolvê-lo, após polvilhe com o trigo misturando tudo bem.",
+      "Acrescente o leite e mexa até engrossar, se achar necessário coloque mais leite de acordo com sua preferência para a consistência do molho."
+    ],
+    "ingredientes_originais": [
+      "1 kg peito de frango em tiras ou filé",
+      "1/2 cebola picada",
+      "1/2 pimentão verde em tiras finas",
+      "1/2 caldo de galinha",
+      "1 colher de sopa (rasa) de farinha de trigo",
+      "1 xícara de leite",
+      "1 pitada de noz-moscada",
+      "sal a gosto",
+      "1 colher de azeite ou óleo"
+    ],
+    "ingredientes_centrais": [
+      "azeite ou oleo",
+      "caldo de galinha",
+      "cebola",
+      "farinha de trigo",
+      "leite",
+      "noz moscada",
+      "peito de frango ou file",
+      "pimentao verde",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-gratinado-com-creme-de-milho_e6afcb14",
+    "titulo": "Frango gratinado com creme de milho",
+    "tipo": "aves",
+    "receita": [
+      "Cozinhe o peito de frango com poucos temperos, após cozido e desfiado refogue no azeite e na cebola, reserve.",
+      "Bata no liquidificador as 2 latas de milho verde com as 2 latas de creme de leite.",
+      "Em uma frigideira frite e bacon com um fio de azeite, quando estiver bem dourado junte a mistura do liquidificador e deixe apurar.",
+      "Montagem:",
+      "Em um refratário coloque o frango desfiado e refogado, por cima as fatias de queijo mussarela, em seguida despeje todo o creme de milho, e para finalizar coloque queijo parmesão e leve ao forno para dar uma gratinada.",
+      "Sirva com arroz branco e batata palha."
+    ],
+    "ingredientes_originais": [
+      "2 kg de peito de frango cozido e desfiado em pedaços grandes",
+      "1 cebola picada",
+      "200 g de bacon picado",
+      "200 g de mussarela fatiada",
+      "2 latas de milho verde",
+      "2 latas de creme de leite",
+      "queijo parmesão para gratinar"
+    ],
+    "ingredientes_centrais": [
+      "bacon",
+      "cebola",
+      "creme de leite",
+      "milho verde",
+      "mussarela",
+      "peito de frango",
+      "queijo parmesao para gratinar"
+    ]
+  },
+  {
+    "id": "aves_salpicao-de-frango_29ef02a7",
+    "titulo": "Salpicão de frango",
+    "tipo": "aves",
+    "receita": [
+      "Desfie o frango assado. Junte as passas, o salsão picado e a maçã regada com suco de limão para não escurecer. Junte o iogurte à maionese e tempere com manjericão. Misture tudo e ponha um ramo de salsinha para enfeitar."
+    ],
+    "ingredientes_originais": [
+      "1 frango inteiro assado pequeno desfiado",
+      "100 g de passas sem semente",
+      "2 talos de salsão picados",
+      "1 maçã cortada em pequenos quadradinhos",
+      "suco de 1 limão",
+      "2 xícaras de molho de maionese",
+      "1 pote de iogurte natural",
+      "manjericão"
+    ],
+    "ingredientes_centrais": [
+      "frango inteiro assado",
+      "iogurte natural",
+      "maca cortada em quadradinhos",
+      "manjericao",
+      "molho de maionese",
+      "passas",
+      "salsao",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "aves_frango-assado-com-batatas_aa3a331b",
+    "titulo": "Frango assado com batatas",
+    "tipo": "aves",
+    "receita": [
+      "Tempere os pedaços de frango com alho, sal, sazon para aves.",
+      "Coloque 5 colheres de sopa de pomarola no frango, ou se preferir 2 colheres de extrato de tomate.",
+      "Coloque também a essa mistura três colheres de maionese.",
+      "Misture as batatas com tudo isso, pode deixar uma meia hora pra pegar tempero.",
+      "Coloque em uma assadeira e leve ao forno em temperatura máxima.",
+      "Aproximadamente 1 hora ou até que você veja que o frango está assado.",
+      "Sirva com arroz branco.",
+      "Fica uma delícia."
+    ],
+    "ingredientes_originais": [
+      "1 kg e 1/2 de frango, cortado em pedaços",
+      "2 batatas grandes picadas em cubos médios",
+      "Pomarola",
+      "Maionese",
+      "Sazon para aves",
+      "Alho",
+      "sal"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "batata",
+      "frango cortado",
+      "maionese",
+      "pomarola",
+      "sal",
+      "sazon para aves"
+    ]
+  },
+  {
+    "id": "aves_hamburguer-assado_752e16d2",
+    "titulo": "Hambúrguer assado",
+    "tipo": "aves",
+    "receita": [
+      "Bata no liquidificador os ingredientes do pão.",
+      "Vire em uma bacia e coloque farinha de trigo, aos poucos, até soltar das mãos, não deixe a massa dura, sove bem a massa.",
+      "Deixe descansar por 15 minutos tampada com um pano.",
+      "Abra a massa com um rolo, recheie com 1 rodela de tomate, 1 hamburger, requeijão cremoso e outra rodela de tomate.",
+      "Coloque em uma assadeira untada e enfarinhada, pincele com gema e deixe crescer até dobrar de volume em média 1 hora.",
+      "Leve para assar em forno alto nos primeiros 15 minutos, abaixe o fogo e deixe até corar e assar."
+    ],
+    "ingredientes_originais": [
+      "50 g de fermento para pão",
+      "1 xícara (chá) de leite morno",
+      "1/2 xícara (chá) de óleo",
+      "1/2 colher (sobremesa) de açúcar",
+      "1 colher (café) de sal",
+      "3 ovos",
+      "1 kg de farinha de trigo (aproximadamente)",
+      "12 hambúrgueres bovino ou de frango",
+      "Rodelas de tomate",
+      "Requeijão cremoso",
+      "Gema para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento para pao",
+      "gema para pincelar",
+      "hamburgueres bovino ou de frango",
+      "leite",
+      "oleo",
+      "ovo",
+      "requeijao cremoso",
+      "rodelas de tomate",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_frango-cremoso-rapidinho_d2f8921c",
+    "titulo": "Frango cremoso rapidinho",
+    "tipo": "aves",
+    "receita": [
+      "Em uma panela refogue o peito de frango (cozido e desfiado) com a lata de molho de tomate e coloque em um refratário de vidro.",
+      "No liquidificador bata o creme de leite, o milho, o requeijão e coloque por cima do peito de frango.",
+      "Salpique a mussarela por cima e leve ao forno pra gratinar."
+    ],
+    "ingredientes_originais": [
+      "1 peito de frango cozido em 1/2 litro de água com caldo de galinha e temperos a gosto",
+      "1 lata de creme de leite",
+      "1 lata de milho verde escorrido",
+      "1 copo de requeijão cremoso",
+      "1 lata de molho de tomate",
+      "100 g de mussarela (pode ser ralada ou em fatias)"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite",
+      "milho verde escorrido",
+      "molho de tomate",
+      "mussarela",
+      "peito de frango em de agua com caldo de galinha e temperos",
+      "requeijao cremoso"
+    ]
+  },
+  {
+    "id": "aves_chester-assado_2c4d890d",
+    "titulo": "Chester assado",
+    "tipo": "aves",
+    "receita": [
+      "Tempere o chester com todos os temperos.",
+      "Coloque as cebolas inteiras na cavidade do frango e deixe tomar gosto por 6 horas.",
+      "Leve o chester ao forno em uma assadeira, colocando pedacinhos de manteiga.",
+      "Cubra com papel-alumínio e deixe assar por 40 minutos cobertos.",
+      "Retire-os e deixe dourá-los.",
+      "Bom apetite."
+    ],
+    "ingredientes_originais": [
+      "1 chester",
+      "1 colher (sopa) de alho",
+      "1 colher (sopa) de molho inglês",
+      "1 xícara (chá) de calda de laranja",
+      "2 cebolas inteiras",
+      "2 dentes de alho picados",
+      "manteiga a gosto",
+      "sal",
+      "pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "calda de laranja",
+      "cebola inteiras",
+      "chester",
+      "manteiga",
+      "molho ingles",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "aves_torta-de-frango_f753107a",
+    "titulo": "Torta de frango",
+    "tipo": "aves",
+    "receita": [
+      "Leve todos os ingredientes da massa ao liquidificador.",
+      "Bata até ficar uma massa homogênea.",
+      "Despeje em forma untada e reserve.",
+      "Em uma panela, faça um molho com todos os ingredientes.",
+      "Deixe o molho engrossar.",
+      "Despeje sobre a massa com cuidado.",
+      "Leve ao forno a 180º pré - aquecido por mais ou menos 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de trigo",
+      "1 xícara de óleo",
+      "1 xícara de leite",
+      "3 ovos",
+      "1 colher de fermento em pó",
+      "Sal e tempero a gosto",
+      "1 peito de frango cozido e desfiado",
+      "1 lata de milho verde",
+      "2 colher de extrato de tomate",
+      "Sal, cebola, orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "extrato de tomate",
+      "fermento em po",
+      "leite",
+      "milho verde",
+      "oleo",
+      "ovo",
+      "peito de frango",
+      "sal cebola oregano",
+      "sal e tempero",
+      "trigo"
+    ]
+  },
+  {
+    "id": "aves_frango-assado-na-cerveja-chef-vitor-monteiro_752e543e",
+    "titulo": "Frango assado na cerveja - chef Vitor Monteiro",
+    "tipo": "aves",
+    "receita": [
+      "Misture os ingredientes da marinada com o frango.",
+      "Não coloque a cerveja neste momento.",
+      "Armazene na geladeira de um dia para o outro.",
+      "Acomode na forma, o frango com a pele virada para baixo com as batatas, e por cima despeje o caldo da marinada e a cerveja.",
+      "Asse por 30 minutos em fogo alto.",
+      "Retire a forma do forno com cuidado e com o auxílio de uma concha, elimine o excesso de líquido.",
+      "Vire os pedaços de frango para que a pele fique para cima.",
+      "Espalhe a cebola fatiada por cima.",
+      "Asse por mais 30 minutos ou até a pele dourar."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 kg de coxas e sobrecoxas de frango",
+      "1 colher (sopa) cheia de mostarda",
+      "2 colheres (sopa) de orégano",
+      "10 dentes de alho amassados",
+      "2 cebolas médias picadas",
+      "3 colheres cheias de maionese",
+      "1 colher rasa de pimenta-do-reino",
+      "1/2 copo (requeijão) de vinagre branco",
+      "2 colheres de sal",
+      "1 lata de cerveja clara (adicione apenas no momento de assar)",
+      "1 kg de batatas médias sem casca e cortadas ao meio",
+      "1 cebola grande fatiada",
+      "forma grande untada com manteiga ou margarina"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "batata e cortadas ao meio",
+      "cebola",
+      "cerveja clara",
+      "cheia de mostarda",
+      "cheias de maionese",
+      "coxas e sobrecoxas de frango",
+      "forma untada com manteiga ou margarina",
+      "oregano",
+      "rasa de pimenta do reino",
+      "sal",
+      "vinagre branco"
+    ]
+  },
+  {
+    "id": "aves_file-de-frango-gratinado_cce6eed2",
+    "titulo": "Filé de frango gratinado",
+    "tipo": "aves",
+    "receita": [
+      "Tempere o filé de frango, somente com o creme de cebola e espalhe em uma assadeira/pirex abertos, reserve.",
+      "Em um recipiente grande separado (bacia), misture todos os outros ingredientes, apenas misture formando um creme.",
+      "Não é necessário levar ao fogo.",
+      "Depois de misturado, despeje em cima dos filés e leve ao forno médio, por 35 minutos aproximadamente ou até gratinar (dourar)."
+    ],
+    "ingredientes_originais": [
+      "1 kg de filé de frango (não muito grosso)",
+      "1 envelope de creme de cebola",
+      "1 xícara de vinho branco seco",
+      "2 colheres (sopa) de mostarda",
+      "1 copo de requeijão",
+      "2 caixinhas de creme de leite",
+      "500 ml de leite de coco",
+      "pimenta a gosto (pimenta-do-reino ou vermelha)"
+    ],
+    "ingredientes_centrais": [
+      "caixinhas de creme de leite",
+      "creme de cebola",
+      "file de frango",
+      "leite de coco",
+      "mostarda",
+      "pimenta",
+      "requeijao",
+      "vinho branco"
+    ]
+  },
+  {
+    "id": "aves_file-de-frango-ao-forno_9fcd0df8",
+    "titulo": "Filé de frango ao forno",
+    "tipo": "aves",
+    "receita": [
+      "Corte o filé em bife não muito grosso.",
+      "Tempere com o creme de cebola, coloque em um pirex e reserve.",
+      "Misture muito bem a caixinha de creme de leite sem soro e o copo de requeijão.",
+      "Coloque por cima do filé.",
+      "Leve ao forno para assar por 30 minutos, ou até dourar um pouquinho por cima.",
+      "Sirva a seguir.",
+      "Pode ser acompanhado com arroz branco e salada verde."
+    ],
+    "ingredientes_originais": [
+      "1 kg de filé de peito de frango",
+      "1/2 pacote de creme de cebola",
+      "1 caixinha de creme de leite",
+      "1 copo de requeijão"
+    ],
+    "ingredientes_centrais": [
+      "caixinha de creme de leite",
+      "creme de cebola",
+      "file de peito de frango",
+      "requeijao"
+    ]
+  },
+  {
+    "id": "aves_peru-assado-simples_1fd75f6a",
+    "titulo": "Peru assado simples",
+    "tipo": "aves",
+    "receita": [
+      "Pré-aqueça o forno em temperatura média (180º C).",
+      "Coloque num liquidificador as cebolas, os alhos, o molho de pimenta, a mostarda, 1 xícara de vinho, 1 xícara de caldo de galinha, a manteiga, o sal e bata bem em seguida.",
+      "Passe para uma vasilha, juntando o vinho e o caldo de galinha restantes e misture bem.",
+      "Recheie o peru e coloque-o numa assadeira sem untar.",
+      "Segure a pele do peito do peru com uma mão e, com a outra, empurre-a para soltar da carne.",
+      "Fure a carne com um garfo e, com o auxílio de um injetor de tempero, injete a manteiga derretida em vários pontos do peito do peru.",
+      "Esfregue o tempero preparado na superfície do peru e injete um pouco na carne.",
+      "Puxe a pele de volta, cobrindo novamente o peru, e costure com linha grossa.",
+      "Cubra com papel alumínio e leve ao forno por cerca de 3 horas, regando o peru a cada 20 minutos com o molho que cair na assadeira.",
+      "Quando o papel já estiver escurecido, retire-o e deixe o peru no forno até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 peru limpo com cerca de 4 Kg",
+      "2 cebolas grandes cortadas em pedaços pequenos",
+      "1/2 colher (sopa) de molho de pimenta",
+      "1 colher (sopa) de mostarda tipo francesa",
+      "1 garrafa de vinho branco seco",
+      "3 xícaras de caldo de galinha",
+      "1 xícara de manteiga derretida",
+      "sal a gosto",
+      "manteiga derretida para injetar"
+    ],
+    "ingredientes_centrais": [
+      "caldo de galinha",
+      "cebola cortadas",
+      "garrafa de vinho branco",
+      "manteiga",
+      "manteiga para injetar",
+      "molho de pimenta",
+      "mostarda tipo francesa",
+      "peru limpo com cerca",
+      "sal"
     ]
   }
 ]

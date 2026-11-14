@@ -12,7 +12,12 @@ from pathlib import Path
 from ingestion.io_gateway import baixar_html, salvar_categoria_json
 from ingestion.models import CategoryResult, CategoryTarget, ProcessedRecipe
 from ingestion.normalizer import processar_receita
-from ingestion.parser import extrair_links_categoria_html, extrair_receita_html
+from ingestion.parser import (
+    deduplicar_preservando_ordem,
+    extrair_links_categoria_html,
+    extrair_receita_html,
+    gerar_url_pagina,
+)
 
 # Diretório base de persistência dos dados: ingestion/data/
 DATA_DIR: Path = Path(__file__).parent / "data"
@@ -73,23 +78,58 @@ def extrair_e_processar_url(url: str, categoria: str) -> ProcessedRecipe | None:
     return processar_receita(raw_recipe, categoria_alvo=categoria)
 
 
+def coletar_urls_categoria(
+    base_url: str,
+    limite: int = 50,
+    pagina_atual: int = 1,
+    acumuladas: tuple[str, ...] = (),
+    max_paginas: int = 6,
+) -> tuple[str, ...]:
+    """
+    Coleta URLs de receitas de uma categoria percorrendo a paginação funcionalmente.
+    Usa recursão pura sem acumuladores mutáveis, interrompendo ao atingir o limite.
+    """
+    if len(acumuladas) >= limite or pagina_atual > max_paginas:
+        return acumuladas[:limite]
+
+    url_pagina = gerar_url_pagina(base_url, pagina_atual)
+    html = baixar_html(url_pagina)
+    if not html:
+        return acumuladas[:limite]
+
+    links_pagina = extrair_links_categoria_html(html, limite=limite)
+    if not links_pagina:
+        return acumuladas[:limite]
+
+    combinados = deduplicar_preservando_ordem(acumuladas + links_pagina)
+    if len(combinados) == len(acumuladas):
+        return combinados[:limite]
+
+    return coletar_urls_categoria(
+        base_url,
+        limite=limite,
+        pagina_atual=pagina_atual + 1,
+        acumuladas=combinados,
+        max_paginas=max_paginas,
+    )
+
+
 def processar_categoria(
     alvo: CategoryTarget,
     base_dir: Path,
-    limite: int = 15
+    limite: int = 50,
 ) -> CategoryResult:
     """
     Processa uma categoria completa de ponta a ponta:
-    1. Baixa o HTML da página de categoria.
-    2. Extrai de forma pura as URLs recomendadas.
+    1. Baixa o HTML das páginas de categoria via paginação funcional.
+    2. Extrai de forma pura as URLs recomendadas (até `limite`, padrão 50).
     3. Mapeia a extração e normalização de cada receita.
     4. Persiste o resultado no arquivo JSON de destino.
     """
     destino = base_dir / alvo.nome / "pratos.json"
     print(f"\n📂 [{alvo.nome.upper()}] Buscando até {limite} receitas recomendadas...")
 
-    html_categoria = baixar_html(alvo.url)
-    urls_recomendadas = extrair_links_categoria_html(html_categoria, limite=limite)
+    urls_recomendadas = coletar_urls_categoria(alvo.url, limite=limite)
 
     if not urls_recomendadas:
         print(f"   ⚠️ Nenhuma URL encontrada para a categoria '{alvo.nome}'.")
@@ -108,7 +148,7 @@ def processar_categoria(
     resultado = CategoryResult(
         nome=alvo.nome,
         destino=destino,
-        receitas=receitas_validas
+        receitas=receitas_validas,
     )
 
     total_salvo = salvar_categoria_json(resultado)
@@ -120,7 +160,7 @@ def processar_categoria(
 def executar_pipeline(
     alvos: tuple[CategoryTarget, ...] = CATEGORIAS_PADRAO,
     base_dir: Path = DATA_DIR,
-    limite_por_categoria: int = 15
+    limite_por_categoria: int = 50,
 ) -> tuple[CategoryResult, ...]:
     """
     Orquestra o pipeline funcional para todas as categorias informadas.
@@ -146,8 +186,13 @@ def executar_pipeline(
 
 
 def main() -> None:
-    """Ponto de entrada via CLI com suporte a filtro de categoria opcional."""
-    filtro_cli = sys.argv[1].strip() if len(sys.argv) > 1 else None
+    """Ponto de entrada via CLI com suporte a filtro de categoria e limite de receitas."""
+    filtro_cli = sys.argv[1].strip() if len(sys.argv) > 1 and not sys.argv[1].isdigit() else None
+    limite_cli = (
+        int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit()
+        else int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit()
+        else 50
+    )
     alvos_selecionados = filtrar_alvos_por_nome(CATEGORIAS_PADRAO, filtro_cli)
 
     if not alvos_selecionados:
@@ -155,7 +200,7 @@ def main() -> None:
         print(f"Categorias disponíveis: {[alvo.nome for alvo in CATEGORIAS_PADRAO]}")
         sys.exit(1)
 
-    executar_pipeline(alvos=alvos_selecionados, base_dir=DATA_DIR, limite_por_categoria=15)
+    executar_pipeline(alvos=alvos_selecionados, limite_por_categoria=limite_cli)
 
 
 if __name__ == "__main__":

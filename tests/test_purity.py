@@ -7,6 +7,7 @@ são puramente determinísticas (mesma entrada -> mesma saída) e preservam o es
 
 from implementation.engine import (
     calculate_match,
+    has_minimum_matches,
     ingrediente_coberto,
     is_within_tolerance,
     matches_category,
@@ -124,3 +125,28 @@ def test_obter_ingredientes_disponiveis() -> None:
     disponiveis = obter_ingredientes_disponiveis(ingredientes, despensa)
     assert disponiveis == frozenset({"arroz", "alho"})
     assert isinstance(disponiveis, frozenset)
+
+
+def test_has_minimum_matches() -> None:
+    """Valida o predicado de correspondência mínima de ingredientes."""
+    prato_4_itens = Dish("p4", "Prato Grande", "geral", (), (), frozenset({"a", "b", "c", "d"}))
+    prato_1_item = Dish("p1", "Prato Simples", "geral", (), (), frozenset({"sal"}))
+
+    m_0 = MatchResult(prato_4_itens, 0.0, frozenset(), frozenset({"a", "b", "c", "d"}))
+    m_1 = MatchResult(prato_4_itens, 25.0, frozenset({"a"}), frozenset({"b", "c", "d"}))
+    m_2 = MatchResult(prato_4_itens, 50.0, frozenset({"a", "b"}), frozenset({"c", "d"}))
+    m_single = MatchResult(prato_1_item, 100.0, frozenset({"sal"}), frozenset())
+
+    # 0 ingredientes em comum sempre retorna False
+    assert has_minimum_matches(m_0, min_matched=2) is False
+    assert has_minimum_matches(m_0, min_matched=1) is False
+
+    # 1 ingrediente em prato de 4: falso se min=2, verdadeiro se min=1
+    assert has_minimum_matches(m_1, min_matched=2) is False
+    assert has_minimum_matches(m_1, min_matched=1) is True
+
+    # 2 ingredientes em prato de 4: verdadeiro se min=2
+    assert has_minimum_matches(m_2, min_matched=2) is True
+
+    # Prato com apenas 1 ingrediente: satisfaz min(2, 1) = 1
+    assert has_minimum_matches(m_single, min_matched=2) is True
