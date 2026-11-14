@@ -1,7 +1,7 @@
 # 🖥️ Módulo de Interface do Usuário e Adaptadores de E/S (`interface/`)
 ### Camada de Interação, Bordas de Efeitos Colaterais e Formatação Declarativa
 
-> **Componente do Projeto:** *Cook What U Have (MealMatch)*  
+> **Componente do Projeto:** *Cook What U Have (MealMatch)*
 > **Responsabilidade:** Gerenciar a interação com o usuário via terminal (CLI), carregar a base de dados dos pratos a partir do disco e formatar relatórios visuais claros, isolando os efeitos colaterais (*I/O Boundaries*) do núcleo puro do sistema.
 
 ---
@@ -55,8 +55,26 @@ A partir da raiz do repositório (`cook-what-u-have/`):
 ================================================================================
 Base de dados: 120 pratos carregados em memória.
 
+📋 Categorias Culinárias Disponíveis:
+   [1] Aves
+   [2] Bolos E Tortas
+   [3] Carnes
+   [4] Doces E Sobremesas
+   [5] Massas
+   [6] Peixes E Frutos Do Mar
+   [7] Saladas E Molhos
+   [8] Sopas
+   [0] Todas as categorias (busca global)
+
 1. Ingredientes na sua despensa (separados por vírgula): ovo, cebola, bacon, queijo
 2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): camarao
 3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): 2
-4. Categoria culinária (ou Enter para buscar em todas as 8): massas
+4. Escolha a categoria culinária [0-8 ou nome] (Enter para todas): 5
 ```
+
+### Navegação e Inspeção de Receita
+Após a exibição das sugestões no console, o usuário pode digitar o número de qualquer prato para inspecionar os detalhes:
+- **Lista de ingredientes originais** do TudoGostoso com quantidades e medidas.
+- **Modo de preparo completo** numerado passo a passo.
+- **Lista de compras residual** com os itens faltantes.
+- Opção de retorno imediato (`[V] Voltar`) para reavaliar as outras sugestões sem necessidade de recalcular a busca, ou iniciar nova busca (`[N]`).

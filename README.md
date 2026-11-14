@@ -1,4 +1,4 @@
-#  Cook What U Have 
+#  Cook What U Have
 ### Motor Funcional de Indicação de Pratos e Redução do Desperdício Alimentar
 
 ##  Sumário Executivo
@@ -85,7 +85,7 @@ flowchart TD
         P3["3. map(calculate_match, safe_dishes)\nCálculo de interseção, faltantes e % cobertura"]
         P4["4. filter(is_within_tolerance, matches)\nDescarte de pratos acima do limiar de compras"]
         P5["5. sorted(matches, key=pure_lambda)\nOrdenação decrescente de match e crescente de faltantes"]
-        
+
         P1 --> P2 --> P3 --> P4 --> P5
     end
 
@@ -234,17 +234,27 @@ cook-what-u-have/
 │   └── README.md                   # Documentação detalhada da Implementação Funcional
 │
 ├── interface/                      # MÓDULO 3: Bordas de I/O e Apresentação
-│   ├── cli.py                      # Ponto de entrada da CLI e parsing de argumentos
-│   ├── formatter.py                # Funções puras de formatação visual de relatórios
-│   ├── io_adapter.py               # Leitura pura de dados do disco
+│   ├── __init__.py                 # Exportações formais do pacote de interface
+│   ├── cli.py                      # Ponto de entrada interativo, resolução de categorias e navegação
+│   ├── formatter.py                # Funções puras de formatação visual de relatórios e receitas
+│   ├── io_adapter.py               # Leitura pura de dados JSON do disco
 │   └── README.md                   # Documentação detalhada da Interface
 │
-├── tests/                          # MÓDULO DE TESTES
-│   ├── test_engine.py              # Testes unitários de determinismo e teoria dos conjuntos
-│   ├── test_pipeline.py            # Testes de exclusão de alérgenos e ranking
-│   └── test_immutability.py        # Testes de garantia de imutabilidade de dados
+├── tests/                          # MÓDULO DE TESTES (45 testes automatizados)
+│   ├── test_immutability.py        # Testes de imutabilidade estrita das entidades de domínio
+│   ├── test_purity.py              # Testes de funções puras e determinismo do motor
+│   ├── test_allergens_security.py  # Testes de segurança alimentar e poda de alérgenos no grafo
+│   ├── test_graph.py               # Testes de integridade bidirecional do Grafo Bipartido
+│   ├── test_normalizer.py          # Testes de sanitização de texto e extração canônica
+│   ├── test_loader.py              # Testes de carregamento, hashing determinístico e base real
+│   ├── test_pipeline.py            # Testes de integração do pipeline e ordenação multicritério
+│   └── test_cli_and_ux.py          # Testes do seletor de categorias, inspeção de receitas e paginação
 │
-├── requirements.txt                # Dependências mínimas
+├── .github/workflows/ci.yml        # Pipeline automatizado de CI/CD (Ruff, Mypy, Pytest)
+├── .pre-commit-config.yaml         # Ganchos de pré-commit para qualidade e tipagem
+├── pyproject.toml                  # Configurações centralizadas de Ruff, Mypy e Pytest
+├── requirements.txt                # Dependências formais do projeto
+├── main.py                         # Ponto de entrada principal da aplicação
 └── README.md                       # Documento principal da proposta
 ```
 
@@ -278,20 +288,21 @@ $$\text{Nota Final} = (0.7 \times \text{Trabalho}) + (0.1 \times \text{Lista de 
 
 ## 9. Critérios de Qualidade e Conformidade com o Paradigma Funcional
 
-Para garantir nota máxima e atender a todos os requisitos de avaliação docente e pelos pares, o projeto passará por um rigoroso checklist de conformidade:
+Para garantir nota máxima e atender a todos os requisitos de avaliação docente e pelos pares, o projeto passa por um rigoroso checklist de conformidade:
 
-- [x] **Zero Mutações de Estado:** Sem variáveis reatribuídas; todas as estruturas são congeladas (`frozen=True`, `frozenset`).
-- [x] **Zero Loops Imperativos com Acumuladores:** Sem `for` ou `while` modificando listas ou contadores em memória.
-- [x] **Isolamento de Efeitos Colaterais:** Código central em `implementation/` 100% livre de operações de escrita ou leitura externa não determinística.
-- [x] **Testes Automatizados de Pureza:** Suíte de testes com `pytest` verificando que invocar funções múltiplas vezes com os mesmos argumentos produz idênticos resultados sem alterar parâmetros recebidos.
-- [x] **Segurança Alimentar com Tolerância Zero:** Garantia matemática de que nenhum alérgeno declarado figurará nas sugestões finais.
+- [x] **Zero Mutações de Estado:** Sem variáveis reatribuídas; todas as estruturas são congeladas (`NamedTuple`, `frozenset`, `tuple`).
+- [x] **Zero Loops Imperativos com Acumuladores:** Sem `for` ou `while` modificando listas ou contadores em memória. Navegação interativa construída puramente via recursão e funções de alta ordem.
+- [x] **Isolamento Total de Efeitos Colaterais:** Código central em `implementation/` e relatórios em `interface/formatter.py` 100% livres de operações de escrita ou leitura externa.
+- [x] **Zero Uso de `def` no Motor e na Interface:** Lógica desenvolvida integralmente com expressões `lambda` puras e composições funcionais.
+- [x] **Testes Automatizados:** Suíte com 45 testes cobrindo imutabilidade, pureza, teoria dos conjuntos, poda de alérgenos e UX interativa.
+- [x] **Segurança Alimentar com Tolerância Zero:** Garantia de que nenhum alérgeno declarado figurará nas sugestões finais nem em termos derivados.
 
 ---
 
-## 10. Como Executar o Projeto (Guia Inicial)
+## 10. Como Executar o Projeto
 
 ### Pré-requisitos
-* Python 3.10 ou superior
+* Python 3.12 ou superior
 * Gerenciador de pacotes `pip`
 
 ### Instalação de Dependências
@@ -299,12 +310,32 @@ Para garantir nota máxima e atender a todos os requisitos de avaliação docent
 pip install -r requirements.txt
 ```
 
-### Execução dos Testes Automatizados
+### Execução da Aplicação (Recomendado)
 ```bash
-pytest tests/ -v
+python3 main.py
+```
+*(Ou alternativamente via módulo: `python3 -m interface.cli`)*
+
+### Execução da Ingestão de Dados (Crawler com Paginação)
+Para atualizar ou expandir a base de dados (suporta paginação para coletar até 50 receitas por categoria):
+```bash
+# Executa a coleta para todas as 8 categorias (50 receitas por categoria = 400 receitas):
+python3 -m ingestion.pipeline
+
+# Executa para uma categoria específica:
+python3 -m ingestion.pipeline aves 50
 ```
 
-### Execução da Interface
+### Execução da Suíte Completa de Testes
 ```bash
-python3 -m interface.cli
+pytest -v tests/
+```
+
+### Verificação Estática de Tipos e Linters
+```bash
+# Linter e formatação com Ruff:
+ruff check .
+
+# Checagem estática rigorosa de tipos com Mypy:
+mypy implementation interface ingestion tests
 ```
