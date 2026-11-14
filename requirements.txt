@@ -1,0 +1,11 @@
+# ==============================================================================
+# Cook What U Have (MealMatch) - Dependências do Projeto
+# ==============================================================================
+
+# Extração de receitas e parsing semântico
+recipe-scrapers>=15.0.0
+beautifulsoup4>=4.12.0
+requests>=2.28.0
+
+# Suíte de testes automatizados e asserções funcionais
+pytest>=8.0.0
