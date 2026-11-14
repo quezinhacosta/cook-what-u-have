@@ -8,7 +8,11 @@ sem utilizar a instrução imperativa de definição.
 from implementation.graph import build_recipe_graph
 from implementation.models import UserPreferences
 from implementation.pipeline import obter_pratos_bloqueados, run_recommendation
-from interface.formatter import formatar_relatorio_completo
+from interface.formatter import (
+    CATEGORIAS_DISPONIVEIS,
+    formatar_menu_categorias,
+    formatar_relatorio_completo,
+)
 from interface.io_adapter import DEFAULT_DATA_DIR, carregar_pratos
 
 # Converte texto delimitado por vírgula em conjunto imutável de strings limpas
@@ -17,6 +21,15 @@ parse_input_set = lambda text: frozenset(
         lambda s: len(s) > 0,
         map(str.strip, map(str.lower, text.split(","))),
     )
+)
+
+# Converte a entrada de categoria do usuário (numérica ou textual) na categoria canônica
+resolver_categoria_input = lambda text, categorias=CATEGORIAS_DISPONIVEIS: (
+    (lambda s: (
+        None if not s or s == "0" or s in ("todas", "todos") else
+        categorias[int(s) - 1] if s.isdigit() and 1 <= int(s) <= len(categorias) else
+        s
+    ))(text.strip().lower())
 )
 
 # Converte string numérica em inteiro ou retorna valor padrão de fallback
@@ -36,7 +49,7 @@ executar_consulta = lambda pratos, despensa_raw, alergenos_raw, tol_raw, cat_raw
             pantry=parse_input_set(despensa_raw),
             allergens=parse_input_set(alergenos_raw),
             max_missing=parse_int(tol_raw, 0),
-            category_filter=cat_raw.strip() or None,
+            category_filter=resolver_categoria_input(cat_raw),
         ),
     )
 )
@@ -46,7 +59,8 @@ executar_interativo = lambda pratos: (
     print("\n" + "=" * 80),
     print("🍳 COOK WHAT U HAVE — SISTEMA FUNCIONAL DE RECOMENDAÇÃO DE REFEIÇÕES"),
     print("=" * 80),
-    print(f"Base de dados: {len(pratos)} pratos carregados em memória."),
+    print(f"Base de dados: {len(pratos)} pratos carregados em memória.\n"),
+    print(formatar_menu_categorias()),
     (lambda d_raw, a_raw, t_raw, c_raw: (
         print("\nProcessando cruzamento no Grafo Bipartido..."),
         print(executar_consulta(pratos, d_raw, a_raw, t_raw, c_raw)),
@@ -54,7 +68,7 @@ executar_interativo = lambda pratos: (
         input("\n1. Ingredientes na sua despensa (separados por vírgula): "),
         input("\n2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): "),
         input("\n3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): "),
-        input("\n4. Categoria culinária (ou Enter para buscar em todas as 8): "),
+        input("\n4. Escolha a categoria culinária [0-8 ou nome] (Enter para todas): "),
     ),
 )
 
