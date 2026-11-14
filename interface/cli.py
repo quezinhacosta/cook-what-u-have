@@ -114,33 +114,42 @@ executar_sessao = lambda pratos: (
             print("=" * 80),
             print(f"Base de dados: {len(pratos)} pratos carregados em memória.\n"),
             print(formatar_menu_categorias()),
-            (lambda d_raw, a_raw, t_raw, c_raw: (
-                print("\nProcessando cruzamento no Grafo Bipartido..."),
-                (lambda grafo, prefs: (
-                    (lambda resultados, bloqueados: (
-                        loop_navegacao_pratos(
-                            resultados,
-                            formatar_relatorio_completo(resultados, bloqueados, prefs),
-                            lambda: self_sessao(self_sessao),
+            (lambda d_raw: (
+                (
+                    print("\n[AVISO] A despensa precisa conter pelo menos 2 ingredientes para gerar recomendações viáveis.\n"),
+                    self_sessao(self_sessao),
+                )
+                if len(parse_input_set(d_raw)) < 2 else
+                (lambda a_raw, t_raw, c_raw: (
+                    print("\nProcessando cruzamento no Grafo Bipartido..."),
+                    (lambda grafo, prefs: (
+                        (lambda resultados, bloqueados: (
+                            loop_navegacao_pratos(
+                                resultados,
+                                formatar_relatorio_completo(resultados, bloqueados, prefs),
+                                lambda: self_sessao(self_sessao),
+                            )
+                        ))(
+                            run_recommendation(grafo, prefs),
+                            obter_pratos_bloqueados(grafo, prefs.allergens, prefs.category_filter),
                         )
                     ))(
-                        run_recommendation(grafo, prefs),
-                        obter_pratos_bloqueados(grafo, prefs.allergens, prefs.category_filter),
-                    )
-                ))(
-                    build_recipe_graph(pratos),
-                    UserPreferences(
-                        pantry=parse_input_set(d_raw),
-                        allergens=parse_input_set(a_raw),
-                        max_missing=parse_int(t_raw, 0),
-                        category_filter=resolver_categoria_input(c_raw),
+                        build_recipe_graph(pratos),
+                        UserPreferences(
+                            pantry=parse_input_set(d_raw),
+                            allergens=parse_input_set(a_raw),
+                            max_missing=parse_int(t_raw, 0),
+                            category_filter=resolver_categoria_input(c_raw),
+                            min_matched=2,
+                        ),
                     ),
-                ),
+                ))(
+                    input("\n2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): "),
+                    input("\n3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): "),
+                    input("\n4. Escolha a categoria culinária [0-8 ou nome] (Enter para todas): "),
+                )
             ))(
-                input("\n1. Ingredientes na sua despensa (separados por vírgula): "),
-                input("\n2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): "),
-                input("\n3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): "),
-                input("\n4. Escolha a categoria culinária [0-8 ou nome] (Enter para todas): "),
+                input("\n1. Ingredientes na sua despensa (pelo menos 2, separados por vírgula): "),
             ),
         )
     )

@@ -8,6 +8,7 @@ Desenvolvido integralmente com funções lambda e composição de alta ordem.
 from implementation.engine import (
     calculate_match,
     encontrar_ids_contaminados,
+    has_minimum_matches,
     is_within_tolerance,
     matches_category,
     prune_allergens,
@@ -28,12 +29,12 @@ criterio_ordenacao = lambda m: (
 # 2. Mapeamento dos nós seguros
 # 3. Filtragem por categoria opcional
 # 4. Projeção de match e cobertura
-# 5. Filtragem por tolerância de faltantes
+# 5. Filtragem por tolerância de faltantes e correspondência mínima de ingredientes
 # 6. Ordenação determinística congelada em tupla imutável
 run_recommendation = lambda graph, prefs: tuple(
     sorted(
         filter(
-            lambda m: is_within_tolerance(m, prefs.max_missing),
+            lambda m: is_within_tolerance(m, prefs.max_missing) and has_minimum_matches(m, prefs.min_matched),
             map(
                 lambda d: calculate_match(d, prefs.pantry),
                 filter(
