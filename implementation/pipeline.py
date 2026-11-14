@@ -5,13 +5,12 @@ de receitas viáveis a partir do Grafo Bipartido.
 Desenvolvido integralmente com funções lambda e composição de alta ordem.
 """
 
-from implementation.models import Dish, UserPreferences, MatchResult, RecipeGraph
 from implementation.engine import (
-    prune_allergens,
     calculate_match,
+    encontrar_ids_contaminados,
     is_within_tolerance,
     matches_category,
-    encontrar_ids_contaminados,
+    prune_allergens,
 )
 
 # Critério multicritério de ordenação pura:

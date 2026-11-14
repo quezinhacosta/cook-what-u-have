@@ -5,12 +5,12 @@ através de funções 100% puras (sem requisições HTTP e sem E/S de arquivos).
 """
 
 import functools
-from typing import Optional
 from urllib.parse import urlparse
+
 from bs4 import BeautifulSoup
 from recipe_scrapers import scrape_html
-from ingestion.models import RawRecipe
 
+from ingestion.models import RawRecipe
 
 # ==============================================================================
 # FUNÇÕES PURAS DE VALIDAÇÃO E RESOLUÇÃO DE URL
@@ -36,7 +36,7 @@ def normalizar_url_relativa(link: str) -> str:
 def deduplicar_preservando_ordem(sequencia: tuple[str, ...]) -> tuple[str, ...]:
     """Função pura: deduplica uma tupla imutável preservando a ordem original via reduce."""
     def acumular_unico(acc: tuple[str, ...], item: str) -> tuple[str, ...]:
-        return acc if item in acc else acc + (item,)
+        return acc if item in acc else (*acc, item)
 
     return functools.reduce(acumular_unico, sequencia, ())
 
@@ -70,8 +70,11 @@ def extrair_links_categoria_html(html_content: str, limite: int = 15) -> tuple[s
     try:
         soup = BeautifulSoup(html_content, "html.parser")
         raw_links = (
-            a.get("href") for a in soup.find_all("a", href=True)
-            if "/receita/" in a.get("href", "") and a.get("href", "").endswith(".html")
+            str(a.get("href"))
+            for a in soup.find_all("a", href=True)
+            if isinstance(a.get("href"), str)
+            and "/receita/" in str(a.get("href"))
+            and str(a.get("href")).endswith(".html")
         )
         urls_absolutas = tuple(map(normalizar_url_relativa, raw_links))
         urls_unicas = deduplicar_preservando_ordem(urls_absolutas)
@@ -80,7 +83,7 @@ def extrair_links_categoria_html(html_content: str, limite: int = 15) -> tuple[s
         return ()
 
 
-def extrair_receita_html(html_content: str, url: str, tipo_padrao: str = "") -> Optional[RawRecipe]:
+def extrair_receita_html(html_content: str, url: str, tipo_padrao: str = "") -> RawRecipe | None:
     """
     Função pura de extração:
     Recebe o conteúdo HTML bruto, a URL de origem e uma categoria padrão de fallback.

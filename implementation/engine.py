@@ -5,7 +5,7 @@ diferença de conjuntos e tolerância de faltantes.
 Implementado integralmente com funções lambda e expressões de ordem superior.
 """
 
-from implementation.models import Dish, MatchResult, RecipeGraph
+from implementation.models import MatchResult
 
 # Localiza todas as chaves de ingredientes no grafo que contêm o termo alérgeno
 encontrar_chaves_alergenas = lambda graph, allergens: tuple(

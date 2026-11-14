@@ -4,8 +4,7 @@ Estrutura puramente funcional para montagem das adjacências R -> I e I -> R.
 Desenvolvido estritamente com lambdas, map, filter e frozenset, sem instrucoes imperativas.
 """
 
-from typing import Mapping
-from implementation.models import Dish, RecipeGraph
+from implementation.models import RecipeGraph
 
 # Extrai o conjunto consolidado de todos os ingredientes centrais de uma coleção de pratos
 extrair_todos_ingredientes = lambda pratos: (

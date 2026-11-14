@@ -5,11 +5,11 @@ Implementado integralmente com funções lambda e encadeamento funcional,
 sem utilizar a instrução imperativa de definição.
 """
 
-from implementation.models import UserPreferences
 from implementation.graph import build_recipe_graph
-from implementation.pipeline import run_recommendation, obter_pratos_bloqueados
-from interface.io_adapter import carregar_pratos, DEFAULT_DATA_DIR
+from implementation.models import UserPreferences
+from implementation.pipeline import obter_pratos_bloqueados, run_recommendation
 from interface.formatter import formatar_relatorio_completo
+from interface.io_adapter import DEFAULT_DATA_DIR, carregar_pratos
 
 # Converte texto delimitado por vírgula em conjunto imutável de strings limpas
 parse_input_set = lambda text: frozenset(

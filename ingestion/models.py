@@ -4,8 +4,8 @@ Define as entidades de domínio e estruturas imutáveis utilizadas
 ao longo de todo o pipeline de ingestão e normalização funcional.
 """
 
-from typing import NamedTuple, Any
 from pathlib import Path
+from typing import Any, NamedTuple
 
 
 class RawRecipe(NamedTuple):

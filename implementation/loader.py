@@ -5,6 +5,7 @@ Implementado integralmente com funções lambda e mapeamentos de ordem superior.
 """
 
 import hashlib
+
 from implementation.models import Dish
 
 # Gera um ID único refinado combinando o ID base com o hash dos ingredientes centrais

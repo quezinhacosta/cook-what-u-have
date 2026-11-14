@@ -7,7 +7,7 @@ Desenvolvido estritamente com lambdas e composição funcional.
 
 import json
 from pathlib import Path
-from implementation.models import Dish
+
 from implementation.loader import load_dishes_from_records
 
 # Diretório padrão onde repousam as 8 categorias de pratos

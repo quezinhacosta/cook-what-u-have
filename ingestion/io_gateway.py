@@ -7,7 +7,9 @@ blindando as camadas de domínio, modelos, normalizador e parser contra side-eff
 
 import json
 from pathlib import Path
+
 import requests
+
 from ingestion.models import CategoryResult, recipe_to_dict
 
 # Headers HTTP padrão simulando navegador comum
@@ -59,7 +61,7 @@ def ler_categoria_json(caminho_arquivo: Path) -> tuple[dict, ...]:
     if not caminho_arquivo.exists():
         return ()
     try:
-        with open(caminho_arquivo, "r", encoding="utf-8") as f:
+        with open(caminho_arquivo, encoding="utf-8") as f:
             dados = json.load(f)
             return tuple(dados) if isinstance(dados, list) else ()
     except Exception:
