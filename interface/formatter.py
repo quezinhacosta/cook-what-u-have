@@ -28,7 +28,7 @@ formatar_secao_bloqueados = lambda bloqueados, alergenos: (
         "🛡️  Pratos Bloqueados por Segurança Alimentar:\n"
         + "\n".join(
             map(
-                lambda d: f"   ⛔ {d.name} (Contém: [{formatar_conjunto(d.clean_ingredients & alergenos)}])",
+                lambda d: f"   ⛔ {d.name} (Contém: [{formatar_conjunto(frozenset(filter(lambda ing: any(a in ing for a in alergenos), d.clean_ingredients)))}])",
                 bloqueados,
             )
         )

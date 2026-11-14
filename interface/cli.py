@@ -52,9 +52,9 @@ executar_interativo = lambda pratos: (
         print(executar_consulta(pratos, d_raw, a_raw, t_raw, c_raw)),
     ))(
         input("\n1. Ingredientes na sua despensa (separados por vírgula): "),
-        input("2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): "),
-        input("3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): "),
-        input("4. Categoria culinária (ou Enter para buscar em todas as 8): "),
+        input("\n2. Alérgenos a banir com tolerância zero (ou Enter para nenhum): "),
+        input("\n3. Quantidade máxima de ingredientes em falta aceitável (padrão 0): "),
+        input("\n4. Categoria culinária (ou Enter para buscar em todas as 8): "),
     ),
 )
 
