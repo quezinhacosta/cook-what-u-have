@@ -50,10 +50,14 @@ run_recommendation = lambda graph, prefs: tuple(
     )
 )
 
-# Localiza e retorna a tupla imutável de pratos que foram excluídos devido aos alérgenos
-obter_pratos_bloqueados = lambda graph, allergens: tuple(
-    map(
-        lambda did: graph.dishes_by_id[did],
-        encontrar_ids_contaminados(graph, allergens),
+# Localiza e retorna a tupla imutável de pratos que foram excluídos devido aos alérgenos,
+# respeitando opcionalmente o filtro de categoria culinária ativa
+obter_pratos_bloqueados = lambda graph, allergens, category_filter=None: tuple(
+    filter(
+        lambda d: matches_category(d, category_filter),
+        map(
+            lambda did: graph.dishes_by_id[did],
+            encontrar_ids_contaminados(graph, allergens),
+        ),
     )
 )

@@ -28,7 +28,7 @@ parse_int = lambda text, default=0: (
 executar_consulta = lambda pratos, despensa_raw, alergenos_raw, tol_raw, cat_raw: (
     (lambda grafo, prefs: formatar_relatorio_completo(
         run_recommendation(grafo, prefs),
-        obter_pratos_bloqueados(grafo, prefs.allergens),
+        obter_pratos_bloqueados(grafo, prefs.allergens, prefs.category_filter),
         prefs,
     ))(
         build_recipe_graph(pratos),
