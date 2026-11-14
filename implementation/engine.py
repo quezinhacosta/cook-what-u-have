@@ -34,16 +34,32 @@ calcular_percentual_cobertura = lambda qtd_presentes, qtd_total: (
     round((qtd_presentes / qtd_total) * 100.0, 2) if qtd_total > 0 else 0.0
 )
 
-# Realiza a projeção analítica de viabilidade de um prato contra a despensa do usuário
-calculate_match = lambda dish, pantry: MatchResult(
-    dish=dish,
-    match_percentage=calcular_percentual_cobertura(
-        len(dish.clean_ingredients & pantry),
-        len(dish.clean_ingredients)
-    ),
-    available_ingredients=dish.clean_ingredients & pantry,
-    missing_ingredients=dish.clean_ingredients - pantry,
+# Predicado que verifica se um ingrediente exigido é satisfeito pela despensa
+ingrediente_coberto = lambda ing, pantry: (
+    ing in pantry or any(
+        (p in ing or ing in p)
+        for p in pantry
+        if len(p) >= 3 and len(ing) >= 3
+    )
 )
+
+# Filtra o subconjunto congelado de ingredientes do prato que estão disponíveis
+obter_ingredientes_disponiveis = lambda clean_ingredients, pantry: frozenset(
+    filter(lambda ing: ingrediente_coberto(ing, pantry), clean_ingredients)
+)
+
+# Realiza a projeção analítica de viabilidade de um prato contra a despensa do usuário
+calculate_match = lambda dish, pantry: (
+    lambda disponiveis: MatchResult(
+        dish=dish,
+        match_percentage=calcular_percentual_cobertura(
+            len(disponiveis),
+            len(dish.clean_ingredients),
+        ),
+        available_ingredients=disponiveis,
+        missing_ingredients=dish.clean_ingredients - disponiveis,
+    )
+)(obter_ingredientes_disponiveis(dish.clean_ingredients, pantry))
 
 # Predicado que verifica se a quantidade de itens faltantes respeita o teto aceito
 is_within_tolerance = lambda match, max_missing: (
