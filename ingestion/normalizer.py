@@ -116,7 +116,8 @@ def remove_parenteses(text: str) -> str:
 
 def remove_quantidades_e_fracoes(text: str) -> str:
     """Função pura: elimina numerais inteiros, decimais e frações culinárias."""
-    sem_unicode = _REGEX_FRAC_UNICODE.sub(" ", text)
+    com_espacos = re.sub(r"(\d+)([a-zA-Z]+)", r"\1 \2", text)
+    sem_unicode = _REGEX_FRAC_UNICODE.sub(" ", com_espacos)
     return _REGEX_NUMEROS.sub(" ", sem_unicode)
 
 
