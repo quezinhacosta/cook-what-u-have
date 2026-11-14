@@ -1005,22 +1005,42 @@ def iniciar_gui(
     pratos_iniciais: tuple[Dish, ...] | None = None,
 ) -> None:
     """Ponto de entrada para inicializar a GUI no desktop ou no navegador."""
+    # Previne crash do GTK/GIO no Linux Wayland (Ubuntu 24.04/GNOME 46) forçando backend X11/XWayland
+    if sys.platform.startswith("linux"):
+        os.environ.setdefault("GDK_BACKEND", "x11")
+
     # Detecção de ambiente gráfico (X11 / Wayland)
     has_display = bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
     is_desktop_os = sys.platform in ("win32", "darwin")
 
+    is_web_requested = "--web" in sys.argv or "-w" in sys.argv
+
     chosen_view: ft.AppView
     if view is not None:
         chosen_view = view
-    elif "--web" in sys.argv or "-w" in sys.argv or (not has_display and not is_desktop_os):
+    elif is_web_requested or (not has_display and not is_desktop_os):
         chosen_view = ft.AppView.WEB_BROWSER
     else:
         chosen_view = ft.AppView.FLET_APP
 
+    if chosen_view == ft.AppView.WEB_BROWSER:
+        print("[Cook What U Have] Iniciando interface grafica no navegador web...")
+    else:
+        print("[Cook What U Have] Iniciando interface grafica desktop (Viewport Mobile 410x800)...")
+        print("   Dica: Se preferir abrir no navegador web, utilize: python3 main.py --gui --web")
+
     def main(page: ft.Page) -> None:
         criar_app_controller(page, pratos_iniciais=pratos_iniciais)
 
-    ft.run(main, view=chosen_view, port=port)
+    try:
+        ft.run(main, view=chosen_view, port=port)
+    except Exception as exc:
+        if chosen_view == ft.AppView.FLET_APP:
+            print(f"[Cook What U Have] Falha ao iniciar cliente desktop ({exc}).")
+            print("[Cook What U Have] Alternando automaticamente para o modo navegador web...")
+            ft.run(main, view=ft.AppView.WEB_BROWSER, port=port)
+        else:
+            raise
 
 
 if __name__ == "__main__":

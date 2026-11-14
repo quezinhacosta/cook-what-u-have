@@ -15,5 +15,6 @@ ruff>=0.8.0
 mypy>=1.10.0
 pre-commit>=3.7.0
 
-# Interface Gráfica Desktop Neo-Brutalista (Mobile Viewport)
+# Interface Gráfica Desktop e Web Neo-Brutalista (Mobile Viewport)
 flet>=1.1.0
+flet-web>=1.1.0
