@@ -5,6 +5,30 @@ Desenvolvido estritamente com lambdas e interpolação funcional de strings.
 """
 
 
+# Mapeamento canônico imutável das 8 categorias suportadas
+CATEGORIAS_DISPONIVEIS: tuple[str, ...] = (
+    "aves",
+    "bolos e tortas",
+    "carnes",
+    "doces e sobremesas",
+    "massas",
+    "peixes e frutos do mar",
+    "saladas e molhos",
+    "sopas",
+)
+
+# Formata o menu numerado de categorias culinárias para escolha intuitiva do usuário
+formatar_menu_categorias = lambda categorias=CATEGORIAS_DISPONIVEIS: (
+    "📋 Categorias Culinárias Disponíveis:\n"
+    + "\n".join(
+        map(
+            lambda pair: f"   [{pair[0] + 1}] {pair[1].title()}",
+            enumerate(categorias),
+        )
+    )
+    + "\n   [0] Todas as categorias (busca global)"
+)
+
 # Formata qualquer coleção congelada de termos em texto ordenado separado por vírgulas
 formatar_conjunto = lambda s: ", ".join(sorted(s)) if s else "nenhum"
 
