@@ -275,29 +275,6 @@
     ]
   },
   {
-    "id": "doces-e-sobremesas_brigadeiro-sem-leite-condensado_b8e758d4",
-    "titulo": "Brigadeiro sem leite condensado",
-    "tipo": "doces e sobremesas",
-    "receita": [
-      "Em uma panela, adicione o achocolatado, o açúcar e a manteiga, misture rapidamente e acrescente o leite.",
-      "Mexa com uma colher de pau em fogo médio por aproximadamente 25 minutos, até obter uma consistência cremosa.",
-      "Desligue o fogo e deixe esfriar por 10 minutos.",
-      "Modele a massa em bolinhas e passe no chocolate granulado ou sirva em taças."
-    ],
-    "ingredientes_originais": [
-      "1 copo de leite",
-      "4 colheres de achocolatado em pó",
-      "2 colheres de margarina",
-      "3 colheres de açúcar"
-    ],
-    "ingredientes_centrais": [
-      "achocolatado em po",
-      "acucar",
-      "leite",
-      "margarina"
-    ]
-  },
-  {
     "id": "doces-e-sobremesas_brigadeiro-de-colher_70f61dc8",
     "titulo": "Brigadeiro de colher",
     "tipo": "doces e sobremesas",
@@ -323,28 +300,26 @@
     ]
   },
   {
-    "id": "doces-e-sobremesas_beijinho_392586ec",
-    "titulo": "Beijinho",
+    "id": "doces-e-sobremesas_brigadeiro-sem-leite-condensado_b8e758d4",
+    "titulo": "Brigadeiro sem leite condensado",
     "tipo": "doces e sobremesas",
     "receita": [
-      "Numa panela, misture o leite condensado, a manteiga e o coco ralado.",
-      "Leve ao fogo e misture por aproximadamente 15 minutos.",
-      "Retire a mistura do fogo e deixe amornar.",
-      "Modele a massa em formato de bolinhas, passe pelo açúcar cristal ou coco ralado e finalize com cravos-da-índia."
+      "Em uma panela, adicione o achocolatado, o açúcar e a manteiga, misture rapidamente e acrescente o leite.",
+      "Mexa com uma colher de pau em fogo médio por aproximadamente 25 minutos, até obter uma consistência cremosa.",
+      "Desligue o fogo e deixe esfriar por 10 minutos.",
+      "Modele a massa em bolinhas e passe no chocolate granulado ou sirva em taças."
     ],
     "ingredientes_originais": [
-      "2 latas de leite condensado",
-      "2 colheres (sopa) de manteiga",
-      "300 g de coco fresco ralado (fino)",
-      "açúcar cristal",
-      "cravos-da-índia a gosto"
+      "1 copo de leite",
+      "4 colheres de achocolatado em pó",
+      "2 colheres de margarina",
+      "3 colheres de açúcar"
     ],
     "ingredientes_centrais": [
-      "acucar cristal",
-      "coco",
-      "cravos da india",
-      "leite condensado",
-      "manteiga"
+      "achocolatado em po",
+      "acucar",
+      "leite",
+      "margarina"
     ]
   },
   {
@@ -375,6 +350,31 @@
     ]
   },
   {
+    "id": "doces-e-sobremesas_beijinho_392586ec",
+    "titulo": "Beijinho",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Numa panela, misture o leite condensado, a manteiga e o coco ralado.",
+      "Leve ao fogo e misture por aproximadamente 15 minutos.",
+      "Retire a mistura do fogo e deixe amornar.",
+      "Modele a massa em formato de bolinhas, passe pelo açúcar cristal ou coco ralado e finalize com cravos-da-índia."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 colheres (sopa) de manteiga",
+      "300 g de coco fresco ralado (fino)",
+      "açúcar cristal",
+      "cravos-da-índia a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar cristal",
+      "coco",
+      "cravos da india",
+      "leite condensado",
+      "manteiga"
+    ]
+  },
+  {
     "id": "doces-e-sobremesas_brigadeirao-de-micro-ondas_985fd6b3",
     "titulo": "Brigadeirão de micro-ondas",
     "tipo": "doces e sobremesas",
@@ -398,6 +398,1039 @@
       "leite condensado",
       "margarina",
       "ovo inteiros"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_cajuzinho-de-festa-rapido-delicioso-e-sem-fogao_3404f436",
+    "titulo": "Cajuzinho de festa rápido, delicioso e sem fogão",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Existem no mercado algumas marcas de amendoim torrado e moído. Se você as preferir, como eu, preste atenção para não comprar amendoim salgado.",
+      "Caso prefira torrar em casa, a receita vai demorar um pouco mais (1 hora e meia). Você precisará descascar o amendoim e tirar a pele. Dispor os grãos em uma forma grande (retangular) de alumínio e torrá-los por cerca de 30 minutos no fogo alto.",
+      "Depois leve ao liquidificador, sem líquidos e triture-os.",
+      "Em uma tigela misture todos os ingredientes até a massa ficar homogênea e atingir o ponto de enrolar.",
+      "Unte as mãos com manteiga e modele os docinhos para ficarem no formato de pequenos cajús.",
+      "Passe os docinhos no açúcar (cristal ou demerara) e coloque um grão para se assemelhar à castanha do caju.",
+      "Coloque em forminhas."
+    ],
+    "ingredientes_originais": [
+      "150 g de amendoim (sem sal e sem pele) torrado e moído",
+      "1/2 xícara de açúcar",
+      "1/2 lata de leite condensado",
+      "2 colheres de chocolate em pó (achocolatado comum se preferir mais doce) ou chocolate em pó solúvel",
+      "1 colher de manteiga para untar as mãos",
+      "1 xícara de açúcar cristal ou demerara (prefiro demerara) para passar os doces",
+      "50 g de grãos de amendoim para enfeitar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal ou demerara para passar os doces",
+      "amendoim torrado",
+      "chocolate em po ou chocolate em po soluvel",
+      "graos de amendoim para enfeitar",
+      "leite condensado",
+      "manteiga para untar as maos"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pudim-de-leite-condensado-simples_c93367bb",
+    "titulo": "Pudim de leite condensado simples",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Calda",
+      "Em uma panela, misture a água e o açúcar até formar uma calda.",
+      "Unte uma forma com a calda e reserve.",
+      "Massa",
+      "Bata todos os ingredientes no liquidificador e despeje na forma caramelizada.",
+      "Leve para assar em banho-maria por 40 minutos.",
+      "Desenforme e sirva."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 xícara de leite de vaca",
+      "4 ovos inteiros",
+      "1 xícara (chá) de açúcar",
+      "1/3 de xícara (chá) de água"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "leite condensado",
+      "leite de vaca",
+      "ovo inteiros"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_danoninho-caseiro_f97c4984",
+    "titulo": "Danoninho caseiro",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em um liquidificador, bata todos os ingrediente até obter uma consistência cremosa.",
+      "Dispense a mistura em um recipiente e leve à geladeira até que esteja firme."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "2 caixas de creme de leite",
+      "200 g de iogurte natural",
+      "1 pacote de suco em pó sabor morango"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite",
+      "iogurte natural",
+      "leite condensado",
+      "suco em po sabor morango"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-limao-rapido_5d55200f",
+    "titulo": "Mousse de limão rápido",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "No liquidificador, bata o leite condensado e o creme de leite por 3 minutos.",
+      "Acrescente aos poucos o suco de limão e continue batendo.",
+      "Despeje o mousse em um refratário e leve à geladeira.",
+      "Na hora de servir, triture o bis e coloque por cima do mousse para decorar."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1/2 copo (americano) de suco puro de limão",
+      "Bis de limão"
+    ],
+    "ingredientes_centrais": [
+      "bis de limao",
+      "creme de leite",
+      "leite condensado",
+      "suco puro de limao"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_brigadeirao-rapido-e-facil_d778f6e1",
+    "titulo": "Brigadeirão rápido e fácil",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador por 5 minutos até obter uma consistência cremosa.",
+      "Despeje a massa em uma forma com furo central para micro-ondas, untada com margarina.",
+      "Leve ao forno micro-ondas por 10 minutos.",
+      "Deixe a massa esfriar por 15 minutos e leve à geladeira por 1 hora.",
+      "Desenforme e confeite com chocolate granulado."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 caixa de creme de leite",
+      "8 colheres de achocolatado em pó",
+      "3 ovos",
+      "1 colher de margarina sem sal",
+      "chocolate granulado"
+    ],
+    "ingredientes_centrais": [
+      "achocolatado em po",
+      "chocolate granulado",
+      "creme de leite",
+      "leite condensado",
+      "margarina sem sal",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_doce-gelado-de-coco-com-chocolate_9e2c3cdb",
+    "titulo": "Doce gelado de coco com chocolate",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Creme branco:",
+      "Em uma panela, misture todos ingredientes e leve ao fogo até formar um creme homogêneo.",
+      "Despeje o creme em uma travessa ou em porções individuais e reserve.",
+      "Cobertura:",
+      "Em um recipiente, misture bem o creme de leite e o achocolatado sem levar ao fogo.",
+      "Despeje a mistura por cima do creme branco e leva à geladeira.",
+      "Sirva gelado."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "800 ml de leite",
+      "200 g de coco ralado",
+      "1 e 1/2 colher (sopa) de amido de milho",
+      "1 pitada de sal",
+      "1 lata de creme de leite",
+      "12 colheres (sopa) de achocolatado"
+    ],
+    "ingredientes_centrais": [
+      "achocolatado",
+      "amido de milho",
+      "coco",
+      "creme de leite",
+      "leite",
+      "leite condensado",
+      "sal"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-maracuja_c1aaab02",
+    "titulo": "Mousse de maracujá",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em um liquidificador, bata o creme de leite, o leite condensado e o suco concentrado de maracujá.",
+      "Em uma tigela, despeje a mistura e leve à geladeira por, no mínimo, 4 horas."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 lata de suco de maracujá (medida pela lata de leite condensado)",
+      "1 lata de creme de leite sem soro"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite sem soro",
+      "leite condensado",
+      "suco de maracuja"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_bolo-de-milho-cremoso_e8c445ea",
+    "titulo": "Bolo de milho cremoso",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em um liquidificador, adicione o milho verde, o óleo, o açúcar, o fubá, os ovos e a farinha de trigo, depois bata até obter uma consistência cremosa.",
+      "Depois, acrescente o coco ralado e o fermento, misture novamente.",
+      "Despeje a massa em uma assadeira untada e leve para assar, em um forno médio a 180 °C, preaquecido por 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 lata de milho verde",
+      "1 lata de óleo (medida da lata de milho)",
+      "1 lata de açúcar (medida da lata de milho)",
+      "1 lata de fubá (medida da lata de milho)",
+      "4 ovos",
+      "2 colheres (sopa) de farinha de trigo",
+      "2 colheres (sopa) de coco ralado",
+      "1 e 1/2 colher (chá) de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "coco",
+      "farinha de trigo",
+      "fermento em po",
+      "fuba",
+      "milho verde",
+      "oleo",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-limao_ba7e25f6",
+    "titulo": "Mousse de limão",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Coloque no liquidificador o creme de leite (com soro mesmo) e o leite condensado.",
+      "Bata um pouco e depois vá acrescentando o suco do limão, aos poucos.",
+      "Ele vai ficar bem consistente, leve à geladeira."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1/2 xícara de suco de limão (esse suco é puro mesmo, sem água, é só espremer o limão)"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite",
+      "leite condensado",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_arroz-doce-verdadeiro_5c07264e",
+    "titulo": "Arroz doce verdadeiro",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Cozinhe o arroz no leite, juntamente com a canela (utilize uma panela grande para que o leite ferva e não derrame).",
+      "Após 20 minutos, mexa de tempos em tempos.",
+      "Acrescente o açúcar e deixe por 20 minutos.",
+      "Logo em seguida, acrescente o leite condensado e deixe por mais 20 minutos.",
+      "Coloque em uma linda travessa."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 litro de leite",
+      "2 xícaras de arroz branco (já lavado)",
+      "3 xícaras de açúcar",
+      "canela em pau a gosto",
+      "1 lata de leite condensado"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "arroz branco",
+      "canela em pau",
+      "leite",
+      "leite condensado"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-maracuja-facil_282bbb5b",
+    "titulo": "Mousse de maracujá fácil",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Prepare a gelatina com a água quente.",
+      "Depois é só bater todos os ingredientes no liquidificador e colocar numa travessa para gelar."
+    ],
+    "ingredientes_originais": [
+      "2 caixas de gelatina de maracujá",
+      "2 xícaras de água quente",
+      "1/2 xícara de suco de maracujá",
+      "2 xícaras de leite de vaca",
+      "1 lata de leite condensado",
+      "1 lata de creme de leite sem soro"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "creme de leite sem soro",
+      "gelatina de maracuja",
+      "leite condensado",
+      "leite de vaca",
+      "suco de maracuja"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pave-de-bis_f64f9205",
+    "titulo": "Pavê de Bis",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Misture o leite condensado, o leite, a maisena, as gemas e leve ao fogo.",
+      "Mexa sempre até engrossar e reserve.",
+      "Forre o fundo de uma forma refratária grande com metade do creme.",
+      "Forme uma camada com o chocolate picado e complete com o restante do creme.",
+      "Bata as claras em neve e acrescente o açúcar, aos poucos, batendo sempre, até obter um suspiro firme.",
+      "Junte o creme de leite e mexa bem.",
+      "Coloque essa mistura por cima do creme e leve à geladeira até a hora de servir."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 litro de leite",
+      "4 colheres (sopa) de amido de milho",
+      "2 ovos separados",
+      "2 caixas de chocolate Bis picado",
+      "1 xícara de açúcar",
+      "1 lata de creme de leite"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "amido de milho",
+      "chocolate bis",
+      "creme de leite",
+      "leite",
+      "leite condensado",
+      "ovo separados"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_brigadeirao_5c0adbbf",
+    "titulo": "Brigadeirão",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Bata o leite condensado, o leite de vaca, a manteiga, o chocolate em pó e os ovos no liquidificador.",
+      "Unte uma forma com buraco no meio e polvilhe com açúcar.",
+      "Coloque a mistura liquidificada na forma e leve ao forno para assar em banho-maria por mais ou menos 1 hora, a 150°C."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "1 lata de leite de vaca (use a lata de leite condensado como medida)",
+      "1 colher de manteiga",
+      "200 g de chocolate em pó",
+      "4 ovos",
+      "açúcar suficiente para polvilhar a forma"
+    ],
+    "ingredientes_centrais": [
+      "acucar suficiente para polvilhar a forma",
+      "chocolate em po",
+      "leite condensado",
+      "leite de vaca",
+      "manteiga",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-chocolate_d45464ce",
+    "titulo": "Mousse de chocolate",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Bata as gemas até dobrarem de volume.",
+      "Junte o açúcar e continue batendo.",
+      "Derreta o chocolate e acrescente à gemada.",
+      "Junte o creme de leite, batendo sempre.",
+      "Por fim, acrescente as claras em neve (bem batidas mesmo), misturando rapidamente na batedeira.",
+      "Leve à geladeira e sirva-se, deliciando o melhor mousse e mais simples de fazer!"
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "200 g de chocolate meio amargo",
+      "2 colheres (sopa) de açúcar",
+      "1 lata de creme de leite"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "chocolate meio amargo",
+      "creme de leite",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_torta-de-limao_a1642758",
+    "titulo": "Torta de limão",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Massa",
+      "Triture o biscoito de maisena em um liquidificador ou processador.",
+      "Junte a margarina e bata mais um pouco.",
+      "Despeje a massa em uma forma de fundo removível (27 cm de diâmetro).",
+      "Com as mãos, espalhe os biscoitos triturados no fundo e nas laterais da forma, cobrindo toda área de maneira uniforme.",
+      "Leve ao forno médio (180° C), preaquecido, por aproximadamente 10 minutos.",
+      "Recheio",
+      "Bata todos os ingredientes no liquidificador (exceto as raspas de limão) até obter um creme liso e firme.",
+      "Recheie a massa já assada e leve à geladeira por 30 minutos.",
+      "Cobertura",
+      "Bata as claras em neve e acrescente o açúcar.",
+      "Misture até obter um ponto de suspiro e leve ao forno até dourar.",
+      "Desenforme a torta (sem retirar o fundo falso), despeje a cobertura e acrescente as raspas de limão."
+    ],
+    "ingredientes_originais": [
+      "200 g de biscoito de maisena",
+      "150 g de margarina",
+      "1 lata de leite condensado (395 g)",
+      "1 caixa de creme de leite (200 g)",
+      "suco de 4 limões",
+      "raspas de 2 limões",
+      "3 ou 4 claras de ovo",
+      "3 colheres (sopa) de açúcar",
+      "raspas de 2 limões para decorar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito de maisena",
+      "creme de leite",
+      "leite condensado",
+      "margarina",
+      "ou claras de ovo",
+      "raspas de limao",
+      "raspas de limao para decorar",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_petit-gateau_d776f510",
+    "titulo": "Petit gateau",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Derreta a manteiga e o chocolate em banho-maria.",
+      "Bata os ovos e as gemas com açúcar na batedeira, até ficar bem claro.",
+      "Junte o chocolate derretido e a farinha de trigo, misturando com uma espátula.",
+      "Depois, unte as forminhas de empadinha, passe farinha de trigo e coloque a massa.",
+      "Preaqueça o forno e leve para assar de 6 a 10 minutos (em fogo alto) até os bolinhos crescerem, mas o meio deve ficar molinho.",
+      "Deve-se desenformar ainda quente.",
+      "Sirva diretamente no prato, acompanhado com sorvete de creme."
+    ],
+    "ingredientes_originais": [
+      "200 g de chocolate meio amargo",
+      "2 colheres de manteiga sem sal",
+      "1/4 xícara (chá) de açúcar",
+      "2 colheres (sopa) rasas de farinha de trigo",
+      "2 ovos inteiros (tire a pele da gema)",
+      "2 gemas"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "chocolate meio amargo",
+      "gemas",
+      "manteiga sem sal",
+      "ovo inteiros",
+      "rasas de farinha de trigo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_9bd18767",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_cb95022f",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_db8dc41a",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_896b0772",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_6245dd29",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_82dc8dd2",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_sorvete-facil_2610ee85",
+    "titulo": "Sorvete fácil",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Faça a gelatina normalmente e não leve à geladeira.",
+      "Depois de pronta, ainda quente, coloque no liquidificador junto com o leite condensado e o creme de leite.",
+      "Bata bem.",
+      "Depois leve ao congelador em um refratário tampado para não formar blocos de gelo.",
+      "Depois de congelado, retire do congelador e bata na batedeira para ficar cremoso.",
+      "Volte para o congelador.",
+      "Está pronto! Um sorvete fácil, prático e gostoso."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 gelatina de qualquer sabor"
+    ],
+    "ingredientes_centrais": [
+      "creme de leite",
+      "gelatina de qualquer sabor",
+      "leite condensado"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_brigadeiro-de-micro-ondas_ee21f2f6",
+    "titulo": "Brigadeiro de micro-ondas",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em um recipiente próprio para microondas, de preferência redondo e de borda alta, misture todos os ingredientes.",
+      "Leve ao microondas por 6 minutos em potência alta ou na tecla brigadeiro do próprio microondas. Mexendo a mistura na metade do tempo.",
+      "Depois de pronto, retire do forno e mexa até ficar uma massa lisa e brilhante.",
+      "Leve à geladeira para esfriar, depois enrole os docinhos, passe no granulado e coloque nas forminhas."
+    ],
+    "ingredientes_originais": [
+      "1 leite condensado",
+      "4 colheres (sopa) de chocolate em pó ou achocolatado",
+      "1 colher (sopa) de manteiga",
+      "chocolate granulado ou granulado colorido"
+    ],
+    "ingredientes_centrais": [
+      "chocolate em po ou achocolatado",
+      "chocolate granulado ou granulado colorido",
+      "leite condensado",
+      "manteiga"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pudim-de-leite-moca_7e168e64",
+    "titulo": "Pudim de leite moça",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Ligue o forno para aquecer por 10 minutos em fogo baixo.",
+      "Bata no liquidificador os ovos, o leite moça e o leite por 3 minutos.",
+      "Faça uma calda com o açúcar, deixe esfriar um pouco.",
+      "Coloque a calda numa forma com furo no meio, coloque o pudim sobre a calda.",
+      "Leve ao forno, não precisa ser em banho-maria, espere ficar dourado em cima, em torno de 40 minutos.",
+      "Aguarde esfriar e leve à geladeira (é bom fazer de um dia para o outro)."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 lata de leite moça",
+      "1 medida da lata de leite moça de leite",
+      "3 colheres de açúcar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "leite moca",
+      "medida da de leite moca de leite",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_doce-de-leite-caseiro_e3544499",
+    "titulo": "Doce de leite caseiro",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Coloque o leite e o açúcar em uma panela grande de fundo largo.",
+      "Leve ao fogo médio, mexendo sempre com uma colher de pau, até obter fervura (cerca de 15 minutos).",
+      "Diminua o fogo e continue mexendo até obter um doce marrom claro de consistência cremosa (cerca de 45 minutos).",
+      "Passe o doce para um refratário, deixe esfriar bem e sirva colheradas em pratos de sobremesa com fatias de queijo branco."
+    ],
+    "ingredientes_originais": [
+      "2 litros de leite",
+      "4 xícaras de açúcar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "leite"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_bombom-de-travessa_80b678bc",
+    "titulo": "Bombom de travessa",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Coloque as latas de leite condensado em uma panela com a manteiga e faça uma massa como um brigadeiro mole.",
+      "Coloque em uma travessa e, por cima deste brigadeiro mole, coloque os morangos cortados ao meio.",
+      "Reserve para fazer a cobertura.",
+      "Para fazer a cobertura, rale o chocolate ao leite e o meio amargo e misture ao creme de leite.",
+      "Misture e coloque no micro-ondas durante 1 minuto.",
+      "Retire e mexa",
+      "Coloque de novo no micro-ondas por mais 1 minuto.",
+      "Despeje a cobertura por cima dos morangos e leve à geladeira coberta por papel-filme."
+    ],
+    "ingredientes_originais": [
+      "250 g de chocolate ao leite",
+      "250 g de chocolate meio amargo",
+      "2 latas de leite condensado",
+      "2 latas de creme de leite",
+      "2 colheres de margarina",
+      "2 caixas de morango"
+    ],
+    "ingredientes_centrais": [
+      "chocolate ao leite",
+      "chocolate meio amargo",
+      "creme de leite",
+      "leite condensado",
+      "margarina",
+      "morango"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_churros_c62bb8db",
+    "titulo": "Churros",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Em uma panela, adicione o leite, a água, a manteiga e o sal.",
+      "Quando o leite ferver, adicione a farinha de trigo e mexa rápido até a massa soltar do fundo da panela.",
+      "Coloque a massa em um saco de confeiteiro com o bico pitanga, depois faça tirinhas com a massa e frite.",
+      "Misture a canela e o açúcar, depois passe nos churros fritos."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 xícara (chá) de leite",
+      "1/2 xícara (chá) de água",
+      "2 colheres (sopa) de margarina ou manteiga",
+      "2 xícaras (chá) de farinha de trigo",
+      "sal a gosto",
+      "açúcar a gosto",
+      "canela a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "canela",
+      "farinha de trigo",
+      "leite",
+      "margarina ou manteiga",
+      "sal"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pudim-de-leite-em-po_93e00c4a",
+    "titulo": "Pudim de leite em pó",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador e reserve.",
+      "Calda",
+      "Misture em uma panela o açúcar e a água e leve ao fogo.",
+      "Não volte a mexer até que a calda chegue no ponto de caramelo, desligue o fogo.",
+      "Unte uma forma (com a calda) própria para pudim em microondas.",
+      "Coloque a mistura que foi batida no liquidificador, levando ao forno até dourar."
+    ],
+    "ingredientes_originais": [
+      "3 ovos inteiros",
+      "16 colheres (sopa) de leite em pó",
+      "10 colheres (sopa) de açúcar",
+      "4 xícaras de água",
+      "2 xícaras de açúcar",
+      "1 xícara de água"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "leite em po",
+      "ovo inteiros"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_mousse-de-chocolate_d45464ce",
+    "titulo": "Mousse de chocolate",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Leve ao fogo o leite condensado, a manteiga e o achocolatado, mexendo sem parar até que a mistura solte do fundo da panela.",
+      "Reserve e deixa esfriar.",
+      "Misture o creme de leite e as claras em neve até obter uma mistura homogênea.",
+      "Despeje a massa em um refratário e leve ao congelador por aproximadamente 50 minutos.",
+      "Sirva bem gelado."
+    ],
+    "ingredientes_originais": [
+      "1 lata de leite condensado",
+      "1 colher (chá) de manteiga ou margarina",
+      "1 lata de creme de leite gelado",
+      "3 claras em neve",
+      "4 colheres de achocolatado em pó"
+    ],
+    "ingredientes_centrais": [
+      "achocolatado em po",
+      "claras em neve",
+      "creme de leite",
+      "leite condensado",
+      "manteiga ou margarina"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_rocambole-pratico-de-doce-de-leite_a9571004",
+    "titulo": "Rocambole prático de doce de leite",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Cozinhar a lata de leite condensado numa panela de pressão por aproximadamente 50 minutos.",
+      "Bater no liquidificador os ovos, o açúcar e a manteiga, e, em seguida, a farinha e o fermento.",
+      "Untar uma forma com bastante manteiga, despejar a massa batida e levar ao forno pré-aquecido por 5 a 8 minutos (não deixar a massa dourar).",
+      "O leite condensado já deve estar cozido e frio.",
+      "Tirar a massa do forno e colocar sobre um pano molhado.",
+      "Espalhar o leite condensado (agora doce de leite) sobre a massa.",
+      "Enrolar a massa com o doce de leite e polvilhe açúcar e canela sobre ela."
+    ],
+    "ingredientes_originais": [
+      "3 colheres (sopa) de manteiga ou margarina",
+      "3 ovos",
+      "1 xícara de farinha de trigo",
+      "1 xícara de açúcar",
+      "1 colher (sopa) de fermento em pó",
+      "1 lata de leite condensado",
+      "1/2 xícara de açucar",
+      "1/4 xícara de canela em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "canela em po",
+      "farinha de trigo",
+      "fermento em po",
+      "leite condensado",
+      "manteiga ou margarina",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_pudim-de-leite_75e503d5",
+    "titulo": "Pudim de leite",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Calda:",
+      "Em uma panela de fundo largo, derreta o açúcar até ficar dourado.",
+      "Junte 1/2 xícara (chá) de água quente e mexa com uma colher.",
+      "Deixe ferver até dissolver os torrões de açúcar e a calda engrossar.",
+      "Forre com a calda uma forma com furo central (19 cm de diâmetro) e reserve.",
+      "Pudim:",
+      "Bata todos os ingredientes do pudim no liquidificador e despeje na forma reservada.",
+      "Asse em banho-maria, em forno médio (180º C), por cerca de 1 hora e 30 minutos.",
+      "Depois de frio, leve para gelar por cerca de 6 horas.",
+      "Desenforme e sirva a seguir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de açúcar",
+      "1 lata de leite condensado",
+      "2 latas de leite (medida da lata de leite condensado)",
+      "3 ovos"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "leite",
+      "leite condensado",
+      "ovo"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_bolo-de-laranja_48b45bb9",
+    "titulo": "Bolo de laranja",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca da laranja.",
+      "Passe para uma tigela e acrescente a farinha de trigo e o fermento.",
+      "Leve para assar em uma forma com furo central, untada e enfarinhada, por mais ou menos 30 minutos.",
+      "Desenforme o bolo e molhe com suco de laranja."
+    ],
+    "ingredientes_originais": [
+      "4 ovos",
+      "2 xícaras (chá) de açúcar",
+      "1 xícara (chá) de óleo",
+      "suco de 2 laranjas",
+      "casca de 1 laranja",
+      "2 xícaras (chá) de farinha de trigo",
+      "1 colher (sopa) de fermento"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "casca de laranja",
+      "farinha de trigo",
+      "fermento",
+      "oleo",
+      "ovo",
+      "suco de laranja"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_delicia-de-abacaxi_8f530724",
+    "titulo": "Delícia de abacaxi",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Doce de abacaxi",
+      "Em uma panela, coloque o abacaxi, o açúcar e a água e leve ao fogo até obter um ponto de doce.",
+      "Desligue o fogo e deixe esfriar.",
+      "Creme",
+      "Em outra panela em fogo baixo, misture o leite condensado, o leite de vaca e as gemas peneiradas até que vire um creme.",
+      "Desligue o fogo e deixe esfriar.",
+      "Cobertura",
+      "Bata as claras em neve, acrescente o açúcar, o creme de leite e mexa delicadamente com uma colher.",
+      "Em um refratário, faça uma camada com o doce de abacaxi, outra com o creme e outra com a cobertura.",
+      "Leve ao freezer e sirva bem gelado."
+    ],
+    "ingredientes_originais": [
+      "1 abacaxi cortado em cubos",
+      "1 xícara de água",
+      "açúcar a gosto",
+      "1 lata de leite condensado",
+      "1 lata de leite de vaca (medida da lata de leite condensado)",
+      "3 gemas",
+      "3 claras batidas em neve",
+      "3 colheres (sopa) de açúcar",
+      "1 lata de creme de leite"
+    ],
+    "ingredientes_centrais": [
+      "abacaxi cortado",
+      "acucar",
+      "agua",
+      "claras batidas em neve",
+      "creme de leite",
+      "gemas",
+      "leite condensado",
+      "leite de vaca"
+    ]
+  },
+  {
+    "id": "doces-e-sobremesas_danete-caseiro_5e192629",
+    "titulo": "Danete caseiro",
+    "tipo": "doces e sobremesas",
+    "receita": [
+      "Misture a maisena, o chocolate, a gema e acrescente ao poucos o leite mexendo sempre.",
+      "Adicione o leite condensado e mexa bem.",
+      "Leve ao fogo mexendo sempre até engrossar.",
+      "Retire do fogo junte o creme de leite e misture até homogeneizar o creme.",
+      "Leve para a geladeira por 1 hora."
+    ],
+    "ingredientes_originais": [
+      "4 colheres de sopa de maisena",
+      "6 colheres de sopa de chocolate em pó",
+      "1 gema",
+      "1 l de leite",
+      "1 lata de leite condensado",
+      "1 lata de creme de leite"
+    ],
+    "ingredientes_centrais": [
+      "chocolate em po",
+      "creme de leite",
+      "gema",
+      "leite",
+      "leite condensado",
+      "maisena"
     ]
   }
 ]

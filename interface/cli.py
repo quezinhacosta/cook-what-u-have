@@ -59,7 +59,7 @@ executar_consulta = lambda pratos, despensa_raw, alergenos_raw, tol_raw, cat_raw
 loop_navegacao_pratos = lambda resultados, relatorio, reiniciar_busca: (
     print(relatorio),
     (
-        print("\n💡 Nenhuma sugestão disponível para detalhar.")
+        print("\n[INFO] Nenhuma sugestao disponivel para detalhar.")
         if not resultados else
         (lambda loop_detalhe: loop_detalhe(loop_detalhe))(
             lambda self_detalhe: (
@@ -74,10 +74,10 @@ loop_navegacao_pratos = lambda resultados, relatorio, reiniciar_busca: (
                                         if escolha in ("v", "voltar", "1") else
                                         reiniciar_busca()
                                         if escolha in ("n", "nova", "2") else
-                                        print("\n👋 Obrigado por usar o Cook What U Have! Bom apetite!\n")
+                                        print("\nObrigado por usar o Cook What U Have! Bom apetite!\n")
                                         if escolha in ("s", "sair", "q", "3") else
                                         (
-                                            print("⚠️ Opção inválida. Digite [V] para voltar, [N] para nova consulta ou [S] para sair."),
+                                            print("[AVISO] Opcao invalida. Digite [V] para voltar, [N] para nova consulta ou [S] para sair."),
                                             self_pos(self_pos),
                                         )
                                     ))(input("\nEscolha: [V] Voltar para as sugestões | [N] Nova consulta | [S] Sair: ").strip().lower())
@@ -86,20 +86,20 @@ loop_navegacao_pratos = lambda resultados, relatorio, reiniciar_busca: (
                         )
                         if 1 <= num <= len(resultados) else
                         (
-                            print(f"⚠️ Número inválido. Escolha um prato entre 1 e {len(resultados)}."),
+                            print(f"[AVISO] Numero invalido. Escolha um prato entre 1 e {len(resultados)}."),
                             self_detalhe(self_detalhe),
                         )
                     ))(int(opcao))
                     if opcao.isdigit() else
                     reiniciar_busca()
                     if opcao in ("n", "nova") else
-                    print("\n👋 Obrigado por usar o Cook What U Have! Bom apetite!\n")
+                    print("\nObrigado por usar o Cook What U Have! Bom apetite!\n")
                     if opcao in ("s", "sair", "q") else
                     (
-                        print(f"⚠️ Entrada não reconhecida. Digite o número do prato (1 a {len(resultados)}), 'n' para nova consulta ou 's' para sair."),
+                        print(f"[AVISO] Entrada nao reconhecida. Digite o numero do prato (1 a {len(resultados)}), 'n' para nova consulta ou 's' para sair."),
                         self_detalhe(self_detalhe),
                     )
-                ))(input(f"\n👉 Digite o número do prato para ver o modo de preparo (1-{len(resultados)}) ou [N] Nova consulta / [S] Sair: ").strip().lower())
+                ))(input(f"\nDigite o numero do prato para ver o modo de preparo (1-{len(resultados)}) ou [N] Nova consulta / [S] Sair: ").strip().lower())
             )
         )
     )
@@ -110,7 +110,7 @@ executar_sessao = lambda pratos: (
     (lambda loop_sessao: loop_sessao(loop_sessao))(
         lambda self_sessao: (
             print("\n" + "=" * 80),
-            print("🍳 COOK WHAT U HAVE — SISTEMA FUNCIONAL DE RECOMENDAÇÃO DE REFEIÇÕES"),
+            print("COOK WHAT U HAVE — SISTEMA FUNCIONAL DE RECOMENDACAO DE REFEICOES"),
             print("=" * 80),
             print(f"Base de dados: {len(pratos)} pratos carregados em memória.\n"),
             print(formatar_menu_categorias()),

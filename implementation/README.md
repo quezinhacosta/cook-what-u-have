@@ -1,7 +1,7 @@
 # ⚙️ Módulo de Implementação Funcional (`implementation/`)
 ### Grafo Bipartido, Álgebra de Conjuntos e Motor de Recomendação Puro
 
-> **Componente do Projeto:** *Cook What U Have (MealMatch)*  
+> **Componente do Projeto:** *Cook What U Have (MealMatch)*
 > **Responsabilidade:** Núcleo computacional do sistema, executando modelagem imutável, montagem do Grafo Bipartido ($R \leftrightarrow I$), poda determinística de alérgenos, cálculo de cobertura da despensa e ordenação multicritério.
 
 ---

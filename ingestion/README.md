@@ -1,7 +1,7 @@
 # 📥 Módulo de Ingestão de Dados Funcional (`ingestion/`)
 ### Extração de Receitas do TudoGostoso, Normalização Pura e Base Imutável para o Grafo
 
-> **Componente do Projeto:** *Cook What U Have (MealMatch)*  
+> **Componente do Projeto:** *Cook What U Have (MealMatch)*
 > **Responsabilidade:** Extrair as 15 receitas recomendadas de cada categoria do TudoGostoso, separar rigorosamente as transformações puras de dados do I/O impuro, sanitizar termos culinários para extração dos `ingredientes_centrais` e gerar a base imutável `pratos.json` para alimentação do Grafo Bipartido.
 
 ---

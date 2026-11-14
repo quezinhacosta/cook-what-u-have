@@ -473,30 +473,6 @@
     ]
   },
   {
-    "id": "bolos-e-tortas_brownie-de-caneca_62e0b317",
-    "titulo": "Brownie de caneca",
-    "tipo": "bolos e tortas",
-    "receita": [
-      "Coloque a farinha de trigo, o cacau ou achocolatado e o açúcar em uma caneca; misture.",
-      "Coloque a água e o óleo e misture novamente.",
-      "Leve ao micro-ondas por 1 minuto; se não estiver pronto, coloque de 20 em 20 segundos até ficar pronto."
-    ],
-    "ingredientes_originais": [
-      "2 1/2 colheres (sopa) de farinha de trigo",
-      "2 1/2 colheres (sopa) de cacau ou achocolatado",
-      "1 colher (sopa) de açúcar",
-      "3 colheres (sopa) de água",
-      "2 colheres (sopa) de óleo"
-    ],
-    "ingredientes_centrais": [
-      "acucar",
-      "agua",
-      "cacau ou achocolatado",
-      "farinha de trigo",
-      "oleo"
-    ]
-  },
-  {
     "id": "bolos-e-tortas_brookie_d031fcb7",
     "titulo": "Brookie",
     "tipo": "bolos e tortas",
@@ -550,6 +526,1231 @@
       "manteiga sem sal em temperatura ambiente",
       "ovo",
       "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_brownie-de-caneca_62e0b317",
+    "titulo": "Brownie de caneca",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Coloque a farinha de trigo, o cacau ou achocolatado e o açúcar em uma caneca; misture.",
+      "Coloque a água e o óleo e misture novamente.",
+      "Leve ao micro-ondas por 1 minuto; se não estiver pronto, coloque de 20 em 20 segundos até ficar pronto."
+    ],
+    "ingredientes_originais": [
+      "2 1/2 colheres (sopa) de farinha de trigo",
+      "2 1/2 colheres (sopa) de cacau ou achocolatado",
+      "1 colher (sopa) de açúcar",
+      "3 colheres (sopa) de água",
+      "2 colheres (sopa) de óleo"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "cacau ou achocolatado",
+      "farinha de trigo",
+      "oleo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_brownie-de-nescau-sem-ovo_fd62b644",
+    "titulo": "Brownie de nescau (sem ovo)",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Massa:",
+      "Bata todos os ingredientes no liquidificador.",
+      "Unte uma forma retangular com manteiga e adicione a massa a ela, deixando aproximadamente 2 cm da massa.",
+      "Leve ao forno preaquecido a 170° C por 30 minutos.",
+      "Calda:",
+      "Misture todos os ingredientes em uma panela e deixe ferver por 5 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de farinha de trigo",
+      "1 xícara de nescau",
+      "1 xícara de açúcar",
+      "1 e 1/4 xícara de leite",
+      "1 xícara de óleo",
+      "1 colher (sopa) de fermento em pó",
+      "3 colheres (sopa) de nescau",
+      "3 colheres (sopa) de açúcar",
+      "2 colheres (40 g) de margarina",
+      "5 colheres de leite"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "margarina",
+      "nescau",
+      "oleo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-rapido-de-liquidificador_89e3d15f",
+    "titulo": "Bolo de banana rápido de liquidificador",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Cobertura",
+      "Em uma panela, adicione o açúcar e misture até derreter.",
+      "Despeje a água quente e mexa até dissolver o açúcar.",
+      "Deixe engrossar até chegar ao ponto de calda e reserve.",
+      "Massa",
+      "Bata no liquidificador os ovos, o açúcar, o óleo e o leite.",
+      "Acrescente a farinha de trigo aos poucos e continue batendo até obter uma massa lisa e homogênea.",
+      "Adicione por último o fermento e bata na velocidade mínima do liquidificador.",
+      "Unte uma forma média com margarina e farinha.",
+      "Despeje o caramelo e as bananas cortadas no comprimento.",
+      "Leve para assar em forno médio 180º C, preaquecido por aproximadamente 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "2 xícaras (chá) de açúcar",
+      "1 xícara (chá) de leite",
+      "1/2 xícara (chá) de óleo",
+      "2 xícaras (chá) de farinha de trigo",
+      "1 colher (sopa) de fermento químico",
+      "7 bananas",
+      "3/4 xícara (chá) de açúcar",
+      "1/2 xícara (chá) de água quente"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "agua",
+      "banana",
+      "farinha de trigo",
+      "fermento quimico",
+      "leite",
+      "oleo",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-e-aveia_d9a06ac3",
+    "titulo": "Bolo de banana e aveia",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata no liquidificador os 4 ovos, 1/2 xícara de óleo, 4 bananas, 1 1/2 xícara de açúcar (pode ser mascavo).",
+      "Despeje esta mistura na aveia fina com o fermento e opcionais a gosto.",
+      "Leve para assar em forma untada, em forno médio, pré-aquecido, por cerca de 40 minutos, ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "250 g de aveia fina (1 caixinha)",
+      "1 colher (sopa) fermento",
+      "4 ovos",
+      "1/2 xícara de óleo",
+      "4 bananas",
+      "1 1/2 xícaras de açúcar (pode ser mascavo)",
+      "1 colher (chá) de canela",
+      "1/2 xícara de castanha de cajú ou do Pará picada",
+      "1/2 xícara de passas de uva"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "aveia",
+      "banana",
+      "canela",
+      "castanha de caju ou",
+      "fermento",
+      "oleo",
+      "ovo",
+      "passas de uva"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-facil-de-banana-no-liquidificador_56a2a42b",
+    "titulo": "Bolo fácil de banana no liquidificador",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bater todos os ingredientes no liquidificador, exceto a banana.",
+      "Quando a massa já estiver bem batida colocar as bananas e bata por 5 segundos.",
+      "Coloque numa forma untada (redonda com furo central de preferencia) e levar ao forno até por aproximadamente 35 minutos, vai depender de cada forno, é sempre bom espetar um garfo no bolo para ver se ele não está cru.",
+      "Fica muito fofinho."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de chá de farinha de trigo",
+      "1 xícara de chá de leite",
+      "1 xícara de açúcar",
+      "1/2 xícara de óleo",
+      "2 ovos",
+      "2 colheres rasas de sopa de fermento",
+      "3 bananas nanicas picadas"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "banana nanicas",
+      "farinha de trigo",
+      "leite",
+      "oleo",
+      "ovo",
+      "rasas de de fermento"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-simples_f5570e53",
+    "titulo": "Bolo de banana simples",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Coloque os ovos, farinha de trigo, açúcar, leite, fermento e a manteiga no liquidificador.",
+      "Deixe batendo por 2 minutos, enquanto isso corte as bananas em rodelas pequenas.",
+      "Logo a seguir passe manteiga na forma, não é necessário a farinha de trigo.",
+      "Depois despeje a massa que está no liquidificador dentro da forma.",
+      "Logo após acrescente as rodelas de banana em cima da massa e leve ao forno por 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de farinha de trigo",
+      "2 ovos",
+      "2 bananas",
+      "1 xícara de açucar",
+      "1 xícara de leite",
+      "1 colher de fermento",
+      "1 colher cheia de manteiga"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "banana",
+      "cheia de manteiga",
+      "farinha de trigo",
+      "fermento",
+      "leite",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-e-canela_b16abd97",
+    "titulo": "Bolo de banana e canela",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Na batedeira, bata primeiro o óleo, os ovos e o açúcar.",
+      "Bata até formar uma massa lisa.",
+      "Depois acrescente as bananas aos poucos, em pedaços",
+      "Em seguida a farinha de trigo e a canela e bata bem.",
+      "A massa ficará bem consistente.",
+      "Por último, acrescente o fermento em pó misturando delicadamente.",
+      "Assar por 30 minutos em forma redonda untada com manteiga a 220º C."
+    ],
+    "ingredientes_originais": [
+      "2 bananas nanicas",
+      "2 ovos",
+      "2 xícaras (chá) de farinha de trigo",
+      "1/2 xícara de óleo",
+      "1/2 colher (sopa) de fermento em pó",
+      "2 xícaras (chá) de açúcar",
+      "1/2 colher (sopa) de canela em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "banana nanicas",
+      "canela em po",
+      "farinha de trigo",
+      "fermento em po",
+      "oleo",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-cuca-de-banana_f573bf07",
+    "titulo": "Bolo cuca de banana",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Recheio e cobertura:",
+      "Descasque e pique as bananas em rodelas.",
+      "Reserve.",
+      "Em uma tigela, coloque a manteiga e derreta no micro-ondas.",
+      "Em outra tigela, junte o açúcar, a farinha de trigo, a canela e a manteiga derretida.",
+      "Misture com as mãos até obter uma farofa.",
+      "Reserve.",
+      "Massa:",
+      "Pré-aqueça o forno a 180°.",
+      "Unte uma forma de fundo removível, de 22 cm de diâmetro, com manteiga e farinha de trigo.",
+      "Reserve.",
+      "Peneire a farinha de trigo junto com o amido de milho.",
+      "Reserve.",
+      "Na batedeira, junte as gemas, açúcar e a manteiga, bata por 5 minutos em velocidade alta até obter um creme esbranquiçado.",
+      "Acrescente a farinha de trigo, alternando com o leite.",
+      "Coloque o fermento e bata por mais 1 minuto.",
+      "Retire a massa da batedeira e reserve.",
+      "Bata as claras em neve e incorpore delicadamente à massa.",
+      "Na forma untada, despeje metade da massa, cubra com metade das rodelas de bananas, e polvilhe metade da farofa.",
+      "Coloque a massa restante por cima e acrescente outra camada de bananas.",
+      "Polvilhe a farofa restante.",
+      "Leve para assar por aproximadamente 40 minutos ou até a massa começar a desprender das laterais da forma e a superfície ficar dourada."
+    ],
+    "ingredientes_originais": [
+      "6 bananas nanica",
+      "1 xícara (chá) de açúcar",
+      "1,5 xícara (chá) de farinha de trigo",
+      "1 colher (sopa) de canela em pó",
+      "3 colheres (sopa) de manteiga em temperatura ambiente ou margarina",
+      "4 ovos",
+      "3 colheres (sopa) de manteiga",
+      "2 xícaras (chá) de farinha de trigo",
+      "1 xícara (chá) de amido de milho",
+      "1 colher (sopa) de fermento em pó químico",
+      "¾ xícara (chá) de leite",
+      "2 xícaras (chá) de açúcar",
+      "Manteiga para untar",
+      "Farinha de trigo para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "amido de milho",
+      "banana nanica",
+      "canela em po",
+      "farinha de trigo",
+      "farinha de trigo para polvilhar",
+      "fermento em po quimico",
+      "leite",
+      "manteiga",
+      "manteiga em temperatura ambiente ou margarina",
+      "manteiga para untar",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-com-maca_7df9c437",
+    "titulo": "Bolo de banana com maçã",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Passe as bananas no espremedor de batatas ou amasse com um garfo e reserve.",
+      "Bata no liquidificador, a maçã com o óleo e os ovos.",
+      "Despeje em um recipiente e acrescente a banana amassada, a canela em pó, o açúcar e a farinha de trigo e misture bem, por ultimo o fermento.",
+      "Coloque numa forma de furo central, untada e enfarinhada e leve ao forno preaquecido a 180º C, por aproximadamente 40 minutos.",
+      "Depois de assado e frio, polvilhe o açúcar refinado e a canela em pó."
+    ],
+    "ingredientes_originais": [
+      "6 bananas nanicas média",
+      "1 maçã com a casca e sem sementes",
+      "1/2 xícara (chá) de óleo",
+      "2 ovos",
+      "1 colher (café) de canela em pó",
+      "1 e 1/2 xícara de açúcar",
+      "1 e 1/2 xícara de farinha de trigo",
+      "1 colher (chá) de fermento químico",
+      "açúcar refinado e canela em pó para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado e canela em po para polvilhar",
+      "banana nanicas",
+      "canela em po",
+      "farinha de trigo",
+      "fermento quimico",
+      "maca com a casca",
+      "oleo",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-com-farinha-de-rosca_3b7c0479",
+    "titulo": "Bolo de banana com farinha de rosca",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador, menos a farinha de rosca e o fermento em pó.",
+      "Após bater junte a farinha de rosca e o fermento em pó, coloque em assadeira untada e povilhada com a farinha de rosca.",
+      "Salpique o açúcar com a canela.",
+      "Leve para assar em forno médio, pré-aquecido, por cerca de 40 minutos, depende de cada forno."
+    ],
+    "ingredientes_originais": [
+      "4 ovos",
+      "3/4 xícara de óleo, mais ou menos 80 ml",
+      "6 bananas nanica",
+      "2 xícaras de farinha de rosca",
+      "1 colher sopa/rasa de fermento em pó",
+      "2 xícaras de chá de açúcar",
+      "Açúcar e canela para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar e canela para polvilhar",
+      "banana nanica",
+      "farinha de rosca",
+      "oleo mais ou menos",
+      "ovo",
+      "rasa de fermento em po"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-milho-de-lata-no-liquidificador_ee6cf641",
+    "titulo": "Bolo de milho de lata no liquidificador",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Escorra o milho e use a própria lata para as medidas.",
+      "Unte e enfarinhe uma forma de bolo com furo.",
+      "Preaqueça o forno.",
+      "Coloque no liquidificador o milho (já escorrido), o leite, açúcar, flocão de milho, óleo, ovos e bata bem até que o milho fique bem moído.",
+      "Se quiser, pode acrescentar duas colheres de sopa de coco ralado.",
+      "Acrescente o fermento em pó e pulse o liquidificador 3 vezes.",
+      "Despeje essa massa na forma e leve ao forno médio.",
+      "Deixe assar por, aproximadamente, 40 minutos.",
+      "Faça o teste do palito e observe um tom dourado médio, para saber que o bolo está pronto.",
+      "Espere esfriar totalmente para desenformar."
+    ],
+    "ingredientes_originais": [
+      "1 lata de milho (sem o líquido)",
+      "1 lata de leite (medida da lata de milho)",
+      "1 lata de açúcar (medida da lata de milho)",
+      "1 lata de flocão de milho",
+      "1/2 lata de óleo de soja",
+      "3 ovos inteiros",
+      "1 colher (sopa) de fermento em pó",
+      "margarina para untar",
+      "farinha de trigo para untar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo para untar",
+      "fermento em po",
+      "flocao de milho",
+      "leite",
+      "margarina para untar",
+      "milho",
+      "oleo de soja",
+      "ovo inteiros"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-fuba-simples_83e7aebc",
+    "titulo": "Bolo de fubá simples",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Coloque em uma forma untada e enfarinhada.",
+      "Leve o bolo de fubá ao forno preaquecido e deixe assar por cerca de 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "2 xícaras (chá) de açúcar",
+      "2 xícaras (chá) de fubá",
+      "3 colheres (sopa) rasas de farinha de trigo",
+      "1/2 copo (americano) de óleo",
+      "1 copo de leite",
+      "1 colher (sopa) de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "fermento em po",
+      "fuba",
+      "leite",
+      "oleo",
+      "ovo",
+      "rasas de farinha de trigo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_brownie-simples-e-rapido_741990b3",
+    "titulo": "Brownie simples e rápido",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Derreta a manteiga e reserve",
+      "Enquanto derrete a manteiga, misture os 3 ovos e a açúcar e misture bem",
+      "Acrescente a manteiga derretida no ovo e o açúcar",
+      "Agora é so misturar o achocolatado e o trigo",
+      "Unte uma forma com manteiga e achocolatado",
+      "Leve ao forno a 180° C por 30 minutos"
+    ],
+    "ingredientes_originais": [
+      "5 colheres de manteiga",
+      "3 ovos",
+      "3 xicara de achocolatado",
+      "6 colheres de açúcar",
+      "12 colheres de farinha de trigo"
+    ],
+    "ingredientes_centrais": [
+      "achocolatado",
+      "acucar",
+      "farinha de trigo",
+      "manteiga",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-simples_30361cec",
+    "titulo": "Bolo simples",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata as claras em neve e reserve.",
+      "Misture as gemas, a margarina e o açúcar até obter uma massa homogênea.",
+      "Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.",
+      "Por último, adicione as claras em neve e o fermento.",
+      "Despeje a massa em uma forma grande de furo central untada e enfarinhada.",
+      "Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras (chá) de açúcar",
+      "3 xícaras (chá) de farinha de trigo",
+      "4 colheres (sopa) de margarina",
+      "3 ovos",
+      "1 e 1/2 xícara (chá) de leite",
+      "1 colher (sopa) bem cheia de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "bem cheia de fermento em po",
+      "farinha de trigo",
+      "leite",
+      "margarina",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-caneca-micro-ondas_279ec2e3",
+    "titulo": "Bolo de caneca micro-ondas",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Coloque todos os ingredientes dentro de uma caneca de aproximadamente 300 ml ou mais.",
+      "Mexa até obter uma massa homogênea e leve ao micro-ondas por 3 minutos.",
+      "Calda",
+      "Coloque todos os ingredientes em uma panela, leve ao fogo médio e misture até obter uma consistência grossa.",
+      "Despeje a calda sobre o bolo assim que retirá-lo do microondas."
+    ],
+    "ingredientes_originais": [
+      "1 ovo",
+      "2 colheres (sopa) de achocolatado em pó",
+      "3 colheres (sopa) rasas de açúcar",
+      "4 colheres (sopa) rasas de farinha de trigo",
+      "1 colher (sopa) de óleo",
+      "1 colher (café) rasa de fermento em pó",
+      "4 colheres (sopa) de leite",
+      "2 colheres (sopa) de achocolatado em pó",
+      "1 colher (sopa) de margarina",
+      "1/2 xícara de leite"
+    ],
+    "ingredientes_centrais": [
+      "achocolatado em po",
+      "leite",
+      "margarina",
+      "oleo",
+      "ovo",
+      "rasa de fermento em po",
+      "rasas de acucar",
+      "rasas de farinha de trigo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-laranja_a44a1c48",
+    "titulo": "Bolo de laranja",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca da laranja.",
+      "Passe para uma tigela e acrescente a farinha de trigo e o fermento.",
+      "Leve para assar em uma forma com furo central, untada e enfarinhada, por mais ou menos 30 minutos.",
+      "Desenforme o bolo e molhe com suco de laranja."
+    ],
+    "ingredientes_originais": [
+      "4 ovos",
+      "2 xícaras (chá) de açúcar",
+      "1 xícara (chá) de óleo",
+      "suco de 2 laranjas",
+      "casca de 1 laranja",
+      "2 xícaras (chá) de farinha de trigo",
+      "1 colher (sopa) de fermento"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "casca de laranja",
+      "farinha de trigo",
+      "fermento",
+      "oleo",
+      "ovo",
+      "suco de laranja"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-banana-caramelada_9ac36cf5",
+    "titulo": "Bolo de banana caramelada",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Cobertura",
+      "Despeje o açúcar em uma forma redonda com furo central e leve ao fogo até que esteja completamente derretido.",
+      "Logo após, fatie as bananas e disponha sobre o açúcar caramelizado.",
+      "Massa",
+      "Bata as claras em neve e separe.",
+      "Em outra travessa, bata os ovos com a margarina e o açúcar.",
+      "Acrescente a farinha, o leite, o sal e o fermento.",
+      "Por último, misture as claras em neve e continue batendo.",
+      "Despeje a massa na forma caramelizada com as bananas fatiadas.",
+      "Leve em forno médio (180° C), preaquecido, por 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "3 colheres (sopa) de margarina",
+      "1 e 1/2 xícara de açúcar",
+      "1 pitada de sal",
+      "1 xícara de leite",
+      "2 xícaras de farinha de trigo",
+      "1 colher (sopa) rasa de fermento",
+      "1 xícara de açúcar",
+      "4 a 5 bananas"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "banana",
+      "farinha de trigo",
+      "leite",
+      "margarina",
+      "ovo",
+      "rasa de fermento",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-pao-de-lo-tradicional_da9fdc42",
+    "titulo": "Bolo pão-de-ló tradicional",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata as claras em neve até ficar bem consistente.",
+      "Acrescente o açúcar e as gemas, bata bem.",
+      "Juntamente coloque a farinha de trigo e o fermento continue batendo.",
+      "Aos poucos acrescente o leite quente até ficar uma massa homogênea.",
+      "Despeje a massa em uma forma untada e enfarinhada, depois leve para assar ao forno 180 °C por 30 a 40 minutos, aproximadamente."
+    ],
+    "ingredientes_originais": [
+      "1 xícara de leite quente",
+      "3 xícaras de farinha de trigo",
+      "2 xícaras de açúcar",
+      "3 gemas",
+      "3 claras em neve",
+      "1 colher de fermento em pó químico"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "claras em neve",
+      "farinha de trigo",
+      "fermento em po quimico",
+      "gemas",
+      "leite"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_pave-de-chocolate_98e1d22a",
+    "titulo": "Pavê de chocolate",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Em uma tigela, misture o leite e o chocolate em pó até que esteja completamente dissolvido.",
+      "Molhe as bolachas no leite e reserve.",
+      "Creme branco",
+      "Em uma panela, leve todos os ingredientes ao fogo médio e misture até obter uma consistência grossa e cremosa.",
+      "Creme de chocolate",
+      "Repita o processo feito no creme branco.",
+      "Para a cobertura",
+      "Bata as claras em neve com o açúcar até obter um creme consistente, adicione o creme de leite e misture delicadamente.",
+      "Montagem",
+      "Em um refratário grande, despeje o creme branco, metade das bolachas, creme de chocolate, bolachas e claras em neve.",
+      "Repita o processo até preencher todo o refratário e leve à geladeira por 40 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de bolacha maisena",
+      "1/2 copo de leite",
+      "1 colher (sobremesa) de chocolate em pó",
+      "1 lata de leite condensado",
+      "1 lata de leite de vaca (use a medida da lata de leite condensado)",
+      "1 colher (sobremesa) de amido de milho",
+      "2 gemas",
+      "1 lata de leite condensado",
+      "1 lata de leite de vaca (a medida da lata de leite condensado)",
+      "1 colher (sobremesa) de amido de milho",
+      "2 gemas",
+      "4 colheres de chocolate em pó",
+      "4 claras",
+      "4 colheres de açúcar",
+      "1 lata de creme de leite sem soro"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "amido de milho",
+      "bolacha maisena",
+      "chocolate em po",
+      "claras",
+      "creme de leite sem soro",
+      "gemas",
+      "leite",
+      "leite condensado",
+      "leite de vaca"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-iogurte_9b579f2f",
+    "titulo": "Bolo de iogurte",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bater tudo no liquidificador.",
+      "Untar uma forma grande de buraco no meio, assar por 40 a 45 minutos, depende do forno.",
+      "Depois de assado, ainda quente, passar margarina e polvilhar açúcar refinado com canela ou coco ralado."
+    ],
+    "ingredientes_originais": [
+      "4 ovos",
+      "1 copo de iogurte natural",
+      "½ copo de óleo",
+      "2 copos de açúcar",
+      "2 copos de farinha de trigo",
+      "1 colher de sopa de fermento em pó",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "iogurte natural",
+      "oleo",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-flocao_6a8d0c1a",
+    "titulo": "Bolo flocão",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Coloque no liquidificador todos os ingredientes, bata por 3 minutos.",
+      "Unte uma forma redonda com buraco no meio com margarina e açúcar.",
+      "Asse por 40 minutos.",
+      "Espete com um palito para testar se o bolo está pronto. Se ele sair limpo, desligue o forno e retire o bolo. Se não, deixe assando até o palito sair limpo."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras (chá) de flocão de milho",
+      "1 xícara (chá) de leite",
+      "1/2 xícara (rasa) de óleo",
+      "2 xícaras (chá) de açúcar",
+      "4 ovos inteiros",
+      "1 xícara (chá) de farinha de trigo",
+      "1 colher (sopa) de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "flocao de milho",
+      "leite",
+      "oleo",
+      "ovo inteiros"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-fuba-cremoso_87cf9862",
+    "titulo": "Bolo de fubá cremoso",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Em um liquidificador, misture todos os ingredientes até obter uma consistência cremosa.",
+      "Despeje a massa em uma forma untada e polvilhada com farinha de trigo.",
+      "Asse em forno médio (180° C), preaquecido, por 40 minutos.",
+      "Sirva frio."
+    ],
+    "ingredientes_originais": [
+      "4 ovos",
+      "4 xícaras de leite",
+      "3 xícaras de açúcar",
+      "2 colheres de farinha de trigo",
+      "1 e 1/2 xícara de fubá",
+      "2 colheres de margarina",
+      "100 g de queijo ralado",
+      "1 colher de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "fuba",
+      "leite",
+      "margarina",
+      "ovo",
+      "queijo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-liquidificador_8dab7715",
+    "titulo": "Bolo de liquidificador",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata no liquidificador os ovos, o açúcar e a margarina.",
+      "Depois acrescente a farinha, o leite e o fermento em pó, bata novamente.",
+      "Coloque em uma forma untada com margarina e farinha de trigo, leve ao forno."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "2 colheres (sopa) de margarina",
+      "2 copos (requeijão) de açúcar",
+      "2 copos (requeijão) de farinha de trigo",
+      "1 copo (requeijão) de leite",
+      "1 colher rasa de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "leite",
+      "margarina",
+      "ovo",
+      "rasa de fermento em po"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-coco-gelado_60de8506",
+    "titulo": "Bolo de coco gelado",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata na batedeira o açúcar com a margarina.",
+      "Acrescente as gemas peneiradas uma a uma e continue batendo até que se obtenha um creme claro e fofo.",
+      "Em seguida adicione o leite, acrescente a farinha e o fermento peneirados, desligue a batedeira e por último despeje delicadamente as claras em neve.",
+      "Leve para assar em forma untada em forno pré aquecido por aproximadamente 35 minutos.",
+      "Cobertura",
+      "Para cobrir o bolo bata os ingredientes no liquidificador e jogue em cima do bolo ainda quente.",
+      "Polvilhe o coco ralado e leve para gelar por aproximadamente 2 horas."
+    ],
+    "ingredientes_originais": [
+      "3 ovos (claras separadas)",
+      "2 colheres (sopa) de margarina",
+      "2 xícaras de açúcar",
+      "1 xícara de leite",
+      "2 xícaras de farinha de trigo",
+      "1 colher de fermento em pó",
+      "1 lata de leite condensado",
+      "A mesma medida da lata de leite condensado",
+      "1 vidro de leite de coco",
+      "1 pacote de 100 g de coco ralado para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "coco para polvilhar",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "leite condensado",
+      "leite de coco",
+      "margarina",
+      "mesma medida da de leite condensado",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-laranja-superfofo-e-molhadinho_f3b368fa",
+    "titulo": "Bolo de laranja superfofo e molhadinho",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Massa:",
+      "Coloque no liquidificador as laranjas cortadas, o óleo, os ovos e bata por 2 minutos.",
+      "Junte o açúcar e bata por mais 2 minutos (use a potência alta do seu liquidificador).",
+      "Com o liquidificador ligado, vá juntando aos poucos a farinha de trigo até misturar bem.",
+      "Desligue o liquidificador, adicione o fermento e aperte a tecla pulsar por três vezes até misturar.",
+      "Coloque a massa em um forma com furo central, untada e enfarinhada e leve ao forno preaquecido por 35 minutos a 220° C.",
+      "Calda:",
+      "Misture os ingredientes da calda e leve ao fogo até ferver.",
+      "Desligue o fogo e reserve.",
+      "Quando o bolo estiver pronto, jogue a calda por cima com o bolo ainda quente."
+    ],
+    "ingredientes_originais": [
+      "2 laranjas maduras descascadas e sem sementes (retirar inclusive a casca branca)",
+      "1+1/2 xícara (chá) de açúcar",
+      "1/2 xícara (chá) de óleo",
+      "2 xícaras (chá) bem cheias de farinha de trigo",
+      "3 ovos grandes",
+      "1 colher (sopa) de fermento",
+      "Suco de 2 laranjas coado",
+      "2 colheres (sopa) de açúcar",
+      "1 colher (sobremesa) de margarina"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "bem cheias de farinha de trigo",
+      "fermento",
+      "laranja maduras descascadas",
+      "margarina",
+      "oleo",
+      "ovo",
+      "suco de laranja coado"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_759a44e8",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_6fb96a89",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_c76243fd",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_f2319c0a",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_ef449850",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_4fd54fb4",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-fuba-de-liquidificador-super-fofo_80c44350",
+    "titulo": "Bolo de fubá de liquidificador super fofo",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Primeiro colocar no liquidificador o leite, o óleo e os ovos.",
+      "Bater pra misturar, depois colocar o açúcar e bater mais um pouco.",
+      "Desligue o liquidificador e acrescente o fubá e bata mais um pouco.",
+      "Desligue o liquidificador e acrescente a farinha de trigo e o sal.",
+      "Bater tudo muito bem, desligar o liquidificador e colocar o fermento.",
+      "Misturar com uma colher, depois despeje na forma que já deve estar untada com margarina e enfarinhada com farinha de trigo.",
+      "Leve ao forno já preaquecido em uma temperatura de 160 a 180 ºC.",
+      "Deixar assar por mais ou menos 35 minutos ."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de (chá) de fubá",
+      "2 xícaras de (chá) de farinha de trigo sem fermento",
+      "1 xícara e 1/2 de (chá) de açúcar",
+      "3 ovos",
+      "1 xícara de (chá) de óleo de milho",
+      "2 xícaras de (chá) de leite de vaca integral",
+      "1 colher de (sopa) de fermento em pó químico",
+      "1 pitada de sal"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo sem fermento",
+      "fermento em po quimico",
+      "fuba",
+      "leite de vaca integral",
+      "oleo de milho",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-laranja-de-liquidificador_06713c10",
+    "titulo": "Bolo de laranja de liquidificador",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Bata no liquidificador os 4 primeiros ingredientes (exceto farinha e fermento), despeje em uma tigela, acrescente a farinha de trigo aos poucos e por último o fermento.",
+      "Coloque em uma assadeira redonda de buraco no centro untada e enfarinhada.",
+      "Leve ao forno médio pré-aquecido por 35 minutos, ou até que esteja assado.",
+      "Calda",
+      "Leve o suco de laranja e o açúcar ao fogo, dando uma aquecida e despeje no bolo ainda quente."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "Suco de 2 laranjas",
+      "1 xícara (chá) de óleo",
+      "2 xícaras (chá) de açúcar",
+      "3 xícaras (chá) de farinha de trigo",
+      "1 colher (sopa) de fermento em pó",
+      "Suco de 1 laranja",
+      "3 colheres (sopa) de açúcar"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "farinha de trigo",
+      "fermento em po",
+      "oleo",
+      "ovo",
+      "suco de laranja"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-maca-de-liquidificador-o-melhor-do-mundo_d8dcdb80",
+    "titulo": "Bolo de maçã de liquidificador - o melhor do mundo",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Unte e polvilhe com farinha um tabuleiro médio (23×35), ou uma fôrma de buraco no meio.",
+      "Em uma tigela grande, peneirar a farinha e o açúcar. Juntar os demais ingredientes secos. Reservar.",
+      "Descascar as maçãs, reservando as cascas. Picar em cubinhos.",
+      "Bater no liquidificador os ovos, o óleo e as cascas da maçã.",
+      "Juntar essa mistura na tigela com os ingredientes secos e misturar delicadamente.",
+      "Junte as maçãs picadas, misture e despeje na assadeira.",
+      "Asse por cerca de 40 a 50 minutos em forno médio.",
+      "Depois de pronto polvilhar açúcar e canela."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de farinha de trigo",
+      "2 xícaras de açúcar",
+      "1 colher de sopa de fermento em pó",
+      "1 colher de sopa de canela em pó",
+      "1 pitada de sal",
+      "3 ovos",
+      "3 maçãs grandes",
+      "1 xícara de óleo vegetal"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "canela em po",
+      "farinha de trigo",
+      "fermento em po",
+      "maca",
+      "oleo vegetal",
+      "ovo",
+      "sal"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_bolo-de-milho-cremoso_5e39fa3d",
+    "titulo": "Bolo de milho cremoso",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Preaqueça o forno em temperatura alta por 15 minutos.",
+      "No liquidificador, bata todos os ingredientes por aproximadamente 10 minutos.",
+      "Despeje a massa em uma forma untada e enfarinhada e leve ao forno médio (180° C) por aproximadamente 1 hora e 30 minutos."
+    ],
+    "ingredientes_originais": [
+      "3 copos (requeijão) de milho verde",
+      "3 ovos grandes",
+      "3 colheres (sopa) de farinha de trigo",
+      "2 copos (requeijão) de açúcar refinado",
+      "2 copos (requeijão) de leite",
+      "2 colheres (sopa) de margarina",
+      "1 colher (sopa) de fermento em pó"
+    ],
+    "ingredientes_centrais": [
+      "acucar refinado",
+      "farinha de trigo",
+      "fermento em po",
+      "leite",
+      "margarina",
+      "milho verde",
+      "ovo"
+    ]
+  },
+  {
+    "id": "bolos-e-tortas_torta-de-banana-banoffee_d697889e",
+    "titulo": "Torta de banana banoffee",
+    "tipo": "bolos e tortas",
+    "receita": [
+      "Misture o biscoito triturado com a margarina culinária, com a ponta dos dedos, até formar uma massa lisa.",
+      "Forre o fundo de uma forma de abrir (fundo falso), e asse por apenas 10 minutos, em forno preaquecido a 180°C.",
+      "Retire.",
+      "Deixe a massa esfriar.",
+      "Coloque o doce de leite sobre a massa já fria.",
+      "Alise para ficar plano.",
+      "Pique as bananas em rodelas, e distribua-as sobre o doce de leite.",
+      "Coloque a nata por cima (se preferir, pode batê-la para deixar em ponto de chantilly), e alise.",
+      "Pegue uma peneira pequena e espalhe a canela por cima passando-a pela peneira, para que pulverize melhor por toda a torta.",
+      "Deixe na geladeira por 3 horas antes de desenformar."
+    ],
+    "ingredientes_originais": [
+      "400 g de doce de leite",
+      "10 bananas cortadas em rodelas",
+      "400 g de nata (chantilly, se preferir)",
+      "1 pacote de biscoito maizena triturado (tipo farinha, bem fininho)",
+      "200 g de margarina culinária",
+      "1 colher de chá de canela em pó para polvilhar"
+    ],
+    "ingredientes_centrais": [
+      "banana cortadas",
+      "biscoito maizena triturado",
+      "canela em po para polvilhar",
+      "doce de leite",
+      "margarina culinaria",
+      "nata"
     ]
   }
 ]

@@ -122,29 +122,6 @@
     ]
   },
   {
-    "id": "carnes_bife-de-hamburguer-gourmet_5c1cabb4",
-    "titulo": "Bife de hambúrguer gourmet",
-    "tipo": "carnes",
-    "receita": [
-      "Misture todos os ingredientes e modele os bifes.",
-      "Após modelados podem ser embalados com sacola plástica ou plástico filme e congelados, ou já serem grelhados em seguida."
-    ],
-    "ingredientes_originais": [
-      "500 g de patinho moído",
-      "sal a gosto",
-      "1 ovo",
-      "3 colheres (sopa) de aveia em flocos",
-      "temperos a gosto"
-    ],
-    "ingredientes_centrais": [
-      "aveia em flocos",
-      "ovo",
-      "patinho",
-      "sal",
-      "temperos"
-    ]
-  },
-  {
     "id": "carnes_hamburguer-caseiro-para-churrasco_d1110d5e",
     "titulo": "Hambúrguer caseiro para churrasco",
     "tipo": "carnes",
@@ -198,6 +175,29 @@
       "creme de cebola",
       "pimenta de sua preferencia",
       "sal"
+    ]
+  },
+  {
+    "id": "carnes_bife-de-hamburguer-gourmet_5c1cabb4",
+    "titulo": "Bife de hambúrguer gourmet",
+    "tipo": "carnes",
+    "receita": [
+      "Misture todos os ingredientes e modele os bifes.",
+      "Após modelados podem ser embalados com sacola plástica ou plástico filme e congelados, ou já serem grelhados em seguida."
+    ],
+    "ingredientes_originais": [
+      "500 g de patinho moído",
+      "sal a gosto",
+      "1 ovo",
+      "3 colheres (sopa) de aveia em flocos",
+      "temperos a gosto"
+    ],
+    "ingredientes_centrais": [
+      "aveia em flocos",
+      "ovo",
+      "patinho",
+      "sal",
+      "temperos"
     ]
   },
   {
@@ -455,13 +455,1279 @@
       "azeite",
       "cebola",
       "cubos de caldo de picanha",
-      "g de patinho vezes",
-      "g de triguilho",
       "maco de cebolinha verde",
       "maco de hortela bem",
       "maco de salsa",
+      "patinho vezes",
+      "sal",
+      "tempero completo",
+      "triguilho"
+    ]
+  },
+  {
+    "id": "carnes_carne-ao-molho-de-gorgonzola_1e09b62d",
+    "titulo": "Carne ao molho de gorgonzola",
+    "tipo": "carnes",
+    "receita": [
+      "Misture a margarina e o queijo com um garfo até conseguir uma consistência de uma pasta. Reserve.",
+      "Corte o bife em tiras ou cubos. Tempere os bifes com o alho e o sal, ou a seu gosto",
+      "Leve para fritar primeiro, coloque numa travessa e reserve.",
+      "Com a frigideira ainda quente, coloque a pasta de queijo, deixe derreter e borbulhar um pouco.",
+      "Coloque o creme de leite, adicione orégano e jogue por cima dos bifes.",
+      "Está pronto para servir.",
+      "Sugestão de acompanhamento: arroz, torradas ou batata palha."
+    ],
+    "ingredientes_originais": [
+      "1 kg de carne de bife da sua preferência (picanha ou filé mignon)",
+      "2 dentes de alho",
+      "Sal a gosto",
+      "Margarina ou azeite para fritar",
+      "2 caixinhas de creme de leite",
+      "2 colheres de margarina",
+      "50 g de queijo gorgonzola ou a seu gosto",
+      "Orégano"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "caixinhas de creme de leite",
+      "carne de bife da sua preferencia",
+      "margarina",
+      "margarina ou azeite para fritar",
+      "oregano",
+      "queijo gorgonzola ou a seu gosto",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_lombo-de-porco-assado_6a2b2f9f",
+    "titulo": "Lombo de porco assado",
+    "tipo": "carnes",
+    "receita": [
+      "Faça vários furos na carne e reserve.",
+      "Bata os temperos no liqüidificador e passe no lombo essa mistura.",
+      "Coloque em uma assadeira, cubra com papel alumínio e leve ao forno pré-aquecido, a 200º, por 30 minutos.",
+      "Enquanto a carne assa, adicione 1/2 xícara de água para criar um pouco de caldo.",
+      "Fure com uma faca, se estiver cozida, não escorrerá líquido e a faca deslizará bem.",
+      "Retire o papel alumínio, vire o lombo e asse até dourar, sempre acrescentando água à medida que for secando. Corte em fatias e sirva com o caldo da assadeira."
+    ],
+    "ingredientes_originais": [
+      "1,5 kg de lombo de porco",
+      "1 cebola média, em pedaços",
+      "1 1/2 colher de chá de sal",
+      "2 colheres de sopa de suco de limão",
+      "1/4 de xícara de azeite",
+      "4 dentes de alho",
+      "4 folhas de louro"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite",
+      "cebola",
+      "lombo de porco",
+      "louro",
+      "sal",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "carnes_costelinha-com-molho-barbecue-outback_b7a436a5",
+    "titulo": "Costelinha com molho barbecue (outback)",
+    "tipo": "carnes",
+    "receita": [
+      "Espalhe sal por toda a carne e coloque para ferver por 10 minutos em um panela com bastante água quente.",
+      "Escorra a água, arrume as costelinhas em uma assadeira, cubra com papel-alumínio e leve ao forno baixo ( 180º) por 40 minutos.",
+      "Em uma panela, refogue a cebola no óleo, acrescente o açúcar mascavo e o vinagre e deixe o açúcar dissolver.",
+      "Acrescente o molho inglês, o ketchup, o louro, o chilli em pó e a água e cozinhe por 30 minutos em fogo baixo ou até o molho engrossar.",
+      "Tempere com sal e pimenta-do-reino, coe e reserve.",
+      "Após os 40 minutos retire as costelinhas do forno, retire o papel alumínio e pincele com o molho.",
+      "Aumente a temperatura do forno, asse as costelinhas por mais 10 minutos, pincele novamente com o molho, asse mais 5 minutos e repita mais uma vez esta operação.",
+      "Sirva com mais molho à parte."
+    ],
+    "ingredientes_originais": [
+      "2 kg de costelinhas de porco aferventadas em água quente",
+      "1 colher (sopa) de óleo",
+      "2 colheres (sopa) de cebola picada",
+      "1/2 xícara (chá) de açúcar mascavo",
+      "1/2 xícara (chá) de vinagre branco",
+      "2 colheres (sopa) de molho inglês",
+      "2 xícaras (chá) de ketchup",
+      "1 folha de louro",
+      "1 colher (sopa) de chilli em pó",
+      "1/2 xícara (chá) de água",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar mascavo",
+      "agua",
+      "cebola",
+      "chilli em po",
+      "costelinhas de porco aferventadas em agua",
+      "ketchup",
+      "louro",
+      "molho ingles",
+      "oleo",
+      "pimenta do reino",
+      "sal",
+      "vinagre branco"
+    ]
+  },
+  {
+    "id": "carnes_costelinhas-de-porco-ao-forno_fd21cf61",
+    "titulo": "Costelinhas de porco ao forno",
+    "tipo": "carnes",
+    "receita": [
+      "Lave e limpe as costelinhas.",
+      "Tempere-as com sal e pimenta do reino a gosto.",
+      "Enrole-as em papel alumínio e coloque-as em um refratário por cerca de 2 horas a temperatura média (dependendo do forno).",
+      "Após 2 horas, desenrole-as e coloque-as no mesmo refratário banhadas ao molho de churrasco e leve-as ao forno por 30 minutos ou até ficarem douradinhas.",
+      "Para o molho",
+      "Em uma tigela misture a manteiga, o óleo, vinagre e catchup.",
+      "Tempere com o alho esmagado.",
+      "Junte também o molho inglês, sumo de limão, raspa de limão, sal e pimenta.",
+      "Leve ao fogo e deixe que levante fervura.",
+      "Retire do lume e deixe repousar um pouco.",
+      "Elas se desmancham na boca.",
+      "Uma delícia."
+    ],
+    "ingredientes_originais": [
+      "500 g de costelinha de porco limpas e cruas",
+      "1/2 xícara de chá de azeite",
+      "Sal a gosto",
+      "1/2 colher de chá de pimenta do reino moída",
+      "1/2 xícaras de chá de sumo de limão",
+      "1 colher de chá de raspa de limão",
+      "1 colher e 1/2 de sopa de molho inglês",
+      "1 dente alho",
+      "2 colheres de sopa de catchup",
+      "1/2 xícara de chá de vinagre",
+      "1/2 xícara de chá de óleo",
+      "1/4 xícara de chá de manteiga",
+      "Sal, o quanto baste",
+      "pimenta preta, o quanto baste"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite",
+      "catchup",
+      "costelinha de porco limpas e cruas",
+      "manteiga",
+      "molho ingles",
+      "oleo",
+      "pimenta do reino",
+      "pimenta preta o quanto baste",
+      "raspa de limao",
+      "sal",
+      "sal o quanto baste",
+      "sumo de limao",
+      "vinagre"
+    ]
+  },
+  {
+    "id": "carnes_pernil-na-panela_39f0a4a2",
+    "titulo": "Pernil na panela",
+    "tipo": "carnes",
+    "receita": [
+      "Em um recipiente coloque os cubos de carne e adicione o suco de limão.",
+      "Coloque em uma panela água para ferver.",
+      "Despeje a água fervendo em cima da carne.",
+      "Depois lave, deixe escorrer e tempere com os demais ingredientes, sal, alho, pimenta, colorau, páprica picante, salsinha, óleo.",
+      "Deixe pegar tempero.",
+      "Em uma panela grande adicione o óleo, deixe aquecer e frite os pedaços bem fritos.",
+      "Coloque os fritos para outra panela até fritar todos.",
+      "Por último acrescente as cebolas cortadas em tiras.",
+      "Sirva com arroz branco e maionese."
+    ],
+    "ingredientes_originais": [
+      "2 kg de pernil cortados em pedaços, limpos e sem gordura",
+      "1 limão grande",
+      "Pimenta-do-reino branca",
+      "Colorau",
+      "Salsinha",
+      "2 cebolas grandes",
+      "4 dentes de alho",
+      "páprica picante",
+      "Óleo",
+      "sal"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "cebola",
+      "colorau",
+      "limao",
+      "oleo",
+      "paprica picante",
+      "pernil cortados em limpos e sem gordura",
+      "pimenta do reino branca",
+      "sal",
+      "salsinha"
+    ]
+  },
+  {
+    "id": "carnes_bisteca-na-panela-de-pressao_17e25e6b",
+    "titulo": "Bisteca na Panela de Pressão",
+    "tipo": "carnes",
+    "receita": [
+      "Tempere as bistecas com o shoyu, o alho, a cebola,a pimenta branca, o limão e o sal.",
+      "Deixe marinar por 30 minutos.",
+      "Em seguida, na panela de pressão coloque o azeite, as bistecas, o tomate, o louro, o glutamato e a água. Tampe a panela e após pegar pressão conte 15 minutos"
+    ],
+    "ingredientes_originais": [
+      "1 kg de bisteca de porco",
+      "3 colheres (sopa) de azeite",
+      "Pimenta branca a gosto",
+      "¼ de xícara (chá) de Shoyu",
+      "3 dentes de alho picados",
+      "2 cebolas em rodelas",
+      "Suco de 2 limões",
+      "1 xícara (chá) de tomate sem pele e sem semente",
+      "1 folha de louro",
+      "1 colher (sopa) de glutamato",
+      "Sal a gosto",
+      "1 xícara (chá) de água"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "azeite",
+      "bisteca de porco",
+      "cebola",
+      "glutamato",
+      "louro",
+      "pimenta branca",
+      "sal",
+      "shoyu",
+      "suco de limao",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_canjiquinha-de-milho-com-costelinha-de-porco_c0a2ba61",
+    "titulo": "Canjiquinha de milho com costelinha de porco",
+    "tipo": "carnes",
+    "receita": [
+      "De véspera, tempere as costelinhas com o alho, sal, pimenta e suco de 1 limão.",
+      "Frite as costelinhas em 1 xícara (chá) de óleo.",
+      "Depois de fritas, retire as costelinhas e despreze o óleo.",
+      "Na mesma panela, doure a lingüiça cortada em cubos, frite a cebola, acrescente os tomates, a carne frita e o caldo de bacon.",
+      "Quando ferver, acrescente a canjiquinha com 500 ml de água.",
+      "Deixe ferver e abaixe o fogo.",
+      "Adicione água, aos poucos, até que a carne esteja bem macia.",
+      "Acerte o sal e sirva em seguida."
+    ],
+    "ingredientes_originais": [
+      "1 kg de costelinhas de porco",
+      "200 g de lingüiça defumada",
+      "6 dentes de alho amassados",
+      "1 cebola grande picadinha",
+      "Cheiro verde picadinho",
+      "1 cubo de caldo de bacon",
+      "3 tomates sem peles picados",
+      "1 1/2 xícara de canjiquinha lavada",
+      "Sal a gosto",
+      "Pimenta a gosto",
+      "Folhas de louro"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "canjiquinha",
+      "cebola picadinha",
+      "cheiro verde picadinho",
+      "costelinhas de porco",
+      "cubo de caldo de bacon",
+      "linguica defumada",
+      "louro",
+      "pimenta",
+      "sal",
+      "tomate sem peles"
+    ]
+  },
+  {
+    "id": "carnes_torresmo-crocante-de-panela-de-pressao_0d72aaca",
+    "titulo": "Torresmo crocante de panela de pressão",
+    "tipo": "carnes",
+    "receita": [
+      "Coloque a barriga picada na panela de pressão e tempere com o sal.",
+      "Acrescente o oleo até cobir a carne e tampe a panela, mas não se esqueça de tirar a borracha, pois não pode pegar pressão.",
+      "Leve ao fogo alto e deixe fritar, vai começar a estourar como pipoca, quando parar de estourar, estará pronto.",
+      "Verifique se esta dourado, retire com uma escumadeira."
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de barriga picada em pedaços",
+      "Sal a gosto",
+      "Cerca de 1/2 litro de óleo (o suficiente para cobrir a carne)"
+    ],
+    "ingredientes_centrais": [
+      "barriga",
+      "cerca de de oleo",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_pernil-assado-na-panela-de-pressao-simples_ed0f0c2c",
+    "titulo": "Pernil assado na panela de pressão simples",
+    "tipo": "carnes",
+    "receita": [
+      "Perfure o pernil com a ponta da faca.",
+      "Tempere com o alho, limão, sal e alecrim.",
+      "Esfregue bem por toda peça.",
+      "Deixe marinar o máximo de tempo que puder.",
+      "Feito isso coloque na panela de pressão o óleo e o pernil, selando os dois lados pra carne não ficar seca. Depois tampe a panela e deixe cozinhar por 30 ou 40 minutos, dividindo esse tempo metade de um lado, destampe vire a peça e tampe novamente.",
+      "Depois de cozida tire o vapor e deixe dourar a gosto.",
+      "Nessa receita não uso água por que a carne já solta, mas se quiser fazer um molho pra jogar por cima pode por um pouco depois de assada, pra aproveitar o fundinho da panela.Outra opção é colocar batatas pra cozinhar também depois da carne pronta.",
+      "Bom apetite."
+    ],
+    "ingredientes_originais": [
+      "1 peça de pernil de 1,5 kg",
+      "4 dentes de alho amassados",
+      "1 limão (suco)",
+      "Sal a gosto",
+      "alecrim a gosto",
+      "2 colheres de óleo ou azeite"
+    ],
+    "ingredientes_centrais": [
+      "alecrim",
+      "alho",
+      "limao",
+      "oleo ou azeite",
+      "peca de pernil",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_carne-de-panela-de-pressao_7bd4989d",
+    "titulo": "Carne de panela de pressão",
+    "tipo": "carnes",
+    "receita": [
+      "Forre o fundo de uma panela de pressão com metade das cebolas.",
+      "Esfarele um cubo de caldo de carne por cima das cebolas, adicione a carne, adicione outro cubo de caldo de carne e cubra com o restante das cebolas.",
+      "Feche a panela de pressão, sem adicionar água, e deixe cozinhar por 25 minutos.",
+      "Se preferir, adicione batatas em rodelas e deixe cozinhar por mais 10 minutos."
+    ],
+    "ingredientes_originais": [
+      "1 kg de carne (acém, patinho ou lombo de porco)",
+      "8 cebolas grandes cortadas em rodelas",
+      "3 ou 4 cubos de caldo de carne"
+    ],
+    "ingredientes_centrais": [
+      "carne",
+      "cebola cortadas",
+      "ou cubos de caldo de carne"
+    ]
+  },
+  {
+    "id": "carnes_rocambole-de-carne-moida-maravilhoso_52f61d72",
+    "titulo": "Rocambole de carne moída maravilhoso",
+    "tipo": "carnes",
+    "receita": [
+      "Tempere a carne moída com a sopa de cebola, o tempero verde e o sal.",
+      "Coloque a carne temperada sobre uma folha de papel laminado ou papel manteiga e abra a massa com um rolo, na espessura de 1 cm, mais ou menos.",
+      "Forre a carne com o presunto e o queijo, pode-se colocar também milho verde, ervilha e requeijão.",
+      "Enrole a carne, com ajuda da folha de papel laminado ou manteiga, em forma de rocambole.",
+      "Leve ao forno, em temperatura alta, por mais ou menos 30 minutos, ou no microondas por 15 minutos.",
+      "Bom apetite!"
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de carne moída",
+      "1 pacote de sopa de cebola",
+      "presunto fatiado",
+      "queijo fatiado",
+      "tempero verde",
+      "sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "carne",
+      "cebola",
+      "presunto",
+      "queijo",
+      "sal",
+      "tempero verde"
+    ]
+  },
+  {
+    "id": "carnes_yakissoba-da-casa_f6d6372e",
+    "titulo": "Yakissoba da casa",
+    "tipo": "carnes",
+    "receita": [
+      "Cozinhe o macarrão em ponto al dente e reserve.",
+      "Em uma panela, adicione o azeite, a cebola, a carne e refogue bem.",
+      "Adicione o molho shoyu e cozinhe por 3 minutos em fogo médio.",
+      "Acrescente mais água, aguarde levantar fervura e adicione o amido de milho.",
+      "Mexa até engrossar, abaixe o fogo e adicione o champignon, a couve-flor, o brócolis e a cenoura.",
+      "Cozinhe por 8 minutos e acrescente, por último, a acelga e o macarrão.",
+      "Misture bem, acerte o sal e tampe a panela por mais 1 minuto.",
+      "Está pronto para servir!"
+    ],
+    "ingredientes_originais": [
+      "300 g de espaguete",
+      "1 cebola grande cortada em pedaços médios",
+      "1 colher (sopa) de óleo",
+      "1/2 maço pequeno de brócolis",
+      "1/2 maço pequeno de couve-flor",
+      "10 colheres (sopa) de molho shoyu",
+      "400 g de carne cortada em tiras",
+      "100 g de champignon",
+      "1 cenoura cortada em rodelas",
+      "250 ml de água",
+      "1 colher (sopa) de amido de milho, dissolvido em 50 ml de água",
+      "acelga a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acelga",
+      "agua",
+      "amido de milho dissolvido em de agua",
+      "carne cortada",
+      "cebola cortada",
+      "cenoura cortada",
+      "champignon",
+      "espaguete",
+      "maco de brocolis",
+      "maco de couve flor",
+      "molho shoyu",
+      "oleo"
+    ]
+  },
+  {
+    "id": "carnes_strogonoff-de-carne_a73594af",
+    "titulo": "Strogonoff de carne",
+    "tipo": "carnes",
+    "receita": [
+      "Em uma panela, adicione o óleo, a carne, a cebola, os tomates, o caldo de carne e deixe cozinhar por 20 minutos.",
+      "Acrescente o ketchup e o champignon e deixe cozinhar até obter um molho consistente e cremoso.",
+      "Desligue o fogo e acrescente o creme de leite sem soro.",
+      "Mexa até incorporar o molho ao creme.",
+      "Coloque em uma forma refratária e decore com tempero e batata palha."
+    ],
+    "ingredientes_originais": [
+      "1 kg de carne de sua preferência, como patinho ou coxão mole",
+      "3 cebolas médias",
+      "1 vidro de champignon ou palmito",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "2 latas de creme de leite",
+      "3 tomates picados sem pele e sem sementes",
+      "3 colheres (sopa) de óleo de oliva",
+      "2 colheres (sopa) de ketchup",
+      "1 cubo de caldo de carne dissolvido em 100 ml de água"
+    ],
+    "ingredientes_centrais": [
+      "carne de sua preferencia como patinho ou coxao mole",
+      "cebola",
+      "champignon ou palmito",
+      "creme de leite",
+      "cubo de caldo de carne dissolvido em de agua",
+      "ketchup",
+      "oleo de oliva",
+      "pimenta do reino",
+      "sal",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_bife-a-milanesa_d65dbd6d",
+    "titulo": "Bife à milanesa",
+    "tipo": "carnes",
+    "receita": [
+      "Tempere os bifes a gosto e reserve.",
+      "Em um prato fundo, bata os ovos até obter uma mistura homogênea.",
+      "Separe a farinha de rosca e a farinha de trigo em pratos diferentes.",
+      "Passe os bifes na farinha de trigo, depois nos ovos batidos e na farinha de rosca.",
+      "Em uma frigideira, frite os bifes em óleo quente até que fiquem dourados.",
+      "Ao retirar da frigideira, coloque os bifes em papel toalha para que a gordura em excesso seja absorvida."
+    ],
+    "ingredientes_originais": [
+      "1/2 kg de bife patinho, alcatra ou mignon",
+      "3 ovos batidos",
+      "farinha de rosca a gosto",
+      "farinha de trigo a gosto",
+      "3 dentes de alho amassados (opcional)",
+      "sal a gosto",
+      "pimenta-do-reino a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "bife patinho alcatra ou mignon",
+      "farinha de rosca",
+      "farinha de trigo",
+      "ovo batidos",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_escondidinho-de-carne-seca_6e757ad0",
+    "titulo": "Escondidinho de carne-seca",
+    "tipo": "carnes",
+    "receita": [
+      "Esprema a mandioca ainda quente e leve em uma panela com a margarina e o sal.",
+      "Quando estiverem bem misturados acrescente o creme de leite, misture e reserve.",
+      "Refogue a cebola e o alho em um fio de azeite.",
+      "Acrescente a carne-seca desfiada e deixe fritar um pouco.",
+      "Acrescente os tomates e deixe cozinhar até ficarem murchos, acerte o sal se achar necessário.",
+      "Em um refratário untado com azeite, coloque uma camada do purê de mandioca, a carne seca e termine com o restante do purê.",
+      "Polvilhe com queijo parmesão ralado e leve ao forno pra gratinar."
+    ],
+    "ingredientes_originais": [
+      "1 kg de mandioca cozida",
+      "1 lata de creme de leite com soro",
+      "2 colheres de margarina",
+      "1/2 kg de carne-seca dessalgada e cozida",
+      "1 cebola média picadinha",
+      "4 dentes de alho esmagados",
+      "2 tomates sem casca e picados",
+      "sal a gosto",
+      "pimenta a gosto",
+      "queijo ralado a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "carne dessalgada",
+      "cebola picadinha",
+      "creme de leite com soro",
+      "mandioca",
+      "margarina",
+      "pimenta",
+      "queijo",
+      "sal",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_almondegas_8a804eed",
+    "titulo": "Almôndegas",
+    "tipo": "carnes",
+    "receita": [
+      "Misture a carne com o ovo, a cebola, o sal, um pouco de azeite de oliva (ou óleo) e a pimenta.",
+      "Agregue a farinha até dar o ponto de enrolar as almôndegas.",
+      "Faça pequenas bolinhas.",
+      "Em uma panela com um pouco de azeite, frite as almôndegas selando-as em fogo alto.",
+      "Retire as almôndegas e reserve.",
+      "Em outra panela, esquente o molho de tomate em fogo baixo.",
+      "Na mesma panela da almôndega, elimine o excesso de azeite e coloque o molho de tomate, colocando as almôndegas para cozinhar por alguns minutos.",
+      "Em cerca de 15 minutos as almôndegas estarão totalmente cozidas e o prato estará pronto."
+    ],
+    "ingredientes_originais": [
+      "500 g de carne moída",
+      "2 colheres (sopa) de azeite de oliva (30 ml)",
+      "1 xícara de cebola bem picada (60 g)",
+      "1 ovo",
+      "150 g de farinha de rosca",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "395 g de molho de tomate"
+    ],
+    "ingredientes_centrais": [
+      "azeite de oliva",
+      "carne",
+      "cebola bem",
+      "farinha de rosca",
+      "molho de tomate",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_arroz-de-forno-a-parmegiana_accdfb38",
+    "titulo": "Arroz de forno à parmegiana",
+    "tipo": "carnes",
+    "receita": [
+      "Bata no liquidificador o extrato e os tomates, com um pouco de água e um tablete de caldo de galinha (dissolvido em um pouquinho de água quente).",
+      "Cozinhe o arroz com 1 tablete de caldo e 4 xícaras de água por 15 minutos.",
+      "Bata os ovos, o queijo ralado, o presunto, a mussarela e misture com o arroz.",
+      "Coloque num refratário com o molho forrando a forma e cobrindo com ele.",
+      "Leve ao forno quente a 180° C por 10 a 15 minutos."
+    ],
+    "ingredientes_originais": [
+      "2 xícaras de arroz",
+      "2 tabletes de caldo de galinha",
+      "2 ovos",
+      "3 colheres (sopa) de queijo ralado",
+      "100 g de presunto picado",
+      "100 g de mussarela picada",
+      "1 colher de extrato de tomate",
+      "3 tomates sem pele"
+    ],
+    "ingredientes_centrais": [
+      "arroz",
+      "caldo de galinha",
+      "extrato de tomate",
+      "mussarela",
+      "ovo",
+      "presunto",
+      "queijo",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_quibe-facil_9046d20f",
+    "titulo": "Quibe fácil",
+    "tipo": "carnes",
+    "receita": [
+      "Coloque o trigo em uma forma de bolo, para espalhar bem.",
+      "Despeje a água fervendo e deixe tampado com um pano de prato por 40 minutos, (a quantidade de água tem quer ser essa, por que não precisa escorrer).",
+      "Coloque a carne moída os temperos o sal e misture bem.",
+      "Enrole no formato de quibe, frite em óleo quente ou asse no forno recheando com catupiry - fica uma delícia."
+    ],
+    "ingredientes_originais": [
+      "500 g de trigo para kibe",
+      "500 g de carne moída (patinho de preferência)",
+      "750 ml de água fervendo",
+      "2 cebolas ralada ou bem picadinha",
+      "hortelã, pimenta-de-cheiro e sal a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua fervendo",
+      "carne",
+      "cebola ou bem picadinha",
+      "hortela pimenta de cheiro e sal",
+      "trigo para kibe"
+    ]
+  },
+  {
+    "id": "carnes_costela-na-panela-de-pressao-sem-agua_6c77a587",
+    "titulo": "Costela na panela de pressão sem água",
+    "tipo": "carnes",
+    "receita": [
+      "Coloque a costela e o caldo na panela de pressão, espere abrir fervura e deixe cozinhar por 10 minutos (não precisa de água).",
+      "Abra a panela mexa, para que o caldo mistura com costela.",
+      "Feche a panela e deixa abrir fervura novamente e deixa cozinhar por 20 minutos. Pronto é so servir.",
+      "Atenção: na hora de preparar vai cheirar queimado, isso é normal.",
+      "a costela tem que ser meia magra, fica parecendo churrasco e se for gorda junta muita água fica parecendo cozida."
+    ],
+    "ingredientes_originais": [
+      "1 kg de costela vaca meio magra",
+      "1 tablete de caldo de carne"
+    ],
+    "ingredientes_centrais": [
+      "caldo de carne",
+      "costela vaca meio magra"
+    ]
+  },
+  {
+    "id": "carnes_batata-suica_8cbc637b",
+    "titulo": "Batata suíça",
+    "tipo": "carnes",
+    "receita": [
+      "Leve as batatas para cozinhar em uma panela com água.",
+      "Quando começar a ferver, marque 7 minutos e retire as batatas.",
+      "Leve para geladeira e deixe de um dia para o outro.",
+      "Retire da geladeira e passe no ralo grosso.",
+      "Unte uma frigideira de 16 cm de diâmetro com manteiga.",
+      "Coloque a batata ralada, o suficiente para cobrir o fundo da frigideira, sempre umedecendo as mãos na água com sal (facilita o manuseio da batata e salga ao mesmo tempo).",
+      "Ponha também uma camada do recheio desejado, quantidade para cobrir a batata, deixando as bordas livres.",
+      "Depois, coloque mais uma camada de batata e leve ao fogo médio por mais ou menos 3 minutos.",
+      "Pegue outra frigideira também untada, vire e deixe mais 3 minutos deste lado.",
+      "Repita o processo mais duas vezes ou até dourar a batata."
+    ],
+    "ingredientes_originais": [
+      "250 g de batatas",
+      "Manteiga para untar a frigideira",
+      "Vasilha com água e sal para umedecer os dedos",
+      "Queijo cremoso, mussarela, abobrinha crua fatiada em rodelas finas",
+      "Queijo cremoso, mussarela, carne seca",
+      "Queijo cremoso, mussarela, frango desfiado com milho verde ou frango com tomate seco e cogumelo",
+      "Queijo cremoso, mussarela, estrogonofe grosso",
+      "Queijo cremoso, mussarela, camarão"
+    ],
+    "ingredientes_centrais": [
+      "batata",
+      "manteiga para untar a frigideira",
+      "queijo cremoso mussarela abobrinha crua",
+      "queijo cremoso mussarela camarao",
+      "queijo cremoso mussarela carne",
+      "queijo cremoso mussarela estrogonofe",
+      "queijo cremoso mussarela frango com milho verde ou frango com tomate e cogumelo",
+      "vasilha com agua e sal para umedecer os dedos"
+    ]
+  },
+  {
+    "id": "carnes_costela-de-boi-na-panela-de-pressao-cozida-na-cebola_4cbdaeb8",
+    "titulo": "Costela de boi na panela de pressão cozida na cebola",
+    "tipo": "carnes",
+    "receita": [
+      "Em uma panela de pressão, forre o fundo com metade da cebola e coloque a costela.",
+      "Em seguida, coloque o restante da cebola e por último os tabletes de caldo de carne.",
+      "Tampe a panela e leve ao fogo.",
+      "Quando começar a ferver, abaixe o fogo e deixe por 45 minutos.",
+      "Espere sair a pressão, retire a costela e coloque numa travessa, por cima acrescente o molho que sobrou na panela."
+    ],
+    "ingredientes_originais": [
+      "1 e 1/2 kg de costela de boi inteira",
+      "8 cebolas grandes, cortadas em rodelas",
+      "4 tabletes de caldo de carne"
+    ],
+    "ingredientes_centrais": [
+      "caldo de carne",
+      "cebola cortadas",
+      "costela de boi inteira"
+    ]
+  },
+  {
+    "id": "carnes_bife-a-parmegiana_5868883d",
+    "titulo": "Bife à parmegiana",
+    "tipo": "carnes",
+    "receita": [
+      "Tempere os bifes com os ingredientes secos e faça-os à milanesa.",
+      "Frite e leve-os à uma assadeira.",
+      "Cubra-os com o presunto e mussarela, coloque o molho por último.",
+      "Leve ao forno para derreter a mussarela."
+    ],
+    "ingredientes_originais": [
+      "1 kg de contra filé",
+      "1 cebola ralada",
+      "2 alhos picado",
+      "tempero completo",
+      "sal a gosto",
+      "farinha de rosca",
+      "200g de presunto",
+      "200 g de mussarela",
+      "1 lata de molho de tomate pronto",
+      "1 gema de ovo para empanar os bifes"
+    ],
+    "ingredientes_centrais": [
+      "alhos",
+      "cebola",
+      "contra file",
+      "farinha de rosca",
+      "gema de ovo para empanar os bifes",
+      "molho de tomate pronto",
+      "mussarela",
+      "presunto",
       "sal",
       "tempero completo"
+    ]
+  },
+  {
+    "id": "carnes_file-de-frango-a-parmegiana_1490b227",
+    "titulo": "Filé de frango à parmegiana",
+    "tipo": "carnes",
+    "receita": [
+      "Coloque os filés entre 2 filmes plásticos.",
+      "Bata suavemente com o martelo de carne para ficarem com a mesma espessura.",
+      "Tempere-os com o alho, o sal e a pimenta.",
+      "Passe-os pela maionese e pela farinha de rosca.",
+      "Coloque em uma assadeira untado com o óleo.",
+      "Leve ao forno médio por uns 30 minutos.",
+      "Retire do forno e cubra com a mussarela, o molho e o óregano.",
+      "Leve ao forno novamente só para gratinar.",
+      "Sirva em seguida acompanhado de arroz branco e batata palha."
+    ],
+    "ingredientes_originais": [
+      "6 filés de peito de frango",
+      "2 dentes de alho",
+      "sal a gosto",
+      "pimenta-do-reino a gosto",
+      "4 colheres de (sopa) de maionese",
+      "2 xícaras de (chá) de farinha de rosca",
+      "1 lata de molho de tomate",
+      "200 g de mussarela",
+      "óleo o suficiente para untar",
+      "orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "farinha de rosca",
+      "files de peito de frango",
+      "maionese",
+      "molho de tomate",
+      "mussarela",
+      "oleo o suficiente para untar",
+      "oregano",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_carne-assada-na-panela-de-pressao_480626a4",
+    "titulo": "Carne assada na panela de pressão",
+    "tipo": "carnes",
+    "receita": [
+      "Em um recipiente, misture todos os temperos, acrescente a carne e deixe marinar por 30 minutos.",
+      "Aqueça a panela de pressão, acrescente o óleo, a carne com o molho do tempero e tampe a panela.",
+      "Quando a panela atingir a pressão, abaixe o fogo e deixe cozinhar por 1 hora.",
+      "Está pronto para servir!"
+    ],
+    "ingredientes_originais": [
+      "1 kg de miolo de acém",
+      "2 folhas de louro",
+      "2 colheres (sopa) de vinagre",
+      "1 cebola picadinha",
+      "4 dentes de alho",
+      "5 colheres (sopa) de shoyu",
+      "cominho a gosto",
+      "pimenta branca a gosto",
+      "sal a gosto",
+      "noz-moscada a gosto",
+      "1 colher (sopa) de óleo"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "cebola picadinha",
+      "cominho",
+      "louro",
+      "miolo de acem",
+      "noz moscada",
+      "oleo",
+      "pimenta branca",
+      "sal",
+      "shoyu",
+      "vinagre"
+    ]
+  },
+  {
+    "id": "carnes_esfiha-com-massa-de-pastel-na-airfryer-e-recheio-de-carne-moida-com-tempero-arabe_a4b0ed6a",
+    "titulo": "Esfiha com massa de pastel na airfryer e recheio de carne moída com tempero árabe",
+    "tipo": "carnes",
+    "receita": [
+      "Em uma panela aquecida com azeite, deixe a carne moída fritar até ela começar a mudar de cor e dourar o fundo.",
+      "Mexa a carne moída para desfazer os grumos e deixe fritar do outro lado.",
+      "Acrescente a cebola e o alho e refogue bem até dourar.",
+      "Adicione o tomate, tempere tudo com sal e deixe refogar até ele dar uma murchada.",
+      "Desligue o fogo, transfira o recheio para outro recipiente e espere esfriar.",
+      "Assim que a carne moída refogada estiver fria, adicione o tahine, a pimenta síria, o cominho, a salsinha e o hortelã e misture bem para espalhar os temperos por todos os ingredientes.",
+      "Com a ajuda de uma colher, coloque uma porção de recheio no centro da massa de pastel, com os dedos passe água ao redor de toda a borda para ajudar a grudar e junte ela em três partes no meio formando um triângulo e apertando bem para selar. Repita para fazer mais esfihas até terminar todo o recheio.",
+      "Pincele as porções de esfiha de massa de pastel com gema de ovo e leve para assar na airfryer preaquecida a 170°C por 8 minutos ou até dourar."
+    ],
+    "ingredientes_originais": [
+      "1 pacote de massa de pastel",
+      "400 g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 tomate sem sementes picado",
+      "sal a gosto",
+      "1 colher (sopa) de tahine",
+      "1 colher (chá) de pimenta síria",
+      "1/2 colher (chá) de cominho",
+      "salsinha picada a gosto",
+      "hortelã picada a gosto",
+      "azeite para refogar",
+      "1 gema de ovo para pincelar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "azeite para refogar",
+      "carne",
+      "cebola",
+      "cominho",
+      "gema de ovo para pincelar",
+      "hortela",
+      "massa de pastel",
+      "pimenta siria",
+      "sal",
+      "salsinha",
+      "tahine",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_pave-de-limao-siciliano-e-geleia-de-morango-sobremesa-elegante-para-arrasar-no-natal_edfc248d",
+    "titulo": "Pavê de limão siciliano e geleia de morango: sobremesa elegante para arrasar no Natal",
+    "tipo": "carnes",
+    "receita": [
+      "Creme de limão siciliano",
+      "Em um liquidificador, bata o leite condensado, o creme de leite, o leite em pó e o suco dos limões sicilianos até ficar homogêneo. Reserve.",
+      "Geleia de morango",
+      "Adicione os morangos higienizados e sem os talos em uma panela junto com o açúcar e o suco de limão.",
+      "Leve para cozinhar em fogo baixo, mexendo de vez em quando para não grudar, até engrossar e ficar com uma textura espessa. Se quiser, pode amassar os morangos durante o cozimento para deixar a geleia mais lisinha.",
+      "Desligue o fogo e deixe esfriar completamente.",
+      "Montagem do pavê",
+      "Em uma travessa, inicie a montagem fazendo uma camada de creme de limão siciliano no fundo e coloque os biscoitos umedecidos no leite por cima.",
+      "Faça mais uma camada de creme, acrescente a geleia, espalhando bem para cobrir, e adicione mais biscoitos por cima.",
+      "Coloque o restante do creme de limão siciliano, distribua algumas colheradas de geleia de morango por toda a extensão da travessa e espalhe com uma espátula ou um palito, fazendo desenhos de sua preferência.",
+      "Se quiser, decore com raspas de limão siciliano e morangos e leve para gelar por cerca de 3 horas antes de servir."
+    ],
+    "ingredientes_originais": [
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 xícara (chá) de leite em pó",
+      "4 a 5 limões sicilianos espremidos",
+      "600 g de morangos congelados",
+      "1/2 xícara (chá) de açúcar",
+      "1/2 limão espremido",
+      "1 pacote de biscoito champanhe",
+      "leite para umedecer os biscoitos",
+      "morangos para decorar (opcional)",
+      "raspas de limão siciliano para decorar (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "biscoito champanhe",
+      "creme de leite",
+      "leite condensado",
+      "leite em po",
+      "leite para umedecer os biscoitos",
+      "limao espremido",
+      "limao sicilianos espremidos",
+      "morango",
+      "morango para decorar",
+      "raspas de limao siciliano para decorar"
+    ]
+  },
+  {
+    "id": "carnes_omelete-fofinha-como-nuvem-que-so-leva-ovos-e-temperos-para-inovar-no-cafe-da-manha_fe4d6dc8",
+    "titulo": "Omelete fofinha como nuvem que só leva ovos e temperos para inovar no café da manhã",
+    "tipo": "carnes",
+    "receita": [
+      "Separe as claras das gemas com cuidado para não sobrar nem um pedaço de gema nas claras, pois isso pode desandar a receita.",
+      "Em uma batedeira, bata as claras com o sal até ficar em ponto de neve bem firme.",
+      "Na tigela com as gemas separadas, adicione a pimenta e o orégano e bata levemente com um garfo. Pode usar outros temperos de sua preferência.",
+      "Acrescente a mistura de gemas temperadas nas claras batidas e incorpore delicadamente com uma espátula para não perder a leveza. Se quiser, ajuste o sal e os temperos.",
+      "Despeje a mistura em uma frigideira untada com manteiga ou óleo já quente e tampe a panela.",
+      "Deixe cozinhar até dourar ficando com uma casquinha embaixo e bem cozida em cima.",
+      "Dobre a omelete nuvem ao meio com uma espátula e sirva em seguida pura só com os temperos ou pode rechear com queijo e presunto e finalizar com salsinha."
+    ],
+    "ingredientes_originais": [
+      "3 ovos",
+      "1 colher (chá) de sal",
+      "pimenta-do reino a gosto",
+      "orégano a gosto",
+      "manteiga ou óleo para untar a frigideira"
+    ],
+    "ingredientes_centrais": [
+      "manteiga ou oleo para untar a frigideira",
+      "oregano",
+      "ovo",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_arroz-branco-aromatico-cozido-no-caldo-de-galinha-simples-e-com-muito-mais-sabor_1c5804d4",
+    "titulo": "Arroz branco aromático cozido no caldo de galinha: simples e com muito mais sabor",
+    "tipo": "carnes",
+    "receita": [
+      "Em uma panela, coloque o azeite e a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho e refogue rapidamente até dourar.",
+      "Adicione o arroz e mexa bem para o azeite cobrir bem todos os grãos para ele ficar bem soltinho depois.",
+      "Adicione o caldo de galinha já quente para agilizar o cozimento sem choque térmico e bote também a folha de louro, a pimenta e o sal a gosto, com cuidado para não exagerar porque o caldo já é salgado.",
+      "Mexa tudo até começar a ferver, bote a manteiga, reduza para fogo baixo e tampe a panela.",
+      "Deixe cozinhar até a água do caldo secar e o arroz ficar al dente.",
+      "Desligue o fogo e deixe descansando com a panela tampada por mais uns 5 minutos para os grãos reterem o vapor aromático e ficarem bem macios e saborosos.",
+      "Tire a folha de louro e, se quiser, acrescente o cheiro-verde picado e misture antes de servir."
+    ],
+    "ingredientes_originais": [
+      "1 xícara (chá) de arroz branco",
+      "2 xícaras (chá) de caldo de galinha quente",
+      "2 colheres (sopa) de azeite",
+      "3 dentes de alho picados",
+      "1/4 cebola picada",
+      "1 folha de louro",
+      "pimenta-do-reino a gosto",
+      "sal a gosto",
+      "1 colher (sopa) de manteiga",
+      "cheiro-verde picado a gosto para finalizar"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "arroz branco",
+      "azeite",
+      "caldo de galinha",
+      "cebola",
+      "cheiro verde para finalizar",
+      "louro",
+      "manteiga",
+      "pimenta do reino",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_pavlova-de-frutas-vermelhas-e-recheio-cremoso-com-dica-para-acertar-no-merengue_85271ecb",
+    "titulo": "Pavlova de frutas vermelhas e recheio cremoso com dica para acertar no merengue",
+    "tipo": "carnes",
+    "receita": [
+      "Base de merengue",
+      "Em uma batedeira, bata as claras em temperatura ambiente até formar uma espuma branca com picos firmes.",
+      "Adicione o açúcar peneirado aos poucos, uma colher de cada vez, enquanto continua batendo as claras. Dê um intervalo bom, de cerca de 30 segundos, entre cada colherada para garantir que o açúcar vai incorporar e fazer o merengue ficar bem lisinho.",
+      "Desligue a batedeira e coloque o amido e o suco de limão, que ajudam a estabilizar o merengue, e a baunilha que dá sabor. Incorpore os ingredientes delicadamente com uma espátula.",
+      "Com ajuda de uma colher, despeje o merengue em uma forma forrada com papel-manteiga sem encostar nas laterais, desenhando um círculo de cerca de 20 cm de diâmetro com as bordas mais altas e o centro mais baixo para o recheio depois.",
+      "Leve para assar em um forno preaquecido na temperatura mais baixa possível. Idealmente deve assar a 120ºC mas, se o seu forno não tiver essa temperatura, deixe a porta do forno entreaberta com uma colher.",
+      "Deixe assar por cerca de 1h ou até ficar com uma casca seca e durinha, mas sem dourar.",
+      "Depois de assado, desligue o forno e deixe o merengue assado esfriando lá dentro com a porta entreaberta para evitar que o choque térmico desande o doce.",
+      "Espere esfriar por completo antes de tirar da forma e reserve.",
+      "Recheio",
+      "Bata o creme de leite fresco bem gelado com açúcar na batedeira até ficar em ponto de chantilly. Se quiser pode adicionar aromatizantes como baunilha ou limão também.",
+      "Montagem",
+      "Com a base da pavlova já resfriada em temperatura ambiente, acrescente o recheio de chantilly no centro do doce e finalize com as frutas vermelhas da sua preferência. Importante: deixe para montar o doce apenas na hora de servir para manter o frescor e o suspiro não ficar mole."
+    ],
+    "ingredientes_originais": [
+      "4 claras de ovo em temperatura ambiente",
+      "1 xícara (chá) de açúcar refinado",
+      "1 colher (chá) de amido de milho",
+      "1 colher (chá) de suco de limão",
+      "1 colher (chá) de essência de baunilha",
+      "400 ml de creme de leite fresco",
+      "2 colheres (sopa) de açúcar",
+      "frutas vermelhas a gosto"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar refinado",
+      "amido de milho",
+      "claras de ovo em temperatura ambiente",
+      "creme de leite",
+      "essencia de baunilha",
+      "frutas vermelhas",
+      "suco de limao"
+    ]
+  },
+  {
+    "id": "carnes_biscoito-bengala-de-natal-com-massa-amanteigada-de-duas-cores-muito-facil-de-fazer_8f801729",
+    "titulo": "Biscoito bengala de Natal com massa amanteigada de duas cores muito fácil de fazer",
+    "tipo": "carnes",
+    "receita": [
+      "Misture a manteiga, o açúcar e o ovo com uma espátula ou um fouet até formar um creme. Não precisa se preocupar em ficar totalmente uniforme nesse momento, basta que o açúcar esteja bem incorporado e sem grãos.",
+      "Acrescente a farinha peneirada aos poucos e vá misturando. Quando a massa começar a ficar mais firme, passe a mistura com as mãos.",
+      "Quando a massa estiver parecendo uma massinha de modelar sem grudar, divida-a em duas partes.",
+      "Em uma das metades, bote algumas gotinhas do corante e misture na massa de fora para dentro, como se estivesse sovando, até ficar toda tingida. Deixe a outra sem corante.",
+      "Em seguida, pegue uma porção pequena da massa sem corante e role em uma superfície lisa até formar um canudo fino e depois faça o mesmo com um pedaço da massa vermelha.",
+      "Pegue os dois canudos de cores diferentes da massa e junte-as de leve formato e torça as pontas para formar uma espiral.",
+      "Agora role novamente para alisar e fazer um canudo com as duas cores torcidas.",
+      "Vire a ponta para dentro como uma bengalinha e, se necessário, corte o excesso de massa caso tenha ficado muito grande.",
+      "Repita o processo até acabar toda a massa.",
+      "Coloque os biscoitos de bengala em uma forma forrada com papel-manteiga. Se quiser, polvilhe açúcar cristal por cima que ajuda a dar brilho e toques crocantes.",
+      "Leve para o forno preaquecido a 180ºC por cerca de 15 minutos ou até ficar firme e seco por cima e levemente dourado embaixo.",
+      "Retire do forno e espere esfriar para terminar de endurecer e poder soltar do fundo sem quebrar. Depois é só servir ou embrulhar para o Natal!"
+    ],
+    "ingredientes_originais": [
+      "100g de manteiga em temperatura ambiente",
+      "100g de açúcar",
+      "1 ovo",
+      "1 colher (chá) de essência de baunilha",
+      "2 xícaras (chá) de farinha de trigo",
+      "corante vermelho a gosto",
+      "açúcar cristal a gosto (opcional)"
+    ],
+    "ingredientes_centrais": [
+      "acucar",
+      "acucar cristal",
+      "corante vermelho",
+      "essencia de baunilha",
+      "farinha de trigo",
+      "manteiga em temperatura ambiente",
+      "ovo"
+    ]
+  },
+  {
+    "id": "carnes_escondidinho-de-carne-moida_ad071271",
+    "titulo": "Escondidinho de carne moída",
+    "tipo": "carnes",
+    "receita": [
+      "Coloque o óleo, a cebola e o alho para dourar e acrescente a carne moída (frite bem até ficar coradinha).",
+      "Salgue, coloque a pimenta a seu gosto e a salsinha.",
+      "À parte, faça um purê com as batatas, a manteiga e o leite.",
+      "Quando estiver pronto, é só montar no pirex na seguinte ordem: o purê de batatas, a carne moída, o purê de batatas e assim sucessivamente até terminar com uma camada de purê.",
+      "Se preferir, só coloque o purê embaixo e em cima e a carne no meio.",
+      "Salpique queijo parmesão ralado e cubra com mussarela.",
+      "Leve ao forno quente só para derreter a mussarela.",
+      "Sirva com arroz branco."
+    ],
+    "ingredientes_originais": [
+      "1 kg de carne moída de primeira",
+      "1/2 cebola picadinha",
+      "2 dentes de alho amassadinhos",
+      "Sal a gosto",
+      "Pimenta a gosto",
+      "Salsinha a gosto",
+      "Óleo para refogar",
+      "1 kg de batata holandesa",
+      "3 colheres (sopa) de manteiga",
+      "Leite o suficiente para dar o ponto no purê",
+      "Queijo parmesão ralado",
+      "300 g de mussarela"
+    ],
+    "ingredientes_centrais": [
+      "alho amassadinhos",
+      "batata holandesa",
+      "carne de primeira",
+      "cebola picadinha",
+      "leite o suficiente para dar o ponto no pure",
+      "manteiga",
+      "mussarela",
+      "oleo para refogar",
+      "pimenta",
+      "queijo parmesao",
+      "sal",
+      "salsinha"
+    ]
+  },
+  {
+    "id": "carnes_bife-acebolado-com-molho-de-maionese_df1bdd16",
+    "titulo": "Bife acebolado com molho de maionese",
+    "tipo": "carnes",
+    "receita": [
+      "Temper e frite o bife ao seu gosto em uma frigideira.",
+      "Após resguarde os bifes em um refratário ou travessa.",
+      "Na mesma panela dos bifes doure a cebola picada em rodelas, adicione o alho, após adicione a água.",
+      "Deixe cozinhar um pouco, até a cebola amolecer.",
+      "Após feito isso adicione a maionese e deixe engrossar.",
+      "Acrescente em cima dos bifes o creme com as cebolas e está pronto."
+    ],
+    "ingredientes_originais": [
+      "2 bifes",
+      "1 cebola grande picada em rodelas",
+      "Sal a gosto",
+      "2 cabeças de alho",
+      "4 colheres de maionese",
+      "1/2 xícara de água"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "bifes",
+      "cabecas de alho",
+      "cebola",
+      "maionese",
+      "sal"
+    ]
+  },
+  {
+    "id": "carnes_esfiha-de-carne-adaptada-receita-turca_1a447303",
+    "titulo": "Esfiha de carne adaptada (receita turca)",
+    "tipo": "carnes",
+    "receita": [
+      "Em ma tigela grande e larga colocar o fermento em pó, o açúcar e despejar a água morna, o leite morno, o sal e o óleo.",
+      "Mexer bem.",
+      "Em seguida, acrescentar a metade da farinha de trigo aos poucos e mexer com uma colher de pau ou de plástico.",
+      "Colocar o ovo e continuar acrescentando a farinha de trigo.",
+      "Antes de finalizar a farinha, comece a trabalhar a massa com uma das mãos para sentir a textura da mesma e ver se precisa colocar realmente toda a farinha.",
+      "Dependendo do tamanho do ovo, 650 g de farinha é suficiente, caso contrário, use 700 g, mas atenção, muita farinha pode deixar a massa dura.",
+      "Sove a massa por uns 5 minutos na própria tigela com uma das mãos em movimentos de vai e vem.",
+      "A massa fica bem maleável, gostosa de trabalhar e não gruda nas mãos.",
+      "Coloque a tigela dentro de um saco plástico ou feche-a com um filme plástico.",
+      "Deixe descansar por 20 minutos em local que vá favorecer o crescimento da massa.",
+      "Eu deixei recebendo a luz do sol através de uma janela, com os vidros fechados.",
+      "Abrir porções da massa com um rolo.",
+      "Cortar em círculos com uma faca e colocar 1 colher (sopa) do recheio.",
+      "Pegar metade da massa do círculo e dobrá-la até o centro e fechar as duas outras extremidades apertando bem.",
+      "Se sentir que há muita massa nas extremidades, corte e modele para dar o formato triangular.",
+      "Untar levemente uma forma de alumínio com óleo e colocar as esfihas.",
+      "Pincelar com a gema e salpicar gergelim torrado ou gergelim preto.",
+      "Levar ao forno pré-aquecido a 150° por 20 minutos, depois mais 10 minutos a 180°.",
+      "Este tempo é necessário para que as esfihas cresçam e assem por igual.",
+      "Não ficam com a massa crua.",
+      "Muitos indicam o forno super quente, mas, eu acredito que o forno super quente seja bom para esfihas abertas ou senão para esfihas pequenas, com pouca massa.",
+      "Recheio:",
+      "Escorrer a carne moída e refogá-la com o alho e a cebola picadinhos.",
+      "Acrescentar sal ou temperos de sua preferência e deixar refogando até que a cor avermelhada da carne despareça.",
+      "Mexa sempre para evitar pelotas.",
+      "Tire a carne do fogo, escorra se tiver líquido e acrescente os outros ingredientes.",
+      "Recheio no microondas:",
+      "Escorrer a carne e colocá-la em uma vasilha de vidro convencional, como duralex (eu uso um refratário de vidro retangular com bordas altas).",
+      "Deixar cozinhar por 2 minutos.",
+      "Retirar o refratário (usar luvas para não se queimar) e mexer a carne com um garfo para não deixá-la empelotar.",
+      "Escorrer o líquido que saiu da carne e voltar o refratário ao microondas por mais 3 minutos.",
+      "Escorrer o líquido do cozimento.",
+      "Acrescentar os outros ingredientes e deixar esfriar.",
+      "Levar a carne ao congelador por uns 10 minutos acelera o processo de resfriamento.",
+      "Nunca use o recheio quente na massa da esfiha, ele deve estar sempre frio e sem líquido."
+    ],
+    "ingredientes_originais": [
+      "1 colher (sopa) bem cheia de fermento para pão (eu usei fermento granulado instantâneo para pão)",
+      "2 colheres (sopa) cheias de açúcar refinado",
+      "1/2 colher (chá) de sal",
+      "1/2 xícara de leite morno (100 ml)",
+      "1 xícara de água morna (200 ml)",
+      "1 ovo",
+      "650 ou 700 g de farinha de trigo",
+      "1/2 xícara (chá) de óleo ou 100 ml",
+      "1/2 kg de carne moída magra",
+      "3 tomates picadinhos",
+      "1 cebola picada",
+      "1 dente de alho (opcional)",
+      "1/2 xícara (chá) de azeitonas picadas",
+      "1/2 colher (chá) de noz moscada (opcional)",
+      "Salsinha e cebolinha a gosto (opcional)",
+      "Gotas de molho de pimenta (opcional)",
+      "1 gema",
+      "Gergelim torrado ou preto para salpicar depois que pincelar"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "azeitonas",
+      "bem cheia de fermento para pao",
+      "carne magra",
+      "cebola",
+      "cheias de acucar refinado",
+      "gema",
+      "gergelim torrado ou preto para salpicar depois que pincelar",
+      "gotas de molho de pimenta",
+      "leite",
+      "noz moscada",
+      "oleo ou",
+      "ou de farinha de trigo",
+      "ovo",
+      "sal",
+      "salsinha e cebolinha",
+      "tomate picadinhos"
+    ]
+  },
+  {
+    "id": "carnes_carne-de-panela_26874126",
+    "titulo": "Carne de panela",
+    "tipo": "carnes",
+    "receita": [
+      "Em uma panela de pressão, coloque o óleo junte a cebola, alho e refogue bem.",
+      "Acrescente a carne e frite por 5 minutos mexendo bem.",
+      "Depois coloque o tempero em pó sabor umami (opcional), o tomate, o pimentão, o extrato de tomate, a cenoura e a seguir acrescente a água e o orégano.",
+      "Deixe cozinhar por 30 minutos contando o inicio da fervura, assim que a carne estiver cozida retire do fogo.",
+      "Misture a salsinha e sirva em seguida com arroz branco."
+    ],
+    "ingredientes_originais": [
+      "500 g de coxão mole cortado em bifes",
+      "1 cebola ralada",
+      "1 dente de alho amassado",
+      "1/2 xícara (chá) de óleo",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "1/2 colher (sopa) de tempero em pó sabor umami (opcional)",
+      "1 colher (sopa) de salsinha picada",
+      "500 ml de água quente",
+      "1/2 lata de extrato de tomate",
+      "1 pimentão verde picado",
+      "1 tomate sem sementes picado",
+      "1 cenoura pequena picada",
+      "Orégano a gosto"
+    ],
+    "ingredientes_centrais": [
+      "agua",
+      "alho",
+      "cebola",
+      "cenoura",
+      "coxao mole cortado em bifes",
+      "extrato de tomate",
+      "oleo",
+      "oregano",
+      "pimenta do reino",
+      "pimentao verde",
+      "sal",
+      "salsinha",
+      "tempero em po sabor umami",
+      "tomate"
+    ]
+  },
+  {
+    "id": "carnes_almondegas_8a804eed",
+    "titulo": "Almôndegas",
+    "tipo": "carnes",
+    "receita": [
+      "Junte 300 g de carne moída, 1/2 cebola ralada, 1 dente de alho amassado, 1/2 xícara de chá de aveia em flocos, tomate e tempere com sal e pimenta do reino a gosto. Misture bem. Modele as almôndegas tomando como porções 1/2 colher sopa. Coloque-as em uma assadeira untada, regue com azeite e deixe até dourar. Retire as almôndegas e enfeite com folhas de alface. Você também pode cozinhá-las, coloque 1 lata de molho de tomate pronto em uma panela com 1/2 xícara de água. Cozinhe por aproximadamente 20 minutos com panela tampada e mexendo sempre, com cuidado para não desmanchar as bolinhas. Bom apetite."
+    ],
+    "ingredientes_originais": [
+      "1 dente de alho amassado",
+      "1 tomate sem pele e sem sementes picado",
+      "Sal e orégano a gosto",
+      "1/2 cebola ralada",
+      "1/2 xícara de chá de aveia em flocos",
+      "300 g de carne moída"
+    ],
+    "ingredientes_centrais": [
+      "alho",
+      "aveia em flocos",
+      "carne",
+      "cebola",
+      "sal e oregano",
+      "tomate"
     ]
   }
 ]
