@@ -5,12 +5,13 @@ em termos canônicos padronizados através de funções 100% puras,
 sem efeitos colaterais, sem dependência de rede e sem I/O de disco.
 """
 
-import re
-import unicodedata
 import functools
 import hashlib
-from typing import Callable
-from ingestion.models import RawRecipe, ProcessedRecipe
+import re
+import unicodedata
+from collections.abc import Callable
+
+from ingestion.models import ProcessedRecipe, RawRecipe
 
 # Tipo formal de um transformador puro de texto: str -> str
 TextTransformer = Callable[[str], str]
@@ -207,7 +208,7 @@ def gerar_id_receita(titulo: str, tipo: str) -> str:
     """
     slug_tipo = slugify(tipo)
     slug_titulo = slugify(titulo)
-    hash_curto = hashlib.sha256(f"{slug_tipo}:{slug_titulo}".encode("utf-8")).hexdigest()[:8]
+    hash_curto = hashlib.sha256(f"{slug_tipo}:{slug_titulo}".encode()).hexdigest()[:8]
     return f"{slug_tipo}_{slug_titulo}_{hash_curto}"
 
 

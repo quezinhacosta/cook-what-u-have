@@ -41,6 +41,7 @@ ignore = [
     "PLC3002", # Unnecessary lambda call (FP uses higher-order lambda compositions)
     "E501",    # Line too long (managed by formatter and long formatted prompts)
     "BLE001",  # Do not catch blind Exception (resilient ingestion scraper fallback)
+    "E731",    # Do not assign a lambda expression (project strictly adheres to lambda-based FP)
 ]
 
 [tool.ruff.lint.isort]

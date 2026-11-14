@@ -4,7 +4,8 @@ Estruturas de dados estritamente imutáveis baseadas em NamedTuple.
 Construídas sem qualquer uso de declaração imperativa de métodos.
 """
 
-from typing import NamedTuple, Mapping
+from collections.abc import Mapping
+from typing import NamedTuple
 
 
 class Dish(NamedTuple):

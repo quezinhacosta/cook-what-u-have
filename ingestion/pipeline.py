@@ -8,11 +8,11 @@ uma das 8 categorias do TudoGostoso e gerando pratos.json padronizados.
 
 import sys
 from pathlib import Path
-from typing import Optional
-from ingestion.models import CategoryTarget, CategoryResult, ProcessedRecipe
-from ingestion.parser import extrair_links_categoria_html, extrair_receita_html
-from ingestion.normalizer import processar_receita
+
 from ingestion.io_gateway import baixar_html, salvar_categoria_json
+from ingestion.models import CategoryResult, CategoryTarget, ProcessedRecipe
+from ingestion.normalizer import processar_receita
+from ingestion.parser import extrair_links_categoria_html, extrair_receita_html
 
 # Diretório base de persistência dos dados: ingestion/data/
 DATA_DIR: Path = Path(__file__).parent / "data"
@@ -36,7 +36,7 @@ CATEGORIAS_PADRAO: tuple[CategoryTarget, ...] = (
 
 def filtrar_alvos_por_nome(
     alvos: tuple[CategoryTarget, ...],
-    filtro: Optional[str]
+    filtro: str | None
 ) -> tuple[CategoryTarget, ...]:
     """Função pura: filtra os alvos de processamento com base em argumento textual opcional."""
     if not filtro:
@@ -54,7 +54,7 @@ def formatar_linha_resumo(resultado: CategoryResult) -> str:
 # CASCA IMPURA DE ORQUESTRAÇÃO (CONECTA I/O AO NÚCLEO PURO)
 # ==============================================================================
 
-def extrair_e_processar_url(url: str, categoria: str) -> Optional[ProcessedRecipe]:
+def extrair_e_processar_url(url: str, categoria: str) -> ProcessedRecipe | None:
     """
     Orquestra o processamento de uma única URL:
     1. I/O: Baixa HTML via rede.
@@ -102,7 +102,7 @@ def processar_categoria(
     # Mapeamento funcional das receitas através de funções de alta ordem
     receitas_iter = map(lambda u: extrair_e_processar_url(u, alvo.nome), urls_recomendadas)
     receitas_validas: tuple[ProcessedRecipe, ...] = tuple(
-        filter(lambda r: r is not None, receitas_iter)
+        r for r in receitas_iter if isinstance(r, ProcessedRecipe)
     )
 
     resultado = CategoryResult(

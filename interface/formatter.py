@@ -4,7 +4,6 @@ Funções puras responsáveis por projetar os resultados do grafo em texto legí
 Desenvolvido estritamente com lambdas e interpolação funcional de strings.
 """
 
-from implementation.models import Dish, MatchResult, UserPreferences
 
 # Formata qualquer coleção congelada de termos em texto ordenado separado por vírgulas
 formatar_conjunto = lambda s: ", ".join(sorted(s)) if s else "nenhum"
