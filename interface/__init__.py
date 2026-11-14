@@ -12,6 +12,7 @@ from interface.cli import (
 )
 from interface.formatter import (
     CATEGORIAS_DISPONIVEIS,
+    formatar_detalhes_receita,
     formatar_menu_categorias,
     formatar_relatorio_completo,
 )
@@ -21,6 +22,7 @@ __all__ = (
     "CATEGORIAS_DISPONIVEIS",
     "carregar_pratos",
     "executar_consulta",
+    "formatar_detalhes_receita",
     "formatar_menu_categorias",
     "formatar_relatorio_completo",
     "iniciar_aplicacao",

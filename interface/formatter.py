@@ -79,3 +79,41 @@ formatar_relatorio_completo = lambda resultados, bloqueados, prefs: (
     + formatar_secao_bloqueados(bloqueados, prefs.allergens)
     + "\n================================================================================\n"
 )
+
+# Formata a exibição detalhada de uma receita selecionada pelo usuário
+formatar_detalhes_receita = lambda m: (
+    "\n" + "=" * 80 + "\n"
+    + f"📖 DETALHES DA RECEITA: {m.dish.name.upper()}\n"
+    + f"Categoria: {m.dish.category.title()} | Cobertura da Despensa: {m.match_percentage}%\n"
+    + "=" * 80 + "\n\n"
+    + "🛒 Ingredientes Originais Necessários:\n"
+    + (
+        "\n".join(
+            map(
+                lambda ing: f"   • {ing}",
+                m.dish.raw_ingredients,
+            )
+        )
+        if m.dish.raw_ingredients else "   (Lista de ingredientes não informada)"
+    )
+    + "\n\n"
+    + "📋 Modo de Preparo (Passo a Passo):\n"
+    + (
+        "\n".join(
+            map(
+                lambda pair: f"   [{pair[0] + 1}] {pair[1]}",
+                enumerate(m.dish.recipe),
+            )
+        )
+        if m.dish.recipe else "   (Passo a passo não disponível para este prato)"
+    )
+    + "\n\n"
+    + "-" * 80 + "\n"
+    + "Resumo de Compras:\n"
+    + (
+        "   🎉 Você tem todos os ingredientes necessários em casa!\n"
+        if not m.missing_ingredients else
+        f"   🛒 Falta comprar ({len(m.missing_ingredients)} itens): [{formatar_conjunto(m.missing_ingredients)}]\n"
+    )
+    + "=" * 80 + "\n"
+)
