@@ -31,19 +31,14 @@ from interface.gui_theme import (
     COLOR_BG,
     COLOR_BLACK,
     COLOR_CORAL,
-    COLOR_DESK,
     COLOR_GRAY_LIGHT,
     COLOR_GREEN,
     COLOR_LILAC,
     COLOR_ORANGE,
     COLOR_WHITE,
     COLOR_YELLOW,
-    DESKTOP_WINDOW_HEIGHT,
-    DESKTOP_WINDOW_WIDTH,
-    PHONE_HEIGHT,
-    PHONE_WIDTH,
-    build_phone_home_indicator,
-    build_phone_status_bar,
+    VIEWPORT_HEIGHT,
+    VIEWPORT_WIDTH,
     neo_badge,
     neo_border,
     neo_button,
@@ -895,56 +890,39 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
 
     state = GUIState(pratos=pratos, grafo=grafo)
 
-    # Configuração de Janela Mobile Viewport
+    # Configuração de Janela Mobile Viewport (estreita e vertical)
     page.title = "Cook What U Have"
-    page.bgcolor = COLOR_DESK
+    page.bgcolor = "#EFEAE1"
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
-    page.padding = ft.Padding(12, 12, 12, 12)
+    page.padding = ft.Padding(0, 10, 0, 10)
     page.scroll = ft.ScrollMode.AUTO
 
     try:
-        page.window.width = DESKTOP_WINDOW_WIDTH
-        page.window.height = DESKTOP_WINDOW_HEIGHT
+        page.window.width = VIEWPORT_WIDTH + 16
+        page.window.height = VIEWPORT_HEIGHT + 32
         page.window.resizable = False
-        page.window.min_width = PHONE_WIDTH + 20
-        page.window.min_height = PHONE_HEIGHT + 20
+        page.window.min_width = VIEWPORT_WIDTH
+        page.window.min_height = VIEWPORT_HEIGHT
     except Exception:
         pass
 
-    # Conteúdo interno da tela do smartphone (rolável)
-    screen_content_container = ft.Container(
-        expand=True,
+    # Viewport vertical estilo tela de celular (sem adornos literais de hardware)
+    viewport_container = ft.Container(
+        width=VIEWPORT_WIDTH,
+        height=VIEWPORT_HEIGHT,
         bgcolor=COLOR_BG,
+        border=neo_border(2, COLOR_BLACK),
+        border_radius=ft.BorderRadius.all(20),
+        shadow=neo_shadow(5.0, 5.0, COLOR_BLACK),
+        clip_behavior=ft.ClipBehavior.ANTI_ALIAS,
         alignment=ft.Alignment.TOP_CENTER,
     )
 
-    # Chassi físico do celular com borda Neo-Brutalista, Dynamic Island e Home Bar
-    phone_chassis = ft.Container(
-        content=ft.Column(
-            controls=[
-                build_phone_status_bar(),
-                screen_content_container,
-                build_phone_home_indicator(),
-            ],
-            spacing=0,
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            expand=True,
-        ),
-        width=PHONE_WIDTH,
-        height=PHONE_HEIGHT,
-        bgcolor=COLOR_BG,
-        border=neo_border(3, COLOR_BLACK),
-        border_radius=ft.BorderRadius.all(38),
-        shadow=neo_shadow(6.0, 6.0, COLOR_BLACK),
-        clip_behavior=ft.ClipBehavior.ANTI_ALIAS,
-        padding=ft.Padding(0, 4, 0, 4),
-    )
-
     def render() -> None:
-        """Renderiza a view correspondente ao estado atual dentro da tela do smartphone."""
+        """Renderiza a view correspondente ao estado atual dentro da viewport vertical."""
         if state.current_view == "search":
-            screen_content_container.content = build_search_view(
+            viewport_container.content = build_search_view(
                 state=state,
                 on_search=handle_search,
                 on_category_select=handle_category_select,
@@ -953,14 +931,14 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
                 on_allergens_change=handle_allergens_change,
             )
         elif state.current_view == "results":
-            screen_content_container.content = build_results_view(
+            viewport_container.content = build_results_view(
                 state=state,
                 on_back_to_search=handle_back_to_search,
                 on_select_recipe=handle_select_recipe,
                 on_toggle_blocked=handle_toggle_blocked,
             )
         elif state.current_view == "detail":
-            screen_content_container.content = build_detail_view(
+            viewport_container.content = build_detail_view(
                 state=state,
                 on_back_to_results=handle_back_to_results,
                 on_new_search=handle_back_to_search,
@@ -1024,7 +1002,7 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
 
     page.controls = [
         ft.Row(
-            controls=[phone_chassis],
+            controls=[viewport_container],
             alignment=ft.MainAxisAlignment.CENTER,
             vertical_alignment=ft.CrossAxisAlignment.CENTER,
         )

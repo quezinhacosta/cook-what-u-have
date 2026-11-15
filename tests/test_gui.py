@@ -23,20 +23,15 @@ from interface.gui_theme import (
     COLOR_BG,
     COLOR_BLACK,
     COLOR_CORAL,
-    COLOR_DESK,
     COLOR_GREEN,
     COLOR_LILAC,
     COLOR_ORANGE,
     COLOR_WHITE,
     COLOR_YELLOW,
-    DESKTOP_WINDOW_HEIGHT,
-    DESKTOP_WINDOW_WIDTH,
-    PHONE_HEIGHT,
-    PHONE_WIDTH,
+    VIEWPORT_HEIGHT,
+    VIEWPORT_WIDTH,
     WINDOW_HEIGHT,
     WINDOW_WIDTH,
-    build_phone_home_indicator,
-    build_phone_status_bar,
     neo_badge,
     neo_border,
     neo_button,
@@ -79,12 +74,10 @@ def _criar_prato_mock(
 
 def test_theme_tokens_and_dimensions() -> None:
     """Verifica se os tokens de design do Neo-Brutalism e viewport estão corretos."""
-    assert PHONE_WIDTH == 390
-    assert PHONE_HEIGHT == 750
-    assert WINDOW_WIDTH == 390
-    assert WINDOW_HEIGHT == 750
-    assert DESKTOP_WINDOW_WIDTH == 430
-    assert DESKTOP_WINDOW_HEIGHT == 810
+    assert VIEWPORT_WIDTH == 400
+    assert VIEWPORT_HEIGHT == 760
+    assert WINDOW_WIDTH == 400
+    assert WINDOW_HEIGHT == 760
     assert COLOR_BG == "#FAF7F2"
     assert COLOR_BLACK == "#111111"
     assert COLOR_WHITE == "#FFFFFF"
@@ -93,19 +86,6 @@ def test_theme_tokens_and_dimensions() -> None:
     assert COLOR_LILAC == "#CDB4DB"
     assert COLOR_CORAL == "#FF8FA3"
     assert COLOR_ORANGE == "#F4A261"
-    assert COLOR_DESK == "#E8E2D8"
-
-
-def test_phone_mockup_components() -> None:
-    """Verifica a montagem dos componentes de hardware simulados do smartphone."""
-    status_bar = build_phone_status_bar()
-    assert isinstance(status_bar, ft.Container)
-    assert status_bar.height == 30
-
-    home_bar = build_phone_home_indicator()
-    assert isinstance(home_bar, ft.Container)
-    assert home_bar.width == 120
-    assert home_bar.height == 5
 
 
 def test_neo_primitives_construction() -> None:
@@ -319,9 +299,6 @@ def test_no_emojis_in_rendered_gui_views() -> None:
         on_new_search=lambda _: None,
     )
 
-    v_status = build_phone_status_bar()
-    v_home = build_phone_home_indicator()
-
     def extract_text(control: Any) -> list[str]:
         texts: list[str] = []
         if hasattr(control, "value") and isinstance(control.value, str):
@@ -337,7 +314,7 @@ def test_no_emojis_in_rendered_gui_views() -> None:
                 texts.extend(extract_text(child))
         return texts
 
-    all_texts = extract_text(v1) + extract_text(v2) + extract_text(v3) + extract_text(v_status) + extract_text(v_home)
+    all_texts = extract_text(v1) + extract_text(v2) + extract_text(v3)
     for text in all_texts:
         matches = EMOJI_PATTERN.findall(text)
         assert len(matches) == 0, f"Emoji detectado no texto '{text}': {matches}"

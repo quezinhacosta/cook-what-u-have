@@ -25,15 +25,12 @@ COLOR_CORAL: str = "#FF8FA3"  # Rosa chiclete/coral (alertas / itens faltantes /
 COLOR_CORAL_LIGHT: str = "#FFAFCC"  # Coral suave secundário
 COLOR_ORANGE: str = "#F4A261"  # Laranja tangerina (chips de categorias culinárias)
 COLOR_GRAY_LIGHT: str = "#EAE6DF"  # Cinza neutro para seletores e bordas de fundo
-COLOR_DESK: str = "#E8E2D8"  # Superfície de mesa suave para contraste com o smartphone
 
-# Dimensões da Viewport Mobile Similares a Smartphone
-PHONE_WIDTH: int = 390
-PHONE_HEIGHT: int = 750
-WINDOW_WIDTH: int = 390
-WINDOW_HEIGHT: int = 750
-DESKTOP_WINDOW_WIDTH: int = 430
-DESKTOP_WINDOW_HEIGHT: int = 810
+# Dimensões da Viewport Mobile Vertical (Estilo Tela de Celular)
+VIEWPORT_WIDTH: int = 400
+VIEWPORT_HEIGHT: int = 760
+WINDOW_WIDTH: int = 400
+WINDOW_HEIGHT: int = 760
 
 
 # ==============================================================================
@@ -189,57 +186,4 @@ def neo_chip(
         padding=ft.Padding(12, 6, 12, 6),
         alignment=ft.Alignment.CENTER,
         on_click=on_click,
-    )
-
-
-def build_phone_status_bar() -> ft.Container:
-    """Cria a barra superior do smartphone com horário, Dynamic Island e conectividade."""
-    return ft.Container(
-        content=ft.Row(
-            controls=[
-                ft.Text("12:30", size=11, weight=ft.FontWeight.W_900, color=COLOR_BLACK),
-                # Dynamic Island / Câmera frontal e alto-falante
-                ft.Container(
-                    content=ft.Row(
-                        controls=[
-                            ft.Container(
-                                width=8,
-                                height=8,
-                                bgcolor="#222222",
-                                border_radius=ft.BorderRadius.all(999),
-                            ),
-                            ft.Container(
-                                width=26,
-                                height=3,
-                                bgcolor="#333333",
-                                border_radius=ft.BorderRadius.all(999),
-                            ),
-                        ],
-                        alignment=ft.MainAxisAlignment.CENTER,
-                        spacing=6,
-                    ),
-                    width=78,
-                    height=16,
-                    bgcolor=COLOR_BLACK,
-                    border_radius=ft.BorderRadius.all(999),
-                    alignment=ft.Alignment.CENTER,
-                ),
-                ft.Text("5G [||||]", size=10, weight=ft.FontWeight.BOLD, color=COLOR_BLACK),
-            ],
-            alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-            vertical_alignment=ft.CrossAxisAlignment.CENTER,
-        ),
-        padding=ft.Padding(18, 6, 18, 2),
-        height=30,
-    )
-
-
-def build_phone_home_indicator() -> ft.Container:
-    """Cria a barra inferior de navegação por gestos do smartphone."""
-    return ft.Container(
-        width=120,
-        height=5,
-        bgcolor=COLOR_BLACK,
-        border_radius=ft.BorderRadius.all(999),
-        margin=ft.Margin(0, 4, 0, 4),
     )
