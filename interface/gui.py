@@ -31,14 +31,19 @@ from interface.gui_theme import (
     COLOR_BG,
     COLOR_BLACK,
     COLOR_CORAL,
+    COLOR_DESK,
     COLOR_GRAY_LIGHT,
     COLOR_GREEN,
     COLOR_LILAC,
     COLOR_ORANGE,
     COLOR_WHITE,
     COLOR_YELLOW,
-    WINDOW_HEIGHT,
-    WINDOW_WIDTH,
+    DESKTOP_WINDOW_HEIGHT,
+    DESKTOP_WINDOW_WIDTH,
+    PHONE_HEIGHT,
+    PHONE_WIDTH,
+    build_phone_home_indicator,
+    build_phone_status_bar,
     neo_badge,
     neo_border,
     neo_button,
@@ -133,7 +138,9 @@ def build_search_view(
         border_radius=ft.BorderRadius.all(14),
         color=COLOR_BLACK,
         cursor_color=COLOR_BLACK,
-        text_size=13,
+        text_size=12,
+        dense=True,
+        content_padding=ft.Padding(12, 10, 12, 10),
         multiline=False,
         on_change=on_pantry_change,
     )
@@ -148,7 +155,9 @@ def build_search_view(
         border_radius=ft.BorderRadius.all(14),
         color=COLOR_BLACK,
         cursor_color=COLOR_BLACK,
-        text_size=13,
+        text_size=12,
+        dense=True,
+        content_padding=ft.Padding(12, 10, 12, 10),
         multiline=False,
         on_change=on_allergens_change,
     )
@@ -224,7 +233,7 @@ def build_search_view(
                     controls=[
                         ft.Text(
                             "COOK WHAT U HAVE",
-                            size=18,
+                            size=16,
                             weight=ft.FontWeight.W_900,
                             color=COLOR_BLACK,
                         ),
@@ -237,18 +246,18 @@ def build_search_view(
                             f"Base: {len(state.pratos)} pratos carregados",
                             bgcolor=COLOR_LILAC,
                             text_color=COLOR_BLACK,
-                            font_size=11,
+                            font_size=10,
                         ),
                     ],
                     alignment=ft.MainAxisAlignment.CENTER,
                 ),
             ],
-            spacing=6,
+            spacing=4,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         ),
         bgcolor=COLOR_WHITE,
-        border_radius=16,
-        padding=12,
+        border_radius=14,
+        padding=10,
     )
 
     # Formulário Principal
@@ -268,7 +277,7 @@ def build_search_view(
                     size=10,
                     color="#555555",
                 ),
-                ft.Divider(height=12, color=COLOR_GRAY_LIGHT),
+                ft.Divider(height=10, color=COLOR_GRAY_LIGHT),
 
                 # Seção Alérgenos
                 ft.Text(
@@ -283,7 +292,7 @@ def build_search_view(
                     size=10,
                     color="#555555",
                 ),
-                ft.Divider(height=12, color=COLOR_GRAY_LIGHT),
+                ft.Divider(height=10, color=COLOR_GRAY_LIGHT),
 
                 # Seção Tolerância
                 ft.Text(
@@ -293,7 +302,7 @@ def build_search_view(
                     color=COLOR_BLACK,
                 ),
                 stepper_row,
-                ft.Divider(height=12, color=COLOR_GRAY_LIGHT),
+                ft.Divider(height=10, color=COLOR_GRAY_LIGHT),
 
                 # Seção Categorias
                 ft.Text(
@@ -304,11 +313,11 @@ def build_search_view(
                 ),
                 categories_row,
             ],
-            spacing=8,
+            spacing=6,
         ),
         bgcolor=COLOR_WHITE,
-        border_radius=18,
-        padding=16,
+        border_radius=16,
+        padding=12,
     )
 
     # Botão de Ação CTA
@@ -317,8 +326,8 @@ def build_search_view(
         on_click=on_search,
         bgcolor=COLOR_YELLOW,
         text_color=COLOR_BLACK,
-        height=50,
-        font_size=15,
+        height=46,
+        font_size=14,
         expand=True,
     )
 
@@ -329,9 +338,9 @@ def build_search_view(
             form_card,
             search_button,
         ],
-        spacing=12,
+        spacing=10,
         expand=True,
-        padding=ft.Padding(12, 10, 12, 20),
+        padding=ft.Padding(10, 6, 10, 14),
     )
 
 
@@ -619,9 +628,9 @@ def build_results_view(
 
     return ft.ListView(
         controls=controls_list,
-        spacing=12,
+        spacing=10,
         expand=True,
-        padding=ft.Padding(12, 10, 12, 20),
+        padding=ft.Padding(10, 6, 10, 14),
     )
 
 
@@ -870,9 +879,9 @@ def build_detail_view(
             bloco_preparo,
             bottom_actions,
         ],
-        spacing=12,
+        spacing=10,
         expand=True,
-        padding=ft.Padding(12, 10, 12, 20),
+        padding=ft.Padding(10, 6, 10, 14),
     )
 
 
@@ -888,30 +897,54 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
 
     # Configuração de Janela Mobile Viewport
     page.title = "Cook What U Have"
-    page.bgcolor = COLOR_BG
-    page.padding = 0
+    page.bgcolor = COLOR_DESK
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.padding = ft.Padding(12, 12, 12, 12)
+    page.scroll = ft.ScrollMode.AUTO
 
     try:
-        page.window.width = WINDOW_WIDTH
-        page.window.height = WINDOW_HEIGHT
+        page.window.width = DESKTOP_WINDOW_WIDTH
+        page.window.height = DESKTOP_WINDOW_HEIGHT
         page.window.resizable = False
-        page.window.min_width = WINDOW_WIDTH
-        page.window.min_height = WINDOW_HEIGHT
+        page.window.min_width = PHONE_WIDTH + 20
+        page.window.min_height = PHONE_HEIGHT + 20
     except Exception:
         pass
 
-    # Viewport Container que centraliza e restringe a largura no estilo celular
-    viewport_container = ft.Container(
-        width=WINDOW_WIDTH,
-        height=WINDOW_HEIGHT,
+    # Conteúdo interno da tela do smartphone (rolável)
+    screen_content_container = ft.Container(
+        expand=True,
         bgcolor=COLOR_BG,
         alignment=ft.Alignment.TOP_CENTER,
     )
 
+    # Chassi físico do celular com borda Neo-Brutalista, Dynamic Island e Home Bar
+    phone_chassis = ft.Container(
+        content=ft.Column(
+            controls=[
+                build_phone_status_bar(),
+                screen_content_container,
+                build_phone_home_indicator(),
+            ],
+            spacing=0,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            expand=True,
+        ),
+        width=PHONE_WIDTH,
+        height=PHONE_HEIGHT,
+        bgcolor=COLOR_BG,
+        border=neo_border(3, COLOR_BLACK),
+        border_radius=ft.BorderRadius.all(38),
+        shadow=neo_shadow(6.0, 6.0, COLOR_BLACK),
+        clip_behavior=ft.ClipBehavior.ANTI_ALIAS,
+        padding=ft.Padding(0, 4, 0, 4),
+    )
+
     def render() -> None:
-        """Renderiza a view correspondente ao estado atual."""
+        """Renderiza a view correspondente ao estado atual dentro da tela do smartphone."""
         if state.current_view == "search":
-            viewport_container.content = build_search_view(
+            screen_content_container.content = build_search_view(
                 state=state,
                 on_search=handle_search,
                 on_category_select=handle_category_select,
@@ -920,14 +953,14 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
                 on_allergens_change=handle_allergens_change,
             )
         elif state.current_view == "results":
-            viewport_container.content = build_results_view(
+            screen_content_container.content = build_results_view(
                 state=state,
                 on_back_to_search=handle_back_to_search,
                 on_select_recipe=handle_select_recipe,
                 on_toggle_blocked=handle_toggle_blocked,
             )
         elif state.current_view == "detail":
-            viewport_container.content = build_detail_view(
+            screen_content_container.content = build_detail_view(
                 state=state,
                 on_back_to_results=handle_back_to_results,
                 on_new_search=handle_back_to_search,
@@ -991,9 +1024,9 @@ def criar_app_controller(page: ft.Page, pratos_iniciais: tuple[Dish, ...] | None
 
     page.controls = [
         ft.Row(
-            controls=[viewport_container],
+            controls=[phone_chassis],
             alignment=ft.MainAxisAlignment.CENTER,
-            expand=True,
+            vertical_alignment=ft.CrossAxisAlignment.CENTER,
         )
     ]
     render()
