@@ -1,17 +1,8 @@
 """
-Interface Gráfica Desktop Neo-Brutalista (interface/gui.py)
-
-Implementação de GUI em Python com Flet simulando a ergonomia e proporção de
-um smartphone (viewport fixa de 410x800px centralizada), seguindo a estética
-Neo-Brutalism (bordas pretas 2px, sombras duras deslocadas sem blur, paleta
-vibrante, botões pílula e cantos arredondados).
-
 Fluxo em 3 Telas:
 1. Consulta da Despensa (Filtros, Tolerância, Categorias e Validação >= 2 itens)
 2. Resultados e Sugestões (Cards viáveis, porcentagens e seção de bloqueados)
 3. Detalhes da Receita (Ingredientes originais e modo de preparo passo a passo)
-
-Restrição: Zero emojis. Utiliza texto limpo, badges geométricos e ícones vetoriais.
 """
 
 import os
@@ -50,9 +41,6 @@ from interface.gui_theme import (
 from interface.io_adapter import carregar_pratos
 
 
-# ==============================================================================
-# Estado Global da Aplicação GUI
-# ==============================================================================
 @dataclass
 class GUIState:
     """Estado mutável da sessão interativa da interface gráfica."""
@@ -81,9 +69,6 @@ class GUIState:
     blocked_expanded: bool = False
 
 
-# ==============================================================================
-# Construtores de Componentes e Telas
-# ==============================================================================
 def formatar_lista_termos(itens: frozenset[str] | set[str] | tuple[str, ...]) -> str:
     """Formata termos em string ordenada separada por vírgula."""
     return ", ".join(sorted(itens)) if itens else "nenhum"

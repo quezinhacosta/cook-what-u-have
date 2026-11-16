@@ -27,9 +27,9 @@ COLOR_ORANGE: str = "#F4A261"  # Laranja tangerina (chips de categorias culinár
 COLOR_GRAY_LIGHT: str = "#EAE6DF"  # Cinza neutro para seletores e bordas de fundo
 
 # Dimensões da Viewport Mobile Vertical (Estilo Tela de Celular)
-VIEWPORT_WIDTH: int = 400
+VIEWPORT_WIDTH: int = 1060
 VIEWPORT_HEIGHT: int = 760
-WINDOW_WIDTH: int = 400
+WINDOW_WIDTH: int = 860
 WINDOW_HEIGHT: int = 760
 
 
