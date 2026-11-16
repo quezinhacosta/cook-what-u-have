@@ -6,8 +6,6 @@ blindando as camadas de domínio, modelos, normalizador e parser contra side-eff
 """
 
 import json
-from collections.abc import Callable
-from typing import Any
 
 import requests
 from recipe_scrapers import scrape_html
@@ -23,26 +21,14 @@ DEFAULT_HEADERS: dict[str, str] = {
     )
 }
 
-
-def safe_run(fn: Callable[[], Any], default: Any = None) -> Any:
-    """Barreira de proteção: intercepta falhas de rede, disco ou scraping em operações de E/S."""
-    try:
-        return fn()
-    except Exception:
-        return default
-
-
-baixar_html = lambda url, timeout=15: safe_run(
-    lambda: (
-        resp := requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout),
-        resp.text if resp.status_code == 200 else "",
-    )[-1],
-    default="",
+baixar_html = lambda url, timeout=15: (
+    lambda resp: resp.text if resp.status_code == 200 else ""
+)(
+    requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
 )
 
-executar_scraper_seguro = lambda html, url: safe_run(
-    lambda: scrape_html(html=html, org_url=url),
-    default=None,
+executar_scraper_seguro = lambda html, url: (
+    scrape_html(html=html, org_url=url)
 )
 
 salvar_categoria_json = lambda resultado: (
@@ -55,14 +41,11 @@ salvar_categoria_json = lambda resultado: (
 )[-1]
 
 ler_categoria_json = lambda caminho_arquivo: (
-    safe_run(
-        lambda: (
-            tuple(dados)
-            if isinstance(dados := json.loads(caminho_arquivo.read_text(encoding="utf-8")), list)
-            else ()
-        ),
-        default=(),
-    )
+    tuple(dados)
     if caminho_arquivo.exists()
+    and isinstance(
+        dados := json.loads(caminho_arquivo.read_text(encoding="utf-8")),
+        list
+    )
     else ()
 )
