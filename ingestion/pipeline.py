@@ -2,15 +2,16 @@
 Pipeline Orquestrador de Ingestão de Dados (ingestion/pipeline.py)
 Responsabilidade: Orquestrar o fluxo funcional conectando as bordas de I/O
 (rede e disco via io_gateway) com o núcleo computacional 100% puro
-(parser.py e normalizer.py), mapeando 15 receitas recomendadas para cada
-uma das 8 categorias do TudoGostoso e gerando pratos.json padronizados.
+(parser.py e normalizer.py), mapeando receitas recomendadas para as
+categorias do TudoGostoso e gerando pratos.json padronizados.
 """
 
 import sys
+from collections.abc import Callable
 from pathlib import Path
 
 from ingestion.io_gateway import baixar_html, salvar_categoria_json
-from ingestion.models import CategoryResult, CategoryTarget, ProcessedRecipe
+from ingestion.models import CategoryResult, CategoryTarget
 from ingestion.normalizer import processar_receita
 from ingestion.parser import (
     deduplicar_preservando_ordem,
@@ -34,174 +35,158 @@ CATEGORIAS_PADRAO: tuple[CategoryTarget, ...] = (
     CategoryTarget("sopas", "https://www.tudogostoso.com.br/categorias/1027-sopas"),
 )
 
-
 # ==============================================================================
 # FUNÇÕES PURAS DE FILTRAGEM E FORMATAÇÃO
 # ==============================================================================
 
-def filtrar_alvos_por_nome(
-    alvos: tuple[CategoryTarget, ...],
-    filtro: str | None
-) -> tuple[CategoryTarget, ...]:
-    """Função pura: filtra os alvos de processamento com base em argumento textual opcional."""
-    if not filtro:
-        return alvos
-    filtro_lower = filtro.strip().lower()
-    return tuple(filter(lambda alvo: filtro_lower in alvo.nome.lower(), alvos))
+filtrar_alvos_por_nome = lambda alvos, filtro: (
+    tuple(filter(lambda alvo: filtro.strip().lower() in alvo.nome.lower(), alvos))
+    if filtro
+    else alvos
+)
 
-
-def formatar_linha_resumo(resultado: CategoryResult) -> str:
-    """Função pura: formata cada linha de relatório do processamento de categoria."""
-    return f"  • {resultado.nome:<22}: {len(resultado.receitas):>2} receitas salvas em {resultado.destino.name}"
-
+formatar_linha_resumo = lambda resultado: (
+    f"  - {resultado.nome:<22}: {len(resultado.receitas):>2} receitas salvas em {resultado.destino.name}"
+)
 
 # ==============================================================================
-# CASCA IMPURA DE ORQUESTRAÇÃO (CONECTA I/O AO NÚCLEO PURO)
+# ORQUESTRAÇÃO FUNCIONAL DO PIPELINE
 # ==============================================================================
 
-def extrair_e_processar_url(url: str, categoria: str) -> ProcessedRecipe | None:
-    """
-    Orquestra o processamento de uma única URL:
-    1. I/O: Baixa HTML via rede.
-    2. Puro: Extrai dados brutos com parser.
-    3. Puro: Normaliza ingredientes e gera ID determinístico.
-    Retorna a receita processada ou None em caso de falha.
-    """
-    html = baixar_html(url)
-    if not html:
-        return None
+extrair_e_processar_url = lambda url, categoria: (
+    (
+        lambda html: (
+            (
+                lambda raw_recipe: processar_receita(raw_recipe, categoria_alvo=categoria)
+                if raw_recipe
+                else None
+            )(extrair_receita_html(html, url, tipo_padrao=categoria))
+            if html
+            else None
+        )
+    )(baixar_html(url))
+)
 
-    raw_recipe = extrair_receita_html(html, url, tipo_padrao=categoria)
-    if not raw_recipe:
-        return None
-
-    return processar_receita(raw_recipe, categoria_alvo=categoria)
-
-
-def coletar_urls_categoria(
-    base_url: str,
-    limite: int = 50,
-    pagina_atual: int = 1,
-    acumuladas: tuple[str, ...] = (),
-    max_paginas: int = 6,
-) -> tuple[str, ...]:
-    """
-    Coleta URLs de receitas de uma categoria percorrendo a paginação funcionalmente.
-    Usa recursão pura sem acumuladores mutáveis, interrompendo ao atingir o limite.
-    """
-    if len(acumuladas) >= limite or pagina_atual > max_paginas:
-        return acumuladas[:limite]
-
-    url_pagina = gerar_url_pagina(base_url, pagina_atual)
-    html = baixar_html(url_pagina)
-    if not html:
-        return acumuladas[:limite]
-
-    links_pagina = extrair_links_categoria_html(html, limite=limite)
-    if not links_pagina:
-        return acumuladas[:limite]
-
-    combinados = deduplicar_preservando_ordem(acumuladas + links_pagina)
-    if len(combinados) == len(acumuladas):
-        return combinados[:limite]
-
-    return coletar_urls_categoria(
-        base_url,
-        limite=limite,
-        pagina_atual=pagina_atual + 1,
-        acumuladas=combinados,
-        max_paginas=max_paginas,
+coletar_urls_categoria: Callable[..., tuple[str, ...]] = (
+    lambda base_url, limite=50, pagina_atual=1, acumuladas=(), max_paginas=6: (
+        acumuladas[:limite]
+        if len(acumuladas) >= limite or pagina_atual > max_paginas
+        else (
+            (
+                lambda html: (
+                    acumuladas[:limite]
+                    if not html
+                    else (
+                        (
+                            lambda links_pagina: (
+                                acumuladas[:limite]
+                                if not links_pagina
+                                else (
+                                    (
+                                        lambda combinados: (
+                                            combinados[:limite]
+                                            if len(combinados) == len(acumuladas)
+                                            else coletar_urls_categoria(
+                                                base_url,
+                                                limite=limite,
+                                                pagina_atual=pagina_atual + 1,
+                                                acumuladas=combinados,
+                                                max_paginas=max_paginas,
+                                            )
+                                        )
+                                    )(deduplicar_preservando_ordem(acumuladas + links_pagina))
+                                )
+                            )
+                        )(extrair_links_categoria_html(html, limite=limite))
+                    )
+                )
+            )(baixar_html(gerar_url_pagina(base_url, pagina_atual)))
+        )
     )
+)
 
+processar_categoria = lambda alvo, base_dir, limite=50: (
+    (
+        lambda destino: (
+            print(f"\n[CATEGORIA: {alvo.nome.upper()}] Buscando ate {limite} receitas recomendadas..."),
+            (
+                lambda urls_recomendadas: (
+                    (
+                        print(f"   [AVISO] Nenhuma URL encontrada para a categoria '{alvo.nome}'."),
+                        (lambda r_vazio: (salvar_categoria_json(r_vazio), r_vazio)[-1])(
+                            CategoryResult(nome=alvo.nome, destino=destino, receitas=())
+                        ),
+                    )[-1]
+                    if not urls_recomendadas
+                    else (
+                        print(f"   -> {len(urls_recomendadas)} URLs encontradas. Extraindo e normalizando..."),
+                        (
+                            lambda validas: (
+                                (
+                                    lambda res: (
+                                        print(
+                                            f"   [OK] {salvar_categoria_json(res)} receitas salvas em: {destino}"
+                                        ),
+                                        res,
+                                    )[-1]
+                                )(CategoryResult(nome=alvo.nome, destino=destino, receitas=validas))
+                            )
+                        )(
+                            tuple(
+                                r
+                                for u in urls_recomendadas
+                                if (r := extrair_e_processar_url(u, alvo.nome)) is not None
+                            )
+                        ),
+                    )[-1]
+                )
+            )(coletar_urls_categoria(alvo.url, limite=limite)),
+        )[-1]
+    )(base_dir / alvo.nome / "pratos.json")
+)
 
-def processar_categoria(
-    alvo: CategoryTarget,
-    base_dir: Path,
-    limite: int = 50,
-) -> CategoryResult:
-    """
-    Processa uma categoria completa de ponta a ponta:
-    1. Baixa o HTML das páginas de categoria via paginação funcional.
-    2. Extrai de forma pura as URLs recomendadas (até `limite`, padrão 50).
-    3. Mapeia a extração e normalização de cada receita.
-    4. Persiste o resultado no arquivo JSON de destino.
-    """
-    destino = base_dir / alvo.nome / "pratos.json"
-    print(f"\n📂 [{alvo.nome.upper()}] Buscando até {limite} receitas recomendadas...")
+executar_pipeline = lambda alvos=CATEGORIAS_PADRAO, base_dir=DATA_DIR, limite_por_categoria=50: (
+    print(f"[PIPELINE] Iniciando Ingestao Funcional (limite: {limite_por_categoria} receitas/categoria)..."),
+    print(f"Categorias selecionadas: {list(map(lambda a: a.nome, alvos))}"),
+    (
+        lambda resultados: (
+            print("\n" + "=" * 70),
+            print("[SUCESSO] Pipeline de Ingestao Concluido!"),
+            print(f"Total geral de receitas padronizadas: {sum(map(lambda res: len(res.receitas), resultados))}"),
+            print("\n".join(map(formatar_linha_resumo, resultados))),
+            print("=" * 70),
+            resultados,
+        )[-1]
+    )(tuple(map(lambda alvo: processar_categoria(alvo, base_dir, limite=limite_por_categoria), alvos))),
+)[-1]
 
-    urls_recomendadas = coletar_urls_categoria(alvo.url, limite=limite)
+_obter_limite_cli = lambda: (
+    int(sys.argv[2])
+    if len(sys.argv) > 2 and sys.argv[2].isdigit()
+    else int(sys.argv[1])
+    if len(sys.argv) > 1 and sys.argv[1].isdigit()
+    else 50
+)
 
-    if not urls_recomendadas:
-        print(f"   ⚠️ Nenhuma URL encontrada para a categoria '{alvo.nome}'.")
-        resultado_vazio = CategoryResult(nome=alvo.nome, destino=destino, receitas=())
-        salvar_categoria_json(resultado_vazio)
-        return resultado_vazio
+_obter_filtro_cli = lambda: (
+    sys.argv[1].strip()
+    if len(sys.argv) > 1 and not sys.argv[1].isdigit()
+    else None
+)
 
-    print(f"   ↳ {len(urls_recomendadas)} URLs encontradas. Extraindo e normalizando...")
-
-    # Mapeamento funcional das receitas através de funções de alta ordem
-    receitas_iter = map(lambda u: extrair_e_processar_url(u, alvo.nome), urls_recomendadas)
-    receitas_validas: tuple[ProcessedRecipe, ...] = tuple(
-        r for r in receitas_iter if isinstance(r, ProcessedRecipe)
-    )
-
-    resultado = CategoryResult(
-        nome=alvo.nome,
-        destino=destino,
-        receitas=receitas_validas,
-    )
-
-    total_salvo = salvar_categoria_json(resultado)
-    print(f"   ✅ {total_salvo} receitas padronizadas salvas em: {destino}")
-
-    return resultado
-
-
-def executar_pipeline(
-    alvos: tuple[CategoryTarget, ...] = CATEGORIAS_PADRAO,
-    base_dir: Path = DATA_DIR,
-    limite_por_categoria: int = 50,
-) -> tuple[CategoryResult, ...]:
-    """
-    Orquestra o pipeline funcional para todas as categorias informadas.
-    Utiliza composição declarativa via map(), sem acumuladores mutáveis.
-    """
-    print(f"🚀 Iniciando Pipeline Funcional de Ingestão (limite: {limite_por_categoria} receitas/categoria)...")
-    print(f"Categorias selecionadas: {[alvo.nome for alvo in alvos]}")
-
-    resultados: tuple[CategoryResult, ...] = tuple(
-        map(lambda alvo: processar_categoria(alvo, base_dir, limite=limite_por_categoria), alvos)
-    )
-
-    total_geral = sum(map(lambda res: len(res.receitas), resultados))
-    linhas_resumo = "\n".join(map(formatar_linha_resumo, resultados))
-
-    print("\n" + "=" * 70)
-    print("🎉 Pipeline de Ingestão Concluído com Sucesso!")
-    print(f"Total geral de receitas padronizadas: {total_geral}")
-    print(linhas_resumo)
-    print("=" * 70)
-
-    return resultados
-
-
-def main() -> None:
-    """Ponto de entrada via CLI com suporte a filtro de categoria e limite de receitas."""
-    filtro_cli = sys.argv[1].strip() if len(sys.argv) > 1 and not sys.argv[1].isdigit() else None
-    limite_cli = (
-        int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit()
-        else int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit()
-        else 50
-    )
-    alvos_selecionados = filtrar_alvos_por_nome(CATEGORIAS_PADRAO, filtro_cli)
-
-    if not alvos_selecionados:
-        print(f"❌ Nenhuma categoria encontrada correspondente ao filtro: '{filtro_cli}'")
-        print(f"Categorias disponíveis: {[alvo.nome for alvo in CATEGORIAS_PADRAO]}")
-        sys.exit(1)
-
-    executar_pipeline(alvos=alvos_selecionados, limite_por_categoria=limite_cli)
-
+main = lambda: (
+    (
+        lambda alvos: (
+            (
+                print(f"[ERRO] Nenhuma categoria encontrada correspondente ao filtro: '{_obter_filtro_cli()}'"),
+                print(f"Categorias disponiveis: {list(map(lambda a: a.nome, CATEGORIAS_PADRAO))}"),
+                sys.exit(1),
+            )
+            if not alvos
+            else executar_pipeline(alvos=alvos, limite_por_categoria=_obter_limite_cli())
+        )
+    )(filtrar_alvos_por_nome(CATEGORIAS_PADRAO, _obter_filtro_cli()))
+)
 
 if __name__ == "__main__":
     main()

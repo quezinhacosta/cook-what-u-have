@@ -93,5 +93,4 @@ def test_carregar_pratos_com_filtro_categoria() -> None:
 
     pratos_aves = carregar_pratos(DEFAULT_DATA_DIR, filtro="aves")
     assert len(pratos_aves) in (15, 50)
-    for p in pratos_aves:
-        assert p.category == "aves"
+    assert all(map(lambda p: p.category == "aves", pratos_aves))

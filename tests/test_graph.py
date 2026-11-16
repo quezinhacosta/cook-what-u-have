@@ -81,13 +81,15 @@ def test_build_recipe_graph_bidirectional_consistency() -> None:
     grafo = build_recipe_graph(pratos)
 
     # Direção R -> I => I -> R
-    for dish_id, ings in grafo.recipe_to_ingredients.items():
-        for ing in ings:
-            assert ing in grafo.ingredient_to_recipes
-            assert dish_id in grafo.ingredient_to_recipes[ing]
+    assert all(
+        ing in grafo.ingredient_to_recipes and dish_id in grafo.ingredient_to_recipes[ing]
+        for dish_id, ings in grafo.recipe_to_ingredients.items()
+        for ing in ings
+    )
 
     # Direção I -> R => R -> I
-    for ing, dish_ids in grafo.ingredient_to_recipes.items():
-        for dish_id in dish_ids:
-            assert dish_id in grafo.recipe_to_ingredients
-            assert ing in grafo.recipe_to_ingredients[dish_id]
+    assert all(
+        dish_id in grafo.recipe_to_ingredients and ing in grafo.recipe_to_ingredients[dish_id]
+        for ing, dish_ids in grafo.ingredient_to_recipes.items()
+        for dish_id in dish_ids
+    )

@@ -28,10 +28,7 @@ def test_gerar_url_pagina_paginacao() -> None:
 def test_formatar_menu_categorias() -> None:
     """Garante que todas as 8 categorias são exibidas de forma clara e numerada no menu."""
     menu = formatar_menu_categorias()
-
-    for idx, cat in enumerate(CATEGORIAS_DISPONIVEIS):
-        assert f"[{idx + 1}] {cat.title()}" in menu
-
+    assert all(map(lambda pair: f"[{pair[0] + 1}] {pair[1].title()}" in menu, enumerate(CATEGORIAS_DISPONIVEIS)))
     assert "[0] Todas as categorias" in menu
 
 

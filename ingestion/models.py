@@ -5,7 +5,7 @@ ao longo de todo o pipeline de ingestão e normalização funcional.
 """
 
 from pathlib import Path
-from typing import Any, NamedTuple
+from typing import NamedTuple
 
 
 class RawRecipe(NamedTuple):
@@ -51,13 +51,12 @@ class CategoryResult(NamedTuple):
     receitas: tuple[ProcessedRecipe, ...]
 
 
-def recipe_to_dict(recipe: ProcessedRecipe) -> dict[str, Any]:
-    """Função pura: projeta a entidade imutável ProcessedRecipe em dicionário para JSON."""
-    return {
-        "id": recipe.id,
-        "titulo": recipe.titulo,
-        "tipo": recipe.tipo,
-        "receita": list(recipe.receita),
-        "ingredientes_originais": list(recipe.ingredientes_originais),
-        "ingredientes_centrais": list(recipe.ingredientes_centrais),
-    }
+# Função pura: projeta a entidade imutável ProcessedRecipe em dicionário para JSON
+recipe_to_dict = lambda recipe: {
+    "id": recipe.id,
+    "titulo": recipe.titulo,
+    "tipo": recipe.tipo,
+    "receita": list(recipe.receita),
+    "ingredientes_originais": list(recipe.ingredientes_originais),
+    "ingredientes_centrais": list(recipe.ingredientes_centrais),
+}

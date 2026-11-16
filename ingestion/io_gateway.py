@@ -6,11 +6,13 @@ blindando as camadas de domínio, modelos, normalizador e parser contra side-eff
 """
 
 import json
-from pathlib import Path
+from collections.abc import Callable
+from typing import Any
 
 import requests
+from recipe_scrapers import scrape_html
 
-from ingestion.models import CategoryResult, recipe_to_dict
+from ingestion.models import recipe_to_dict
 
 # Headers HTTP padrão simulando navegador comum
 DEFAULT_HEADERS: dict[str, str] = {
@@ -22,47 +24,45 @@ DEFAULT_HEADERS: dict[str, str] = {
 }
 
 
-def baixar_html(url: str, timeout: int = 15) -> str:
-    """
-    Efeito colateral de rede isolado:
-    Executa a requisição HTTP GET para uma URL externa e retorna o HTML textual.
-    Em caso de falha de conexão, timeout ou status code != 200, retorna string vazia
-    de forma segura, permitindo que os filtros funcionais descartem o resultado.
-    """
+def safe_run(fn: Callable[[], Any], default: Any = None) -> Any:
+    """Barreira de proteção: intercepta falhas de rede, disco ou scraping em operações de E/S."""
     try:
-        resposta = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
-        return resposta.text if resposta.status_code == 200 else ""
+        return fn()
     except Exception:
-        return ""
+        return default
 
 
-def salvar_categoria_json(resultado: CategoryResult) -> int:
-    """
-    Efeito colateral de disco isolado:
-    Garante a existência do diretório e serializa a coleção de receitas
-    processadas no arquivo pratos.json de destino.
-    Retorna a quantidade de receitas persistidas.
-    """
-    resultado.destino.parent.mkdir(parents=True, exist_ok=True)
-    dados_serializaveis = list(map(recipe_to_dict, resultado.receitas))
+baixar_html = lambda url, timeout=15: safe_run(
+    lambda: (
+        resp := requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout),
+        resp.text if resp.status_code == 200 else "",
+    )[-1],
+    default="",
+)
 
-    with open(resultado.destino, "w", encoding="utf-8") as f:
-        json.dump(dados_serializaveis, f, ensure_ascii=False, indent=2)
+executar_scraper_seguro = lambda html, url: safe_run(
+    lambda: scrape_html(html=html, org_url=url),
+    default=None,
+)
 
-    return len(dados_serializaveis)
+salvar_categoria_json = lambda resultado: (
+    resultado.destino.parent.mkdir(parents=True, exist_ok=True),
+    resultado.destino.write_text(
+        json.dumps(list(map(recipe_to_dict, resultado.receitas)), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    ),
+    len(resultado.receitas),
+)[-1]
 
-
-def ler_categoria_json(caminho_arquivo: Path) -> tuple[dict, ...]:
-    """
-    Efeito colateral de disco isolado:
-    Lê um arquivo JSON de receitas previamente persistido e retorna uma tupla imutável.
-    Em caso de arquivo inexistente ou erro de parse, retorna uma tupla vazia.
-    """
-    if not caminho_arquivo.exists():
-        return ()
-    try:
-        with open(caminho_arquivo, encoding="utf-8") as f:
-            dados = json.load(f)
-            return tuple(dados) if isinstance(dados, list) else ()
-    except Exception:
-        return ()
+ler_categoria_json = lambda caminho_arquivo: (
+    safe_run(
+        lambda: (
+            tuple(dados)
+            if isinstance(dados := json.loads(caminho_arquivo.read_text(encoding="utf-8")), list)
+            else ()
+        ),
+        default=(),
+    )
+    if caminho_arquivo.exists()
+    else ()
+)
