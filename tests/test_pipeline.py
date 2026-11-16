@@ -94,8 +94,7 @@ def test_run_recommendation_filtro_categoria() -> None:
 
     resultados = run_recommendation(grafo, prefs)
     assert len(resultados) == 2
-    for r in resultados:
-        assert r.dish.category == "acompanhamentos"
+    assert all(map(lambda r: r.dish.category == "acompanhamentos", resultados))
 
 
 def test_run_recommendation_exclusao_estrita_alergenos() -> None:

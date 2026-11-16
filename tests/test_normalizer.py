@@ -54,9 +54,12 @@ def test_extrair_ingrediente_central_casos_reais() -> None:
         ("frango cozido e desfiado", "frango"),
     ]
 
-    for raw, esperado in exemplos:
-        resultado = extrair_ingrediente_central(raw)
-        assert resultado == esperado, f"Esperava '{esperado}' para '{raw}', obteve '{resultado}'"
+    assert all(
+        map(
+            lambda par: extrair_ingrediente_central(par[0]) == par[1],
+            exemplos,
+        )
+    )
 
 
 def test_normalizar_colecao_ingredientes() -> None:

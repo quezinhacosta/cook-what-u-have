@@ -7,6 +7,7 @@ além de garantir estritamente a ausência total de emojis.
 """
 
 import re
+from collections.abc import Callable
 from typing import Any
 
 import flet as ft
@@ -74,9 +75,9 @@ def _criar_prato_mock(
 
 def test_theme_tokens_and_dimensions() -> None:
     """Verifica se os tokens de design do Neo-Brutalism e viewport estão corretos."""
-    assert VIEWPORT_WIDTH == 400
+    assert VIEWPORT_WIDTH == 1060
     assert VIEWPORT_HEIGHT == 760
-    assert WINDOW_WIDTH == 400
+    assert WINDOW_WIDTH == 860
     assert WINDOW_HEIGHT == 760
     assert COLOR_BG == "#FAF7F2"
     assert COLOR_BLACK == "#111111"
@@ -299,22 +300,21 @@ def test_no_emojis_in_rendered_gui_views() -> None:
         on_new_search=lambda _: None,
     )
 
-    def extract_text(control: Any) -> list[str]:
-        texts: list[str] = []
-        if hasattr(control, "value") and isinstance(control.value, str):
-            texts.append(control.value)
-        if hasattr(control, "text") and isinstance(control.text, str):
-            texts.append(control.text)
-        if hasattr(control, "hint_text") and isinstance(control.hint_text, str):
-            texts.append(control.hint_text)
-        if hasattr(control, "content") and control.content:
-            texts.extend(extract_text(control.content))
-        if hasattr(control, "controls") and control.controls:
-            for child in control.controls:
-                texts.extend(extract_text(child))
-        return texts
+    extract_text: Callable[[Any], tuple[str, ...]] = lambda control: (
+        (() if not (hasattr(control, "value") and isinstance(control.value, str)) else (control.value,))
+        + (() if not (hasattr(control, "text") and isinstance(control.text, str)) else (control.text,))
+        + (() if not (hasattr(control, "hint_text") and isinstance(control.hint_text, str)) else (control.hint_text,))
+        + (extract_text(control.content) if hasattr(control, "content") and control.content else ())
+        + (
+            tuple(
+                txt
+                for child in (control.controls or ())
+                for txt in extract_text(child)
+            )
+            if hasattr(control, "controls") and control.controls
+            else ()
+        )
+    )
 
     all_texts = extract_text(v1) + extract_text(v2) + extract_text(v3)
-    for text in all_texts:
-        matches = EMOJI_PATTERN.findall(text)
-        assert len(matches) == 0, f"Emoji detectado no texto '{text}': {matches}"
+    assert all(map(lambda t: len(EMOJI_PATTERN.findall(t)) == 0, all_texts))

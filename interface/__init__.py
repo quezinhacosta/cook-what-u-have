@@ -3,8 +3,6 @@ Pacote de Interface e Adaptadores de E/S (interface/__init__.py)
 Exporta carregador de pratos, formatador de relatórios e pontos de entrada da CLI e GUI.
 """
 
-from typing import Any
-
 from interface.cli import (
     executar_consulta,
     executar_sessao,
@@ -22,14 +20,15 @@ from interface.formatter import (
 )
 from interface.io_adapter import carregar_pratos
 
+_raise_attribute_error = lambda name: (_ for _ in ()).throw(
+    AttributeError(f"module {__name__!r} has no attribute {name!r}")
+)
 
-def __getattr__(name: str) -> Any:
-    """Importação dinâmica sob demanda para evitar avisos de importação prematura via runpy."""
-    if name in ("iniciar_gui", "GUIState", "criar_app_controller"):
-        import interface.gui as gui_mod
-
-        return getattr(gui_mod, name)
-    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+__getattr__ = lambda name: (
+    getattr(__import__("interface.gui", fromlist=[name]), name)
+    if name in ("iniciar_gui", "GUIState", "criar_app_controller")
+    else _raise_attribute_error(name)
+)
 
 
 __all__ = (
